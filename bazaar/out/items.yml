@@ -824,6 +824,11 @@ groups:
     - LILAC:15
     - SUNFLOWER:17
     main_item: ROSE_BUSH
+  SADDLE:
+    item_list:
+    - SADDLE:12
+    - LEAD:16
+    main_item: SADDLE
   SALMON:
     item_list:
     - SALMON:12
@@ -918,15 +923,16 @@ groups:
     main_item: SWEET_BERRIES
   TORCH:
     item_list:
-    - TORCH:4
-    - SOUL_TORCH:5
-    - CANDLE:6
-    - JACK_O_LANTERN:11
-    - GLOWSTONE:12
-    - SEA_LANTERN:13
-    - SHROOMLIGHT:15
-    - LANTERN:16
-    - SOUL_LANTERN:17
+    - TORCH:3
+    - SOUL_TORCH:4
+    - CANDLE:5
+    - JACK_O_LANTERN:6
+    - GLOWSTONE:7
+    - SEA_LANTERN:12
+    - SHROOMLIGHT:13
+    - LANTERN:14
+    - SOUL_LANTERN:15
+    - END_ROD:16
     main_item: TORCH
   TUBE_CORAL:
     item_list:
@@ -4027,6 +4033,20 @@ items:
     prices:
       buy: 118.25
       sell: 25.700000000000003
+  END_ROD:
+    category: building
+    data: 0
+    group: TORCH
+    material: END_ROD
+    max_prices:
+      buy: 130.6875
+      sell: 63.74999999999999
+    name: '&rEnd Rod'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.8125
+      sell: 1.275
   END_STONE:
     category: mining
     data: 0
@@ -5245,6 +5265,20 @@ items:
     prices:
       buy: 144
       sell: 48
+  LEAD:
+    category: misc
+    data: 0
+    group: SADDLE
+    material: LEAD
+    max_prices:
+      buy: 1700.5
+      sell: 237.5
+    name: '&rLead'
+    normal: true
+    placeable: true
+    prices:
+      buy: 38.0
+      sell: 4.75
   LEATHER:
     category: farming
     data: 0
