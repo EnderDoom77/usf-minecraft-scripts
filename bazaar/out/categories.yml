@@ -1,0 +1,439 @@
+building:
+  color: '&b'
+  flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  glass:
+    data: 3
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+  items:
+  - STONE_BRICKS:1
+  - POLISHED_DEEPSLATE:1
+  - POLISHED_BLACKSTONE:1
+  - BRICKS:1
+  - SANDSTONE:1
+  - MUD_BRICKS:1
+  - QUARTZ_BLOCK:1
+  - NETHER_BRICKS:1
+  - END_STONE_BRICKS:1
+  - PURPUR_BLOCK:1
+  - GLASS:1
+  - CHAIN:1
+  - SCAFFOLDING:1
+  - TORCH:1
+  - PEARLESCENT_FROGLIGHT:1
+  - COPPER_BLOCK:1
+  - REDSTONE_TORCH:1
+  - PISTON:1
+  - DROPPER:1
+  - REDSTONE_LAMP:1
+  - CHEST:1
+  - TNT:1
+  - RAIL:1
+  - SCULK:1
+  - ITEM_FRAME:2
+  - ENCHANTING_TABLE:2
+  - FURNACE:2
+  - CRAFTING_TABLE:2
+  - ANVIL:2
+  - JUKEBOX:2
+  material: STONE_BRICKS
+  name: '&bBuilding'
+  page: 2
+  slot: 28
+  slots:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+combat:
+  color: '&c'
+  flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  glass:
+    data: 14
+    material: RED_STAINED_GLASS_PANE
+  items:
+  - ROTTEN_FLESH:1
+  - BONE:1
+  - ARROW:1
+  - GUNPOWDER:1
+  - STRING:1
+  - SPIDER_EYE:1
+  - PHANTOM_MEMBRANE:1
+  - SLIME_BALL:1
+  - MAGMA_CREAM:1
+  - ENDER_PEARL:1
+  - SHULKER_SHELL:1
+  - PRISMARINE_SHARD:1
+  - BLAZE_ROD:1
+  - GHAST_TEAR:1
+  - WITHER_SKELETON_SKULL:1
+  - NETHER_STAR:1
+  material: NETHERITE_SWORD
+  name: '&cCombat'
+  page: 1
+  slot: 19
+  slots:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+farming:
+  color: '&a'
+  flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  glass:
+    data: 4
+    material: LIME_STAINED_GLASS_PANE
+  items:
+  - WHEAT:1
+  - CARROT:1
+  - POTATO:1
+  - BEETROOT:1
+  - PUMPKIN:1
+  - MELON_SLICE:1
+  - SUGAR_CANE:1
+  - CACTUS:1
+  - BAMBOO:1
+  - KELP:1
+  - SWEET_BERRIES:1
+  - COCOA_BEANS:1
+  - RED_MUSHROOM:1
+  - BROWN_MUSHROOM:1
+  - HONEY_BOTTLE:1
+  - HONEYCOMB:1
+  - NETHER_WART:1
+  - CHORUS_FRUIT:1
+  - OAK_LOG:1
+  - BIRCH_LOG:1
+  - SPRUCE_LOG:1
+  - JUNGLE_LOG:1
+  - ACACIA_LOG:1
+  - DARK_OAK_LOG:1
+  - MANGROVE_LOG:2
+  - CHERRY_LOG:2
+  - CRIMSON_STEM:2
+  - WARPED_STEM:2
+  - LILY_PAD:2
+  - GRASS:2
+  - CRIMSON_ROOTS:2
+  - WARPED_ROOTS:2
+  - POPPY:2
+  - ROSE_BUSH:2
+  - WITHER_ROSE:2
+  - SEA_PICKLE:2
+  - TUBE_CORAL:2
+  - BUBBLE_CORAL:2
+  - FIRE_CORAL:2
+  - BRAIN_CORAL:2
+  - HORN_CORAL:2
+  - APPLE:2
+  - PORKCHOP:2
+  - BEEF:2
+  - MUTTON:2
+  - CHICKEN:2
+  - RABBIT:2
+  - COD:2
+  - SALMON:3
+  - TROPICAL_FISH:3
+  - PUFFERFISH:3
+  - INK_SAC:3
+  - MOSS_BLOCK:3
+  - BIG_DRIPLEAF:3
+  - AZALEA:3
+  material: DIAMOND_HOE
+  name: '&aFarming'
+  page: 3
+  slot: 10
+  slots:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+mining:
+  color: '&6'
+  flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  glass:
+    data: 6
+    material: ORANGE_STAINED_GLASS_PANE
+  items:
+  - COBBLESTONE:1
+  - DIORITE:1
+  - COBBLED_DEEPSLATE:1
+  - DIRT:1
+  - GRAVEL:1
+  - SAND:1
+  - OBSIDIAN:1
+  - COAL:1
+  - COPPER_INGOT:1
+  - IRON_INGOT:1
+  - GOLD_INGOT:1
+  - DIAMOND:1
+  - EMERALD:1
+  - REDSTONE:1
+  - LAPIS_LAZULI:1
+  - AMETHYST_SHARD:1
+  - QUARTZ:1
+  - NETHERITE_INGOT:1
+  - CLAY_BALL:1
+  - ICE:1
+  - SNOWBALL:1
+  - TUFF:1
+  - CALCITE:1
+  - PRISMARINE:1
+  - NETHERRACK:2
+  - MAGMA_BLOCK:2
+  - NETHER_BRICK:2
+  - SOUL_SAND:2
+  - BASALT:2
+  - BLACKSTONE:2
+  - GLOWSTONE_DUST:2
+  - END_STONE:2
+  material: GOLDEN_PICKAXE
+  name: '&6Mining'
+  page: 2
+  slot: 1
+  slots:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+misc:
+  color: '&d'
+  flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  glass:
+    data: 1
+    material: MAGENTA_STAINED_GLASS_PANE
+  items:
+  - END_CRYSTAL:1
+  - GLASS_BOTTLE:1
+  - SCUTE:1
+  - HEART_OF_THE_SEA:1
+  - NETHERITE_UPGRADE_SMITHING_TEMPLATE:1
+  - WHITE_DYE:1
+  - LIGHT_GRAY_DYE:1
+  - GRAY_DYE:1
+  - BLACK_DYE:1
+  - BROWN_DYE:1
+  - RED_DYE:1
+  - ORANGE_DYE:1
+  - YELLOW_DYE:1
+  - LIME_DYE:1
+  - GREEN_DYE:1
+  - CYAN_DYE:1
+  - LIGHT_BLUE_DYE:1
+  - BLUE_DYE:1
+  - PURPLE_DYE:1
+  - MAGENTA_DYE:1
+  - PINK_DYE:1
+  - NAME_TAG:1
+  - SADDLE:1
+  - SPONGE:1
+  - BOOK:2
+  material: ENCHANTING_TABLE
+  name: '&dMiscellaneous'
+  page: 2
+  slot: 37
+  slots:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 12
+search:
+  enabled: true
+  flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  glass:
+    data: 6
+    material: PINK_STAINED_GLASS_PANE
+  lore:
+    no_permission:
+    - '&7Find products by name.'
+    - ''
+    - '&cYou don''t have enough'
+    - '&cpermission for this category!'
+    not_selected:
+    - '&7Find products by name.'
+    - ''
+    - '&eClick to search!'
+    selected:
+    - '&7Found total %found_items% items.'
+    - '&7Query: &a%searched%'
+    - ''
+    - '&eLeft click to edit search!'
+    - '&bRight click to clear search!'
+  material: OAK_SIGN
+  name: '&aSearch'
+  slot: 46
+  slots:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  title: "&8Bazaar \u279C \"%search%\""

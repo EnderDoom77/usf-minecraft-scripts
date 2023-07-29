@@ -1,0 +1,228 @@
+players:
+  6b949308-2edf-4207-8cec-30c7c23b4d84:
+    mode: direct
+    category: misc
+  85100c2c-79bf-45ad-80de-4924c988f2ba:
+    mode: direct
+    category: farming
+    buy_orders:
+      4ad5e84a-3d22-48a4-a241-b78a2cad7e82:
+        item: DARK_OAK_LOG
+        price: 4.0
+        collected: 0
+        filled: 0
+        amount: 5000
+      dc271e77-f1ce-4510-a4a8-fee4505989c1:
+        item: REDSTONE
+        price: 3.0
+        collected: 0
+        filled: 0
+        amount: 5000
+      2bb06882-b638-4fac-8e1d-9e31b2c1d77a:
+        item: PRISMARINE
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 320
+      b2461417-0fed-46f9-b457-237dab237d36:
+        item: REDSTONE
+        price: 2.5
+        collected: 0
+        filled: 0
+        amount: 5000
+      e1b48d85-819b-4ea0-aa3a-b212facff675:
+        item: DARK_OAK_LOG
+        price: 4.0
+        collected: 0
+        filled: 0
+        amount: 5000
+    sell_offers:
+      d5beb229-5481-4664-9540-01b85caada05:
+        item: PUMPKIN
+        price: 4.0
+        collected: 0
+        filled: 0
+        amount: 1600
+      a3c89aa9-54ba-4267-957b-ecc77f179b72:
+        item: PUMPKIN
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      98f487cb-e5eb-4d2f-a594-7422d48ec6fb:
+        item: MELON_SLICE
+        price: 3.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      2792a13e-6b03-4538-a276-c9e9aace466b:
+        item: MELON_SLICE
+        price: 3.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      f9967992-23ae-4a8b-b61c-b0f029558318:
+        item: MELON
+        price: 10.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      11670e92-75d3-4c17-8161-f0bf3aa7371f:
+        item: GLASS
+        price: 3.5
+        collected: 0
+        filled: 0
+        amount: 2304
+      43cbebe5-c781-4867-8a24-086f0a5d782d:
+        item: CRIMSON_STEM
+        price: 16.8
+        collected: 0
+        filled: 0
+        amount: 640
+      62b8c5c0-731a-4e7b-9a9f-cd89dab0523d:
+        item: WARPED_STEM
+        price: 16.8
+        collected: 0
+        filled: 0
+        amount: 640
+      3e4357e2-a02b-4627-8ed0-2bdcf5bbb8e8:
+        item: WARPED_WART_BLOCK
+        price: 2.5
+        collected: 0
+        filled: 0
+        amount: 2304
+      b88d38a0-8bb1-4172-9e8d-425d27d50643:
+        item: NETHER_WART_BLOCK
+        price: 2.5
+        collected: 0
+        filled: 0
+        amount: 2304
+      7be8d433-cbbe-4604-aeaa-5a27eabc42a8:
+        item: IRON_INGOT
+        price: 10.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      d79c8ab9-ae9f-47d8-963a-5074fe463e02:
+        item: CACTUS
+        price: 3.5
+        collected: 0
+        filled: 0
+        amount: 2304
+      9c98d048-32d8-46dd-be6b-a84fedada526:
+        item: CACTUS
+        price: 3.5
+        collected: 0
+        filled: 0
+        amount: 2304
+      ad6fbff2-ec1e-4a1a-9f9f-91fe4257cd6b:
+        item: SUGAR_CANE
+        price: 3.45
+        collected: 0
+        filled: 0
+        amount: 2304
+      aed16180-f1b1-4cd6-a22c-499e03fd0afe:
+        item: SUGAR_CANE
+        price: 3.45
+        collected: 0
+        filled: 0
+        amount: 2304
+      9d92414f-841b-44f5-9ba3-c70f96e16a3a:
+        item: DRIED_KELP_BLOCK
+        price: 8.0
+        collected: 0
+        filled: 0
+        amount: 640
+      df3fe8c7-7960-4d46-9baa-e82a9361a5f3:
+        item: STRING
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      cc00829d-c3b3-447a-828f-2a865f265a26:
+        item: GUNPOWDER
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      c601968f-115b-4bb1-adda-9135a10092b5:
+        item: GUNPOWDER
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      d63f35ff-6e7a-4ea6-8195-58471c4d2672:
+        item: ARROW
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      1a45db24-bf41-4636-b2c9-9ecae4066483:
+        item: ARROW
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      60c8eaa2-5004-4def-9af6-a73e33c9f765:
+        item: BONE
+        price: 5.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      158179e1-8322-46c5-935c-b528ac80d9e9:
+        item: KELP
+        price: 2.0
+        collected: 0
+        filled: 0
+        amount: 2304
+      3f927d92-ec32-441a-9419-2709c66b6ddf:
+        item: BAMBOO
+        price: 0.5
+        collected: 0
+        filled: 0
+        amount: 2304
+      c4d093ad-6e84-40b7-b72b-fd60f7b068ca:
+        item: COBBLESTONE
+        price: 0.925
+        collected: 0
+        filled: 0
+        amount: 2304
+      65c449d2-02b4-4daf-b573-84e0bfbdf65e:
+        item: BASALT
+        price: 2.0
+        collected: 0
+        filled: 0
+        amount: 2304
+  4623c543-d302-43d3-afc7-d6d80e22d391:
+    mode: direct
+items:
+  SADDLE:
+    buy_price: 900.18
+  END_CRYSTAL:
+    buy_price: 15.048000000000002
+  MUD_BRICKS:
+    buy_price: 3.75075
+  GHAST_TEAR:
+    buy_price: 45.144000000000005
+  DARK_OAK_LOG:
+    buy_price: 6.3072
+    buy_prices:
+      20d31255-a8f8-48d1-858b-e855cb1ac427:
+        price: 4.0
+        item_amount: 5000
+        order_amount: 1
+  COBBLED_DEEPSLATE:
+    buy_price: 1.6660800000000002
+  REPELLING_ROD:
+    buy_price: 10002.0
+  REDSTONE:
+    buy_price: 7.151999999999999
+    buy_prices:
+      d7d521f9-b4a2-49d8-976b-24d06cca290b:
+        price: 3.0
+        item_amount: 5000
+        order_amount: 1
+  PRISMARINE:
+    buy_price: 9.3456
+  MENDING_BOOK:
+    buy_price: 500.09999999999997

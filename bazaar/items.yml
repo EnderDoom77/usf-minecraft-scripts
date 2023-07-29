@@ -1,0 +1,2218 @@
+# _ ________________ ________________ ________________ _
+#|_|________________|________________|________________|_|
+#| |   _____  ______  _       _    _ __   __ ______   | |
+#| |  |  __ \|  ___ \| |     | |  | |\ \ / /|  ___ \  | |
+#|_|  | |  | | |__ \/| |     | |  | | \ V / | |__ \/  |_|
+#| |  | |  | |  __|  | |     | |  | |  > <  |  __     | |
+#| |  | |__| | |___/\| |___/\| |__| | / . \ | |___/\  | |
+#|_|  |_____/|______/|______/\______//_/ \_\\______/  |_|
+#| |                                                  | |
+#| |           DeluxeBazaar - SedatTR#8666            | |
+#|_|________________ ________________ ________________|_|
+#|_|________________|________________|________________|_|
+# If you have any question or suggestion please contact to me.
+# If you are using this plugin, you are accepting Terms of Use.
+#
+# Discord Account: SedatTR#8666
+# Discord Server: https://discord.gg/nchk86TKMT
+# Plugin Wiki: https://sedattr.gitbook.io/deluxebazaar
+items:
+  COBBLESTONE: # Bazaar item name
+    material: COBBLESTONE # Item material
+    group: COBBLESTONE # Item group
+    category: mining # Item category
+    data: 0 # Material data
+    prices: # Default buy & sell prices
+      buy: 2.0
+      sell: 1.0
+    max_prices: # Default maximum buy & sell prices
+      buy: 100.0
+      sell: 50.0
+    name: '&fCobblestone' # Item name [Required]
+    lore: # Item lore (Optional)
+      - '&f&lCOMMON'
+    placeable: true # Disable this if you want to prevent this item from being placed on the ground
+  ENCHANTED_COBBLESTONE:
+    material: COBBLESTONE
+    group: COBBLESTONE
+    category: mining
+    data: 0
+    prices:
+      buy: 200.0
+      sell: 100.0
+    max_prices:
+      buy: 1000.0
+      sell: 500.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Cobblestone'
+    lore:
+      - '&a&lUNCOMMON'
+    details:
+      - '&8Uncommon commodity'
+      - '&r'
+    placeable: false
+  COAL:
+    material: COAL
+    group: COAL
+    category: mining
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fCoal'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_COAL:
+    material: COAL
+    group: COAL
+    category: mining
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Coal'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  IRON_INGOT:
+    material: IRON_INGOT
+    group: IRON_INGOT
+    category: mining
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fIron'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_IRON_INGOT:
+    material: IRON_INGOT
+    group: IRON_INGOT
+    category: mining
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Iron'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  GOLD_INGOT:
+    material: GOLD_INGOT
+    group: GOLD_INGOT
+    category: mining
+    data: 0
+    prices:
+      buy: 7.5
+      sell: 5.0
+    name: '&fGold'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_GOLD_INGOT:
+    material: GOLD_INGOT
+    group: GOLD_INGOT
+    category: mining
+    data: 0
+    prices:
+      buy: 75.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Gold'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  DIAMOND:
+    material: DIAMOND
+    group: DIAMOND
+    category: mining
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fDiamond'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_DIAMOND:
+    material: DIAMOND
+    group: DIAMOND
+    category: mining
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Diamond'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  EMERALD:
+    material: EMERALD
+    group: EMERALD
+    category: mining
+    data: 0
+    prices:
+      buy: 12.5
+      sell: 7.5
+    name: '&fEmerald'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_EMERALD:
+    material: EMERALD
+    group: EMERALD
+    category: mining
+    data: 0
+    prices:
+      buy: 125.0
+      sell: 75.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Emerald'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  LAPIS_LAZULI:
+    material: LAPIS_LAZULI
+    group: LAPIS_LAZULI
+    category: mining
+    data: 4
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fLapis'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_LAPIS_LAZULI:
+    material: LAPIS_LAZULI
+    group: LAPIS_LAZULI
+    category: mining
+    data: 4
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Lapis'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  REDSTONE:
+    material: REDSTONE
+    group: REDSTONE
+    category: mining
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fRedstone'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_REDSTONE:
+    material: REDSTONE
+    group: REDSTONE
+    category: mining
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Redstone'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  QUARTZ:
+    material: QUARTZ
+    group: QUARTZ
+    category: mining
+    data: 0
+    prices:
+      buy: 15.0
+      sell: 10.0
+    name: '&fQuartz'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_QUARTZ:
+    material: QUARTZ
+    group: QUARTZ
+    category: mining
+    data: 0
+    prices:
+      buy: 150.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Quartz'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  OBSIDIAN:
+    material: OBSIDIAN
+    group: OBSIDIAN
+    category: mining
+    data: 0
+    prices:
+      buy: 20.0
+      sell: 15.0
+    name: '&fObsidian'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_OBSIDIAN:
+    material: OBSIDIAN
+    group: OBSIDIAN
+    category: mining
+    data: 0
+    prices:
+      buy: 20.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Obsidian'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  GLOWSTONE_DUST:
+    material: GLOWSTONE_DUST
+    group: GLOWSTONE_DUST
+    category: mining
+    data: 0
+    prices:
+      buy: 15.0
+      sell: 10.0
+    name: '&fGlowstone'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_GLOWSTONE_DUST:
+    material: GLOWSTONE_DUST
+    group: GLOWSTONE_DUST
+    category: mining
+    data: 0
+    prices:
+      buy: 150.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Glowstone'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  GRAVEL:
+    material: GRAVEL
+    group: GRAVEL
+    category: mining
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fGravel'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_GRAVEL:
+    material: GRAVEL
+    group: GRAVEL
+    category: mining
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Gravel'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  FLINT:
+    material: FLINT
+    group: FLINT
+    category: mining
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fFlint'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_FLINT:
+    material: FLINT
+    group: FLINT
+    category: mining
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Flint'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  ICE:
+    material: ICE
+    group: ICE
+    category: mining
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fIce'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_ICE:
+    material: ICE
+    group: ICE
+    category: mining
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Ice'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  NETHERRACK:
+    material: NETHERRACK
+    group: NETHERRACK
+    category: mining
+    data: 0
+    prices:
+      buy: 1.0
+      sell: 0.5
+    name: '&fNetherrack'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_NETHERRACK:
+    material: NETHERRACK
+    group: NETHERRACK
+    category: mining
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Netherrack'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SAND:
+    material: SAND
+    group: SAND
+    category: mining
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 7.5
+    name: '&fSand'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SAND:
+    material: SAND
+    group: SAND
+    category: mining
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 7.5
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Sand'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  ENDER_STONE:
+    material: END_STONE
+    group: ENDER_STONE
+    category: mining
+    data: 0
+    prices:
+      buy: 2.0
+      sell: 1.0
+    name: '&fEnd Stone'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_ENDER_STONE:
+    material: END_STONE
+    group: ENDER_STONE
+    category: mining
+    data: 0
+    prices:
+      buy: 200.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. End Stone'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SNOW_BALL:
+    material: SNOWBALL
+    group: SNOW_BALL
+    category: mining
+    data: 0
+    prices:
+      buy: 1.0
+      sell: 0.5
+    name: '&fSnow'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SNOW_BALL:
+    material: SNOWBALL
+    group: SNOW_BALL
+    category: mining
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Snow'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  WHEAT:
+    material: WHEAT
+    group: WHEAT
+    category: farming
+    data: 0
+    prices:
+      buy: 2.0
+      sell: 1.0
+    name: '&fWheat'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_WHEAT:
+    material: WHEAT
+    group: WHEAT
+    category: farming
+    data: 0
+    prices:
+      buy: 200.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Wheat'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  CARROT_ITEM:
+    material: CARROT_ITEM
+    group: CARROT_ITEM
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fCarrot'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_CARROT_ITEM:
+    material: CARROT_ITEM
+    group: CARROT_ITEM
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Carrot'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  POTATO_ITEM:
+    material: POTATO_ITEM
+    group: POTATO_ITEM
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fPotato'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_POTATO_ITEM:
+    material: POTATO_ITEM
+    group: POTATO_ITEM
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Potato'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  PUMPKIN:
+    material: PUMPKIN
+    group: PUMPKIN
+    category: farming
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fPumpkin'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_PUMPKIN:
+    material: PUMPKIN
+    group: PUMPKIN
+    category: farming
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Pumpkin'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  MELON:
+    material: MELON
+    group: MELON
+    category: farming
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fMelon'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_MELON:
+    material: MELON
+    group: MELON
+    category: farming
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Melon'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SEEDS:
+    material: WHEAT_SEEDS
+    group: SEEDS
+    category: farming
+    data: 0
+    prices:
+      buy: 2.0
+      sell: 1.0
+    name: '&fSeeds'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SEEDS:
+    material: WHEAT_SEEDS
+    group: SEEDS
+    category: farming
+    data: 0
+    prices:
+      buy: 200.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Seeds'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  RED_MUSHROOM:
+    material: RED_MUSHROOM
+    group: RED_MUSHROOM
+    category: farming
+    data: 0
+    prices:
+      buy: 1.0
+      sell: 0.5
+    name: '&fRed Mushroom'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_RED_MUSHROOM:
+    material: RED_MUSHROOM
+    group: RED_MUSHROOM
+    category: farming
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Red Mushroom'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  BROWN_MUSHROOM:
+    material: BROWN_MUSHROOM
+    group: BROWN_MUSHROOM
+    category: farming
+    data: 0
+    prices:
+      buy: 1.0
+      sell: 0.5
+    name: '&fBrown Mushroom'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_BROWN_MUSHROOM:
+    material: BROWN_MUSHROOM
+    group: BROWN_MUSHROOM
+    category: farming
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Brown Mushroom'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  COCOA:
+    material: COCOA_BEANS
+    group: COCOA
+    category: farming
+    data: 3
+    prices:
+      buy: 2.0
+      sell: 1.0
+    name: '&fCocoa'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_COCOA:
+    material: COCOA_BEANS
+    group: COCOA
+    category: farming
+    data: 3
+    prices:
+      buy: 200.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Cocoa'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  CACTUS:
+    material: CACTUS
+    group: CACTUS
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fCactus'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_CACTUS:
+    material: CACTUS
+    group: CACTUS
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Cactus'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SUGAR_CANE:
+    material: SUGAR_CANE
+    group: SUGAR_CANE
+    category: farming
+    data: 0
+    prices:
+      buy: 20.0
+      sell: 15.0
+    name: '&fSugar Cane'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SUGAR_CANE:
+    material: SUGAR_CANE
+    group: SUGAR_CANE
+    category: farming
+    data: 0
+    prices:
+      buy: 20.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Sugar Cane'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  FEATHER:
+    material: FEATHER
+    group: FEATHER
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fFeather'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_FEATHER:
+    material: FEATHER
+    group: FEATHER
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Feather'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  LEATHER:
+    material: LEATHER
+    group: LEATHER
+    category: farming
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fLeather'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_LEATHER:
+    material: LEATHER
+    group: LEATHER
+    category: farming
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Leather'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  PORK:
+    material: PORKCHOP
+    group: PORK
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fPork'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_PORK:
+    material: PORKCHOP
+    group: PORK
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Pork'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  RAW_CHICKEN:
+    material: CHICKEN
+    group: RAW_CHICKEN
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fRaw Chicken'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_RAW_CHICKEN:
+    material: CHICKEN
+    group: RAW_CHICKEN
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Raw Chicken'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  MUTTON:
+    material: MUTTON
+    group: MUTTON
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fMutton'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_MUTTON:
+    material: MUTTON
+    group: MUTTON
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Mutton'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  RABBIT:
+    material: RABBIT
+    group: RABBIT
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fRabbit'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_RABBIT:
+    material: RABBIT
+    group: RABBIT
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Rabbit'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  NETHER_WART:
+    material: NETHER_WART
+    group: NETHER_WART
+    category: farming
+    data: 0
+    prices:
+      buy: 3.0
+      sell: 1.5
+    name: '&fNether Wart'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_NETHER_WART:
+    material: NETHER_WART
+    group: NETHER_WART
+    category: farming
+    data: 0
+    prices:
+      buy: 30.0
+      sell: 15.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Nether Wart'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  ROTTEN_FLESH:
+    material: ROTTEN_FLESH
+    group: ROTTEN_FLESH
+    category: combat
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fRotten Flesh'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_ROTTEN_FLESH:
+    material: ROTTEN_FLESH
+    group: ROTTEN_FLESH
+    category: combat
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Rotten Flesh'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  BONE:
+    material: BONE
+    group: BONE
+    category: combat
+    data: 0
+    prices:
+      buy: 7.5
+      sell: 5.0
+    name: '&fBone'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_BONE:
+    material: BONE
+    group: BONE
+    category: combat
+    data: 0
+    prices:
+      buy: 75.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Bone'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  STRING:
+    material: STRING
+    group: STRING
+    category: combat
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fString'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_STRING:
+    material: STRING
+    group: STRING
+    category: combat
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. String'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SPIDER_EYE:
+    material: SPIDER_EYE
+    group: SPIDER_EYE
+    category: combat
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fSpider Eye'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SPIDER_EYE:
+    material: SPIDER_EYE
+    group: SPIDER_EYE
+    category: combat
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Spider Eye'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SULPHUR:
+    material: GUNPOWDER
+    group: SULPHUR
+    category: combat
+    data: 0
+    prices:
+      buy: 15.0
+      sell: 7.5
+    name: '&fGunpowder'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SULPHUR:
+    material: GUNPOWDER
+    group: SULPHUR
+    category: combat
+    data: 0
+    prices:
+      buy: 150.0
+      sell: 75.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Gunpowder'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  ENDER_PEARL:
+    material: ENDER_PEARL
+    group: ENDER_PEARL
+    category: combat
+    data: 0
+    prices:
+      buy: 2.0
+      sell: 1.0
+    name: '&fEnder Pearl'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_ENDER_PEARL:
+    material: ENDER_PEARL
+    group: ENDER_PEARL
+    category: combat
+    data: 0
+    prices:
+      buy: 200.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Ender Pearl'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  GHAST_TEAR:
+    material: GHAST_TEAR
+    group: GHAST_TEAR
+    category: combat
+    data: 0
+    prices:
+      buy: 25.0
+      sell: 10.0
+    name: '&fGhast Tear'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_GHAST_TEAR:
+    material: GHAST_TEAR
+    group: GHAST_TEAR
+    category: combat
+    data: 0
+    prices:
+      buy: 25.0
+      sell: 10.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Ghast Tear'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SLIME_BALL:
+    material: SLIME_BALL
+    group: SLIME_BALL
+    category: combat
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fSlime Ball'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SLIME_BALL:
+    material: SLIME_BALL
+    group: SLIME_BALL
+    category: combat
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Slime Ball'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  BLAZE_ROD:
+    material: BLAZE_ROD
+    group: BLAZE_ROD
+    category: combat
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fBlaze Rod'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_BLAZE_ROD:
+    material: BLAZE_ROD
+    group: BLAZE_ROD
+    category: combat
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Blaze Rod'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  MAGMA_CREAM:
+    material: MAGMA_CREAM
+    group: MAGMA_CREAM
+    category: combat
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fMagma Cream'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_MAGMA_CREAM:
+    material: MAGMA_CREAM
+    group: MAGMA_CREAM
+    category: combat
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Magma Cream'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  OAK_LOG:
+    material: OAK_LOG
+    group: OAK_LOG
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fOak Log'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_OAK_LOG:
+    material: OAK_LOG
+    group: OAK_LOG
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Oak Log'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SPRUCE_LOG:
+    material: SPRUCE_LOG
+    group: SPRUCE_LOG
+    category: foragingfishing
+    data: 1
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fSpruce Log'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SPRUCE_LOG:
+    material: SPRUCE_LOG
+    group: SPRUCE_LOG
+    category: foragingfishing
+    data: 1
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Spruce Log'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  BIRCH_LOG:
+    material: BIRCH_LOG
+    group: BIRCH_LOG
+    category: foragingfishing
+    data: 2
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fBirch Log'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_BIRCH_LOG:
+    material: BIRCH_LOG
+    group: BIRCH_LOG
+    category: foragingfishing
+    data: 2
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Birch Log'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  DARK_OAK_LOG:
+    material: DARK_OAK_LOG
+    group: DARK_OAK_LOG
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fDark Oak Log'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_DARK_OAK_LOG:
+    material: DARK_OAK_LOG
+    group: DARK_OAK_LOG
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Dark Oak Log'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  ACACIA_LOG:
+    material: ACACIA_LOG
+    group: ACACIA_LOG
+    category: foragingfishing
+    data: 1
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fAcacia Log'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_ACACIA_LOG:
+    material: ACACIA_LOG
+    group: ACACIA_LOG
+    category: foragingfishing
+    data: 1
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Acacia Log'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  JUNGLE_LOG:
+    material: JUNGLE_LOG
+    group: JUNGLE_LOG
+    category: foragingfishing
+    data: 3
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fJungle Log'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_JUNGLE_LOG:
+    material: JUNGLE_LOG
+    group: JUNGLE_LOG
+    category: foragingfishing
+    data: 3
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Jungle Log'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  RAW_FISH:
+    material: COD
+    group: RAW_FISH
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fFish'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_RAW_FISH:
+    material: COD
+    group: RAW_FISH
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Fish'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SALMON:
+    material: SALMON
+    group: SALMON
+    category: foragingfishing
+    data: 1
+    prices:
+      buy: 20.0
+      sell: 10.0
+    name: '&fSalmon'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SALMON:
+    material: SALMON
+    group: SALMON
+    category: foragingfishing
+    data: 1
+    prices:
+      buy: 200.0
+      sell: 100.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Salmon'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  CLOWNFISH:
+    material: TROPICAL_FISH
+    group: CLOWNFISH
+    category: foragingfishing
+    data: 2
+    prices:
+      buy: 25.0
+      sell: 12.5
+    name: '&fClownfish'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_CLOWNFISH:
+    material: TROPICAL_FISH
+    group: CLOWNFISH
+    category: foragingfishing
+    data: 2
+    prices:
+      buy: 25.0
+      sell: 12.5
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Clownfish'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  PUFFERFISH:
+    material: PUFFERFISH
+    group: PUFFERFISH
+    category: foragingfishing
+    data: 3
+    prices:
+      buy: 15.0
+      sell: 7.5
+    name: '&fPufferfish'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_PUFFERFISH:
+    material: PUFFERFISH
+    group: PUFFERFISH
+    category: foragingfishing
+    data: 3
+    prices:
+      buy: 150.0
+      sell: 75.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Pufferfish'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  PRISMARINE_CRYSTALS:
+    material: PRISMARINE_CRYSTALS
+    group: PRISMARINE_CRYSTALS
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 5.0
+      sell: 2.5
+    name: '&fCrystal'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_PRISMARINE_CRYSTALS:
+    material: PRISMARINE_CRYSTALS
+    group: PRISMARINE_CRYSTALS
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 50.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Crystal'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  PRISMARINE_SHARD:
+    material: PRISMARINE_SHARD
+    group: PRISMARINE_SHARD
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fShard'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_PRISMARINE_SHARD:
+    material: PRISMARINE_SHARD
+    group: PRISMARINE_SHARD
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Shard'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  CLAY_BALL:
+    material: CLAY_BALL
+    group: CLAY_BALL
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 4.0
+      sell: 2.0
+    name: '&fClay'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_CLAY_BALL:
+    material: CLAY_BALL
+    group: CLAY_BALL
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 4.0
+      sell: 2.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Clay'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  WATER_LILY:
+    material: LILY_PAD
+    group: WATER_LILY
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 75.0
+      sell: 25.0
+    name: '&fLily Pad'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_WATER_LILY:
+    material: LILY_PAD
+    group: WATER_LILY
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 75.0
+      sell: 25.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Lily Pad'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  INK:
+    material: INK_SAC
+    group: INK
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 10.0
+      sell: 5.0
+    name: '&fInk'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_INK:
+    material: INK_SAC
+    group: INK
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Ink'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  SPONGE:
+    material: SPONGE
+    group: SPONGE
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    name: '&fSponge'
+    lore:
+      - '&f&lCOMMON'
+    placeable: true
+  ENCHANTED_SPONGE:
+    material: SPONGE
+    group: SPONGE
+    category: foragingfishing
+    data: 0
+    prices:
+      buy: 100.0
+      sell: 50.0
+    flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+    enchants:
+      - DURABILITY:10
+    name: '&aE. Sponge'
+    lore:
+      - '&a&lUNCOMMON'
+    placeable: false
+  KING_SWORD:
+    material: DIAMOND_SWORD
+    category: other
+    data: 0
+    prices:
+      buy: 100000.0
+      sell: 50000.0
+    enchants:
+      - DAMAGE_ALL:10
+      - DURABILITY:5
+    name: '&6King''s Sword'
+    lore:
+      - '&7A very powerful & sharp sword, that made for King.'
+      - '&r'
+      - '&6&lLEGENDARY'
+  KING_BOW:
+    material: BOW
+    category: other
+    data: 0
+    prices:
+      buy: 75000.0
+      sell: 25000.0
+    enchants:
+      - ARROW_DAMAGE:10
+      - DURABILITY:5
+    name: '&6King''s Bow'
+    lore:
+      - '&7A very strong & fast sword, that made for King.'
+      - '&r'
+      - '&6&lLEGENDARY'
+  EPIC_ROD:
+    material: FISHING_ROD
+    category: other
+    data: 0
+    prices:
+      buy: 50000.0
+      sell: 25000.0
+    enchants:
+      - LUCK:5
+      - LURE:5
+      - DURABILITY:5
+    name: '&5Epic Rod'
+    lore:
+      - '&7Made by old fisherman.'
+      - '&r'
+      - '&5&lEPIC'
+  OLD_AXE:
+    material: STONE_AXE
+    category: other
+    data: 0
+    durability: 75
+    prices:
+      buy: 25000.0
+      sell: 10000.0
+    enchants:
+      - DIG_SPEED:6
+      - DURABILITY:3
+    name: '&9Old Axe'
+    lore:
+      - '&7100 years old axe.'
+      - '&r'
+      - '&9&lRARE'
+  OLD_PICKAXE:
+    material: IRON_PICKAXE
+    category: other
+    data: 0
+    durability: 100
+    prices:
+      buy: 25000.0
+      sell: 10000.0
+    enchants:
+      - DIG_SPEED:7
+      - LOOT_BONUS_BLOCKS:3
+      - DURABILITY:3
+    name: '&9Old Pickaxe'
+    lore:
+      - '&775 years old pickaxe.'
+      - '&r'
+      - '&9&lRARE'
+
+# Group settings for groups menu
+groups:
+  COBBLESTONE: # Group name
+    main_item: COBBLESTONE # Group's main item
+    item_list: # Group's item list (BAZAAR_ITEM_NAME:MENU_SLOT)
+      - COBBLESTONE:12
+      - ENCHANTED_COBBLESTONE:16
+  COAL:
+    main_item: COAL
+    item_list:
+      - COAL:12
+      - ENCHANTED_COAL:16
+  IRON_INGOT:
+    main_item: IRON_INGOT
+    item_list:
+      - IRON_INGOT:12
+      - ENCHANTED_IRON_INGOT:16
+  GOLD_INGOT:
+    main_item: GOLD_INGOT
+    item_list:
+      - GOLD_INGOT:12
+      - ENCHANTED_GOLD_INGOT:16
+  DIAMOND:
+    main_item: DIAMOND
+    item_list:
+      - DIAMOND:12
+      - ENCHANTED_DIAMOND:16
+  EMERALD:
+    main_item: EMERALD
+    item_list:
+      - EMERALD:12
+      - ENCHANTED_EMERALD:16
+  LAPIS_LAZULI:
+    main_item: LAPIS_LAZULI
+    item_list:
+      - LAPIS_LAZULI:12
+      - ENCHANTED_LAPIS_LAZULI:16
+  REDSTONE:
+    main_item: REDSTONE
+    item_list:
+      - REDSTONE:12
+      - ENCHANTED_REDSTONE:16
+  QUARTZ:
+    main_item: QUARTZ
+    item_list:
+      - QUARTZ:12
+      - ENCHANTED_QUARTZ:16
+  OBSIDIAN:
+    main_item: OBSIDIAN
+    item_list:
+      - OBSIDIAN:12
+      - ENCHANTED_OBSIDIAN:16
+  GLOWSTONE_DUST:
+    main_item: GLOWSTONE_DUST
+    item_list:
+      - GLOWSTONE_DUST:12
+      - ENCHANTED_GLOWSTONE_DUST:16
+  GRAVEL:
+    main_item: GRAVEL
+    item_list:
+      - GRAVEL:12
+      - ENCHANTED_GRAVEL:16
+  FLINT:
+    main_item: FLINT
+    item_list:
+      - FLINT:12
+      - ENCHANTED_FLINT:16
+  ICE:
+    main_item: ICE
+    item_list:
+      - ICE:12
+      - ENCHANTED_ICE:16
+  NETHERRACK:
+    main_item: NETHERRACK
+    item_list:
+      - NETHERRACK:12
+      - ENCHANTED_NETHERRACK:16
+  SAND:
+    main_item: SAND
+    item_list:
+      - SAND:12
+      - ENCHANTED_SAND:16
+  ENDER_STONE:
+    main_item: ENDER_STONE
+    item_list:
+      - ENDER_STONE:12
+      - ENCHANTED_ENDER_STONE:16
+  SNOW_BALL:
+    main_item: SNOW_BALL
+    item_list:
+      - SNOW_BALL:12
+      - ENCHANTED_SNOW_BALL:16
+  WHEAT:
+    main_item: WHEAT
+    item_list:
+      - WHEAT:12
+      - ENCHANTED_WHEAT:16
+  CARROT_ITEM:
+    main_item: CARROT_ITEM
+    item_list:
+      - CARROT_ITEM:12
+      - ENCHANTED_CARROT_ITEM:16
+  POTATO_ITEM:
+    main_item: POTATO_ITEM
+    item_list:
+      - POTATO_ITEM:12
+      - ENCHANTED_POTATO_ITEM:16
+  PUMPKIN:
+    main_item: PUMPKIN
+    item_list:
+      - PUMPKIN:12
+      - ENCHANTED_PUMPKIN:16
+  MELON:
+    main_item: MELON
+    item_list:
+      - MELON:12
+      - ENCHANTED_MELON:16
+  SEEDS:
+    main_item: SEEDS
+    item_list:
+      - SEEDS:12
+      - ENCHANTED_SEEDS:16
+  RED_MUSHROOM:
+    main_item: RED_MUSHROOM
+    item_list:
+      - RED_MUSHROOM:12
+      - ENCHANTED_RED_MUSHROOM:16
+  BROWN_MUSHROOM:
+    main_item: BROWN_MUSHROOM
+    item_list:
+      - BROWN_MUSHROOM:12
+      - ENCHANTED_BROWN_MUSHROOM:16
+  COCOA:
+    main_item: COCOA
+    item_list:
+      - COCOA:12
+      - ENCHANTED_COCOA:16
+  CACTUS:
+    main_item: CACTUS
+    item_list:
+      - CACTUS:12
+      - ENCHANTED_CACTUS:16
+  SUGAR_CANE:
+    main_item: SUGAR_CANE
+    item_list:
+      - SUGAR_CANE:12
+      - ENCHANTED_SUGAR_CANE:16
+  FEATHER:
+    main_item: FEATHER
+    item_list:
+      - FEATHER:12
+      - ENCHANTED_FEATHER:16
+  LEATHER:
+    main_item: LEATHER
+    item_list:
+      - LEATHER:12
+      - ENCHANTED_LEATHER:16
+  PORK:
+    main_item: PORK
+    item_list:
+      - PORK:12
+      - ENCHANTED_PORK:16
+  RAW_CHICKEN:
+    main_item: RAW_CHICKEN
+    item_list:
+      - RAW_CHICKEN:12
+      - ENCHANTED_RAW_CHICKEN:16
+  MUTTON:
+    main_item: MUTTON
+    item_list:
+      - MUTTON:12
+      - ENCHANTED_MUTTON:16
+  RABBIT:
+    main_item: RABBIT
+    item_list:
+      - RABBIT:12
+      - ENCHANTED_RABBIT:16
+  NETHER_WART:
+    main_item: NETHER_WART
+    item_list:
+      - NETHER_WART:12
+      - ENCHANTED_NETHER_WART:16
+  ROTTEN_FLESH:
+    main_item: ROTTEN_FLESH
+    item_list:
+      - ROTTEN_FLESH:12
+      - ENCHANTED_ROTTEN_FLESH:16
+  BONE:
+    main_item: BONE
+    item_list:
+      - BONE:12
+      - ENCHANTED_BONE:16
+  STRING:
+    main_item: STRING
+    item_list:
+      - STRING:12
+      - ENCHANTED_STRING:16
+  SPIDER_EYE:
+    main_item: SPIDER_EYE
+    item_list:
+      - SPIDER_EYE:12
+      - ENCHANTED_SPIDER_EYE:16
+  SULPHUR:
+    main_item: SULPHUR
+    item_list:
+      - SULPHUR:12
+      - ENCHANTED_SULPHUR:16
+  ENDER_PEARL:
+    main_item: ENDER_PEARL
+    item_list:
+      - ENDER_PEARL:12
+      - ENCHANTED_ENDER_PEARL:16
+  GHAST_TEAR:
+    main_item: GHAST_TEAR
+    item_list:
+      - GHAST_TEAR:12
+      - ENCHANTED_GHAST_TEAR:16
+  SLIME_BALL:
+    main_item: SLIME_BALL
+    item_list:
+      - SLIME_BALL:12
+      - ENCHANTED_SLIME_BALL:16
+  BLAZE_ROD:
+    main_item: BLAZE_ROD
+    item_list:
+      - BLAZE_ROD:12
+      - ENCHANTED_BLAZE_ROD:16
+  MAGMA_CREAM:
+    main_item: MAGMA_CREAM
+    item_list:
+      - MAGMA_CREAM:12
+      - ENCHANTED_MAGMA_CREAM:16
+  OAK_LOG:
+    main_item: OAK_LOG
+    item_list:
+      - OAK_LOG:12
+      - ENCHANTED_OAK_LOG:16
+  SPRUCE_LOG:
+    main_item: SPRUCE_LOG
+    item_list:
+      - SPRUCE_LOG:12
+      - ENCHANTED_SPRUCE_LOG:16
+  BIRCH_LOG:
+    main_item: BIRCH_LOG
+    item_list:
+      - BIRCH_LOG:12
+      - ENCHANTED_BIRCH_LOG:16
+  DARK_OAK_LOG:
+    main_item: DARK_OAK_LOG
+    item_list:
+      - DARK_OAK_LOG:12
+      - ENCHANTED_DARK_OAK_LOG:16
+  ACACIA_LOG:
+    main_item: ACACIA_LOG
+    item_list:
+      - ACACIA_LOG:12
+      - ENCHANTED_ACACIA_LOG:16
+  JUNGLE_LOG:
+    main_item: JUNGLE_LOG
+    item_list:
+      - JUNGLE_LOG:12
+      - ENCHANTED_JUNGLE_LOG:16
+  RAW_FISH:
+    main_item: RAW_FISH
+    item_list:
+      - RAW_FISH:12
+      - ENCHANTED_RAW_FISH:16
+  SALMON:
+    main_item: SALMON
+    item_list:
+      - SALMON:12
+      - ENCHANTED_SALMON:16
+  CLOWNFISH:
+    main_item: CLOWNFISH
+    item_list:
+      - CLOWNFISH:12
+      - ENCHANTED_CLOWNFISH:16
+  PUFFERFISH:
+    main_item: PUFFERFISH
+    item_list:
+      - PUFFERFISH:12
+      - ENCHANTED_PUFFERFISH:16
+  PRISMARINE_CRYSTALS:
+    main_item: PRISMARINE_CRYSTALS
+    item_list:
+      - PRISMARINE_CRYSTALS:12
+      - ENCHANTED_PRISMARINE_CRYSTALS:16
+  PRISMARINE_SHARD:
+    main_item: PRISMARINE_SHARD
+    item_list:
+      - PRISMARINE_SHARD:12
+      - ENCHANTED_PRISMARINE_SHARD:16
+  CLAY_BALL:
+    main_item: CLAY_BALL
+    item_list:
+      - CLAY_BALL:12
+      - ENCHANTED_CLAY_BALL:16
+  WATER_LILY:
+    main_item: WATER_LILY
+    item_list:
+      - WATER_LILY:12
+      - ENCHANTED_WATER_LILY:16
+  INK:
+    main_item: INK
+    item_list:
+      - INK:12
+      - ENCHANTED_INK:16
+  SPONGE:
+    main_item: SPONGE
+    item_list:
+      - SPONGE:12
+      - ENCHANTED_SPONGE:16

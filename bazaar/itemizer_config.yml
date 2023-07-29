@@ -1,0 +1,108 @@
+main_slots: [12,13,14,15,16,17,21,22,23,24,25,26,30,31,32,33,34,35,39,40,41,42,43,44]
+group_slots:
+  - []
+  - [14]
+  - [12, 16]
+  - [12, 14, 16]
+  - [11, 13, 15, 17]
+  - [12, 13, 14, 15, 16]
+  - [11, 12, 13, 15, 16, 17]
+  - [11, 12, 13, 14, 15, 16, 17]
+  - [ 2, 11,  4, 13,  6, 15,  8, 17]
+  - [ 4,  5,  6, 11, 12, 13, 15, 16, 17] 
+  - [ 3,  4,  5,  6,  7, 12, 13, 14, 15, 16] #10
+  - [ 3,  4,  6,  7, 11, 12, 13, 14, 15, 16, 17 ]
+  - [ 2,  3,  4, 11, 12, 13,  6,  7,  8, 15, 16, 17]
+  - [ 2,  3,  4,  6,  7,  8, 11, 12, 13, 14, 15, 16, 17]
+  - [ 2,  3,  4,  5,  6,  7,  8, 11, 12, 13, 14, 15, 16, 17]
+aliases:
+  rednetherbricks: rednetherbrick
+prices:
+  default_buy_price_factor: 3
+  default_max_price_factor: 50
+  buy_factors:
+    shulkershell: 2
+    diamond: 1
+    netheritescrap: 1
+    netherstar: 1
+    heartofthesea: 1
+    ancientdebris: 1
+    wetsponge: 1.25
+    enchantedgoldenapple: 5
+    # ENVIRONMENT NON-RENEWABLES
+    cobbleddeepslate: 2
+    dirt: 1.5
+    gravel: 1.5
+    sand: 1.5
+    sandstone: 1.5
+    redsand: 1.5
+    redsandstone: 1.5
+    ice: 2.5
+    packedice: 2.5
+    blueice: 2.5
+    netherrack: 2
+    soulsand: 1.5
+    soulsoil: 1.5
+    blackstone: 1.5
+    endstone: 2
+    # EXTREME FARMABLES
+    cobblestone: 4
+    basalt: 6
+    bamboo: 10
+    kelp: 10
+    driedkelp: 10
+    driedkelpblock: 10
+    cactus: 7.5
+    melonslice: 5
+    melon: 5
+    melonseeds: 5
+    pumpkin: 5
+    pumpkinseeds: 5
+    sugarcane: 5
+    sugar: 5
+    paper: 5
+    potato: 4.5
+    carrot: 4.5
+    beetroot: 5
+    beetrootseeds: 5
+    netherwart: 8
+    ironnugget: 4.5
+    ironingot: 4.5
+    ironblock: 4.5
+    goldnugget: 6
+    goldingot: 6
+    goldblock: 6
+    obsidian: 8
+    snowball: 7.5
+    snowblock: 7.5
+    rottenflesh: 8
+    bone: 8
+    bonemeal: 8
+    boneblock: 8
+    arrow: 8
+    gunpowder: 8
+    string: 8
+    spidereye: 8
+    slimeball: 8
+    honeybottle: 10
+    enderpearl: 25
+    prismarineshard: 4.5
+    prismarinecrystals: 4.5
+    ghasttear: 5
+    endcrystal: 5
+    sculk: 7.5
+    shulkershell: 5
+    witherskeletonskull: 4.5
+    witherrose: 5
+    # NICHE METHODS
+    emerald: 6
+    goldencarrot: 10
+    book: 4
+    bookshelf: 4
+    experiencebottle: 10
+    rail: 20
+    poweredrail: 40
+    activatorrail: 30
+    detectorrail: 30
+  buy_prices:
+    elytra: 40000

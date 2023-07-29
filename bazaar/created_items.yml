@@ -1,0 +1,23 @@
+items:
+  MENDING_BOOK:
+    material: ENCHANTED_BOOK
+    data: 0
+    stored-enchants:
+      MENDING: 1
+    category: misc
+    name: '&dEnchanted Book'
+    prices:
+      buy: 500.0
+      sell: 25.0
+  REPELLING_ROD:
+    material: STICK
+    data: 0
+    enchants:
+      KNOCKBACK: 10
+    category: misc
+    name: '&dRepelling Rod'
+    lore:
+      - 'Almost as effective as spraying water at them!'
+    prices:
+      buy: 10000
+      sell: 5000

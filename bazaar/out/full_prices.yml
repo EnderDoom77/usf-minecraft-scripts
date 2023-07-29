@@ -1,0 +1,3567 @@
+acaciaboat:
+  buy: 7.5
+  sell: 2.5
+acaciabutton:
+  buy: 1.5
+  sell: 0.5
+acaciachestboat:
+  buy: 19.5
+  sell: 6.5
+acaciadoor:
+  buy: 3.0
+  sell: 1.0
+acaciafence:
+  buy: 2.5
+  sell: 0.8333333333333333
+acaciafencegate:
+  buy: 6.0
+  sell: 2.0
+acaciahangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+acacialeaves:
+  buy: 0.75
+  sell: 0.25
+acacialog:
+  buy: 6.0
+  sell: 2.0
+acaciaplanks:
+  buy: 1.5
+  sell: 0.5
+acaciapressureplate:
+  buy: 3.0
+  sell: 1.0
+acaciasapling:
+  buy: 3.75
+  sell: 1.25
+acaciasign:
+  buy: 3.25
+  sell: 1.0833333333333333
+acaciaslab:
+  buy: 0.75
+  sell: 0.25
+acaciastairs:
+  buy: 2.25
+  sell: 0.75
+acaciatrapdoor:
+  buy: 4.5
+  sell: 1.5
+acaciawood:
+  buy: 8.0
+  sell: 2.6666666666666665
+activatorrail:
+  buy: 15.0
+  sell: 0.5
+allium:
+  buy: 1.5
+  sell: 0.5
+amethyst:
+  buy: 15
+  sell: 5
+amethystblock:
+  buy: 60.0
+  sell: 20.0
+amethystcluster:
+  buy: 60.0
+  sell: 20.0
+amethystshard:
+  buy: 15.0
+  sell: 5.0
+ancientdebris:
+  buy: 1245
+  sell: 1245
+andesite:
+  buy: 3
+  sell: 1
+andesiteslab:
+  buy: 1.5
+  sell: 0.5
+andesitestairs:
+  buy: 3.05
+  sell: 1.02
+andesitewall:
+  buy: 5.800000000000001
+  sell: 2.0
+anvil:
+  buy: 558.0
+  sell: 124.0
+apple:
+  buy: 3
+  sell: 1
+armorstand:
+  buy: 5.15
+  sell: 1.725
+arrow:
+  buy: 4.0
+  sell: 0.5
+axolotlbucket:
+  buy: 75
+  sell: 25
+azalea:
+  buy: 3
+  sell: 1
+azalealeaves:
+  buy: 0.75
+  sell: 0.25
+azurebluet:
+  buy: 1.5
+  sell: 0.5
+bakedpotato:
+  buy: 2.5
+  sell: 0.6
+bamboo:
+  buy: 1.25
+  sell: 0.125
+bambooblock:
+  buy: 11.25
+  sell: 1.125
+bamboobutton:
+  buy: 5.625
+  sell: 0.5625
+bamboochestraft:
+  buy: 40.125
+  sell: 6.8125
+bamboodoor:
+  buy: 11.25
+  sell: 1.125
+bamboofence:
+  buy: 8.0
+  sell: 0.9166666666666666
+bamboofencegate:
+  buy: 14.25
+  sell: 2.125
+bamboohangingsign:
+  buy: 18.78333333333333
+  sell: 2.83462962962963
+bamboomosaic:
+  buy: 11.275
+  sell: 1.135
+bamboomosaicslab:
+  buy: 5.6375
+  sell: 0.5675
+bamboomosaicstairs:
+  buy: 11.325000000000001
+  sell: 1.155
+bambooplanks:
+  buy: 5.625
+  sell: 0.5625
+bamboopressureplate:
+  buy: 11.25
+  sell: 1.125
+bambooraft:
+  buy: 28.125
+  sell: 2.8125
+bamboosign:
+  buy: 11.5
+  sell: 1.2083333333333333
+bambooslab:
+  buy: 2.8125
+  sell: 0.28125
+bamboostairs:
+  buy: 8.4375
+  sell: 0.84375
+bambootrapdoor:
+  buy: 16.875
+  sell: 1.6875
+barrel:
+  buy: 10.5
+  sell: 3.5
+basalt:
+  buy: 3.0
+  sell: 0.5
+beacon:
+  buy: 5246.75
+  sell: 1302.5
+beef:
+  buy: 16.5
+  sell: 5.5
+beehive:
+  buy: 63.0
+  sell: 21.0
+beenest:
+  buy: 15.0
+  sell: 5.0
+beetroot:
+  buy: 10
+  sell: 2
+beetrootseeds:
+  buy: 10.0
+  sell: 2.0
+beetrootsoup:
+  buy: 19.65
+  sell: 6.55
+beetrootstew:
+  buy: 61.125
+  sell: 12.375
+bell:
+  buy: 48
+  sell: 16
+bigdripleaf:
+  buy: 6
+  sell: 2
+birchboat:
+  buy: 7.5
+  sell: 2.5
+birchbutton:
+  buy: 1.5
+  sell: 0.5
+birchchestboat:
+  buy: 19.5
+  sell: 6.5
+birchdoor:
+  buy: 3.0
+  sell: 1.0
+birchfence:
+  buy: 2.5
+  sell: 0.8333333333333333
+birchfencegate:
+  buy: 6.0
+  sell: 2.0
+birchhangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+birchleaves:
+  buy: 0.75
+  sell: 0.25
+birchlog:
+  buy: 6.0
+  sell: 2.0
+birchplanks:
+  buy: 1.5
+  sell: 0.5
+birchplate:
+  buy: 3
+  sell: 1
+birchpressureplate:
+  buy: 3.0
+  sell: 1.0
+birchsapling:
+  buy: 3
+  sell: 1
+birchsign:
+  buy: 3.25
+  sell: 1.0833333333333333
+birchslab:
+  buy: 0.75
+  sell: 0.25
+birchstairs:
+  buy: 2.25
+  sell: 0.75
+birchtrapdoor:
+  buy: 4.5
+  sell: 1.5
+birchwood:
+  buy: 8.0
+  sell: 2.6666666666666665
+blackbanner:
+  buy: 18.75
+  sell: 6.25
+blackbed:
+  buy: 13.5
+  sell: 4.5
+blackcandle:
+  buy: 44.5
+  sell: 11.5
+blackcarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+blackconcrete:
+  buy: 2.6750000000000003
+  sell: 1.2625
+blackconcretepowder:
+  buy: 2.475
+  sell: 1.2125
+blackdye:
+  buy: 10.5
+  sell: 3.5
+blackglazedterracotta:
+  buy: 6.612500000000001
+  sell: 2.2375000000000003
+blackshulkerbox:
+  buy: 222.5
+  sell: 107.5
+blackstainedglass:
+  buy: 3.0625
+  sell: 1.5375
+blackstainedglasspane:
+  buy: 1.1484375
+  sell: 0.5765625000000001
+blackstone:
+  buy: 0.75
+  sell: 0.5
+blackstoneslab:
+  buy: 0.375
+  sell: 0.25
+blackstonestairs:
+  buy: 0.8
+  sell: 0.52
+blackstonewall:
+  buy: 5.800000000000001
+  sell: 2.0
+blackterracotta:
+  buy: 6.362500000000001
+  sell: 2.1375
+blackwool:
+  buy: 3
+  sell: 1
+blastfurnace:
+  buy: 101.9
+  sell: 23.35
+blazepowder:
+  buy: 6.0
+  sell: 2.0
+blazerod:
+  buy: 12
+  sell: 4
+bluebanner:
+  buy: 18.75
+  sell: 6.25
+bluebed:
+  buy: 13.5
+  sell: 4.5
+bluecandle:
+  buy: 35.5
+  sell: 8.5
+bluecarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+blueconcrete:
+  buy: 1.55
+  sell: 0.8875000000000001
+blueconcretepowder:
+  buy: 1.35
+  sell: 0.8375
+bluedye:
+  buy: 1.5
+  sell: 0.5
+blueglazedterracotta:
+  buy: 5.487500000000001
+  sell: 1.8625000000000003
+blueice:
+  buy: 15.0
+  sell: 6.0
+blueorchid:
+  buy: 1.5
+  sell: 0.5
+blueshulkerbox:
+  buy: 213.5
+  sell: 104.5
+bluestainedglass:
+  buy: 1.9375
+  sell: 1.1625
+bluestainedglasspane:
+  buy: 0.7265625
+  sell: 0.43593750000000003
+blueterracotta:
+  buy: 5.237500000000001
+  sell: 1.7625000000000002
+bluewool:
+  buy: 3
+  sell: 1
+bone:
+  buy: 16
+  sell: 2
+boneblock:
+  buy: 48.0
+  sell: 6.0
+bonemeal:
+  buy: 5.333333333333333
+  sell: 0.6666666666666666
+book:
+  buy: 27.0
+  sell: 7.5
+bookandquill:
+  buy: 39.15
+  sell: 11.55
+bookshelf:
+  buy: 90.0
+  sell: 25.5
+bow:
+  buy: 50.25
+  sell: 6.75
+bowl:
+  buy: 1.125
+  sell: 0.375
+braincoral:
+  buy: 6
+  sell: 2
+braincoralblock:
+  buy: 6
+  sell: 2
+braincoralfan:
+  buy: 6
+  sell: 2
+bread:
+  buy: 9.0
+  sell: 3.0
+brewingstand:
+  buy: 15.0
+  sell: 4.75
+brick:
+  buy: 1.4500000000000002
+  sell: 0.5
+bricks:
+  buy: 5.800000000000001
+  sell: 2.0
+brickslab:
+  buy: 2.9000000000000004
+  sell: 1.0
+brickstairs:
+  buy: 5.8500000000000005
+  sell: 2.02
+brickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+brownbanner:
+  buy: 18.75
+  sell: 6.25
+brownbed:
+  buy: 13.5
+  sell: 4.5
+browncandle:
+  buy: 40.0
+  sell: 10.0
+browncarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+brownconcrete:
+  buy: 2.1125000000000003
+  sell: 1.075
+brownconcretepowder:
+  buy: 1.9125
+  sell: 1.025
+browndye:
+  buy: 6.0
+  sell: 2.0
+brownglazedterracotta:
+  buy: 6.050000000000001
+  sell: 2.0500000000000003
+brownmushroom:
+  buy: 6
+  sell: 2
+brownmushroomblock:
+  buy: 6
+  sell: 2
+brownshulkerbox:
+  buy: 218.0
+  sell: 106.0
+brownstainedglass:
+  buy: 2.5
+  sell: 1.35
+brownstainedglasspane:
+  buy: 0.9375
+  sell: 0.5062500000000001
+brownterracotta:
+  buy: 5.800000000000001
+  sell: 1.9500000000000002
+brownwool:
+  buy: 3
+  sell: 1
+brush:
+  buy: 10.15
+  sell: 3.4000000000000004
+bubblecoral:
+  buy: 6
+  sell: 2
+bubblecoralblock:
+  buy: 6
+  sell: 2
+bubblecoralfan:
+  buy: 6
+  sell: 2
+bucket:
+  buy: 54.0
+  sell: 12.0
+cactus:
+  buy: 5.625
+  sell: 0.75
+cactusgreen:
+  buy: 1.7999999999999998
+  sell: 0.6
+cake:
+  buy: 33.15
+  sell: 6.55
+calcite:
+  buy: 3
+  sell: 1
+campfire:
+  buy: 29.25
+  sell: 9.75
+candle:
+  buy: 34.0
+  sell: 8.0
+carrot:
+  buy: 2.25
+  sell: 0.5
+carrotonastick:
+  buy: 16.5
+  sell: 5.5
+cartographytable:
+  buy: 13.5
+  sell: 3.5
+carvedpumpkin:
+  buy: 0.3000000000000007
+  sell: 0.1499999999999999
+cauldron:
+  buy: 84.0
+  sell: 28.0
+chain:
+  buy: 22.0
+  sell: 4.888888888888889
+chainmailboots:
+  buy: 990.0
+  sell: 330.0
+chainmailchestplate:
+  buy: 2145.0
+  sell: 715.0
+chainmailhelmet:
+  buy: 990.0
+  sell: 330.0
+chainmailleggings:
+  buy: 1650.0
+  sell: 550.0
+charcoal:
+  buy: 6.25
+  sell: 2.1
+cherryboat:
+  buy: 7.5
+  sell: 2.5
+cherrybutton:
+  buy: 1.5
+  sell: 0.5
+cherrychestboat:
+  buy: 19.5
+  sell: 6.5
+cherrydoor:
+  buy: 3.0
+  sell: 1.0
+cherryfence:
+  buy: 2.5
+  sell: 0.8333333333333333
+cherryfencegate:
+  buy: 6.0
+  sell: 2.0
+cherryhangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+cherryleaves:
+  buy: 0.8250000000000001
+  sell: 0.275
+cherrylog:
+  buy: 6.0
+  sell: 2.0
+cherryplanks:
+  buy: 1.5
+  sell: 0.5
+cherrypressureplate:
+  buy: 3.0
+  sell: 1.0
+cherrysapling:
+  buy: 4.5
+  sell: 1.5
+cherrysign:
+  buy: 3.25
+  sell: 1.0833333333333333
+cherryslab:
+  buy: 0.75
+  sell: 0.25
+cherrystairs:
+  buy: 2.25
+  sell: 0.75
+cherrytrapdoor:
+  buy: 4.5
+  sell: 1.5
+cherrywood:
+  buy: 8.0
+  sell: 2.6666666666666665
+chest:
+  buy: 12.0
+  sell: 4.0
+chestminecart:
+  buy: 102.0
+  sell: 24.0
+chicken:
+  buy: 8.25
+  sell: 2.75
+chippedanvil:
+  buy: 248.001
+  sell: 82.667
+chiseledbookshelf:
+  buy: 11.25
+  sell: 3.75
+chiseleddeepslate:
+  buy: 1.325
+  sell: 0.66
+chiselednetherbricks:
+  buy: 4.225
+  sell: 1.41
+chiseledpolishedblackstone:
+  buy: 3.775
+  sell: 1.26
+chiseledquartzblock:
+  buy: 36.025
+  sell: 12.01
+chiseledredsandstone:
+  buy: 6
+  sell: 2
+chiseledredstandstone:
+  buy: 3.025
+  sell: 2.01
+chiseledsandstone:
+  buy: 3.025
+  sell: 2.01
+chiseledstonebricks:
+  buy: 1.0749999999999997
+  sell: 0.36
+chorusflower:
+  buy: 45
+  sell: 15
+chorusfruit:
+  buy: 3
+  sell: 1
+clay:
+  buy: 4.800000000000001
+  sell: 1.6
+clayball:
+  buy: 1.2000000000000002
+  sell: 0.4
+clock:
+  buy: 126.0
+  sell: 22.0
+coal:
+  buy: 9
+  sell: 3
+coalblock:
+  buy: 81.0
+  sell: 27.0
+coalore:
+  buy: 22.5
+  sell: 7.5
+coarsedirt:
+  buy: 0.7875000000000001
+  sell: 0.525
+cobbleddeepslate:
+  buy: 1.3
+  sell: 0.65
+cobbleddeepslateslab:
+  buy: 0.65
+  sell: 0.325
+cobbleddeepslatestairs:
+  buy: 1.35
+  sell: 0.67
+cobbleddeepslatewall:
+  buy: 5.800000000000001
+  sell: 2.0
+cobblestone:
+  buy: 1.0
+  sell: 0.25
+cobblestoneslab:
+  buy: 0.5
+  sell: 0.125
+cobblestonestairs:
+  buy: 1.05
+  sell: 0.27
+cobblestonewall:
+  buy: 5.800000000000001
+  sell: 2.0
+cobweb:
+  buy: 6
+  sell: 2
+cocoabeans:
+  buy: 6
+  sell: 2
+cod:
+  buy: 9.899999999999999
+  sell: 3.3
+codbucket:
+  buy: 45
+  sell: 15
+comparator:
+  buy: 32.4
+  sell: 10.8
+compass:
+  buy: 78.0
+  sell: 18.0
+composter:
+  buy: 5.25
+  sell: 1.75
+conduit:
+  buy: 1970.0
+  sell: 1490.0
+cookedbeef:
+  buy: 16.75
+  sell: 5.6
+cookedchicken:
+  buy: 8.5
+  sell: 2.85
+cookedcod:
+  buy: 10.149999999999999
+  sell: 3.4
+cookedmutton:
+  buy: 6.25
+  sell: 2.1
+cookedporkchop:
+  buy: 13.75
+  sell: 4.6
+cookedrabbit:
+  buy: 8.5
+  sell: 2.85
+cookedsalmon:
+  buy: 10.99
+  sell: 3.68
+cookie:
+  buy: 3.75
+  sell: 1.25
+copperblock:
+  buy: 69.75
+  sell: 23.400000000000002
+copperingot:
+  buy: 7.75
+  sell: 2.6
+copperore:
+  buy: 45
+  sell: 15
+copperslab:
+  buy: 34.875
+  sell: 11.700000000000001
+copperstairs:
+  buy: 69.8
+  sell: 23.42
+cornflower:
+  buy: 1.5
+  sell: 0.5
+crackeddeepslatebricks:
+  buy: 1.56
+  sell: 0.754
+crackeddeepslatetiles:
+  buy: 1.56
+  sell: 0.754
+crackednetherbricks:
+  buy: 4.449999999999999
+  sell: 1.5
+crackedpolishedblackstonebricks:
+  buy: 4.0
+  sell: 1.35
+crackedstonebricks:
+  buy: 1.2999999999999998
+  sell: 0.44999999999999996
+craftingtable:
+  buy: 6.0
+  sell: 2.0
+crimsonbutton:
+  buy: 4.5
+  sell: 1.5
+crimsondoor:
+  buy: 9.0
+  sell: 3.0
+crimsonfence:
+  buy: 6.5
+  sell: 2.1666666666666665
+crimsonfencegate:
+  buy: 12.0
+  sell: 4.0
+crimsonfungus:
+  buy: 6
+  sell: 2
+crimsonhangingsign:
+  buy: 25.53333333333333
+  sell: 7.70962962962963
+crimsonhyphae:
+  buy: 24.0
+  sell: 8.0
+crimsonnylium:
+  buy: 3
+  sell: 1
+crimsonplanks:
+  buy: 4.5
+  sell: 1.5
+crimsonpressureplate:
+  buy: 9.0
+  sell: 3.0
+crimsonroots:
+  buy: 1.5
+  sell: 0.5
+crimsonsign:
+  buy: 9.25
+  sell: 3.0833333333333335
+crimsonslab:
+  buy: 2.25
+  sell: 0.75
+crimsonstairs:
+  buy: 6.75
+  sell: 2.25
+crimsonstem:
+  buy: 18
+  sell: 6
+crimsontrapdoor:
+  buy: 13.5
+  sell: 4.5
+crossbow:
+  buy: 62.375
+  sell: 11.125
+cryingobsidian:
+  buy: 60
+  sell: 20
+cutcopper:
+  buy: 69.8
+  sell: 23.42
+cutcopperblock:
+  buy: 74.25
+  sell: 24.75
+cutcopperslab:
+  buy: 34.9
+  sell: 11.71
+cutcopperstairs:
+  buy: 69.85
+  sell: 23.44
+cutredsandstone:
+  buy: 3.01
+  sell: 2.004
+cutredsandstoneslab:
+  buy: 1.505
+  sell: 1.002
+cutsandstone:
+  buy: 3.01
+  sell: 2.004
+cutsandstoneslab:
+  buy: 1.505
+  sell: 1.002
+cyanbanner:
+  buy: 18.75
+  sell: 6.25
+cyanbed:
+  buy: 13.5
+  sell: 4.5
+cyancandle:
+  buy: 37.6875
+  sell: 8.675
+cyancarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+cyanconcrete:
+  buy: 1.8234375
+  sell: 0.909375
+cyanconcretepowder:
+  buy: 1.6234375
+  sell: 0.859375
+cyandye:
+  buy: 3.6875
+  sell: 0.675
+cyanglazedterracotta:
+  buy: 5.760937500000001
+  sell: 1.8843750000000004
+cyanshulkerbox:
+  buy: 215.6875
+  sell: 104.675
+cyanstainedglass:
+  buy: 2.2109375
+  sell: 1.1843750000000002
+cyanstainedglasspane:
+  buy: 0.8291015625
+  sell: 0.44414062500000007
+cyanterracotta:
+  buy: 5.510937500000001
+  sell: 1.7843750000000003
+cyanwool:
+  buy: 3
+  sell: 1
+damagedanvil:
+  buy: 123.999
+  sell: 41.333
+dandelion:
+  buy: 1.5
+  sell: 0.5
+dandelionyellow:
+  buy: 1.7999999999999998
+  sell: 0.6
+darkoakboat:
+  buy: 7.5
+  sell: 2.5
+darkoakbutton:
+  buy: 1.5
+  sell: 0.5
+darkoakchestboat:
+  buy: 19.5
+  sell: 6.5
+darkoakdoor:
+  buy: 3.0
+  sell: 1.0
+darkoakfence:
+  buy: 2.5
+  sell: 0.8333333333333333
+darkoakfencegate:
+  buy: 6.0
+  sell: 2.0
+darkoakhangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+darkoakleaves:
+  buy: 0.75
+  sell: 0.25
+darkoaklog:
+  buy: 6.0
+  sell: 2.0
+darkoakplanks:
+  buy: 1.5
+  sell: 0.5
+darkoakpressureplate:
+  buy: 3.0
+  sell: 1.0
+darkoaksapling:
+  buy: 3.75
+  sell: 1.25
+darkoaksign:
+  buy: 3.25
+  sell: 1.0833333333333333
+darkoakslab:
+  buy: 0.75
+  sell: 0.25
+darkoakstairs:
+  buy: 2.25
+  sell: 0.75
+darkoaktrapdoor:
+  buy: 4.5
+  sell: 1.5
+darkoakwood:
+  buy: 8.0
+  sell: 2.6666666666666665
+darkprismarine:
+  buy: 100.5
+  sell: 23.5
+darkprismarineslab:
+  buy: 50.25
+  sell: 11.75
+darkprismarinestairs:
+  buy: 100.55
+  sell: 23.52
+daylightdetector:
+  buy: 48.0
+  sell: 16.0
+daylightsensor:
+  buy: 34.5
+  sell: 13.05
+deadbraincoral:
+  buy: 6
+  sell: 2
+deadbraincoralblock:
+  buy: 6
+  sell: 2
+deadbraincoralfan:
+  buy: 6
+  sell: 2
+deadbubblecoral:
+  buy: 6
+  sell: 2
+deadbubblecoralblock:
+  buy: 6
+  sell: 2
+deadbubblecoralfan:
+  buy: 6
+  sell: 2
+deadbush:
+  buy: 1.5
+  sell: 0.5
+deadfirecoral:
+  buy: 6
+  sell: 2
+deadfirecoralblock:
+  buy: 6
+  sell: 2
+deadfirecoralfan:
+  buy: 6
+  sell: 2
+deadhorncoral:
+  buy: 6
+  sell: 2
+deadhorncoralblock:
+  buy: 6
+  sell: 2
+deadhorncoralfan:
+  buy: 6
+  sell: 2
+deadtubecoral:
+  buy: 6
+  sell: 2
+deadtubecoralblock:
+  buy: 6
+  sell: 2
+deadtubecoralfan:
+  buy: 6
+  sell: 2
+decoratedpot:
+  buy: 5.800000000000001
+  sell: 2.0
+deepslate:
+  buy: 2.25
+  sell: 0.75
+deepslatebricks:
+  buy: 1.31
+  sell: 0.654
+deepslatebrickslab:
+  buy: 0.655
+  sell: 0.327
+deepslatebrickstairs:
+  buy: 1.36
+  sell: 0.674
+deepslatebrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+deepslatecoalore:
+  buy: 22.5
+  sell: 7.5
+deepslatecopperore:
+  buy: 45
+  sell: 15
+deepslatediamondore:
+  buy: 1500
+  sell: 500
+deepslateemeraldore:
+  buy: 225
+  sell: 75
+deepslategoldore:
+  buy: 120
+  sell: 40
+deepslateironore:
+  buy: 60
+  sell: 20
+deepslatelapisore:
+  buy: 144
+  sell: 48
+deepslateredstoneore:
+  buy: 45
+  sell: 15
+deepslatetiles:
+  buy: 1.31
+  sell: 0.654
+deepslatetileslab:
+  buy: 0.655
+  sell: 0.327
+deepslatetilestairs:
+  buy: 1.36
+  sell: 0.674
+deepslatetilewall:
+  buy: 5.800000000000001
+  sell: 2.0
+detectorrail:
+  buy: 15.0
+  sell: 0.5
+diamond:
+  buy: 200
+  sell: 200
+diamondaxe:
+  buy: 150
+  sell: 50
+diamondblock:
+  buy: 1800.0
+  sell: 1800.0
+diamondboots:
+  buy: 225
+  sell: 75
+diamondchestplate:
+  buy: 225
+  sell: 75
+diamondhelmet:
+  buy: 225
+  sell: 75
+diamondhoe:
+  buy: 150
+  sell: 50
+diamondhorsearmor:
+  buy: 750
+  sell: 250
+diamondleggings:
+  buy: 225
+  sell: 75
+diamondore:
+  buy: 1500
+  sell: 500
+diamondpickaxe:
+  buy: 150
+  sell: 50
+diamondshovel:
+  buy: 150
+  sell: 50
+diamondsword:
+  buy: 150
+  sell: 50
+diorite:
+  buy: 3
+  sell: 1
+dioriteslab:
+  buy: 1.5
+  sell: 0.5
+dioritestairs:
+  buy: 3.05
+  sell: 1.02
+dioritewall:
+  buy: 5.800000000000001
+  sell: 2.0
+dirt:
+  buy: 0.75
+  sell: 0.5
+dispenser:
+  buy: 64.25
+  sell: 10.75
+dragonbreath:
+  buy: 26.75
+  sell: 3.6
+dragonegg:
+  buy: 750.0
+  sell: 250.0
+driedkelp:
+  buy: 2.75
+  sell: 0.35
+driedkelpblock:
+  buy: 24.75
+  sell: 3.15
+dripstoneblock:
+  buy: 22.5
+  sell: 7.5
+dropper:
+  buy: 14.0
+  sell: 4.0
+egg:
+  buy: 1.6500000000000001
+  sell: 0.55
+emerald:
+  buy: 105.0
+  sell: 17.5
+emeraldblock:
+  buy: 945.0
+  sell: 157.5
+emeraldore:
+  buy: 225
+  sell: 75
+emptymap:
+  buy: 66
+  sell: 22
+enchantedbook:
+  buy: 75.0
+  sell: 25.0
+enchantedgoldenapple:
+  buy: 3750.0
+  sell: 750.0
+enchantingtable:
+  buy: 907.0
+  sell: 467.5
+endcrystal:
+  buy: 118.25
+  sell: 25.700000000000003
+enderchest:
+  buy: 991.0
+  sell: 123.0
+endereye:
+  buy: 31.0
+  sell: 3.0
+enderpearl:
+  buy: 25
+  sell: 1
+endrod:
+  buy: 3.8125
+  sell: 1.275
+endstone:
+  buy: 1.5
+  sell: 0.75
+endstonebricks:
+  buy: 1.5
+  sell: 0.75
+endstonebrickslab:
+  buy: 0.75
+  sell: 0.375
+endstonebrickstairs:
+  buy: 1.55
+  sell: 0.77
+endstonebrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+experiencebottle:
+  buy: 350
+  sell: 35
+exposedcopper:
+  buy: 71.75
+  sell: 23.900000000000002
+exposedcopperblock:
+  buy: 74.25
+  sell: 24.75
+exposedcopperslab:
+  buy: 35.875
+  sell: 11.950000000000001
+exposedcopperstairs:
+  buy: 71.8
+  sell: 23.92
+exposedcutcopper:
+  buy: 71.8
+  sell: 23.92
+exposedcutcopperblock:
+  buy: 74.25
+  sell: 24.75
+exposedcutcopperslab:
+  buy: 35.9
+  sell: 11.96
+exposedcutcopperstairs:
+  buy: 71.85
+  sell: 23.94
+feather:
+  buy: 1.6500000000000001
+  sell: 0.55
+fermentedspidereye:
+  buy: 49.75
+  sell: 7.75
+fern:
+  buy: 1.5
+  sell: 0.5
+filledmap:
+  buy: 66
+  sell: 22
+firecharge:
+  buy: 10.333333333333332
+  sell: 2.333333333333333
+firecoral:
+  buy: 6
+  sell: 2
+firecoralblock:
+  buy: 6
+  sell: 2
+firecoralfan:
+  buy: 6
+  sell: 2
+fireworkrocket:
+  buy: 2.25
+  sell: 0.75
+fireworkstar:
+  buy: 7.5
+  sell: 2.5
+fishingrod:
+  buy: 15
+  sell: 5
+fletchingtable:
+  buy: 18.0
+  sell: 6.0
+flint:
+  buy: 6
+  sell: 2
+flintandsteel:
+  buy: 24.0
+  sell: 6.0
+floweringazalea:
+  buy: 3.75
+  sell: 1.25
+floweringazalealeaves:
+  buy: 0.8999999999999999
+  sell: 0.3
+flowerpot:
+  buy: 4.3500000000000005
+  sell: 1.5
+furnace:
+  buy: 8.0
+  sell: 2.0
+furnaceminecart:
+  buy: 98.0
+  sell: 22.0
+ghasttear:
+  buy: 75
+  sell: 15
+gildedblackstone:
+  buy: 75
+  sell: 25
+glass:
+  buy: 1.75
+  sell: 1.1
+glassbottle:
+  buy: 1.75
+  sell: 1.1
+glasspane:
+  buy: 0.65625
+  sell: 0.41250000000000003
+glisteringmelonslice:
+  buy: 15
+  sell: 5
+glowberries:
+  buy: 3
+  sell: 1
+glowinksac:
+  buy: 31.5
+  sell: 10.5
+glowitemframe:
+  buy: 53.25
+  sell: 17.75
+glowlichen:
+  buy: 2.25
+  sell: 0.75
+glowstone:
+  buy: 48.0
+  sell: 16.0
+glowstonedust:
+  buy: 12
+  sell: 4
+goldblock:
+  buy: 270.0
+  sell: 45.0
+goldenapple:
+  buy: 243.0
+  sell: 41.0
+goldenaxe:
+  buy: 91.5
+  sell: 15.5
+goldenboots:
+  buy: 120.0
+  sell: 20.0
+goldencarrot:
+  buy: 30.0
+  sell: 3.0
+goldenchestplate:
+  buy: 240.0
+  sell: 40.0
+goldenhelmet:
+  buy: 150.0
+  sell: 25.0
+goldenhoe:
+  buy: 61.5
+  sell: 10.5
+goldenhorsearmor:
+  buy: 600
+  sell: 200
+goldenleggings:
+  buy: 210.0
+  sell: 35.0
+goldenpickaxe:
+  buy: 91.5
+  sell: 15.5
+goldenshovel:
+  buy: 31.5
+  sell: 5.5
+goldensword:
+  buy: 60.75
+  sell: 10.25
+goldingot:
+  buy: 30.0
+  sell: 5.0
+goldnugget:
+  buy: 3.333333333333333
+  sell: 0.5555555555555556
+goldore:
+  buy: 120
+  sell: 40
+granite:
+  buy: 3
+  sell: 1
+graniteslab:
+  buy: 1.5
+  sell: 0.5
+granitestairs:
+  buy: 3.05
+  sell: 1.02
+granitewall:
+  buy: 5.800000000000001
+  sell: 2.0
+grass:
+  buy: 0.75
+  sell: 0.25
+grassblock:
+  buy: 1.7999999999999998
+  sell: 0.6
+gravel:
+  buy: 0.8250000000000001
+  sell: 0.55
+graybanner:
+  buy: 18.75
+  sell: 6.25
+graybed:
+  buy: 13.5
+  sell: 4.5
+graycandle:
+  buy: 40.0
+  sell: 10.0
+graycarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+grayconcrete:
+  buy: 2.1125000000000003
+  sell: 1.075
+grayconcretepowder:
+  buy: 1.9125
+  sell: 1.025
+graydye:
+  buy: 6.0
+  sell: 2.0
+grayglazedterracotta:
+  buy: 6.050000000000001
+  sell: 2.0500000000000003
+grayshulkerbox:
+  buy: 218.0
+  sell: 106.0
+graystainedglass:
+  buy: 2.5
+  sell: 1.35
+graystainedglasspane:
+  buy: 0.9375
+  sell: 0.5062500000000001
+grayterracotta:
+  buy: 5.800000000000001
+  sell: 1.9500000000000002
+graywool:
+  buy: 3
+  sell: 1
+greenbanner:
+  buy: 18.75
+  sell: 6.25
+greenbed:
+  buy: 13.5
+  sell: 4.5
+greencandle:
+  buy: 39.875
+  sell: 8.85
+greencarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+greenconcrete:
+  buy: 2.0968750000000003
+  sell: 0.93125
+greenconcretepowder:
+  buy: 1.896875
+  sell: 0.88125
+greendye:
+  buy: 5.875
+  sell: 0.85
+greenglazedterracotta:
+  buy: 6.034375000000001
+  sell: 1.9062500000000002
+greenshulkerbox:
+  buy: 217.875
+  sell: 104.85
+greenstainedglass:
+  buy: 2.484375
+  sell: 1.20625
+greenstainedglasspane:
+  buy: 0.931640625
+  sell: 0.45234375000000004
+greenterracotta:
+  buy: 5.784375000000001
+  sell: 1.8062500000000001
+greenwool:
+  buy: 3
+  sell: 1
+grindstone:
+  buy: 5.025
+  sell: 1.675
+gunpowder:
+  buy: 16
+  sell: 2
+hangingroots:
+  buy: 1.5
+  sell: 0.5
+hardenedclay:
+  buy: 4.800000000000001
+  sell: 1.6
+haybale:
+  buy: 27.0
+  sell: 9.0
+hayblock:
+  buy: 27
+  sell: 9
+heartofthesea:
+  buy: 1250.0
+  sell: 1250.0
+heavyweightedpressureplate:
+  buy: 36.0
+  sell: 8.0
+honeyblock:
+  buy: 130.0
+  sell: 13.0
+honeybottle:
+  buy: 32.5
+  sell: 3.25
+honeycomb:
+  buy: 18.0
+  sell: 6.0
+honeycombblock:
+  buy: 72.0
+  sell: 24.0
+hopper:
+  buy: 102.0
+  sell: 24.0
+hopperminecart:
+  buy: 192.0
+  sell: 44.0
+horncoral:
+  buy: 6
+  sell: 2
+horncoralblock:
+  buy: 6
+  sell: 2
+horncoralfan:
+  buy: 6
+  sell: 2
+ice:
+  buy: 0.625
+  sell: 0.25
+inksac:
+  buy: 10.5
+  sell: 3.5
+ironaxe:
+  buy: 55.5
+  sell: 12.5
+ironbars:
+  buy: 6.75
+  sell: 1.5
+ironblock:
+  buy: 162.0
+  sell: 36.0
+ironboots:
+  buy: 72.0
+  sell: 16.0
+ironchestplate:
+  buy: 144.0
+  sell: 32.0
+irondoor:
+  buy: 36.0
+  sell: 8.0
+ironfence:
+  buy: 4.5
+  sell: 1.5
+ironhelmet:
+  buy: 90.0
+  sell: 20.0
+ironhoe:
+  buy: 37.5
+  sell: 8.5
+ironhorsearmor:
+  buy: 600
+  sell: 200
+ironingot:
+  buy: 18.0
+  sell: 4
+ironleggings:
+  buy: 126.0
+  sell: 28.0
+ironnugget:
+  buy: 2.0
+  sell: 0.4444444444444444
+ironore:
+  buy: 60
+  sell: 20
+ironpickaxe:
+  buy: 55.5
+  sell: 12.5
+ironshovel:
+  buy: 19.5
+  sell: 4.5
+ironsword:
+  buy: 36.75
+  sell: 8.25
+irontrapdoor:
+  buy: 72.0
+  sell: 16.0
+itemframe:
+  buy: 21.75
+  sell: 7.25
+jackolantern:
+  buy: 2.7375000000000007
+  sell: 0.9624999999999999
+jukebox:
+  buy: 212.0
+  sell: 204.0
+jungleboat:
+  buy: 7.5
+  sell: 2.5
+junglebutton:
+  buy: 1.5
+  sell: 0.5
+junglechestboat:
+  buy: 19.5
+  sell: 6.5
+jungledoor:
+  buy: 3.0
+  sell: 1.0
+junglefence:
+  buy: 2.5
+  sell: 0.8333333333333333
+junglefencegate:
+  buy: 6.0
+  sell: 2.0
+junglehangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+jungleleaves:
+  buy: 0.75
+  sell: 0.25
+junglelog:
+  buy: 6.0
+  sell: 2.0
+jungleplanks:
+  buy: 1.5
+  sell: 0.5
+junglepressureplate:
+  buy: 3.0
+  sell: 1.0
+junglesapling:
+  buy: 4.5
+  sell: 1.5
+junglesign:
+  buy: 3.25
+  sell: 1.0833333333333333
+jungleslab:
+  buy: 0.75
+  sell: 0.25
+junglestairs:
+  buy: 2.25
+  sell: 0.75
+jungletrapdoor:
+  buy: 4.5
+  sell: 1.5
+junglewood:
+  buy: 8.0
+  sell: 2.6666666666666665
+kelp:
+  buy: 2.5
+  sell: 0.25
+ladder:
+  buy: 1.75
+  sell: 0.5833333333333334
+lantern:
+  buy: 18.4375
+  sell: 4.368055555555555
+lapisblock:
+  buy: 108.0
+  sell: 36.0
+lapislazuli:
+  buy: 12
+  sell: 4
+lapisore:
+  buy: 144
+  sell: 48
+largefern:
+  buy: 0.75
+  sell: 0.25
+lavabucket:
+  buy: 64.0
+  sell: 13.0
+lead:
+  buy: 38.0
+  sell: 4.75
+leather:
+  buy: 15.75
+  sell: 5.25
+leatherboots:
+  buy: 63
+  sell: 21
+leatherchestplate:
+  buy: 126
+  sell: 42
+leatherhelmet:
+  buy: 78.75
+  sell: 26.25
+leatherhorsearmor:
+  buy: 450.0
+  sell: 150.0
+leatherleggings:
+  buy: 110.25
+  sell: 36.75
+lectern:
+  buy: 93.0
+  sell: 26.5
+lever:
+  buy: 1.75
+  sell: 0.5
+lightbluebanner:
+  buy: 18.75
+  sell: 6.25
+lightbluebed:
+  buy: 13.5
+  sell: 4.5
+lightbluecandle:
+  buy: 35.5
+  sell: 8.5
+lightbluecarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+lightblueconcrete:
+  buy: 1.55
+  sell: 0.8875000000000001
+lightblueconcretepowder:
+  buy: 1.35
+  sell: 0.8375
+lightbluedye:
+  buy: 1.5
+  sell: 0.5
+lightblueglazedterracotta:
+  buy: 5.487500000000001
+  sell: 1.8625000000000003
+lightblueshulkerbox:
+  buy: 213.5
+  sell: 104.5
+lightbluestainedglass:
+  buy: 1.9375
+  sell: 1.1625
+lightbluestainedglasspane:
+  buy: 0.7265625
+  sell: 0.43593750000000003
+lightblueterracotta:
+  buy: 5.237500000000001
+  sell: 1.7625000000000002
+lightbluewool:
+  buy: 3
+  sell: 1
+lightgraybanner:
+  buy: 18.75
+  sell: 6.25
+lightgraybed:
+  buy: 13.5
+  sell: 4.5
+lightgraycandle:
+  buy: 35.5
+  sell: 8.5
+lightgraycarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+lightgrayconcrete:
+  buy: 1.55
+  sell: 0.8875000000000001
+lightgrayconcretepowder:
+  buy: 1.35
+  sell: 0.8375
+lightgrayconpowder:
+  buy: 4.5
+  sell: 1.5
+lightgraydye:
+  buy: 1.5
+  sell: 0.5
+lightgrayglazedterracotta:
+  buy: 5.487500000000001
+  sell: 1.8625000000000003
+lightgrayshulkerbox:
+  buy: 213.5
+  sell: 104.5
+lightgraystainedglass:
+  buy: 1.9375
+  sell: 1.1625
+lightgraystainedglasspane:
+  buy: 0.7265625
+  sell: 0.43593750000000003
+lightgrayterracotta:
+  buy: 5.237500000000001
+  sell: 1.7625000000000002
+lightgraywool:
+  buy: 3
+  sell: 1
+lightningrod:
+  buy: 23.25
+  sell: 7.800000000000001
+lightweightedpressureplate:
+  buy: 60.0
+  sell: 10.0
+lilac:
+  buy: 1.35
+  sell: 0.45
+lilyofthevalley:
+  buy: 1.5
+  sell: 0.5
+lilypad:
+  buy: 6
+  sell: 2
+limebanner:
+  buy: 18.75
+  sell: 6.25
+limebed:
+  buy: 13.5
+  sell: 4.5
+limecandle:
+  buy: 37.6875
+  sell: 8.675
+limecarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+limeconcrete:
+  buy: 1.8234375
+  sell: 0.909375
+limeconcretepowder:
+  buy: 1.6234375
+  sell: 0.859375
+limedye:
+  buy: 3.6875
+  sell: 0.675
+limeglazedterracotta:
+  buy: 5.760937500000001
+  sell: 1.8843750000000004
+limeshulkerbox:
+  buy: 215.6875
+  sell: 104.675
+limestainedglass:
+  buy: 2.2109375
+  sell: 1.1843750000000002
+limestainedglasspane:
+  buy: 0.8291015625
+  sell: 0.44414062500000007
+limeterracotta:
+  buy: 5.510937500000001
+  sell: 1.7843750000000003
+limewool:
+  buy: 3
+  sell: 1
+lingeringpotion:
+  buy: 30.0
+  sell: 10.0
+lodestone:
+  buy: 15075
+  sell: 5025
+loom:
+  buy: 35.0
+  sell: 5.0
+magentabanner:
+  buy: 18.75
+  sell: 6.25
+magentabed:
+  buy: 13.5
+  sell: 4.5
+magentacandle:
+  buy: 34.675
+  sell: 8.225
+magentacarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+magentaconcrete:
+  buy: 1.4468750000000001
+  sell: 0.853125
+magentaconcretepowder:
+  buy: 1.2468750000000002
+  sell: 0.803125
+magentadye:
+  buy: 0.675
+  sell: 0.225
+magentaglazedterracotta:
+  buy: 5.384375
+  sell: 1.8281250000000002
+magentashulkerbox:
+  buy: 212.675
+  sell: 104.225
+magentastainedglass:
+  buy: 1.834375
+  sell: 1.128125
+magentastainedglasspane:
+  buy: 0.6878906250000001
+  sell: 0.42304687500000004
+magentaterracotta:
+  buy: 5.134375
+  sell: 1.7281250000000001
+magentawool:
+  buy: 3
+  sell: 1
+magmablock:
+  buy: 3.0
+  sell: 1.0
+magmacream:
+  buy: 10.5
+  sell: 3.5
+mangroveboat:
+  buy: 11.25
+  sell: 3.75
+mangrovebutton:
+  buy: 2.25
+  sell: 0.75
+mangrovechestboat:
+  buy: 23.25
+  sell: 7.75
+mangrovedoor:
+  buy: 4.5
+  sell: 1.5
+mangrovefence:
+  buy: 3.5
+  sell: 1.1666666666666667
+mangrovefencegate:
+  buy: 7.5
+  sell: 2.5
+mangrovehangingsign:
+  buy: 16.53333333333333
+  sell: 4.70962962962963
+mangroveleaves:
+  buy: 0.8999999999999999
+  sell: 0.3
+mangrovelog:
+  buy: 9.0
+  sell: 3.0
+mangroveplanks:
+  buy: 2.25
+  sell: 0.75
+mangrovepressureplate:
+  buy: 4.5
+  sell: 1.5
+mangrovepropagule:
+  buy: 4.5
+  sell: 1.5
+mangroveroots:
+  buy: 9.0
+  sell: 3.0
+mangrovesign:
+  buy: 4.75
+  sell: 1.5833333333333333
+mangroveslab:
+  buy: 1.125
+  sell: 0.375
+mangrovestairs:
+  buy: 3.375
+  sell: 1.125
+mangrovetrapdoor:
+  buy: 6.75
+  sell: 2.25
+mangrovewood:
+  buy: 12.0
+  sell: 4.0
+map:
+  buy: 108.0
+  sell: 24.0
+melon:
+  buy: 22.5
+  sell: 4.5
+melonseeds:
+  buy: 2.5
+  sell: 0.5
+melonslice:
+  buy: 2.5
+  sell: 0.5
+milkbucket:
+  buy: 59.0
+  sell: 12.5
+minecart:
+  buy: 90.0
+  sell: 20.0
+mossblock:
+  buy: 3.75
+  sell: 1.25
+mosscarpet:
+  buy: 3
+  sell: 1
+mossycobblestone:
+  buy: 1.75
+  sell: 0.5
+mossycobblestoneslab:
+  buy: 0.875
+  sell: 0.25
+mossycobblestonestairs:
+  buy: 1.8
+  sell: 0.52
+mossycobblestonewall:
+  buy: 5.800000000000001
+  sell: 2.0
+mossystonebricks:
+  buy: 1.7999999999999998
+  sell: 0.6
+mossystonebrickslab:
+  buy: 0.8999999999999999
+  sell: 0.3
+mossystonebrickstairs:
+  buy: 1.8499999999999999
+  sell: 0.62
+mossystonebrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+mud:
+  buy: 1.7999999999999998
+  sell: 0.6
+mudbricks:
+  buy: 4.8
+  sell: 1.6
+mudbrickslab:
+  buy: 2.4
+  sell: 0.8
+mudbrickstairs:
+  buy: 4.85
+  sell: 1.62
+mudbrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+mushroomsoup:
+  buy: 14.100000000000001
+  sell: 4.7
+mushroomstem:
+  buy: 6.0
+  sell: 2.0
+musicdisc11:
+  buy: 60
+  sell: 20
+musicdisc13:
+  buy: 60
+  sell: 20
+musicdiscblocks:
+  buy: 60
+  sell: 20
+musicdisccat:
+  buy: 60
+  sell: 20
+musicdiscchirp:
+  buy: 60
+  sell: 20
+musicdiscfar:
+  buy: 60
+  sell: 20
+musicdiscmall:
+  buy: 60
+  sell: 20
+musicdiscmellohi:
+  buy: 60
+  sell: 20
+musicdiscstal:
+  buy: 60
+  sell: 20
+musicdiscstrad:
+  buy: 60
+  sell: 20
+musicdiscwait:
+  buy: 60
+  sell: 20
+musicdiscward:
+  buy: 60
+  sell: 20
+mutton:
+  buy: 6
+  sell: 2
+mycelium:
+  buy: 3
+  sell: 1
+nametag:
+  buy: 45.0
+  sell: 15.0
+nautilusshell:
+  buy: 90.0
+  sell: 30.0
+netherbrick:
+  buy: 0.75
+  sell: 0.35
+netherbrickfence:
+  buy: 3.0499999999999994
+  sell: 1.0499999999999998
+netherbricks:
+  buy: 4.199999999999999
+  sell: 1.4
+netherbrickslab:
+  buy: 2.0999999999999996
+  sell: 0.7
+netherbrickstairs:
+  buy: 4.249999999999999
+  sell: 1.42
+netherbrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+nethergoldore:
+  buy: 24.0
+  sell: 8.0
+netheriteaxe:
+  buy: 6651.0
+  sell: 6450.4
+netheriteblock:
+  buy: 45909.0
+  sell: 45003.6
+netheriteboots:
+  buy: 6726.0
+  sell: 6475.4
+netheritechestplate:
+  buy: 6726.0
+  sell: 6475.4
+netheritehelmet:
+  buy: 6726.0
+  sell: 6475.4
+netheritehoe:
+  buy: 6651.0
+  sell: 6450.4
+netheritehorsearmor:
+  buy: 1050
+  sell: 350
+netheriteingot:
+  buy: 5101.0
+  sell: 5000.4
+netheriteleggings:
+  buy: 6726.0
+  sell: 6475.4
+netheritepickaxe:
+  buy: 6651.0
+  sell: 6450.4
+netheritescrap:
+  buy: 1245.25
+  sell: 1245.1
+netheriteshovel:
+  buy: 6651.0
+  sell: 6450.4
+netheritesword:
+  buy: 16200
+  sell: 5400
+netheriteupgradesmithingtemplate:
+  buy: 1400.5
+  sell: 1400.25
+netherquartzore:
+  buy: 24.0
+  sell: 8.0
+netherrack:
+  buy: 0.5
+  sell: 0.25
+nethersprouts:
+  buy: 1.5
+  sell: 0.5
+netherstalk:
+  buy: 3.75
+  sell: 1.25
+netherstar:
+  buy: 4878.0
+  sell: 1252.0
+netherwart:
+  buy: 10.0
+  sell: 1.25
+netherwartblock:
+  buy: 3
+  sell: 1
+noteblock:
+  buy: 18.0
+  sell: 6.0
+oakboat:
+  buy: 7.5
+  sell: 2.5
+oakbutton:
+  buy: 1.5
+  sell: 0.5
+oakchestboat:
+  buy: 19.5
+  sell: 6.5
+oakdoor:
+  buy: 3.0
+  sell: 1.0
+oakfence:
+  buy: 2.5
+  sell: 0.8333333333333333
+oakfencegate:
+  buy: 6.0
+  sell: 2.0
+oakhangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+oakleaves:
+  buy: 0.75
+  sell: 0.25
+oaklog:
+  buy: 6.0
+  sell: 2.0
+oakplanks:
+  buy: 1.5
+  sell: 0.5
+oakpressureplate:
+  buy: 3.0
+  sell: 1.0
+oaksapling:
+  buy: 3
+  sell: 1
+oaksign:
+  buy: 3.25
+  sell: 1.0833333333333333
+oakslab:
+  buy: 0.75
+  sell: 0.25
+oakstairs:
+  buy: 2.25
+  sell: 0.75
+oaktrapdoor:
+  buy: 4.5
+  sell: 1.5
+oakwood:
+  buy: 8.0
+  sell: 2.6666666666666665
+observer:
+  buy: 27.0
+  sell: 8.5
+obsidian:
+  buy: 120
+  sell: 15
+ochrefroglight:
+  buy: 15.0
+  sell: 5.0
+orangebanner:
+  buy: 18.75
+  sell: 6.25
+orangebed:
+  buy: 13.5
+  sell: 4.5
+orangecandle:
+  buy: 34.675
+  sell: 8.225
+orangecarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+orangeconcrete:
+  buy: 1.4468750000000001
+  sell: 0.853125
+orangeconcretepowder:
+  buy: 1.2468750000000002
+  sell: 0.803125
+orangedye:
+  buy: 0.675
+  sell: 0.225
+orangeglazedterracotta:
+  buy: 5.384375
+  sell: 1.8281250000000002
+orangeshulkerbox:
+  buy: 212.675
+  sell: 104.225
+orangestainedglass:
+  buy: 1.834375
+  sell: 1.128125
+orangestainedglasspane:
+  buy: 0.6878906250000001
+  sell: 0.42304687500000004
+orangeterracotta:
+  buy: 5.134375
+  sell: 1.7281250000000001
+orangetulip:
+  buy: 1.5
+  sell: 0.5
+orangewool:
+  buy: 3
+  sell: 1
+oxeyedaisy:
+  buy: 1.5
+  sell: 0.5
+oxidizedcopper:
+  buy: 73.75
+  sell: 24.400000000000002
+oxidizedcopperblock:
+  buy: 74.25
+  sell: 24.75
+oxidizedcopperslab:
+  buy: 36.875
+  sell: 12.200000000000001
+oxidizedcopperstairs:
+  buy: 73.8
+  sell: 24.42
+oxidizedcutcopper:
+  buy: 73.8
+  sell: 24.42
+oxidizedcutcopperblock:
+  buy: 74.25
+  sell: 24.75
+oxidizedcutcopperslab:
+  buy: 36.9
+  sell: 12.21
+oxidizedcutcopperstairs:
+  buy: 73.85
+  sell: 24.44
+packedice:
+  buy: 5.0
+  sell: 2
+packedmud:
+  buy: 4.8
+  sell: 1.6
+painting:
+  buy: 9.0
+  sell: 3.0
+paper:
+  buy: 3.75
+  sell: 0.75
+pearlescentfroglight:
+  buy: 15.0
+  sell: 5.0
+peony:
+  buy: 1.35
+  sell: 0.45
+phantommembrane:
+  buy: 22.5
+  sell: 7.5
+pinkbanner:
+  buy: 18.75
+  sell: 6.25
+pinkbed:
+  buy: 13.5
+  sell: 4.5
+pinkcandle:
+  buy: 34.675
+  sell: 8.225
+pinkcarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+pinkconcrete:
+  buy: 1.4468750000000001
+  sell: 0.853125
+pinkconcretepowder:
+  buy: 1.2468750000000002
+  sell: 0.803125
+pinkdye:
+  buy: 0.675
+  sell: 0.225
+pinkglazedterracotta:
+  buy: 5.384375
+  sell: 1.8281250000000002
+pinkpetals:
+  buy: 0.75
+  sell: 0.25
+pinkshulkerbox:
+  buy: 212.675
+  sell: 104.225
+pinkstainedglass:
+  buy: 1.834375
+  sell: 1.128125
+pinkstainedglasspane:
+  buy: 0.6878906250000001
+  sell: 0.42304687500000004
+pinkterracotta:
+  buy: 5.134375
+  sell: 1.7281250000000001
+pinktulip:
+  buy: 1.5
+  sell: 0.5
+pinkwool:
+  buy: 3
+  sell: 1
+piston:
+  buy: 32.5
+  sell: 8.5
+pitcherplant:
+  buy: 19.5
+  sell: 6.5
+pitcherpod:
+  buy: 15
+  sell: 5
+podzol:
+  buy: 3
+  sell: 1
+pointeddripstone:
+  buy: 9
+  sell: 3
+poisonouspotato:
+  buy: 15
+  sell: 5
+polishedandesite:
+  buy: 3.0
+  sell: 1.0
+polishedandesiteslab:
+  buy: 1.5
+  sell: 0.5
+polishedandesitestairs:
+  buy: 3.05
+  sell: 1.02
+polishedbasalt:
+  buy: 3.0
+  sell: 0.5
+polishedblackstone:
+  buy: 3.75
+  sell: 1.25
+polishedblackstonebricks:
+  buy: 3.75
+  sell: 1.25
+polishedblackstonebrickslab:
+  buy: 1.875
+  sell: 0.625
+polishedblackstonebrickstairs:
+  buy: 4.050000000000001
+  sell: 1.35
+polishedblackstonebrickwall:
+  buy: 4.050000000000001
+  sell: 1.35
+polishedblackstonebutton:
+  buy: 3.75
+  sell: 1.25
+polishedblackstonepressureplate:
+  buy: 7.5
+  sell: 2.5
+polishedblackstoneslab:
+  buy: 1.875
+  sell: 0.625
+polishedblackstonestairs:
+  buy: 4.050000000000001
+  sell: 1.35
+polishedblackstonewall:
+  buy: 4.050000000000001
+  sell: 1.35
+polisheddeepslate:
+  buy: 1.31
+  sell: 0.654
+polisheddeepslateslab:
+  buy: 0.655
+  sell: 0.327
+polisheddeepslatestairs:
+  buy: 1.36
+  sell: 0.674
+polisheddeepslatewall:
+  buy: 5.800000000000001
+  sell: 2.0
+polisheddiorite:
+  buy: 3.0
+  sell: 1.0
+polisheddioriteslab:
+  buy: 1.5
+  sell: 0.5
+polisheddioritestairs:
+  buy: 3.05
+  sell: 1.02
+polishedgranite:
+  buy: 3.0
+  sell: 1.0
+polishedgraniteslab:
+  buy: 1.5
+  sell: 0.5
+polishedgranitestairs:
+  buy: 3.05
+  sell: 1.02
+poppedchorusfruit:
+  buy: 3.25
+  sell: 1.1
+poppy:
+  buy: 1.5
+  sell: 0.5
+porkchop:
+  buy: 13.5
+  sell: 4.5
+potato:
+  buy: 2.25
+  sell: 0.5
+potion:
+  buy: 75
+  sell: 25
+potion{potion:fireresistance}:
+  buy: 75
+  sell: 25
+potion{potion:harming}:
+  buy: 120
+  sell: 40
+potion{potion:healing}:
+  buy: 90
+  sell: 30
+potion{potion:invisibility}:
+  buy: 120
+  sell: 40
+potion{potion:longfireresistance}:
+  buy: 90
+  sell: 30
+potion{potion:longinvisibility}:
+  buy: 135
+  sell: 45
+potion{potion:longnightvision}:
+  buy: 105
+  sell: 35
+potion{potion:longpoison}:
+  buy: 90
+  sell: 30
+potion{potion:longregeneration}:
+  buy: 90
+  sell: 30
+potion{potion:longslowness}:
+  buy: 105
+  sell: 35
+potion{potion:longstrength}:
+  buy: 90
+  sell: 30
+potion{potion:longswiftness}:
+  buy: 90
+  sell: 30
+potion{potion:longwaterbreathing}:
+  buy: 90
+  sell: 30
+potion{potion:longweakness}:
+  buy: 105
+  sell: 35
+potion{potion:nightvision}:
+  buy: 90
+  sell: 30
+potion{potion:poison}:
+  buy: 75
+  sell: 25
+potion{potion:regeneration}:
+  buy: 75
+  sell: 25
+potion{potion:slowness}:
+  buy: 105
+  sell: 35
+potion{potion:strength}:
+  buy: 75
+  sell: 25
+potion{potion:strongharming}:
+  buy: 135
+  sell: 45
+potion{potion:stronghealing}:
+  buy: 105
+  sell: 35
+potion{potion:strongleaping}:
+  buy: 105
+  sell: 35
+potion{potion:strongpoison}:
+  buy: 90
+  sell: 30
+potion{potion:strongregeneration}:
+  buy: 90
+  sell: 30
+potion{potion:strongstrengh}:
+  buy: 90
+  sell: 30
+potion{potion:strongswiftness}:
+  buy: 90
+  sell: 30
+potion{potion:swiftness}:
+  buy: 75
+  sell: 25
+potion{potion:waterbreathing}:
+  buy: 75
+  sell: 25
+potion{potion:weakness}:
+  buy: 90
+  sell: 30
+powdersnowbucket:
+  buy: 42
+  sell: 14
+poweredrail:
+  buy: 20.0
+  sell: 0.5
+prismarine:
+  buy: 45.0
+  sell: 10.0
+prismarinebricks:
+  buy: 22.5
+  sell: 7.5
+prismarinebrickslab:
+  buy: 11.25
+  sell: 3.75
+prismarinebrickstairs:
+  buy: 22.55
+  sell: 7.52
+prismarinecrystals:
+  buy: 22.5
+  sell: 5
+prismarineshard:
+  buy: 11.25
+  sell: 2.5
+prismarineslab:
+  buy: 22.5
+  sell: 5.0
+prismarinestairs:
+  buy: 45.05
+  sell: 10.02
+prismarinewall:
+  buy: 5.800000000000001
+  sell: 2.0
+pufferfish:
+  buy: 4.949999999999999
+  sell: 1.65
+pufferfishbucket:
+  buy: 45
+  sell: 15
+pumpkin:
+  buy: 10
+  sell: 2
+pumpkinpie:
+  buy: 15.4
+  sell: 3.3
+pumpkinseeds:
+  buy: 2.5
+  sell: 0.5
+purplebanner:
+  buy: 18.75
+  sell: 6.25
+purplebed:
+  buy: 13.5
+  sell: 4.5
+purplecandle:
+  buy: 35.0875
+  sell: 8.3625
+purplecarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+purpleconcrete:
+  buy: 1.4984375
+  sell: 0.8703125
+purpleconcretepowder:
+  buy: 1.2984375000000001
+  sell: 0.8203125
+purpledye:
+  buy: 1.0875
+  sell: 0.3625
+purpleglazedterracotta:
+  buy: 5.4359375000000005
+  sell: 1.8453125000000004
+purpleshulkerbox:
+  buy: 213.0875
+  sell: 104.3625
+purplestainedglass:
+  buy: 1.8859375
+  sell: 1.1453125000000002
+purplestainedglasspane:
+  buy: 0.7072265625
+  sell: 0.42949218750000007
+purpleterracotta:
+  buy: 5.1859375000000005
+  sell: 1.7453125000000003
+purplewool:
+  buy: 3
+  sell: 1
+purpurblock:
+  buy: 6
+  sell: 2
+purpurpillar:
+  buy: 6.025
+  sell: 2.01
+purpurslab:
+  buy: 3.0
+  sell: 1.0
+purpurstairs:
+  buy: 6.05
+  sell: 2.02
+putterfish:
+  buy: 16.5
+  sell: 5.5
+quartz:
+  buy: 9
+  sell: 3
+quartzblock:
+  buy: 36.0
+  sell: 12.0
+quartzbricks:
+  buy: 36.0
+  sell: 12.0
+quartzore:
+  buy: 10.5
+  sell: 3.5
+quartzpillar:
+  buy: 36.025
+  sell: 12.01
+quartzslab:
+  buy: 18.0
+  sell: 6.0
+quartzstairs:
+  buy: 36.05
+  sell: 12.02
+rabbit:
+  buy: 8.25
+  sell: 2.75
+rabbitfoot:
+  buy: 60.0
+  sell: 20.0
+rabbithide:
+  buy: 4.199999999999999
+  sell: 1.4
+rabbitstew:
+  buy: 20.375
+  sell: 6.325
+rail:
+  buy: 5.0
+  sell: 0.25
+rawcopper:
+  buy: 7.5
+  sell: 2.5
+rawcopperblock:
+  buy: 67.5
+  sell: 22.5
+rawgold:
+  buy: 45
+  sell: 15
+rawgoldblock:
+  buy: 405.0
+  sell: 135.0
+rawiron:
+  buy: 24
+  sell: 8
+rawironblock:
+  buy: 216.0
+  sell: 72.0
+rawrabbit:
+  buy: 4.949999999999999
+  sell: 1.65
+redbanner:
+  buy: 18.75
+  sell: 6.25
+redbed:
+  buy: 13.5
+  sell: 4.5
+redcandle:
+  buy: 34.675
+  sell: 8.225
+redcarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+redconcrete:
+  buy: 1.4468750000000001
+  sell: 0.853125
+redconcretepowder:
+  buy: 1.2468750000000002
+  sell: 0.803125
+reddye:
+  buy: 0.675
+  sell: 0.225
+redglazedterracotta:
+  buy: 5.384375
+  sell: 1.8281250000000002
+redmushroom:
+  buy: 6
+  sell: 2
+redmushroomblock:
+  buy: 6
+  sell: 2
+rednetherbricks:
+  buy: 21.5
+  sell: 3.2
+rednetherbrickslab:
+  buy: 10.75
+  sell: 1.6
+rednetherbrickstairs:
+  buy: 21.55
+  sell: 3.22
+rednetherbrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+redsand:
+  buy: 1.5
+  sell: 1
+redsandstone:
+  buy: 3.0
+  sell: 2
+redsandstoneslab:
+  buy: 1.5
+  sell: 1.0
+redsandstonestairs:
+  buy: 3.05
+  sell: 2.02
+redsandstonewall:
+  buy: 5.800000000000001
+  sell: 2.0
+redshulkerbox:
+  buy: 212.675
+  sell: 104.225
+redstainedglass:
+  buy: 1.834375
+  sell: 1.128125
+redstainedglasspane:
+  buy: 0.6878906250000001
+  sell: 0.42304687500000004
+redstone:
+  buy: 6
+  sell: 2
+redstoneblock:
+  buy: 54.0
+  sell: 18.0
+redstonecomparator:
+  buy: 32.625
+  sell: 10.875
+redstonelamp:
+  buy: 72.0
+  sell: 24.0
+redstoneore:
+  buy: 45
+  sell: 15
+redstonetorch:
+  buy: 6.75
+  sell: 2.25
+redterracotta:
+  buy: 5.134375
+  sell: 1.7281250000000001
+redtulip:
+  buy: 1.5
+  sell: 0.5
+redwool:
+  buy: 3
+  sell: 1
+repeater:
+  buy: 22.65
+  sell: 7.55
+respawnanchor:
+  buy: 504.0
+  sell: 168.0
+rosebush:
+  buy: 1.35
+  sell: 0.45
+rosered:
+  buy: 1.7999999999999998
+  sell: 0.6
+rottenflesh:
+  buy: 16
+  sell: 2
+saddle:
+  buy: 900
+  sell: 300
+salmon:
+  buy: 10.74
+  sell: 3.58
+salmonbucket:
+  buy: 45
+  sell: 15
+sand:
+  buy: 1.5
+  sell: 1
+sandstone:
+  buy: 3.0
+  sell: 2
+sandstoneslab:
+  buy: 1.5
+  sell: 1.0
+sandstonestairs:
+  buy: 3.05
+  sell: 2.02
+sandstonewall:
+  buy: 5.800000000000001
+  sell: 2.0
+scaffolding:
+  buy: 3.9166666666666665
+  sell: 0.4583333333333333
+sculk:
+  buy: 6.0
+  sell: 0.8
+sculkcatalyst:
+  buy: 60.0
+  sell: 8.0
+sculksensor:
+  buy: 60.0
+  sell: 8.0
+sculkshrieker:
+  buy: 60.0
+  sell: 8.0
+scute:
+  buy: 60
+  sell: 20
+seagrass:
+  buy: 1.5
+  sell: 0.5
+sealantern:
+  buy: 157.5
+  sell: 35.0
+seapickle:
+  buy: 12
+  sell: 4
+shears:
+  buy: 24
+  sell: 8
+shield:
+  buy: 27.0
+  sell: 7.0
+shroomlight:
+  buy: 30
+  sell: 10
+shulkerbox:
+  buy: 212.0
+  sell: 104.0
+shulkershell:
+  buy: 100.0
+  sell: 50.0
+skeletonskull:
+  buy: 750.0
+  sell: 250.0
+skeletonwallskull:
+  buy: 750.0
+  sell: 250.0
+slimeball:
+  buy: 12.0
+  sell: 1.5
+slimeblock:
+  buy: 108.0
+  sell: 13.5
+smalldripleaf:
+  buy: 6
+  sell: 2
+smithingtable:
+  buy: 42.0
+  sell: 10.0
+smoker:
+  buy: 32.0
+  sell: 10.0
+smoothbasalt:
+  buy: 3.25
+  sell: 0.6
+smoothquartz:
+  buy: 40.5
+  sell: 13.5
+smoothquartzblock:
+  buy: 36.25
+  sell: 12.1
+smoothquartzslab:
+  buy: 18.125
+  sell: 6.05
+smoothquartzstairs:
+  buy: 36.3
+  sell: 12.12
+smoothredsandstone:
+  buy: 3.25
+  sell: 2.1
+smoothredsandstoneslab:
+  buy: 1.625
+  sell: 1.05
+smoothredsandstonestairs:
+  buy: 3.3
+  sell: 2.12
+smoothsandstone:
+  buy: 3.25
+  sell: 2.1
+smoothsandstoneslab:
+  buy: 1.625
+  sell: 1.05
+smoothsandstonestairs:
+  buy: 3.3
+  sell: 2.12
+smoothstone:
+  buy: 1.2999999999999998
+  sell: 0.44999999999999996
+smoothstoneslab:
+  buy: 0.6499999999999999
+  sell: 0.22499999999999998
+snow:
+  buy: 1.5
+  sell: 0.2
+snowball:
+  buy: 0.75
+  sell: 0.1
+snowblock:
+  buy: 3.0
+  sell: 0.4
+soulcampfire:
+  buy: 21.0
+  sell: 7.25
+soullantern:
+  buy: 18.625
+  sell: 4.493055555555555
+soulsand:
+  buy: 0.75
+  sell: 0.5
+soulsoil:
+  buy: 0.75
+  sell: 0.5
+soultorch:
+  buy: 2.625
+  sell: 0.9375
+spectralarrow:
+  buy: 26.0
+  sell: 8.25
+spidereye:
+  buy: 40
+  sell: 5
+splashpotion{potion:fireresistance}:
+  buy: 90
+  sell: 30
+splashpotion{potion:harming}:
+  buy: 135
+  sell: 45
+splashpotion{potion:healing}:
+  buy: 105
+  sell: 35
+splashpotion{potion:invisibility}:
+  buy: 135
+  sell: 45
+splashpotion{potion:longfireresistance}:
+  buy: 105
+  sell: 35
+splashpotion{potion:longinvisibility}:
+  buy: 150
+  sell: 50
+splashpotion{potion:longnightvision}:
+  buy: 120
+  sell: 40
+splashpotion{potion:longpoison}:
+  buy: 105
+  sell: 35
+splashpotion{potion:longregeneration}:
+  buy: 105
+  sell: 35
+splashpotion{potion:longslowness}:
+  buy: 120
+  sell: 40
+splashpotion{potion:longstrength}:
+  buy: 105
+  sell: 35
+splashpotion{potion:longswiftness}:
+  buy: 105
+  sell: 35
+splashpotion{potion:longwaterbreathing}:
+  buy: 105
+  sell: 35
+splashpotion{potion:longweakness}:
+  buy: 120
+  sell: 40
+splashpotion{potion:nightvision}:
+  buy: 105
+  sell: 35
+splashpotion{potion:poison}:
+  buy: 90
+  sell: 30
+splashpotion{potion:regeneration}:
+  buy: 90
+  sell: 30
+splashpotion{potion:slowness}:
+  buy: 120
+  sell: 40
+splashpotion{potion:strength}:
+  buy: 90
+  sell: 30
+splashpotion{potion:strongharming}:
+  buy: 150
+  sell: 50
+splashpotion{potion:stronghealing}:
+  buy: 120
+  sell: 40
+splashpotion{potion:strongleaping}:
+  buy: 120
+  sell: 40
+splashpotion{potion:strongpoison}:
+  buy: 105
+  sell: 35
+splashpotion{potion:strongregeneration}:
+  buy: 105
+  sell: 35
+splashpotion{potion:strongstrengh}:
+  buy: 105
+  sell: 35
+splashpotion{potion:strongswiftness}:
+  buy: 105
+  sell: 35
+splashpotion{potion:swiftness}:
+  buy: 90
+  sell: 30
+splashpotion{potion:waterbreathing}:
+  buy: 90
+  sell: 30
+splashpotion{potion:weakness}:
+  buy: 105
+  sell: 35
+sponge:
+  buy: 390.875
+  sell: 312.6
+sporeblossom:
+  buy: 15
+  sell: 5
+spruceboat:
+  buy: 7.5
+  sell: 2.5
+sprucebutton:
+  buy: 1.5
+  sell: 0.5
+sprucechestboat:
+  buy: 19.5
+  sell: 6.5
+sprucedoor:
+  buy: 3.0
+  sell: 1.0
+sprucefence:
+  buy: 2.5
+  sell: 0.8333333333333333
+sprucefencegate:
+  buy: 6.0
+  sell: 2.0
+sprucehangingsign:
+  buy: 13.533333333333333
+  sell: 3.70962962962963
+spruceleaves:
+  buy: 0.75
+  sell: 0.25
+sprucelog:
+  buy: 6.0
+  sell: 2.0
+spruceplanks:
+  buy: 1.5
+  sell: 0.5
+sprucepressureplate:
+  buy: 3.0
+  sell: 1.0
+sprucesapling:
+  buy: 3
+  sell: 1
+sprucesign:
+  buy: 3.25
+  sell: 1.0833333333333333
+spruceslab:
+  buy: 0.75
+  sell: 0.25
+sprucestairs:
+  buy: 2.25
+  sell: 0.75
+sprucetrapdoor:
+  buy: 4.5
+  sell: 1.5
+sprucewood:
+  buy: 8.0
+  sell: 2.6666666666666665
+spyglass:
+  buy: 30.5
+  sell: 10.2
+stick:
+  buy: 0.75
+  sell: 0.25
+stickypiston:
+  buy: 44.5
+  sell: 10.0
+stone:
+  buy: 1.0499999999999998
+  sell: 0.35
+stoneaxe:
+  buy: 4.5
+  sell: 1.25
+stonebricks:
+  buy: 1.0499999999999998
+  sell: 0.35
+stonebrickslab:
+  buy: 0.5249999999999999
+  sell: 0.175
+stonebrickstairs:
+  buy: 1.0999999999999999
+  sell: 0.37
+stonebrickwall:
+  buy: 5.800000000000001
+  sell: 2.0
+stonebutton:
+  buy: 1.0499999999999998
+  sell: 0.35
+stonecutter:
+  buy: 21.15
+  sell: 5.05
+stonehoe:
+  buy: 3.5
+  sell: 1.0
+stonepickaxe:
+  buy: 4.5
+  sell: 1.25
+stonepressureplate:
+  buy: 2.0999999999999996
+  sell: 0.7
+stoneshovel:
+  buy: 2.5
+  sell: 0.75
+stoneslab:
+  buy: 0.5249999999999999
+  sell: 0.175
+stonestairs:
+  buy: 1.0999999999999999
+  sell: 0.37
+stonesword:
+  buy: 2.75
+  sell: 0.75
+string:
+  buy: 16
+  sell: 2
+strippedacacialog:
+  buy: 6.2
+  sell: 2.08
+strippedacaciawood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedbambooblock:
+  buy: 11.45
+  sell: 1.205
+strippedbirchlog:
+  buy: 6.2
+  sell: 2.08
+strippedbirchwood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedcherrylog:
+  buy: 6.2
+  sell: 2.08
+strippedcherrywood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedcrimsonhyphae:
+  buy: 24.2
+  sell: 8.08
+strippedcrimsonstem:
+  buy: 18.2
+  sell: 6.08
+strippeddarkoaklog:
+  buy: 6.2
+  sell: 2.08
+strippeddarkoakwood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedjunglelog:
+  buy: 6.2
+  sell: 2.08
+strippedjunglewood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedmangrovelog:
+  buy: 9.2
+  sell: 3.08
+strippedmangrovewood:
+  buy: 12.2
+  sell: 4.08
+strippedoaklog:
+  buy: 6.2
+  sell: 2.08
+strippedoakwood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedsprucelog:
+  buy: 6.2
+  sell: 2.08
+strippedsprucewood:
+  buy: 8.2
+  sell: 2.7466666666666666
+strippedwarpedhyphae:
+  buy: 24.2
+  sell: 8.08
+strippedwarpedstem:
+  buy: 18.2
+  sell: 6.08
+sugar:
+  buy: 3.75
+  sell: 0.75
+sugarcane:
+  buy: 3.75
+  sell: 0.75
+sunflower:
+  buy: 1.35
+  sell: 0.45
+sweetberries:
+  buy: 3
+  sell: 1
+tallgrass:
+  buy: 0.75
+  sell: 0.25
+target:
+  buy: 51.0
+  sell: 17.0
+terracotta:
+  buy: 5.050000000000001
+  sell: 1.7000000000000002
+tintedglass:
+  buy: 30.875
+  sell: 10.55
+tippedarrow:
+  buy: 45.0
+  sell: 15.0
+tnt:
+  buy: 86.0
+  sell: 14.0
+tntminecart:
+  buy: 99
+  sell: 33
+torch:
+  buy: 2.4375
+  sell: 0.8125
+torchflower:
+  buy: 19.5
+  sell: 6.5
+torchflowerseeds:
+  buy: 15
+  sell: 5
+totemofundying:
+  buy: 750.0
+  sell: 250.0
+trappedchest:
+  buy: 22.125
+  sell: 6.375
+trident:
+  buy: 450.0
+  sell: 150.0
+tripwirehook:
+  buy: 10.125
+  sell: 2.375
+tropicalfish:
+  buy: 4.949999999999999
+  sell: 1.65
+tropicalfishbucket:
+  buy: 45
+  sell: 15
+tubecoral:
+  buy: 6
+  sell: 2
+tubecoralblock:
+  buy: 6
+  sell: 2
+tubecoralfan:
+  buy: 6
+  sell: 2
+tuff:
+  buy: 2.0999999999999996
+  sell: 0.7
+turtleegg:
+  buy: 24.0
+  sell: 8.0
+turtlehelmet:
+  buy: 300
+  sell: 100
+twistingvines:
+  buy: 1.5
+  sell: 0.5
+verdantfroglight:
+  buy: 15.0
+  sell: 5.0
+vine:
+  buy: 0.75
+  sell: 0.25
+warpedbutton:
+  buy: 4.5
+  sell: 1.5
+warpeddoor:
+  buy: 9.0
+  sell: 3.0
+warpedfence:
+  buy: 6.5
+  sell: 2.1666666666666665
+warpedfencegate:
+  buy: 12.0
+  sell: 4.0
+warpedfungus:
+  buy: 6
+  sell: 2
+warpedfungusonastick:
+  buy: 21
+  sell: 7
+warpedhangingsign:
+  buy: 25.53333333333333
+  sell: 7.70962962962963
+warpedhyphae:
+  buy: 24.0
+  sell: 8.0
+warpednylium:
+  buy: 3
+  sell: 1
+warpedplanks:
+  buy: 4.5
+  sell: 1.5
+warpedpressureplate:
+  buy: 9.0
+  sell: 3.0
+warpedroots:
+  buy: 1.5
+  sell: 0.5
+warpedsign:
+  buy: 9.25
+  sell: 3.0833333333333335
+warpedslab:
+  buy: 2.25
+  sell: 0.75
+warpedstairs:
+  buy: 6.75
+  sell: 2.25
+warpedstem:
+  buy: 18
+  sell: 6
+warpedtrapdoor:
+  buy: 13.5
+  sell: 4.5
+warpedwartblock:
+  buy: 3
+  sell: 1
+watch:
+  buy: 54
+  sell: 18
+waterbucket:
+  buy: 56.0
+  sell: 12.25
+waxedcopperblock:
+  buy: 87.75
+  sell: 29.400000000000002
+waxedcopperslab:
+  buy: 43.875
+  sell: 14.700000000000001
+waxedcopperstairs:
+  buy: 87.8
+  sell: 29.42
+waxedcutcopper:
+  buy: 87.8
+  sell: 29.42
+waxedcutcopperslab:
+  buy: 43.9
+  sell: 14.71
+waxedcutcopperstairs:
+  buy: 87.85
+  sell: 29.44
+waxedexposedcopper:
+  buy: 89.75
+  sell: 29.900000000000002
+waxedexposedcopperslab:
+  buy: 44.875
+  sell: 14.950000000000001
+waxedexposedcopperstairs:
+  buy: 89.8
+  sell: 29.92
+waxedexposedcutcopper:
+  buy: 89.8
+  sell: 29.92
+waxedexposedcutcopperslab:
+  buy: 44.9
+  sell: 14.96
+waxedexposedcutcopperstairs:
+  buy: 89.85
+  sell: 29.94
+waxedoxidizedcopper:
+  buy: 91.75
+  sell: 30.400000000000002
+waxedoxidizedcopperslab:
+  buy: 45.875
+  sell: 15.200000000000001
+waxedoxidizedcopperstairs:
+  buy: 91.8
+  sell: 30.42
+waxedoxidizedcutcopper:
+  buy: 91.8
+  sell: 30.42
+waxedoxidizedcutcopperslab:
+  buy: 45.9
+  sell: 15.21
+waxedoxidizedcutcopperstairs:
+  buy: 91.85
+  sell: 30.44
+waxedweatheredcopper:
+  buy: 90.75
+  sell: 30.150000000000002
+waxedweatheredcopperslab:
+  buy: 45.375
+  sell: 15.075000000000001
+waxedweatheredcopperstairs:
+  buy: 90.8
+  sell: 30.17
+waxedweatheredcutcopper:
+  buy: 90.8
+  sell: 30.17
+waxedweatheredcutcopperslab:
+  buy: 45.4
+  sell: 15.085
+waxedweatheredcutcopperstairs:
+  buy: 90.85
+  sell: 30.19
+weatheredcopper:
+  buy: 72.75
+  sell: 24.150000000000002
+weatheredcopperblock:
+  buy: 74.25
+  sell: 24.75
+weatheredcopperslab:
+  buy: 36.375
+  sell: 12.075000000000001
+weatheredcopperstairs:
+  buy: 72.8
+  sell: 24.17
+weatheredcutcopper:
+  buy: 72.8
+  sell: 24.17
+weatheredcutcopperblock:
+  buy: 74.25
+  sell: 24.75
+weatheredcutcopperslab:
+  buy: 36.4
+  sell: 12.085
+weatheredcutcopperstairs:
+  buy: 72.85
+  sell: 24.19
+weepingvines:
+  buy: 1.5
+  sell: 0.5
+wetsponge:
+  buy: 390.625
+  sell: 312.5
+wheat:
+  buy: 3
+  sell: 1
+wheatseeds:
+  buy: 3
+  sell: 1
+whitebanner:
+  buy: 18.75
+  sell: 6.25
+whitebed:
+  buy: 13.5
+  sell: 4.5
+whitecandle:
+  buy: 35.5
+  sell: 8.5
+whitecarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+whiteconcrete:
+  buy: 1.55
+  sell: 0.8875000000000001
+whiteconcretepowder:
+  buy: 1.35
+  sell: 0.8375
+whitedye:
+  buy: 1.5
+  sell: 0.5
+whiteglazedterracotta:
+  buy: 5.487500000000001
+  sell: 1.8625000000000003
+whiteshulkerbox:
+  buy: 213.5
+  sell: 104.5
+whitestainedglass:
+  buy: 1.9375
+  sell: 1.1625
+whitestainedglasspane:
+  buy: 0.7265625
+  sell: 0.43593750000000003
+whiteterracotta:
+  buy: 5.237500000000001
+  sell: 1.7625000000000002
+whitetulip:
+  buy: 1.5
+  sell: 0.5
+whitewool:
+  buy: 3
+  sell: 1
+witherrose:
+  buy: 37.5
+  sell: 12.5
+witherskeletonskull:
+  buy: 1125.0
+  sell: 250.0
+witherskeletonwallskull:
+  buy: 750.0
+  sell: 250.0
+woodaxe:
+  buy: 17.07
+  sell: 5.69
+woodenaxe:
+  buy: 6.0
+  sell: 2.0
+woodenhoe:
+  buy: 4.5
+  sell: 1.5
+woodenpickaxe:
+  buy: 6.0
+  sell: 2.0
+woodenshovel:
+  buy: 3.0
+  sell: 1.0
+woodensword:
+  buy: 3.75
+  sell: 1.25
+woodhoe:
+  buy: 11.82
+  sell: 3.94
+woodpickaxe:
+  buy: 17.07
+  sell: 5.69
+woodshovel:
+  buy: 6.57
+  sell: 2.19
+woodsword:
+  buy: 11.129999999999999
+  sell: 3.71
+yellowbanner:
+  buy: 18.75
+  sell: 6.25
+yellowbed:
+  buy: 13.5
+  sell: 4.5
+yellowcandle:
+  buy: 34.675
+  sell: 8.225
+yellowcarpet:
+  buy: 2.0
+  sell: 0.6666666666666666
+yellowconcrete:
+  buy: 1.4468750000000001
+  sell: 0.853125
+yellowconcretepowder:
+  buy: 1.2468750000000002
+  sell: 0.803125
+yellowdye:
+  buy: 0.675
+  sell: 0.225
+yellowglazedterracotta:
+  buy: 5.384375
+  sell: 1.8281250000000002
+yellowshulkerbox:
+  buy: 212.675
+  sell: 104.225
+yellowstainedglass:
+  buy: 1.834375
+  sell: 1.128125
+yellowstainedglasspane:
+  buy: 0.6878906250000001
+  sell: 0.42304687500000004
+yellowterracotta:
+  buy: 5.134375
+  sell: 1.7281250000000001
+yellowwool:
+  buy: 3
+  sell: 1
+zombiehead:
+  buy: 750.0
+  sell: 250.0
+zombiewallhead:
+  buy: 750.0
+  sell: 250.0

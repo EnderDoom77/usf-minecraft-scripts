@@ -1,0 +1,382 @@
+SET COLOR = red, orange, yellow, lime, green, cyan, blue, light_blue, purple, magenta, pink, brown, black, gray, light_gray, white
+SET WOOD = oak_planks, birch_planks, spruce_planks, jungle_planks, acacia_planks, dark_oak_planks, mangrove_planks, cherry_planks
+SET STEM = crimson_planks, warped_planks
+SET PLANKABLE = {WOOD}, {STEM}, bamboo_planks
+SET SLABBABLE = {STAIRABLE_STONE}, {STAIRABLE_NONSTONE}, cut_sandstone, cut_red_sandstone, smooth_stone
+SET STAIRABLE_STONE = {WALLABLE}, {COPPER_VARIANTS}, stone, smooth_sandstone, smooth_red_sandstone, quartz_block, smooth_quartz_block, polished_{ROCKS}, prismarine_bricks, dark_prismarine, purpur_block, bamboo_mosaic
+SET STAIRABLE_NONSTONE = {PLANKABLE}
+SET WALLABLE = cobblestone, sandstone, red_sandstone, stone_bricks, mossy_stone_bricks, mossy_cobblestone, cobbled_deepslate, polished_deepslate, deepslate_bricks, deepslate_tiles, {ROCKS}, nether_bricks, red_nether_bricks, end_stone_bricks, blackstone, prismarine, mud_bricks, bricks
+SET COPPER_VARIANTS = {COPPER_STATES}, waxed_{COPPER_STATES}
+SET COPPER_STATES = copper_block, cut_copper, exposed_copper, exposed_cut_copper, weathered_copper, weathered_cut_copper, oxidized_copper, oxidized_cut_copper  
+SET CRACKABLE = deepslate_tiles, stone_bricks, nether_bricks, deepslate_bricks, polished_blackstone_bricks
+SET ROCKS = andesite, diorite, granite
+DEFINE FUEL = 0.25|0.1
+DEFINE PLACE_DESTROY = 0.2|0.05
+DEFINE LOG = oak_log ? birch_log ? spruce_log ? jungle_log ? acacia_log ? dark_oak_log ? mangrove_log ? cherry_log ? crimson_stem ? warped_stem
+DEFINE PLANKS = oak_planks ? birch_planks ? spruce_planks ? jungle_planks ? acacia_planks ? dark_oak_planks ? mangrove_planks ? cherry_planks ? crimson_planks ? warped_planks ? bamboo_planks 
+DEFINE PLANK_SLAB = 1/2 PLANKS
+DEFINE STONECUTTER_USE = 0.05|0.02
+DEFINE STRIP = 0.2|0.08
+DEFINE SHEAR = 0.3|0.15
+DEFINE OXIDIZE = 2|0.5
+ALIAS (.*)bricks_(.+) $1brick_$2
+ALIAS (.*)tiles_(.+) $1tile_$2
+ALIAS (.*)planks_(.+) $1$2
+ALIAS (.*)block_(.+) $1$2
+
+# redstone
+
+piston = 3 PLANKS + 4 cobblestone + iron_ingot + redstone
+sticky_piston = piston + slime_ball
+repeater = 3 stone + 2 redstone_torch + redstone
+comparator = 3 stone + 3 redstone_torch + quartz
+redstone_torch = stick + redstone
+observer = 6 cobblestone + 2 redstone + quartz
+dropper = 8 cobblestone + redstone
+dispenser = 8 cobblestone + redstone + bow
+note_block = 8 PLANKS + redstone
+jukebox = 8 PLANKS + diamond
+stone_button = stone
+polished_blackstone_button = polished_blackstone
+stone_pressure_plate = 2 stone
+polished_blackstone_pressure_plate = 2 polished_blackstone
+heavy_weighted_pressure_plate = 2 iron_ingot
+light_weighted_pressure_plate = 2 gold_ingot
+lightning_rod = 3 copper_ingot
+daylight_sensor = 3 glass + 3 quartz + 3 PLANK_SLAB
+hopper = 5 iron_ingot + chest
+target = hay_bale + 4 redstone
+redstone_lamp = glowstone + 4 redstone
+tripwire_hook = 1/2 iron_ingot + 1/2 stick + 1/2 PLANKS
+iron_trapdoor = 4 iron_ingot
+iron_door = 2 iron_ingot
+tnt = 4 sand + 5 gunpowder
+lever = cobblestone + stick
+minecart = 5 iron_ingot
+hopper_minecart = minecart + hopper
+chest_minecart = minecart + chest
+furnace_minecart = minecart + furnace
+
+# blocks
+
+melon = 9 melon_slice
+bone_block = 9 bone_meal
+bone_meal = 1/3 bone
+clay = 4 clay_ball
+quartz_block = 4 quartz
+prismarine = 4 prismarine_shard
+sea_lantern = 4 prismarine_shard + 5 prismarine_crystals
+dark_prismarine = 8 prismarine_shard + black_dye
+glowstone = 4 glowstone_dust
+slime_block = 9 slime_ball
+honey_block = 4 honey_bottle
+honeycomb_block = 4 honeycomb
+dried_kelp = kelp + FUEL
+dried_kelp_block = 9 dried_kelp
+hay_bale = 9 wheat
+bamboo_block = 9 bamboo
+coal_block = 9 coal
+copper_block = 9 copper_ingot
+copper_ingot = raw_copper + FUEL
+iron_block = 9 iron_ingot
+iron_bars = 6/16 iron_ingot
+bucket = 3 iron_ingot
+amethyst_block ?= 4 amethyst_shard
+gold_block = 9 gold_ingot
+redstone_block = 9 redstone
+lapis_block = 9 lapis_lazuli
+diamond_block = 9 diamond
+emerald_block = 9 emerald
+netherite_scrap = ancient_debris + FUEL
+netherite_ingot = 4 netherite_scrap + 4 gold_ingot
+netherite_block = 9 netherite_ingot
+raw_copper_block = 9 raw_copper
+raw_iron_block = 9 raw_iron
+raw_gold_block = 9 raw_gold
+
+# nuggets
+
+iron_nugget = 1/9 iron_ingot
+gold_nugget = 1/9 gold_ingot
+
+# wood
+
+{WOOD}_planks = 1/4 {WOOD}_log
+{STEM}_planks = 1/4 {STEM}_stem
+bamboo_planks = 1/2 bamboo_block
+stripped_{WOOD}_log = {WOOD}_log + STRIP
+stripped_{STEM}_stem = {STEM}_stem + STRIP
+stripped_bamboo_block = bamboo_block + STRIP
+{WOOD}_wood = 4/3 {WOOD}_log
+{STEM}_hyphae = 4/3 {STEM}_stem
+stripped_{WOOD}_wood = {WOOD}_wood + STRIP
+stripped_{STEM}_hyphae = {STEM}_hyphae + STRIP
+{WOOD}_hanging_sign = 1/3 chain + stripped_{WOOD}_log
+{STEM}_hanging_sign = 1/3 chain + stripped_{STEM}_stem
+bamboo_hanging_sign = 1/3 chain + stripped_bamboo_block
+{PLANKABLE}_stairs = 6/4 {PLANKABLE}_planks
+{PLANKABLE}_slab = 1/2 {PLANKABLE}_planks
+{PLANKABLE}_sign = 1/3 stick + 2 {PLANKABLE}_planks
+{PLANKABLE}_door = 2 {PLANKABLE}_planks
+{PLANKABLE}_trapdoor = 3 {PLANKABLE}_planks
+{PLANKABLE}_fence = 4/3 {PLANKABLE}_planks + 2/3 stick
+{PLANKABLE}_fence_gate = 2 {PLANKABLE}_planks + 4 stick
+{PLANKABLE}_pressure_plate = 2 {PLANKABLE}_planks
+{PLANKABLE}_button = {PLANKABLE}_planks
+
+{WOOD}_boat = 5 {WOOD}
+bamboo_raft = 5 bamboo_planks
+{WOOD}_chest_boat = {WOOD}_boat + chest
+bamboo_chest_raft = bamboo_raft + chest
+
+bookshelf = 6 PLANKS + 3 book
+chiseled_bookshelf = 6 PLANKS + 3 PLANK_SLAB
+lectern = bookshelf + 4 PLANK_SLAB
+crafting_table = 4 PLANKS
+chest = 8 PLANKS
+shulker_box = 2 shulker_shell + chest
+trapped_chest = chest + tripwire_hook
+barrel = 6 PLANKS + 2 PLANK_SLAB
+composter = 7/2 PLANKS
+bowl = 3/4 PLANKS
+beehive = 6 PLANKS + 3 honeycomb
+armor_stand = 6 stick + smooth_stone_slab
+
+# misc
+
+sugar = sugar_cane
+paper = sugar_cane
+carved_pumpkin = pumpkin + SHEAR + -4 pumpkin_seeds
+jack_o_lantern = carved_pumpkin + torch
+stick = 1/2 PLANKS ? 2 bamboo
+tinted_glass = 1/2 glass + 2 amethyst_shard
+enchanting_table = book + 2 diamond + 4 obsidian
+respawn_anchor = 6 crying_obsidian + 3 glowstone
+brewing_stand = 3 cobblestone + blaze_rod
+blaze_powder = 1/2 blaze_rod
+ender_eye = ender_pearl + blaze_powder
+ender_chest = 8 obsidian + ender_eye
+end_crystal = 7 glass + ender_eye + ghast_tear
+fermented_spider_eye = sugar + spider_eye + brown_mushroom
+fire_charge = 1/3 gunpowder + 1/3 blaze_powder + 1/3 coal
+spectral_arrow = 1/2 arrow + 2 glowstone_dust
+anvil = 3 iron_block + 4 iron_ingot
+ladder = 7/3 stick
+chain = iron_ingot + 2 iron_nugget
+torch = 1/4 coal + 1/4 stick
+lantern = torch + 8 iron_nugget
+campfire = 3 stick + 3 LOG + coal
+soul_torch = 1/4 soul_soil + 1/4 coal + 1/4 stick
+soul_lantern = soul_torch + 8 iron_nugget
+soul_campfire = 3 stick + 3 LOG + soul_soil
+popped_chorus_fruit = chorus_fruit + FUEL
+clock = 4 gold_ingot + redstone
+compass = 4 iron_ingot + redstone
+map = 8 paper + compass
+end_rod = 1/4 popped_chorus_fruit + 1/4 blaze_rod
+scaffolding = bamboo + 1/6 string
+furnace = 8 cobblestone
+smoker = furnace + 4 LOG
+blast_furnace = 5 iron_ingot + furnace + 3 smooth_stone
+glass_pane = 6/16 glass
+glass_bottle = glass
+flower_pot = 3 brick
+decorated_pot = 4 brick
+candle = honeycomb + string
+lead = 2 string + 1/2 slime_ball
+packed_mud = mud + wheat
+coarse_dirt = 1/2 gravel + 1/2 dirt
+snow_block = 4 snowball
+snow = 1/2 snow_block
+painting = white_wool + 8 stick
+item_frame = 8 stick + leather
+glow_item_frame = item_frame + glow_ink_sac
+brick = clay_ball + FUEL
+charcoal = LOG + FUEL
+nether_brick = netherrack + FUEL
+nether_brick_fence = 4/6 nether_bricks + 2/6 nether_brick
+red_nether_bricks = 2 nether_brick + 2 nether_wart
+conduit = heart_of_the_sea + 8 nautilus_shell
+beacon = nether_star + 3 obsidian + 5 glass
+book = leather + 3 paper ? 4/3 emerald
+book_and_quill = book + feather + ink_sac
+
+sculk_sensor = 10 sculk
+sculk_catalyst = 10 sculk
+sculk_shrieker = 10 sculk
+
+pumpkin_seeds = 1/4 pumpkin
+melon_seeds = melon_slice
+beetroot_seeds = beetroot
+
+# Dyes
+
+{COLOR}_stained_glass_pane = 6/16 {COLOR}_stained_glass
+{COLOR}_stained_glass = glass + 1/8 {COLOR}_dye
+{COLOR}_terracotta = terracotta + 1/8 {COLOR}_dye
+{COLOR}_concrete_powder = 1/2 sand + 1/2 gravel + 1/8 {COLOR}_dye
+{COLOR}_concrete = {COLOR}_concrete_powder + PLACE_DESTROY
+{COLOR}_carpet = 2/3 {COLOR}_wool
+{COLOR}_banner = 6 {COLOR}_wool + stick
+{COLOR}_bed = 3 PLANKS + 3 {COLOR}_wool
+{COLOR}_shulker_box = shulker_box + {COLOR}_dye
+{COLOR}_candle = candle + {COLOR}_dye
+{COLOR}_glazed_terracotta = {COLOR}_terracotta + FUEL
+white_dye = bone_meal ? lily_of_the_valley
+green_dye = cactus + FUEL
+lime_dye = 1/2 green_dye + 1/2 white_dye ? sea_pickle + FUEL
+blue_dye = lapis_lazuli ? cornflower
+light_blue_dye = 1/2 blue_dye + 1/2 white_dye ? blue_orchid
+purple_dye = 1/2 red_dye + 1/2 blue_dye
+cyan_dye = 1/2 green_dye + 1/2 blue_dye ? 1/2 pitcher_plant
+orange_dye = 1/2 red_dye + 1/2 yellow_dye ? orange_tulip ? torchflower
+red_dye = 1/2 rose_bush ? poppy ? red_tulip
+yellow_dye = 1/2 sunflower ? dandelion
+magenta_dye = 1/2 lilac ? 1/3 red_dye + 1/3 blue_dye + 1/3 pink_dye ? 1/4 blue_dye + 1/2 red_dye + 1/4 white_dye ? allium
+pink_dye = 1/2 white_dye + 1/2 red_dye ? 1/2 peony ? pink_petals ? pink_tulip
+black_dye = ink_sac ? wither_rose
+gray_dye = 1/2 black_dye + 1/2 white_dye
+light_gray_dye = 1/3 black_dye + 2/3 white_dye ? 1/2 gray_dye + 1/2 white_dye ? oxeye_daisy ? white_tulip ? azure_bluet
+brown_dye = cocoa_beans
+
+# Copper
+
+waxed_{COPPER_STATES} = {COPPER_STATES} + honeycomb
+cut_copper = copper_block + STONECUTTER_USE
+exposed_copper = copper_block + OXIDIZE
+exposed_cut_copper = exposed_copper + STONECUTTER_USE
+weathered_copper = copper_block + 1.5 OXIDIZE
+weathered_cut_copper = weathered_copper + STONECUTTER_USE
+oxidized_copper = copper_block + 2 OXIDIZE
+oxidized_cut_copper = oxidized_copper + STONECUTTER_USE
+
+# Work stations
+
+loom = 2 PLANKS + 2 string
+stonecutter = 3 stone + iron_ingot
+fletching_table = 4 PLANKS + 2 flint
+cartography_table = 4 PLANKS + 2 paper
+grindstone = 2 PLANKS + 2 stick + 1 stone_slab
+smithing_table = 4 PLANKS + 2 iron_ingot
+
+# Equivalences
+
+stone_bricks = stone
+polished_{ROCKS} = {ROCKS}
+polished_deepslate = cobbled_deepslate + 1/5 STONECUTTER_USE
+deepslate_bricks = cobbled_deepslate + 1/5 STONECUTTER_USE
+deepslate_tiles = cobbled_deepslate + 1/5 STONECUTTER_USE
+cut_sandstone = sandstone + 1/5 STONECUTTER_USE
+cut_red_sandstone = red_sandstone + 1/5 STONECUTTER_USE
+end_stone_bricks = end_stone
+mud_bricks = packed_mud
+mossy_cobblestone = cobblestone + vine
+mossy_stone_bricks = stone_bricks + vine
+polished_basalt = basalt
+bricks = 4 brick
+nether_bricks ?= 4 nether_brick
+
+{SLABBABLE}_slab = 1/2 {SLABBABLE}
+{WALLABLE}_wall = bricks
+{STAIRABLE_STONE}_stairs = {STAIRABLE_STONE} + STONECUTTER_USE
+{STAIRABLE_NONSTONE}_stairs = 6/4 {STAIRABLE_NONSTONE}
+bamboo_mosaic = bamboo_block + 1/2 STONECUTTER_USE
+chiseled_polished_blackstone = polished_blackstone + 1/2 STONECUTTER_USE
+chiseled_sandstone = sandstone + 1/2 STONECUTTER_USE
+chiseled_quartz_block = quartz_block + 1/2 STONECUTTER_USE
+chiseled_nether_bricks = nether_bricks + 1/2 STONECUTTER_USE
+chiseled_stone_bricks = stone_bricks + 1/2 STONECUTTER_USE
+chiseled_deepslate = cobbled_deepslate + 1/2 STONECUTTER_USE
+chiseled_red_standstone = red_sandstone + 1/2 STONECUTTER_USE
+purpur_pillar = purpur_block + 1/2 STONECUTTER_USE
+quartz_pillar = quartz_block + 1/2 STONECUTTER_USE
+smooth_stone = stone + FUEL
+smooth_sandstone = sandstone + FUEL
+smooth_red_sandstone = red_sandstone + FUEL
+smooth_basalt = basalt + FUEL
+smooth_quartz_block = quartz_block + FUEL
+glass = sand + FUEL
+terracotta = clay + FUEL
+sponge = wet_sponge + FUEL
+cracked_{CRACKABLE} = {CRACKABLE} + FUEL
+
+blue_ice ?= 9 packed_ice
+packed_ice ?= 9 ice
+
+# Food
+
+cooked_chicken = chicken + FUEL
+baked_potato = potato + FUEL
+cooked_rabbit = rabbit + FUEL
+cooked_beef = beef + FUEL
+cooked_porkchop = porkchop + FUEL
+cooked_salmon = salmon + FUEL
+cooked_cod = cod + FUEL
+cooked_mutton = mutton + FUEL
+pumpkin_pie = pumpkin + sugar + egg
+golden_apple = apple + 8 gold_ingot
+cookie = 1/4 wheat + 1/2 cocoa_beans
+cake = 3 milk_bucket + -3 bucket + 2 sugar + egg + 3 wheat
+bread = 3 wheat
+beetroot_stew = bowl + 6 beetroot
+rabbit_stew = bowl + cooked_rabbit + baked_potato + carrot + brown_mushroom
+
+# Tools and Equipment
+
+netherite_upgrade_smithing_template = 7 diamond + netherrack
+spyglass = amethyst_shard + 2 copper_ingot
+bow = 3 stick + 3 string
+crossbow = 3 stick + 2 string + iron_ingot + tripwire_hook
+flint_and_steel = flint + iron_ingot
+brush = feather + copper_ingot + stick
+shield = iron_ingot + 6 PLANKS 
+wooden_sword = 2 PLANKS + stick
+wooden_axe = 3 PLANKS + 2 stick
+wooden_hoe = 2 PLANKS + 2 stick
+wooden_pickaxe = 3 PLANKS + 2 stick
+wooden_shovel = PLANKS + 2 stick
+stone_sword = 2 cobblestone + stick
+stone_axe = 3 cobblestone + 2 stick
+stone_hoe = 2 cobblestone + 2 stick
+stone_pickaxe = 3 cobblestone + 2 stick
+stone_shovel = cobblestone + 2 stick
+iron_sword = 2 iron_ingot + stick
+iron_axe = 3 iron_ingot + 2 stick
+iron_hoe = 2 iron_ingot + 2 stick
+iron_pickaxe = 3 iron_ingot + 2 stick
+iron_shovel = iron_ingot + 2 stick
+iron_helmet = 5 iron_ingot
+iron_chestplate = 8 iron_ingot
+iron_leggings = 7 iron_ingot
+iron_boots = 4 iron_ingot
+golden_sword = 2 gold_ingot + stick
+golden_axe = 3 gold_ingot + 2 stick
+golden_hoe = 2 gold_ingot + 2 stick
+golden_pickaxe = 3 gold_ingot + 2 stick
+golden_shovel = gold_ingot + 2 stick
+golden_helmet = 5 gold_ingot
+golden_chestplate = 8 gold_ingot
+golden_leggings = 7 gold_ingot
+golden_boots = 4 gold_ingot
+golden_sword = 2 gold_ingot + stick
+netherite_axe = diamond_axe + netherite_ingot + 7 diamond
+netherite_hoe = diamond_hoe + netherite_ingot + 7 diamond
+netherite_pickaxe = diamond_pickaxe + netherite_ingot + 7 diamond
+netherite_shovel = diamond_shovel + netherite_ingot + 7 diamond
+netherite_helmet = diamond_helmet + netherite_ingot + 7 diamond 
+netherite_chestplate = diamond_chestplate + netherite_ingot + 7 diamond 
+netherite_leggings = diamond_leggings + netherite_ingot + 7 diamond 
+netherite_boots = diamond_boots + netherite_ingot + 7 diamond 
+
+# Bosses and Creatures
+
+DEFINE KILL_WITHER = 1500 | 500
+nether_star = 4 soul_sand + 3 wither_skeleton_skull + KILL_WITHER
+DEFINE BOTTLE_DRAGONS_BREATH = 25 | 2.5
+dragon_breath = glass_bottle + BOTTLE_DRAGONS_BREATH
+DEFINE WATER = 2 | 0.25
+DEFINE LAVA = 10 | 1
+DEFINE MILK = 5 | 0.5
+water_bucket = bucket + WATER
+lava_bucket = bucket + LAVA
+milk_bucket = bucket + MILK

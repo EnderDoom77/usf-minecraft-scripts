@@ -1,0 +1,689 @@
+materials:
+  netherite:
+    currency:
+      material: charcoal
+      nbt:
+        Damage: 200
+        display:
+          NameStringify: 
+            text: Charred Fragment
+            italic: false
+            color: dark_gray
+          LoreStringify:
+          - text: Plagued with impurities, marred by flames
+            italic: false
+        Enchantments:
+        - id: minecraft:unbreaking
+          lvl: 1
+        HideFlags: 17
+    trades:
+    - cost: 1
+      sell:
+        id: coal
+        Count: 3
+    - cost: 12
+      other:
+        id: prismarine_crystals
+        Count: 5
+      sell: 
+        id: ancient_debris
+        Count: 1
+    - cost: 8
+      other:
+        id: bone
+        Count: 10
+      sell: 
+        id: wither_skeleton_skull
+        Count: 1
+    - cost: 3
+      other:
+        id: poppy
+        Count: 1
+      sell:
+        id: wither_rose
+        Count: 1
+    - cost: 10
+      other:
+        id: cooked_porkchop
+        Count: 32
+      sell: 
+        id: music_disc_pigstep
+        Count: 1
+    - cost: 16
+      other:
+        id: diamond
+        Count: 7
+      sell: 
+        id: netherite_upgrade_smithing_template
+        Count: 1
+    - cost: 64
+      other:
+        id: netherite_pickaxe
+        Count: 1
+      sell:
+        id: netherite_pickaxe
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Withering Pickaxe 
+              italic: false
+              color: dark_red
+            LoreStringify:
+            - text: You feel it siphoning your very life as you hold it 
+              italic: false
+          AttributeModifiers:
+          - AttributeName: generic.max_health
+            Amount: -10
+            Operation: 0
+            Slot: mainhand
+            UUID: [666,666,666,666]
+          Enchantments:
+          - id: efficiency
+            lvl: 7
+          - id: vanishing_curse
+            lvl: 1
+    - cost: 64
+      other:
+        id: carved_pumpkin
+        Count: 1
+      sell:
+        id: carved_pumpkin
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Hood of Horrors
+              italic: false
+              color: dark_red
+            LoreStringify:
+            - text: You stop feeling the need to breathe as you put it on 
+              italic: false
+          Enchantments:
+          - id: respiration
+            lvl: 10
+          - id: aqua_affinity
+            lvl: 1
+          - id: vanishing_curse
+            lvl: 1
+  gold:
+    currency:
+      material: gold_nugget
+      nbt:
+        Damage: 200
+        display:
+          NameStringify: 
+            text: Glistening Shard
+            italic: false
+            color: gold
+          LoreStringify:
+          - text: It glints before the firelight around you
+            italic: false
+        Enchantments:
+        - id: minecraft:unbreaking
+          lvl: 1
+        HideFlags: 17
+    trades:
+    - cost: 1
+      sell:
+        id: gold_ingot
+        Count: 2
+    - cost: 5
+      other:
+        id: cobblestone
+        Count: 8
+      sell:
+        id: glowstone
+        Count: 8
+    - cost: 2
+      other: 
+        id: slime_block
+        Count: 1
+      sell:
+        id: honey_block
+        Count: 1
+    - cost: 3
+      other:
+        id: ink_sac
+        Count: 2
+      sell:
+        id: glow_ink_sac
+        Count: 2
+    - cost: 3
+      other:
+        id: sweet_berries
+        Count: 10
+      sell:
+        id: glow_berries
+        Count: 10
+    - cost: 5
+      other:
+        id: arrow
+        Count: 32
+      sell:
+        id: spectral_arrow
+        Count: 32
+    - cost: 10
+      other:
+        id: copper_ingot
+        Count: 32
+      sell:
+        id: music_disc_relic
+        Count: 1
+    - cost: 64
+      other:
+        id: golden_pickaxe
+        Count: 1
+      sell:
+        id: golden_pickaxe
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Pickaxe of Midas
+              italic: false
+              color: gold
+            LoreStringify:
+            - text: The pickaxe shimmers alluringly... It whispers promises of boundless fortunes
+              italic: false
+          Enchantments:
+          - id: fortune
+            lvl: 5
+          - id: unbreaking
+            lvl: 1
+          - id: vanishing_curse
+            lvl: 1
+    - cost: 64
+      other:
+        id: golden_sword
+        Count: 1
+      sell:
+        id: golden_sword
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Sword of Midas
+              italic: false
+              color: gold
+            LoreStringify:
+            - text: The sword glistens before you... It craves gilded blood
+              italic: false
+          Enchantments:
+          - id: looting
+            lvl: 5
+          - id: unbreaking
+            lvl: 1
+          - id: vanishing_curse
+            lvl: 1
+  quartz:
+    currency:
+      material: sugar
+      nbt:
+        Damage: 200
+        display:
+          NameStringify: 
+            text: Shimmering Powder
+            italic: false
+            color: aqua
+          LoreStringify:
+          - text: Cold to the touch, so fine it feels like a liquid in your palm
+            italic: false
+        Enchantments:
+        - id: minecraft:unbreaking
+          lvl: 1
+        HideFlags: 17
+    trades:
+    - cost: 1
+      sell:
+        id: quartz
+        Count: 5
+    - cost: 6
+      other:
+        id: smooth_stone
+        Count: 12
+      sell:
+        id: quartz_block
+        Count: 12
+    - cost: 4
+      other:
+        id: glass
+        Count: 3
+      sell:
+        id: amethyst_shard
+        Count: 12
+    - cost: 2
+      other:
+        id: torchflower
+        Count: 1
+      sell:
+        id: torchflower_seeds
+        Count: 4
+    - cost: 2
+      other:
+        id: pitcher_plant
+        Count: 1
+      sell:
+        id: pitcher_pod
+        Count: 4
+    - cost: 64
+      other:
+        id: elytra
+        Count: 1
+      sell:
+        id: elytra
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Warding Shroud
+              italic: false
+              color: aqua
+            LoreStringify:
+            - text: A thin veil of solid magic weaves around these wings
+              italic: false
+          Enchantments:
+          - id: protection
+            lvl: 2
+          - id: vanishing_curse
+            lvl: 1
+    - cost: 64
+      other:
+        id: blaze_rod
+        Count: 1
+      sell:
+        id: blaze_rod
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Wand of Banishment
+              italic: false
+              color: aqua
+            LoreStringify:
+            - text: The wand fights your grasp as if it willed you away
+              italic: false
+          Enchantments:
+          - id: fire_aspect
+            lvl: 1
+          - id: knockback
+            lvl: 10
+          - id: vanishing_curse
+            lvl: 1
+    - cost: 64
+      other:
+        id: iron_boots
+        Count: 1
+      sell:
+        id: iron_boots
+        Count: 1
+        tag:
+          display:
+            NameStringify: 
+              text: Fleeting Boots
+              italic: false
+              color: aqua
+            LoreStringify:
+            - text: These animated boots hover and flutter in the air 
+              italic: false
+          AttributeModifiers:
+            - AttributeName: generic.movement_speed
+              Amount: 0.25
+              Operation: 1
+              Slot: feet
+              UUID: [420,420,420,420]
+          Enchantments:
+          - id: feather_falling
+            lvl: 5
+          - id: vanishing_curse
+            lvl: 1
+villagers:
+  offset: [0, 2, 0]
+  nbt:
+    VillagerData:
+      type: savanna
+      profession: mason
+      level: 3
+    Invulnerable: 1
+  trades:
+    maxUses: 9999999
+    priceMultiplier: 0
+    rewardExp: 0
+    xp: 0
+enemies:
+  enemyTypes:
+    gilded_warden:
+      id: piglin
+      DeathLootTable: witheringmines/gilded_warden
+      CustomName: Gilded Overlord
+      CustomNameVisible: 1
+      CanPickUpLoot: 0
+      Attributes:
+      - Name: generic.movement_speed
+        Base: 0.4
+      HandItems:
+      - id: golden_axe
+        Count: 1
+        tag:
+          Enchantments:
+          - id: sharpness
+            lvl: 3
+      - {}
+      ArmorItems:
+      - {}
+      - {}
+      - id: golden_chestplate
+        Count: 1
+        tag:
+          Enchantments:
+          - id: projectile_protection
+            lvl: 3
+      - {}
+      ActiveEffects:
+      - Id: 10
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
+    gilded_overlord:
+      id: piglin_brute
+      DeathLootTable: witheringmines/gilded_overlord
+      CustomName: Gilded Overlord
+      CustomNameVisible: 1
+      CanPickUpLoot: 0
+      Attributes:
+      - Name: generic.movement_speed
+        Base: 0.5
+      HandItems:
+      - id: golden_axe
+        Count: 1
+        tag:
+          Enchantments:
+          - id: sharpness
+            lvl: 3
+      - {}
+      ArmorItems:
+      - {}
+      - {}
+      - id: golden_chestplate
+        Count: 1
+        tag:
+          Enchantments:
+          - id: projectile_protection
+            lvl: 4
+      - id: jack_o_lantern
+        Count: 1
+        tag:
+          Enchantments:
+          - id: protection
+            lvl: 4
+      ActiveEffects:
+      - Id: 10
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
+    risen_spelunker:
+      id: skeleton
+      DeathLootTable: witheringmines/risen_spelunker
+      CustomName: Risen Spelunker
+      CustomNameVisible: 1
+      CanPickUpLoot: 0
+      Attributes:
+      - Name: generic.movement_speed
+        Base: 0.35
+      HandItems:
+      - id: iron_pickaxe
+        Count: 1
+        tag:
+          Enchantments:
+          - id: sharpness
+            lvl: 4
+      - {}
+      ArmorItems:
+      - id: iron_boots
+        Count: 1
+        tag:
+          Enchantments:
+          - id: protection
+            lvl: 1
+      - {}
+      - {}
+      - id: golden_helmet
+        Count: 1
+        tag:
+          Enchantments:
+          - id: protection
+            lvl: 1
+      ActiveEffects:
+      - Id: 10
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
+    archmage:
+      id: blaze
+      DeathLootTable: witheringmines/archmage
+      CustomName: Archmage
+      CustomNameVisible: 1
+      CanPickUpLoot: 0
+      Attributes:
+      - Name: generic.movement_speed
+        Base: 0.4
+      - Name: generic.max_health
+        Base: 50
+      ActiveEffects:
+      - Id: 10
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
+      - Id: 11
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
+    wight:
+      id: wither_skeleton
+      CustomName: Wight
+      CustomNameVisible: 1
+      CanPickUpLoot: 0
+      Attributes:
+      - Name: generic.movement_speed
+        Base: 0.2
+      HandItems:
+      - id: diamond_sword
+        Count: 1
+        tag:
+          Enchantments:
+          - id: sharpness
+            lvl: 1
+      - {}
+      ArmorItems:
+      - id: leather_boots
+        Count: 1
+        tag:
+          Enchantments:
+          - id: feather_falling
+            lvl: 3
+          - id: soul_speed
+            lvl: 3
+          display:
+            color: 1181747
+      - {}
+      - {}
+      - {}
+      ActiveEffects:
+      - Id: 10
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
+    lich:
+      id: evoker
+      CustomName: Sanguine Lich
+      CustomNameVisible: 1
+      CanPickUpLoot: 0
+      Attributes:
+      - Name: generic.movement_speed
+        Base: 0.4
+      - Name: generic.max_health
+        Base: 100
+      ArmorItems:
+      - {}
+      - {}
+      - id: leather_chestplate
+        Count: 1
+        tag:
+          Enchantments:
+          - id: projectile_protection
+            lvl: 4
+          display:
+            color: 9044739
+          Trim:
+            material: minecraft:quartz
+            pattern: minecraft:spire
+      - id: leather_helmet
+        Count: 1
+        tag:
+          Enchantments:
+          - id: projectile_protection
+            lvl: 4
+          display:
+            color: 9044739
+          Trim:
+            material: minecraft:quartz
+            pattern: minecraft:spire
+      ActiveEffects:
+      - Id: 10
+        Amplifier: 1
+        Duration: 2147483647
+        ShowParticles: 0
+      - Id: 12
+        Amplifier: 0
+        Duration: 2147483647
+  spawners:
+  - SpawnData:
+      entity: "%gilded_warden%"
+    SpawnPotentials:
+    - weight: 5
+      data:
+        entity: "%gilded_warden%"
+    - weight: 1
+      data:
+        entity: "%gilded_overlord%"
+  - SpawnData:
+      entity: "%risen_spelunker%"
+    SpawnPotentials:
+    - weight: 5
+      data:
+        entity: "%risen_spelunker%"
+    - weight: 2
+      data:
+        entity: "%archmage%"
+  - SpawnData:
+      entity: "%wight%"
+    SpawnPotentials:
+    - weight: 8
+      data:
+        entity: "%wight%"
+    - weight: 1
+      data:
+        entity: "%lich%"
+  spawnerDefaults:
+    SpawnCount: 3
+    MaxNearbyEntities: 6
+    SpawnRange: 12
+    Delay: 20
+    MinSpawnDelay: 120
+    MaxSpawnDelay: 240
+    RequiredPlayerRange: 20
+loottables:
+  gilded_warden:
+    type: entity
+    pools:
+    - rolls: 1
+      entries:
+      - type: item
+        name: minecraft:gold_nugget
+        functions:
+        - function: set_count
+          count:
+            min: 1
+            max: 2
+        - function: set_nbt
+          tag: "%gold%"
+  gilded_overlord:
+    type: entity
+    pools:
+    - rolls: 1
+      entries:
+      - type: item
+        name: minecraft:gold_nugget
+        functions:
+        - function: set_count
+          count:
+            min: 5
+            max: 7
+        - function: set_nbt
+          tag: "%gold%"
+  risen_spelunker:
+    type: entity
+    pools:
+    - rolls: 1
+      entries:
+      - type: item
+        name: minecraft:quartz
+        functions:
+        - function: set_count
+          count:
+            min: 1
+            max: 2
+        - function: set_nbt
+          tag: "%quartz%"
+  archmage:
+    type: entity
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          name: minecraft:quartz
+          functions:
+          - function: set_count
+            count:
+              min: 4
+              max: 8
+          - function: set_nbt
+            tag: "%quartz%"
+  wight:
+    type: entity
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          name: minecraft:charcoal
+          functions:
+          - function: set_count
+            count:
+              min: 0
+              max: 1
+          - function: set_nbt
+            tag: "%netherite%"
+  lich:
+    type: entity
+      pools:
+      - rolls: 1
+        entries:
+        - type: item
+          name: minecraft:charcoal
+          functions:
+          - function: set_count
+            count:
+              min: 3
+              max: 5
+          - function: set_nbt
+            tag: "%netherite%"
+postprocessing:
+  units:
+    lvl: s
+    Invulnerable: b
+    CanPickUpLoot: b
+    CustomNameVisible: b
+    Count: b
+    priceMultiplier: f
+    rewardExp: b
+    Base: f

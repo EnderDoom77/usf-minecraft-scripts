@@ -1,0 +1,256 @@
+# _ ________________ ________________ ________________ _
+#|_|________________|________________|________________|_|
+#| |   _____  ______  _       _    _ __   __ ______   | |
+#| |  |  __ \|  ___ \| |     | |  | |\ \ / /|  ___ \  | |
+#|_|  | |  | | |__ \/| |     | |  | | \ V / | |__ \/  |_|
+#| |  | |  | |  __|  | |     | |  | |  > <  |  __     | |
+#| |  | |__| | |___/\| |___/\| |__| | / . \ | |___/\  | |
+#|_|  |_____/|______/|______/\______//_/ \_\\______/  |_|
+#| |                                                  | |
+#| |           DeluxeBazaar - SedatTR#8666            | |
+#|_|________________ ________________ ________________|_|
+#|_|________________|________________|________________|_|
+# If you have any question or suggestion please contact to me.
+# If you are using this plugin, you are accepting Terms of Use.
+#
+# Discord Account: SedatTR#8666
+# Discord Server: https://discord.gg/nchk86TKMT
+# Plugin Wiki: https://sedattr.gitbook.io/deluxebazaar,
+
+# With this system, plugin is detecting bazaar items in player's inventory.
+# You can enable/disable detection types in here.
+item_name_detection:
+  same_item: false # Should the player's items be exactly the same as the bazaar items?
+  name: # Item display name (&6King's Sword...)
+    enabled: false
+    type: "colored" # clean or colored (clean: King's Sword, colored: &6King's Sword...)
+  nbt: false # Item bazaar nbt (BazaarITEM)
+  type: true # Item type (COBBLESTONE, STONE...)
+  data: true # Item data for legacy versions (95:14, 95:15...)
+  model_data: true # Item model data (150, 169...)
+  durability: true # Item durability (1230, 6931...)
+  custom_items: # Custom items settings
+    model_data: # For items with custom model data
+       10: KING_SWORD
+    durability: # For items with custom durability (Legacy versions)
+      1000: KING_SWORD
+  # Normal items settings (For items that have same material name)
+  # Formats:
+  # MATERIAL_NAME-ITEM_DATA: BAZAAR_ITEM_NAME (Like INK_SACK-4: LAPIS_LAZULI)
+  # MATERIAL_NAME: BAZAAR_ITEM_NAME (Like LOG: OAK_LOG)
+  # ITEM_DISPLAYNAME: BAZAAR_ITEM_NAME (Like King's Sword: KING_SWORD or &6King's Sword: KING_SWORD)
+  normal_items:
+    INK_SACK-0: INK
+    INK_SACK-4: LAPIS_LAZULI
+    INK_SACK-3: COCOA
+    LOG-0: OAK_LOG
+    LOG-1: SPRUCE_LOG
+    LOG-2: BIRCH_LOG
+    LOG-3: JUNGLE_LOG
+    LOG_2-0: ACACIA_LOG
+    LOG_2-1: DARK_OAK_LOG
+    RAW_FISH-0: RAW_FISH
+    RAW_FISH-1: SALMON
+    RAW_FISH-2: CLOWNFISH
+    RAW_FISH-3: PUFFERFISH
+    NETHER_STALK-0: NETHER_WART
+    NETHER_WARTS-0: NETHER_WART
+    NETHER_WART-0: NETHER_WART
+    SUGAR_CANE_BLOCK-0: SUGAR_CANE
+    SUGAR_CANE-0: SUGAR_CANE
+    CROPS-0: WHEAT
+    
+buy_order:
+  limit_price_change: true # fiyat değişikliği için gereken fiyat artış sayısı ayarı
+  maximum_price_change: 1.0 # fiyat değişikliği için fiyatın maksimum artışı
+  maximum_item_amount: 10000 # siparişin maksimum eşya sayısı
+  maximum_order_amount: 100 # oyuncunun oluşturabileceği maksimum alış sipariş sayısı
+  required_order_amount: 1 # fiyat değişikliği için o fiyattaki gereken sipariş sayısı
+  refresh_orders_when_created: false # yeni bir sipariş oluşunca diğer siparişleri kontrol et
+
+sell_offer:
+  limit_price_change: true
+  maximum_price_change: 1.0
+  maximum_item_amount: 10000
+  maximum_offer_amount: 100
+  required_offer_amount: 1
+  refresh_offers_when_created: false
+
+# Addons for optional features
+addons:
+  head_database: false # You can use custom head database skulls in items
+  placeholder_api: false # You can use bazaar placeholders in other plugins
+  discord: # You can use discord webhook for sending useful messages
+    enabled: false
+    webhook_url: "" # Discord webhook url
+    bought_item:
+      enabled: true
+      message: ":small_blue_diamond:__%player_name%__ bought **%total_amount%x %item_name%** for **%total_price% coins** on the bazaar!"
+    sold_item:
+      enabled: true
+      message: ":small_orange_diamond:__%player_name%__ sold **%total_amount%x %item_name%** for **%total_price% coins** on the bazaar!"
+    sold_all_items:
+      enabled: true
+      message: ":small_orange_diamond:__%player_name%__ sold **%total_amount%x items** for total **%total_price% coins** on the bazaar!"
+    setup_buy_order:
+      enabled: true
+      message: ":small_blue_diamond:__%player_name%__ setup **%total_amount%x %item_name%** buy order for **%total_price% coins** on the bazaar!"
+    setup_sell_offer:
+      enabled: true
+      message: ":small_orange_diamond:__%player_name%__ setup **%total_amount%x %item_name%** sell offer for **%total_price% coins** on the bazaar!"
+
+# Economy settings
+economy:
+  type: "vault" # Types: vault, royaleeconomy_balance, royaleeconomy_bank, lands, tokenmanager, playerpoints, yaml
+  yaml_settings: # For yaml economy
+    folder_name: "plugins/YAMLEconomy/players" # economy folder that includes players' balance files
+    file_name: "%player_uuid%.yml" # player's balance file name in folder (placeholders: %uuid% & %player%)
+    # player's balance in file
+    # example (you can put . for line)
+    # balance:
+    #   total: 100
+    node_text: "balance.total"
+
+# Database settings
+database:
+  type: "yaml" # Types: mysql, sqlite, yaml
+  auto_save:
+    player_orders: true # When player orders are changed, should plugin save directly?
+    item_orders: true # When item orders are changed, should plugin save directly?
+    item_prices: true # When item prices are changed, should plugin save directly?
+  mysql_settings: # For mysql dataabase
+    link: "com.mysql.jdbc.Driver" # new version: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:1907/Bazaar" # jdbc:mysql://host:port/database
+    user: "SedatTR" # username
+    password: "DeluxeBazaar" # password
+
+# With this system, you can edit item price change formulas
+item_price_changing:
+  enabled: true # true = change prices, false = same prices
+  time: 60 # make it 0 to disable formulas
+  # Placeholders: %item_buy_price%, %item_sell_price%, %item_buy_amount%, %item_sell_amount%
+  buy_price:
+    formula: "%item_buy_price% * (0.02 * (%item_buy_amount% / 100) + 1) - %item_buy_price%" # New buy price formula
+    type: "increase" # Types: increase, set, decrease
+    maximum_price_change: 5.0 # Item's buy price can be increased by maximum 5.0 coins with formula
+    minimum_buy_amount: 1 # Minimum required buy amount to price changing
+  sell_price:
+    formula: "%item_sell_price% * (0.01 * (%item_sell_amount% / 100) + 1) - %item_sell_price%" # New sell price formula
+    type: "decrease" # Types: increase, set, decrease
+    maximum_price_change: 5.0 # Item's sell price can be decreased by maximum 5.0 coins with formula
+    minimum_buy_amount: 1 # Minimum required sell amount to price changing
+
+# Bazaar settings
+settings:
+  menu_item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+  default_category: "mining" # Default bazaar category
+  default_mode: "direct" # Default bazaar mode, types: direct, advanced
+  sell_normal_items: true # Should players can sell normal items that not bought from bazaar?
+  maximum_item_amount: 2304 # Maximum item amount for custom buy & sell amount
+  maximum_buy_order_amount: 80 # Maximum buy order amount per player
+  maximum_sell_offer_amount: 80 # Maximum sell offer amount per player
+  go_back_when_bought: false # When player bought an item, plugin will open item's menu to player
+  go_back_when_sold: false # When player sold an item, plugin will open item's menu to player
+  enable_orders: true # Enable or disable order system
+  enable_sell_all: true # Enable or disable sell all system
+  enable_sell_items: true # Enable or disable sell items system
+  input_type: "anvil" # Default input, types: sign, anvil, chat
+  chat_input_time: 10 # for reply time
+
+permissions: # If you want to disable permission, write "".
+  main_menu:
+    # If player have this permission, can see this item in main menu.
+    # You can use %item_name% placeholder.
+    item: ""
+    # If player have this permission, can see this category in main menu.
+    # You can use %category_name% placeholder.
+    category: ""
+    # If player have this permission, can use search system in main menu.
+    search: ""
+  player_commands: # Player Commands' Permissions
+    command: "" # /bazaar
+    menu: "" # /bazaar menu
+    buy: "" # /bazaar buy
+    sell: "" # /bazaar sell
+    sell_all: "" # /bazaar sellall
+  admin_commands: # Admin Commands' Permissions
+    command: "bazaaradmin.command" # /bazaaradmin
+    menu: "bazaaradmin.menu" # /bazaaradmin menu
+    buy: "bazaaradmin.buy" # /bazaaradmin buy
+    sell: "bazaaradmin.sell" # /bazaaradmin sell
+    sell_all: "bazaaradmin.sell_all" # /bazaaradmin sell
+    create_item: "bazaaradmin.create_item" # /bazaaradmin createitem
+    reload: "bazaaradmin.reload" # /bazaaradmin reload
+
+# Number format settings
+number_format:
+  enabled: true # Enable or disable number formatting
+  type: "decimal" # Number format type, types: decimal, short
+  decimal_settings: # Example: 10.2
+    minimum_fraction: 0
+    maximum_fraction: 2
+    remove_decimal: true
+  short_settings: # Examples: 10k, 25M, 1T
+    thousand: "k"
+    million: "M"
+    billion: "G"
+    trillion: "T"
+    quadrillion: "Q"
+    quintillion: "E"
+
+# Sounds
+sounds:
+  inventory_item_click: # When player clicks to bazaar item in his own inventory, plugin will play this sound.
+    enabled: false
+    name: "CLICK"
+    volume: 1
+    pitch: 2
+  bazaar_item_click: # When player clicks to bazaar item in bazaar menu, plugin will play this sound.
+    enabled: false
+    name: "CLICK"
+    volume: 1
+    pitch: 2
+  category_item_click: # When player clicks to bazaar category in bazaar menu, plugin will play this sound.
+    enabled: false
+    name: "CLICK"
+    volume: 1
+    pitch: 1.5
+  mode_item_click: # When player clicks to mode item in bazaar menu, plugin will play this sound.
+    enabled: false
+    name: "CLICK"
+    volume: 1
+    pitch: 1
+  bought_item: # When player bought an item, plugin will play this sound.
+    enabled: false
+    name: "ORB_PICKUP"
+    volume: 1
+    pitch: 0.6
+  sold_item: # When player sold an item, plugin will play this sound.
+    enabled: false
+    name: "ORB_PICKUP"
+    volume: 1
+    pitch: 0.6
+
+# Default items for menus
+default_items:
+  glass: # Menu glasses
+    material: BLACK_STAINED_GLASS_PANE
+    data: 15
+    name: "&r"
+  close: # Close item
+    material: BARRIER
+    data: 0
+    name: "&cClose Menu"
+    lore:
+      - "&7Click to close menu!"
+  go_back: # Go back item
+    material: ARROW
+    data: 0
+    name: "&eGo Back"
+    lore:
+      - "&7Click to go back to previous menu!"
+
+# for further updates
+file_versions: 1.0

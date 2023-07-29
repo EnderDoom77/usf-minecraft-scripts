@@ -1,0 +1,9245 @@
+groups:
+  ACACIA_LOG:
+    item_list:
+    - ACACIA_LOG:11
+    - ACACIA_PLANKS:13
+    - ACACIA_SAPLING:15
+    - ACACIA_LEAVES:17
+    main_item: ACACIA_LOG
+  AMETHYST_SHARD:
+    item_list:
+    - AMETHYST_SHARD:12
+    - AMETHYST_CLUSTER:14
+    - AMETHYST_BLOCK:16
+    main_item: AMETHYST_SHARD
+  ANVIL:
+    item_list:
+    - ANVIL:12
+    - CHIPPED_ANVIL:14
+    - DAMAGED_ANVIL:16
+    main_item: ANVIL
+  APPLE:
+    item_list:
+    - APPLE:12
+    - GOLDEN_APPLE:14
+    - ENCHANTED_GOLDEN_APPLE:16
+    main_item: APPLE
+  ARROW:
+    item_list:
+    - ARROW:12
+    - SPECTRAL_ARROW:16
+    main_item: ARROW
+  AZALEA:
+    item_list:
+    - AZALEA:11
+    - FLOWERING_AZALEA:13
+    - AZALEA_LEAVES:15
+    - FLOWERING_AZALEA_LEAVES:17
+    main_item: AZALEA
+  BASALT:
+    item_list:
+    - BASALT:12
+    - POLISHED_BASALT:14
+    - SMOOTH_BASALT:16
+    main_item: BASALT
+  BEEF:
+    item_list:
+    - BEEF:12
+    - COOKED_BEEF:14
+    - LEATHER:16
+    main_item: BEEF
+  BEETROOT:
+    item_list:
+    - BEETROOT:12
+    - BEETROOT_SEEDS:16
+    main_item: BEETROOT
+  BIG_DRIPLEAF:
+    item_list:
+    - BIG_DRIPLEAF:12
+    - SMALL_DRIPLEAF:16
+    main_item: BIG_DRIPLEAF
+  BIRCH_LOG:
+    item_list:
+    - BIRCH_LOG:11
+    - BIRCH_PLANKS:13
+    - BIRCH_SAPLING:15
+    - BIRCH_LEAVES:17
+    main_item: BIRCH_LOG
+  BLACKSTONE:
+    item_list:
+    - BLACKSTONE:12
+    - POLISHED_BLACKSTONE:16
+    main_item: BLACKSTONE
+  BLACK_DYE:
+    item_list:
+    - BLACK_DYE:3
+    - BLACK_WOOL:4
+    - BLACK_CARPET:5
+    - BLACK_TERRACOTTA:6
+    - BLACK_GLAZED_TERRACOTTA:7
+    - BLACK_CANDLE:12
+    - BLACK_STAINED_GLASS:13
+    - BLACK_STAINED_GLASS_PANE:14
+    - BLACK_CONCRETE_POWDER:15
+    - BLACK_CONCRETE:16
+    main_item: BLACK_DYE
+  BLAZE_ROD:
+    item_list:
+    - BLAZE_ROD:12
+    - BLAZE_POWDER:16
+    main_item: BLAZE_ROD
+  BLUE_DYE:
+    item_list:
+    - BLUE_DYE:3
+    - BLUE_WOOL:4
+    - BLUE_CARPET:5
+    - BLUE_TERRACOTTA:6
+    - BLUE_GLAZED_TERRACOTTA:7
+    - BLUE_CANDLE:12
+    - BLUE_STAINED_GLASS:13
+    - BLUE_STAINED_GLASS_PANE:14
+    - BLUE_CONCRETE_POWDER:15
+    - BLUE_CONCRETE:16
+    main_item: BLUE_DYE
+  BONE:
+    item_list:
+    - BONE:12
+    - BONE_MEAL:14
+    - BONE_BLOCK:16
+    main_item: BONE
+  BOOK:
+    item_list:
+    - BOOK:12
+    - BOOKSHELF:16
+    main_item: BOOK
+  BRAIN_CORAL:
+    item_list:
+    - BRAIN_CORAL:11
+    - BRAIN_CORAL_FAN:12
+    - BRAIN_CORAL_BLOCK:13
+    - DEAD_BRAIN_CORAL:15
+    - DEAD_BRAIN_CORAL_FAN:16
+    - DEAD_BRAIN_CORAL_BLOCK:17
+    main_item: BRAIN_CORAL
+  BRICKS:
+    item_list:
+    - BRICKS:12
+    - BRICK:16
+    main_item: BRICKS
+  BROWN_DYE:
+    item_list:
+    - BROWN_DYE:3
+    - BROWN_WOOL:4
+    - BROWN_CARPET:5
+    - BROWN_TERRACOTTA:6
+    - BROWN_GLAZED_TERRACOTTA:7
+    - BROWN_CANDLE:12
+    - BROWN_STAINED_GLASS:13
+    - BROWN_STAINED_GLASS_PANE:14
+    - BROWN_CONCRETE_POWDER:15
+    - BROWN_CONCRETE:16
+    main_item: BROWN_DYE
+  BROWN_MUSHROOM:
+    item_list:
+    - BROWN_MUSHROOM:12
+    - BROWN_MUSHROOM_BLOCK:14
+    - MUSHROOM_STEM:16
+    main_item: BROWN_MUSHROOM
+  BUBBLE_CORAL:
+    item_list:
+    - BUBBLE_CORAL:11
+    - BUBBLE_CORAL_FAN:12
+    - BUBBLE_CORAL_BLOCK:13
+    - DEAD_BUBBLE_CORAL:15
+    - DEAD_BUBBLE_CORAL_FAN:16
+    - DEAD_BUBBLE_CORAL_BLOCK:17
+    main_item: BUBBLE_CORAL
+  CALCITE:
+    item_list:
+    - CALCITE:12
+    - SMOOTH_BASALT:16
+    main_item: CALCITE
+  CARROT:
+    item_list:
+    - CARROT:12
+    - GOLDEN_CARROT:16
+    main_item: CARROT
+  CHAIN:
+    item_list:
+    - CHAIN:12
+    - IRON_BARS:16
+    main_item: CHAIN
+  CHERRY_LOG:
+    item_list:
+    - CHERRY_LOG:11
+    - CHERRY_PLANKS:13
+    - CHERRY_SAPLING:15
+    - CHERRY_LEAVES:17
+    main_item: CHERRY_LOG
+  CHEST:
+    item_list:
+    - CHEST:12
+    - TRAPPED_CHEST:13
+    - ENDER_CHEST:14
+    - BARREL:15
+    - HOPPER:16
+    main_item: CHEST
+  CHICKEN:
+    item_list:
+    - CHICKEN:11
+    - COOKED_CHICKEN:13
+    - FEATHER:15
+    - EGG:17
+    main_item: CHICKEN
+  CHORUS_FRUIT:
+    item_list:
+    - CHORUS_FRUIT:12
+    - POPPED_CHORUS_FRUIT:14
+    - CHORUS_FLOWER:16
+    main_item: CHORUS_FRUIT
+  CLAY_BALL:
+    item_list:
+    - CLAY_BALL:12
+    - CLAY:13
+    - BRICK:14
+    - BRICKS:15
+    - TERRACOTTA:16
+    main_item: CLAY_BALL
+  COAL:
+    item_list:
+    - COAL:12
+    - CHARCOAL:13
+    - COAL_ORE:14
+    - DEEPSLATE_COAL_ORE:15
+    - COAL_BLOCK:16
+    main_item: COAL
+  COBBLED_DEEPSLATE:
+    item_list:
+    - COBBLED_DEEPSLATE:12
+    - DEEPSLATE:16
+    main_item: COBBLED_DEEPSLATE
+  COBBLESTONE:
+    item_list:
+    - COBBLESTONE:11
+    - STONE:13
+    - SMOOTH_STONE:15
+    - MOSSY_COBBLESTONE:17
+    main_item: COBBLESTONE
+  COCOA_BEANS:
+    item_list:
+    - COCOA_BEANS:12
+    - COOKIE:16
+    main_item: COCOA_BEANS
+  COD:
+    item_list:
+    - COD:12
+    - COOKED_COD:16
+    main_item: COD
+  COPPER_BLOCK:
+    item_list:
+    - COPPER_BLOCK:2
+    - CUT_COPPER:11
+    - EXPOSED_COPPER:4
+    - EXPOSED_CUT_COPPER:13
+    - WEATHERED_COPPER:6
+    - WEATHERED_CUT_COPPER:15
+    - OXIDIZED_COPPER:8
+    - OXIDIZED_CUT_COPPER:17
+    main_item: COPPER_BLOCK
+  COPPER_INGOT:
+    item_list:
+    - COPPER_INGOT:12
+    - RAW_COPPER:13
+    - COPPER_ORE:14
+    - DEEPSLATE_COPPER_ORE:15
+    - COPPER_BLOCK:16
+    main_item: COPPER_INGOT
+  CRAFTING_TABLE:
+    item_list:
+    - CRAFTING_TABLE:11
+    - SMITHING_TABLE:12
+    - STONECUTTER:13
+    - LOOM:14
+    - CARTOGRAPHY_TABLE:15
+    - COMPOSTER:16
+    - FLETCHING_TABLE:17
+    main_item: CRAFTING_TABLE
+  CRIMSON_ROOTS:
+    item_list:
+    - CRIMSON_ROOTS:12
+    - WEEPING_VINES:16
+    main_item: CRIMSON_ROOTS
+  CRIMSON_STEM:
+    item_list:
+    - CRIMSON_STEM:12
+    - CRIMSON_PLANKS:13
+    - CRIMSON_FUNGUS:14
+    - NETHER_WART_BLOCK:15
+    - SHROOMLIGHT:16
+    main_item: CRIMSON_STEM
+  CYAN_DYE:
+    item_list:
+    - CYAN_DYE:3
+    - CYAN_WOOL:4
+    - CYAN_CARPET:5
+    - CYAN_TERRACOTTA:6
+    - CYAN_GLAZED_TERRACOTTA:7
+    - CYAN_CANDLE:12
+    - CYAN_STAINED_GLASS:13
+    - CYAN_STAINED_GLASS_PANE:14
+    - CYAN_CONCRETE_POWDER:15
+    - CYAN_CONCRETE:16
+    main_item: CYAN_DYE
+  DARK_OAK_LOG:
+    item_list:
+    - DARK_OAK_LOG:11
+    - DARK_OAK_PLANKS:13
+    - DARK_OAK_SAPLING:15
+    - DARK_OAK_LEAVES:17
+    main_item: DARK_OAK_LOG
+  DIAMOND:
+    item_list:
+    - DIAMOND:11
+    - DIAMOND_ORE:13
+    - DEEPSLATE_DIAMOND_ORE:15
+    - DIAMOND_BLOCK:17
+    main_item: DIAMOND
+  DIORITE:
+    item_list:
+    - DIORITE:11
+    - GRANITE:12
+    - ANDESITE:13
+    - POLISHED_DIORITE:15
+    - POLISHED_GRANITE:16
+    - POLISHED_DIORITE:17
+    main_item: DIORITE
+  DIRT:
+    item_list:
+    - DIRT:11
+    - COARSE_DIRT:12
+    - MUD:13
+    - GRASS_BLOCK:15
+    - PODZOL:16
+    - MYCELIUM:17
+    main_item: DIRT
+  DROPPER:
+    item_list:
+    - DROPPER:12
+    - DISPENSER:16
+    main_item: DROPPER
+  EMERALD:
+    item_list:
+    - EMERALD:11
+    - EMERALD_ORE:13
+    - DEEPSLATE_EMERALD_ORE:15
+    - EMERALD_BLOCK:17
+    main_item: EMERALD
+  ENCHANTING_TABLE:
+    item_list:
+    - ENCHANTING_TABLE:11
+    - GRINDSTONE:13
+    - CAULDRON:15
+    - BREWING_STAND:17
+    main_item: ENCHANTING_TABLE
+  ENDER_PEARL:
+    item_list:
+    - ENDER_PEARL:12
+    - ENDER_EYE:16
+    main_item: ENDER_PEARL
+  FIRE_CORAL:
+    item_list:
+    - FIRE_CORAL:11
+    - FIRE_CORAL_FAN:12
+    - FIRE_CORAL_BLOCK:13
+    - DEAD_FIRE_CORAL:15
+    - DEAD_FIRE_CORAL_FAN:16
+    - DEAD_FIRE_CORAL_BLOCK:17
+    main_item: FIRE_CORAL
+  FURNACE:
+    item_list:
+    - FURNACE:12
+    - SMOKER:13
+    - BLAST_FURNACE:14
+    - CAMPFIRE:15
+    - SOUL_CAMPFIRE:16
+    main_item: FURNACE
+  GLASS:
+    item_list:
+    - GLASS:12
+    - GLASS_PANE:14
+    - TINTED_GLASS:16
+    main_item: GLASS
+  GLASS_BOTTLE:
+    item_list:
+    - GLASS_BOTTLE:12
+    - DRAGON_BREATH:14
+    - EXPERIENCE_BOTTLE:16
+    main_item: GLASS_BOTTLE
+  GLOWSTONE_DUST:
+    item_list:
+    - GLOWSTONE_DUST:12
+    - GLOWSTONE:16
+    main_item: GLOWSTONE_DUST
+  GOLD_INGOT:
+    item_list:
+    - GOLD_INGOT:11
+    - GOLD_NUGGET:12
+    - RAW_GOLD:13
+    - GOLD_ORE:14
+    - DEEPSLATE_GOLD_ORE:15
+    - NETHER_GOLD_ORE:16
+    - GOLD_BLOCK:17
+    main_item: GOLD_INGOT
+  GRASS:
+    item_list:
+    - GRASS:12
+    - FERN:13
+    - SEAGRASS:14
+    - VINE:15
+    - DEAD_BUSH:16
+    main_item: GRASS
+  GRAVEL:
+    item_list:
+    - GRAVEL:12
+    - FLINT:16
+    main_item: GRAVEL
+  GRAY_DYE:
+    item_list:
+    - GRAY_DYE:3
+    - GRAY_WOOL:4
+    - GRAY_CARPET:5
+    - GRAY_TERRACOTTA:6
+    - GRAY_GLAZED_TERRACOTTA:7
+    - GRAY_CANDLE:12
+    - GRAY_STAINED_GLASS:13
+    - GRAY_STAINED_GLASS_PANE:14
+    - GRAY_CONCRETE_POWDER:15
+    - GRAY_CONCRETE:16
+    main_item: GRAY_DYE
+  GREEN_DYE:
+    item_list:
+    - GREEN_DYE:3
+    - GREEN_WOOL:4
+    - GREEN_CARPET:5
+    - GREEN_TERRACOTTA:6
+    - GREEN_GLAZED_TERRACOTTA:7
+    - GREEN_CANDLE:12
+    - GREEN_STAINED_GLASS:13
+    - GREEN_STAINED_GLASS_PANE:14
+    - GREEN_CONCRETE_POWDER:15
+    - GREEN_CONCRETE:16
+    main_item: GREEN_DYE
+  HEART_OF_THE_SEA:
+    item_list:
+    - HEART_OF_THE_SEA:12
+    - NAUTILUS_SHELL:16
+    main_item: HEART_OF_THE_SEA
+  HONEYCOMB:
+    item_list:
+    - HONEYCOMB:12
+    - HONEYCOMB_BLOCK:14
+    - BEEHIVE:16
+    main_item: HONEYCOMB
+  HONEY_BOTTLE:
+    item_list:
+    - HONEY_BOTTLE:12
+    - HONEY_BLOCK:16
+    main_item: HONEY_BOTTLE
+  HORN_CORAL:
+    item_list:
+    - HORN_CORAL:11
+    - HORN_CORAL_FAN:12
+    - HORN_CORAL_BLOCK:13
+    - DEAD_HORN_CORAL:15
+    - DEAD_HORN_CORAL_FAN:16
+    - DEAD_HORN_CORAL_BLOCK:17
+    main_item: HORN_CORAL
+  ICE:
+    item_list:
+    - ICE:12
+    - PACKED_ICE:14
+    - BLUE_ICE:16
+    main_item: ICE
+  INK_SAC:
+    item_list:
+    - INK_SAC:12
+    - GLOW_INK_SAC:16
+    main_item: INK_SAC
+  IRON_INGOT:
+    item_list:
+    - IRON_INGOT:11
+    - IRON_NUGGET:12
+    - RAW_IRON:13
+    - IRON_ORE:15
+    - DEEPSLATE_IRON_ORE:16
+    - IRON_BLOCK:17
+    main_item: IRON_INGOT
+  ITEM_FRAME:
+    item_list:
+    - ITEM_FRAME:12
+    - GLOW_ITEM_FRAME:14
+    - PAINTING:16
+    main_item: ITEM_FRAME
+  JUKEBOX:
+    item_list:
+    - JUKEBOX:12
+    - NOTE_BLOCK:16
+    main_item: JUKEBOX
+  JUNGLE_LOG:
+    item_list:
+    - JUNGLE_LOG:11
+    - JUNGLE_PLANKS:13
+    - JUNGLE_SAPLING:15
+    - JUNGLE_LEAVES:17
+    main_item: JUNGLE_LOG
+  KELP:
+    item_list:
+    - KELP:12
+    - DRIED_KELP:14
+    - DRIED_KELP_BLOCK:16
+    main_item: KELP
+  LAPIS_LAZULI:
+    item_list:
+    - LAPIS_LAZULI:11
+    - LAPIS_ORE:13
+    - DEEPSLATE_LAPIS_ORE:15
+    - LAPIS_BLOCK:17
+    main_item: LAPIS_LAZULI
+  LIGHT_BLUE_DYE:
+    item_list:
+    - LIGHT_BLUE_DYE:3
+    - LIGHT_BLUE_WOOL:4
+    - LIGHT_BLUE_CARPET:5
+    - LIGHT_BLUE_TERRACOTTA:6
+    - LIGHT_BLUE_GLAZED_TERRACOTTA:7
+    - LIGHT_BLUE_CANDLE:12
+    - LIGHT_BLUE_STAINED_GLASS:13
+    - LIGHT_BLUE_STAINED_GLASS_PANE:14
+    - LIGHT_BLUE_CONCRETE_POWDER:15
+    - LIGHT_BLUE_CONCRETE:16
+    main_item: LIGHT_BLUE_DYE
+  LIGHT_GRAY_DYE:
+    item_list:
+    - LIGHT_GRAY_DYE:3
+    - LIGHT_GRAY_WOOL:4
+    - LIGHT_GRAY_CARPET:5
+    - LIGHT_GRAY_TERRACOTTA:6
+    - LIGHT_GRAY_GLAZED_TERRACOTTA:7
+    - LIGHT_GRAY_CANDLE:12
+    - LIGHT_GRAY_STAINED_GLASS:13
+    - LIGHT_GRAY_STAINED_GLASS_PANE:14
+    - LIGHT_GRAY_CONCRETE_POWDER:15
+    - LIGHT_GRAY_CONCRETE:16
+    main_item: LIGHT_GRAY_DYE
+  LIME_DYE:
+    item_list:
+    - LIME_DYE:3
+    - LIME_WOOL:4
+    - LIME_CARPET:5
+    - LIME_TERRACOTTA:6
+    - LIME_GLAZED_TERRACOTTA:7
+    - LIME_CANDLE:12
+    - LIME_STAINED_GLASS:13
+    - LIME_STAINED_GLASS_PANE:14
+    - LIME_CONCRETE_POWDER:15
+    - LIME_CONCRETE:16
+    main_item: LIME_DYE
+  MAGENTA_DYE:
+    item_list:
+    - MAGENTA_DYE:3
+    - MAGENTA_WOOL:4
+    - MAGENTA_CARPET:5
+    - MAGENTA_TERRACOTTA:6
+    - MAGENTA_GLAZED_TERRACOTTA:7
+    - MAGENTA_CANDLE:12
+    - MAGENTA_STAINED_GLASS:13
+    - MAGENTA_STAINED_GLASS_PANE:14
+    - MAGENTA_CONCRETE_POWDER:15
+    - MAGENTA_CONCRETE:16
+    main_item: MAGENTA_DYE
+  MAGMA_CREAM:
+    item_list:
+    - MAGMA_CREAM:12
+    - MAGMA_BLOCK:16
+    main_item: MAGMA_CREAM
+  MANGROVE_LOG:
+    item_list:
+    - MANGROVE_LOG:12
+    - MANGROVE_PLANKS:13
+    - MANGROVE_PROPAGULE:14
+    - MANGROVE_LEAVES:15
+    - MANGROVE_ROOTS:16
+    main_item: MANGROVE_LOG
+  MELON_SLICE:
+    item_list:
+    - MELON_SLICE:11
+    - GLISTERING_MELON_SLICE:13
+    - MELON_SEEDS:15
+    - MELON:17
+    main_item: MELON_SLICE
+  MUD_BRICKS:
+    item_list:
+    - MUD_BRICKS:12
+    - PACKED_MUD:16
+    main_item: MUD_BRICKS
+  MUTTON:
+    item_list:
+    - MUTTON:12
+    - COOKED_MUTTON:14
+    - WHITE_WOOL:16
+    main_item: MUTTON
+  NETHERITE_INGOT:
+    item_list:
+    - NETHERITE_INGOT:11
+    - NETHERITE_SCRAP:13
+    - ANCIENT_DEBRIS:15
+    - NETHERITE_BLOCK:17
+    main_item: NETHERITE_INGOT
+  NETHERRACK:
+    item_list:
+    - NETHERRACK:12
+    - CRIMSON_NYLIUM:14
+    - WARPED_NYLIUM:16
+    main_item: NETHERRACK
+  NETHER_BRICK:
+    item_list:
+    - NETHER_BRICK:12
+    - NETHER_BRICKS:14
+    - RED_NETHER_BRICKS:16
+    main_item: NETHER_BRICK
+  NETHER_BRICKS:
+    item_list:
+    - NETHER_BRICKS:11
+    - CRACKED_NETHER_BRICKS:13
+    - CHISELED_NETHER_BRICKS:15
+    - RED_NETHER_BRICKS:17
+    main_item: NETHER_BRICKS
+  NETHER_STAR:
+    item_list:
+    - NETHER_STAR:12
+    - BEACON:16
+    main_item: NETHER_STAR
+  OAK_LOG:
+    item_list:
+    - OAK_LOG:11
+    - OAK_PLANKS:13
+    - OAK_SAPLING:15
+    - OAK_LEAVES:17
+    main_item: OAK_LOG
+  OBSIDIAN:
+    item_list:
+    - OBSIDIAN:12
+    - CRYING_OBSIDIAN:16
+    main_item: OBSIDIAN
+  ORANGE_DYE:
+    item_list:
+    - ORANGE_DYE:3
+    - ORANGE_WOOL:4
+    - ORANGE_CARPET:5
+    - ORANGE_TERRACOTTA:6
+    - ORANGE_GLAZED_TERRACOTTA:7
+    - ORANGE_CANDLE:12
+    - ORANGE_STAINED_GLASS:13
+    - ORANGE_STAINED_GLASS_PANE:14
+    - ORANGE_CONCRETE_POWDER:15
+    - ORANGE_CONCRETE:16
+    main_item: ORANGE_DYE
+  PEARLESCENT_FROGLIGHT:
+    item_list:
+    - PEARLESCENT_FROGLIGHT:12
+    - VERDANT_FROGLIGHT:14
+    - OCHRE_FROGLIGHT:16
+    main_item: PEARLESCENT_FROGLIGHT
+  PINK_DYE:
+    item_list:
+    - PINK_DYE:3
+    - PINK_WOOL:4
+    - PINK_CARPET:5
+    - PINK_TERRACOTTA:6
+    - PINK_GLAZED_TERRACOTTA:7
+    - PINK_CANDLE:12
+    - PINK_STAINED_GLASS:13
+    - PINK_STAINED_GLASS_PANE:14
+    - PINK_CONCRETE_POWDER:15
+    - PINK_CONCRETE:16
+    main_item: PINK_DYE
+  PISTON:
+    item_list:
+    - PISTON:12
+    - STICKY_PISTON:16
+    main_item: PISTON
+  POLISHED_BLACKSTONE:
+    item_list:
+    - POLISHED_BLACKSTONE:11
+    - POLISHED_BLACKSTONE_BRICKS:13
+    - CRACKED_POLISHED_BLACKSTONE_BRICKS:15
+    - CHISELED_POLISHED_BLACKSTONE:17
+    main_item: POLISHED_BLACKSTONE
+  POLISHED_DEEPSLATE:
+    item_list:
+    - POLISHED_DEEPSLATE:11
+    - DEEPSLATE_BRICKS:12
+    - CRACKED_DEEPSLATE_BRICKS:13
+    - DEEPSLATE_TILES:15
+    - CRACKED_DEEPSLATE_TILES:16
+    - CHISELED_DEEPSLATE:17
+    main_item: POLISHED_DEEPSLATE
+  POPPY:
+    item_list:
+    - POPPY:2
+    - DANDELION:3
+    - BLUE_ORCHID:4
+    - ALLIUM:11
+    - AZURE_BLUET:12
+    - LILY_OF_THE_VALLEY:13
+    - RED_TULIP:6
+    - ORANGE_TULIP:7
+    - WHITE_TULIP:8
+    - PINK_TULIP:15
+    - OXEYE_DAISY:16
+    - CORNFLOWER:17
+    main_item: POPPY
+  PORKCHOP:
+    item_list:
+    - PORKCHOP:12
+    - COOKED_PORKCHOP:16
+    main_item: PORKCHOP
+  POTATO:
+    item_list:
+    - POTATO:12
+    - BAKED_POTATO:14
+    - POISONOUS_POTATO:16
+    main_item: POTATO
+  PRISMARINE:
+    item_list:
+    - PRISMARINE:11
+    - PRISMARINE_BRICKS:13
+    - DARK_PRISMARINE:15
+    - SEA_LANTERN:17
+    main_item: PRISMARINE
+  PRISMARINE_SHARD:
+    item_list:
+    - PRISMARINE_SHARD:12
+    - PRISMARINE_CRYSTALS:16
+    main_item: PRISMARINE_SHARD
+  PUMPKIN:
+    item_list:
+    - PUMPKIN:12
+    - PUMPKIN_SEEDS:13
+    - CARVED_PUMPKIN:14
+    - JACK_O_LANTERN:15
+    - PUMPKIN_PIE:16
+    main_item: PUMPKIN
+  PURPLE_DYE:
+    item_list:
+    - PURPLE_DYE:3
+    - PURPLE_WOOL:4
+    - PURPLE_CARPET:5
+    - PURPLE_TERRACOTTA:6
+    - PURPLE_GLAZED_TERRACOTTA:7
+    - PURPLE_CANDLE:12
+    - PURPLE_STAINED_GLASS:13
+    - PURPLE_STAINED_GLASS_PANE:14
+    - PURPLE_CONCRETE_POWDER:15
+    - PURPLE_CONCRETE:16
+    main_item: PURPLE_DYE
+  PURPUR_BLOCK:
+    item_list:
+    - PURPUR_BLOCK:12
+    - PURPUR_PILLAR:16
+    main_item: PURPUR_BLOCK
+  QUARTZ:
+    item_list:
+    - QUARTZ:12
+    - NETHER_QUARTZ_ORE:14
+    - QUARTZ_BLOCK:16
+    main_item: QUARTZ
+  QUARTZ_BLOCK:
+    item_list:
+    - QUARTZ_BLOCK:12
+    - SMOOTH_QUARTZ:13
+    - QUARTZ_BRICKS:14
+    - QUARTZ_PILLAR:15
+    - CHISELED_QUARTZ_BLOCK:16
+    main_item: QUARTZ_BLOCK
+  RABBIT:
+    item_list:
+    - RABBIT:11
+    - COOKED_RABBIT:13
+    - RABBIT_FOOT:15
+    - RABBIT_HIDE:17
+    main_item: RABBIT
+  RAIL:
+    item_list:
+    - RAIL:11
+    - POWERED_RAIL:13
+    - ACTIVATOR_RAIL:15
+    - DETECTOR_RAIL:17
+    main_item: RAIL
+  REDSTONE:
+    item_list:
+    - REDSTONE:11
+    - REDSTONE_ORE:13
+    - DEEPSLATE_REDSTONE_ORE:15
+    - REDSTONE_BLOCK:17
+    main_item: REDSTONE
+  REDSTONE_LAMP:
+    item_list:
+    - REDSTONE_LAMP:11
+    - TARGET:13
+    - NOTE_BLOCK:15
+    - DAYLIGHT_DETECTOR:17
+    main_item: REDSTONE_LAMP
+  REDSTONE_TORCH:
+    item_list:
+    - REDSTONE_TORCH:12
+    - REPEATER:13
+    - COMPARATOR:14
+    - OBSERVER:15
+    - TRIPWIRE_HOOK:16
+    main_item: REDSTONE_TORCH
+  RED_DYE:
+    item_list:
+    - RED_DYE:3
+    - RED_WOOL:4
+    - RED_CARPET:5
+    - RED_TERRACOTTA:6
+    - RED_GLAZED_TERRACOTTA:7
+    - RED_CANDLE:12
+    - RED_STAINED_GLASS:13
+    - RED_STAINED_GLASS_PANE:14
+    - RED_CONCRETE_POWDER:15
+    - RED_CONCRETE:16
+    main_item: RED_DYE
+  RED_MUSHROOM:
+    item_list:
+    - RED_MUSHROOM:12
+    - RED_MUSHROOM_BLOCK:14
+    - MUSHROOM_STEM:16
+    main_item: RED_MUSHROOM
+  ROSE_BUSH:
+    item_list:
+    - ROSE_BUSH:11
+    - PEONY:13
+    - LILAC:15
+    - SUNFLOWER:17
+    main_item: ROSE_BUSH
+  SALMON:
+    item_list:
+    - SALMON:12
+    - COOKED_SALMON:16
+    main_item: SALMON
+  SAND:
+    item_list:
+    - SAND:11
+    - SANDSTONE:12
+    - SMOOTH_SANDSTONE:13
+    - RED_SAND:15
+    - RED_SANDSTONE:16
+    - SMOOTH_RED_SANDSTONE:17
+    main_item: SAND
+  SANDSTONE:
+    item_list:
+    - SANDSTONE:2
+    - SMOOTH_SANDSTONE:11
+    - CUT_SANDSTONE:4
+    - CHISELED_SANDSTONE:13
+    - RED_SANDSTONE:6
+    - SMOOTH_RED_SANDSTONE:15
+    - CUT_RED_SANDSTONE:8
+    - CHISELED_RED_SANDSTONE:17
+    main_item: SANDSTONE
+  SCULK:
+    item_list:
+    - SCULK:11
+    - SCULK_CATALYST:13
+    - SCULK_SENSOR:15
+    - SCULK_SHRIEKER:17
+    main_item: SCULK
+  SCUTE:
+    item_list:
+    - SCUTE:12
+    - NAUTILUS_SHELL:16
+    main_item: SCUTE
+  SLIME_BALL:
+    item_list:
+    - SLIME_BALL:12
+    - SLIME_BLOCK:16
+    main_item: SLIME_BALL
+  SNOWBALL:
+    item_list:
+    - SNOWBALL:12
+    - SNOW_BLOCK:14
+    - POWDER_SNOW_BUCKET:16
+    main_item: SNOWBALL
+  SOUL_SAND:
+    item_list:
+    - SOUL_SAND:12
+    - SOUL_SOIL:16
+    main_item: SOUL_SAND
+  SPIDER_EYE:
+    item_list:
+    - SPIDER_EYE:12
+    - FERMENTED_SPIDER_EYE:16
+    main_item: SPIDER_EYE
+  SPONGE:
+    item_list:
+    - SPONGE:12
+    - WET_SPONGE:16
+    main_item: SPONGE
+  SPRUCE_LOG:
+    item_list:
+    - SPRUCE_LOG:11
+    - SPRUCE_PLANKS:13
+    - SPRUCE_SAPLING:15
+    - SPRUCE_LEAVES:17
+    main_item: SPRUCE_LOG
+  STONE_BRICKS:
+    item_list:
+    - STONE_BRICKS:11
+    - CRACKED_STONE_BRICKS:13
+    - MOSSY_STONE_BRICKS:15
+    - CHISELED_STONE_BRICKS:17
+    main_item: STONE_BRICKS
+  STRING:
+    item_list:
+    - STRING:12
+    - COBWEB:16
+    main_item: STRING
+  SUGAR_CANE:
+    item_list:
+    - SUGAR_CANE:12
+    - SUGAR:16
+    main_item: SUGAR_CANE
+  SWEET_BERRIES:
+    item_list:
+    - SWEET_BERRIES:12
+    - GLOW_BERRIES:16
+    main_item: SWEET_BERRIES
+  TORCH:
+    item_list:
+    - TORCH:4
+    - SOUL_TORCH:5
+    - CANDLE:6
+    - JACK_O_LANTERN:11
+    - GLOWSTONE:12
+    - SEA_LANTERN:13
+    - SHROOMLIGHT:15
+    - LANTERN:16
+    - SOUL_LANTERN:17
+    main_item: TORCH
+  TUBE_CORAL:
+    item_list:
+    - TUBE_CORAL:11
+    - TUBE_CORAL_FAN:12
+    - TUBE_CORAL_BLOCK:13
+    - DEAD_TUBE_CORAL:15
+    - DEAD_TUBE_CORAL_FAN:16
+    - DEAD_TUBE_CORAL_BLOCK:17
+    main_item: TUBE_CORAL
+  TUFF:
+    item_list:
+    - TUFF:12
+    - DRIPSTONE_BLOCK:16
+    main_item: TUFF
+  WARPED_ROOTS:
+    item_list:
+    - WARPED_ROOTS:12
+    - TWISTING_VINES:16
+    main_item: WARPED_ROOTS
+  WARPED_STEM:
+    item_list:
+    - WARPED_STEM:12
+    - WARPED_PLANKS:13
+    - WARPED_FUNGUS:14
+    - WARPED_WART_BLOCK:15
+    - SHROOMLIGHT:16
+    main_item: WARPED_STEM
+  WHEAT:
+    item_list:
+    - WHEAT:11
+    - WHEAT_SEEDS:13
+    - HAY_BLOCK:15
+    - BREAD:17
+    main_item: WHEAT
+  WHITE_DYE:
+    item_list:
+    - WHITE_DYE:3
+    - WHITE_WOOL:4
+    - WHITE_CARPET:5
+    - WHITE_TERRACOTTA:6
+    - WHITE_GLAZED_TERRACOTTA:7
+    - WHITE_CANDLE:12
+    - WHITE_STAINED_GLASS:13
+    - WHITE_STAINED_GLASS_PANE:14
+    - WHITE_CONCRETE_POWDER:15
+    - WHITE_CONCRETE:16
+    main_item: WHITE_DYE
+  YELLOW_DYE:
+    item_list:
+    - YELLOW_DYE:3
+    - YELLOW_WOOL:4
+    - YELLOW_CARPET:5
+    - YELLOW_TERRACOTTA:6
+    - YELLOW_GLAZED_TERRACOTTA:7
+    - YELLOW_CANDLE:12
+    - YELLOW_STAINED_GLASS:13
+    - YELLOW_STAINED_GLASS_PANE:14
+    - YELLOW_CONCRETE_POWDER:15
+    - YELLOW_CONCRETE:16
+    main_item: YELLOW_DYE
+items:
+  ACACIA_LEAVES:
+    category: farming
+    data: 0
+    group: ACACIA_LOG
+    material: ACACIA_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rAcacia Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  ACACIA_LOG:
+    category: farming
+    data: 0
+    group: ACACIA_LOG
+    material: ACACIA_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rAcacia Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  ACACIA_PLANKS:
+    category: farming
+    data: 0
+    group: ACACIA_LOG
+    material: ACACIA_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rAcacia Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  ACACIA_SAPLING:
+    category: farming
+    data: 0
+    group: ACACIA_LOG
+    material: ACACIA_SAPLING
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rAcacia Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  ACTIVATOR_RAIL:
+    category: building
+    data: 0
+    group: RAIL
+    material: ACTIVATOR_RAIL
+    max_prices:
+      buy: 740.0
+      sell: 25.0
+    name: '&rActivator Rail'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 0.5
+  ALLIUM:
+    category: farming
+    data: 0
+    group: POPPY
+    material: ALLIUM
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rAllium'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  AMETHYST_BLOCK:
+    category: mining
+    data: 0
+    group: AMETHYST_SHARD
+    material: AMETHYST_BLOCK
+    max_prices:
+      buy: 2060.0
+      sell: 1000.0
+    name: '&rAmethyst Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60.0
+      sell: 20.0
+  AMETHYST_CLUSTER:
+    category: mining
+    data: 0
+    group: AMETHYST_SHARD
+    material: AMETHYST_CLUSTER
+    max_prices:
+      buy: 2060.0
+      sell: 1000.0
+    name: '&rAmethyst Cluster'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60.0
+      sell: 20.0
+  AMETHYST_SHARD:
+    category: mining
+    data: 0
+    group: AMETHYST_SHARD
+    material: AMETHYST_SHARD
+    max_prices:
+      buy: 515.0
+      sell: 250.0
+    name: '&rAmethyst Shard'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 5.0
+  ANCIENT_DEBRIS:
+    category: mining
+    data: 0
+    group: NETHERITE_INGOT
+    material: ANCIENT_DEBRIS
+    max_prices:
+      buy: 1245
+      sell: 62250
+    name: '&rAncient Debris'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1245
+      sell: 1245
+  ANDESITE:
+    category: mining
+    data: 0
+    group: DIORITE
+    material: ANDESITE
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rAndesite'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  ANVIL:
+    category: building
+    data: 0
+    group: ANVIL
+    material: ANVIL
+    max_prices:
+      buy: 22258.0
+      sell: 6200.0
+    name: '&rAnvil'
+    normal: true
+    placeable: true
+    prices:
+      buy: 558.0
+      sell: 124.0
+  APPLE:
+    category: farming
+    data: 0
+    group: APPLE
+    material: APPLE
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rApple'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  ARROW:
+    category: combat
+    data: 0
+    group: ARROW
+    material: ARROW
+    max_prices:
+      buy: 179.0
+      sell: 25.0
+    name: '&rArrow'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.0
+      sell: 0.5
+  AZALEA:
+    category: farming
+    data: 0
+    group: AZALEA
+    material: AZALEA
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rAzalea'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  AZALEA_LEAVES:
+    category: farming
+    data: 0
+    group: AZALEA
+    material: AZALEA_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rAzalea Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  AZURE_BLUET:
+    category: farming
+    data: 0
+    group: POPPY
+    material: AZURE_BLUET
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rAzure Bluet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  BAKED_POTATO:
+    category: farming
+    data: 0
+    group: POTATO
+    material: BAKED_POTATO
+    max_prices:
+      buy: 97.5
+      sell: 30.0
+    name: '&rBaked Potato'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 0.6
+  BAMBOO:
+    category: farming
+    data: 0
+    group: BAMBOO
+    material: BAMBOO
+    max_prices:
+      buy: 57.5
+      sell: 6.25
+    name: '&rBamboo'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.25
+      sell: 0.125
+  BARREL:
+    category: building
+    data: 0
+    group: CHEST
+    material: BARREL
+    max_prices:
+      buy: 360.5
+      sell: 175.0
+    name: '&rBarrel'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.5
+      sell: 3.5
+  BASALT:
+    category: mining
+    data: 0
+    group: BASALT
+    material: BASALT
+    max_prices:
+      buy: 128.0
+      sell: 25.0
+    name: '&rBasalt'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 0.5
+  BEACON:
+    category: combat
+    data: 0
+    group: NETHER_STAR
+    material: BEACON
+    max_prices:
+      buy: 202459.25
+      sell: 65125.0
+    name: '&rBeacon'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5246.75
+      sell: 1302.5
+  BEEF:
+    category: farming
+    data: 0
+    group: BEEF
+    material: BEEF
+    max_prices:
+      buy: 566.5
+      sell: 275.0
+    name: '&rBeef'
+    normal: true
+    placeable: true
+    prices:
+      buy: 16.5
+      sell: 5.5
+  BEEHIVE:
+    category: farming
+    data: 0
+    group: HONEYCOMB
+    material: BEEHIVE
+    max_prices:
+      buy: 2163.0
+      sell: 1050.0
+    name: '&rBeehive'
+    normal: true
+    placeable: true
+    prices:
+      buy: 63.0
+      sell: 21.0
+  BEETROOT:
+    category: farming
+    data: 0
+    group: BEETROOT
+    material: BEETROOT
+    max_prices:
+      buy: 410
+      sell: 100
+    name: '&rBeetroot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10
+      sell: 2
+  BEETROOT_SEEDS:
+    category: farming
+    data: 0
+    group: BEETROOT
+    material: BEETROOT_SEEDS
+    max_prices:
+      buy: 410.0
+      sell: 100.0
+    name: '&rBeetroot Seeds'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.0
+      sell: 2.0
+  BIG_DRIPLEAF:
+    category: farming
+    data: 0
+    group: BIG_DRIPLEAF
+    material: BIG_DRIPLEAF
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBig Dripleaf'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BIRCH_LEAVES:
+    category: farming
+    data: 0
+    group: BIRCH_LOG
+    material: BIRCH_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rBirch Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  BIRCH_LOG:
+    category: farming
+    data: 0
+    group: BIRCH_LOG
+    material: BIRCH_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rBirch Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  BIRCH_PLANKS:
+    category: farming
+    data: 0
+    group: BIRCH_LOG
+    material: BIRCH_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rBirch Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  BIRCH_SAPLING:
+    category: farming
+    data: 0
+    group: BIRCH_LOG
+    material: BIRCH_SAPLING
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rBirch Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  BLACKSTONE:
+    category: mining
+    data: 0
+    group: BLACKSTONE
+    material: BLACKSTONE
+    max_prices:
+      buy: 13.25
+      sell: 25.0
+    name: '&rBlackstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.5
+  BLACK_CANDLE:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_CANDLE
+    max_prices:
+      buy: 1694.5
+      sell: 575.0
+    name: '&rBlack Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 44.5
+      sell: 11.5
+  BLACK_CARPET:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rBlack Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  BLACK_CONCRETE:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_CONCRETE
+    max_prices:
+      buy: 73.30000000000001
+      sell: 63.125
+    name: '&rBlack Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.6750000000000003
+      sell: 1.2625
+  BLACK_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_CONCRETE_POWDER
+    max_prices:
+      buy: 65.60000000000001
+      sell: 60.62499999999999
+    name: '&rBlack Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.475
+      sell: 1.2125
+  BLACK_DYE:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_DYE
+    max_prices:
+      buy: 360.5
+      sell: 175.0
+    name: '&rBlack Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.5
+      sell: 3.5
+  BLACK_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 225.3625
+      sell: 111.87500000000001
+    name: '&rBlack Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.612500000000001
+      sell: 2.2375000000000003
+  BLACK_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_STAINED_GLASS
+    max_prices:
+      buy: 79.3125
+      sell: 76.875
+    name: '&rBlack Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0625
+      sell: 1.5375
+  BLACK_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_STAINED_GLASS_PANE
+    max_prices:
+      buy: 29.742187499999996
+      sell: 28.828125000000004
+    name: '&rBlack Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.1484375
+      sell: 0.5765625000000001
+  BLACK_TERRACOTTA:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_TERRACOTTA
+    max_prices:
+      buy: 217.61250000000004
+      sell: 106.87500000000001
+    name: '&rBlack Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.362500000000001
+      sell: 2.1375
+  BLACK_WOOL:
+    category: misc
+    data: 0
+    group: BLACK_DYE
+    material: BLACK_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rBlack Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  BLAST_FURNACE:
+    category: building
+    data: 0
+    group: FURNACE
+    material: BLAST_FURNACE
+    max_prices:
+      buy: 4029.4000000000005
+      sell: 1167.5
+    name: '&rBlast Furnace'
+    normal: true
+    placeable: true
+    prices:
+      buy: 101.9
+      sell: 23.35
+  BLAZE_POWDER:
+    category: combat
+    data: 0
+    group: BLAZE_ROD
+    material: BLAZE_POWDER
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rBlaze Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  BLAZE_ROD:
+    category: combat
+    data: 0
+    group: BLAZE_ROD
+    material: BLAZE_ROD
+    max_prices:
+      buy: 412
+      sell: 200
+    name: '&rBlaze Rod'
+    normal: true
+    placeable: true
+    prices:
+      buy: 12
+      sell: 4
+  BLUE_CANDLE:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_CANDLE
+    max_prices:
+      buy: 1385.5
+      sell: 425.0
+    name: '&rBlue Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 35.5
+      sell: 8.5
+  BLUE_CARPET:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rBlue Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  BLUE_CONCRETE:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_CONCRETE
+    max_prices:
+      buy: 34.675
+      sell: 44.375
+    name: '&rBlue Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.55
+      sell: 0.8875000000000001
+  BLUE_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_CONCRETE_POWDER
+    max_prices:
+      buy: 26.975000000000005
+      sell: 41.875
+    name: '&rBlue Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.8375
+  BLUE_DYE:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_DYE
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rBlue Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  BLUE_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 186.73750000000004
+      sell: 93.12500000000001
+    name: '&rBlue Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.487500000000001
+      sell: 1.8625000000000003
+  BLUE_ICE:
+    category: mining
+    data: 0
+    group: ICE
+    material: BLUE_ICE
+    max_prices:
+      buy: 465.0
+      sell: 300.0
+    name: '&rBlue Ice'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 6.0
+  BLUE_ORCHID:
+    category: farming
+    data: 0
+    group: POPPY
+    material: BLUE_ORCHID
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rBlue Orchid'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  BLUE_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_STAINED_GLASS
+    max_prices:
+      buy: 40.68749999999999
+      sell: 58.12500000000001
+    name: '&rBlue Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.9375
+      sell: 1.1625
+  BLUE_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_STAINED_GLASS_PANE
+    max_prices:
+      buy: 15.257812499999998
+      sell: 21.796875
+    name: '&rBlue Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.7265625
+      sell: 0.43593750000000003
+  BLUE_TERRACOTTA:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_TERRACOTTA
+    max_prices:
+      buy: 178.98750000000004
+      sell: 88.12500000000001
+    name: '&rBlue Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.237500000000001
+      sell: 1.7625000000000002
+  BLUE_WOOL:
+    category: misc
+    data: 0
+    group: BLUE_DYE
+    material: BLUE_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rBlue Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  BONE:
+    category: combat
+    data: 0
+    group: BONE
+    material: BONE
+    max_prices:
+      buy: 716
+      sell: 100
+    name: '&rBone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 16
+      sell: 2
+  BONE_BLOCK:
+    category: combat
+    data: 0
+    group: BONE
+    material: BONE_BLOCK
+    max_prices:
+      buy: 2148.0
+      sell: 300.0
+    name: '&rBone Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 48.0
+      sell: 6.0
+  BONE_MEAL:
+    category: combat
+    data: 0
+    group: BONE
+    material: BONE_MEAL
+    max_prices:
+      buy: 238.66666666666666
+      sell: 33.33333333333333
+    name: '&rBone Meal'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.333333333333333
+      sell: 0.6666666666666666
+  BOOK:
+    category: misc
+    data: 0
+    group: BOOK
+    material: BOOK
+    max_prices:
+      buy: 1002.0
+      sell: 375.0
+    name: '&rBook'
+    normal: true
+    placeable: true
+    prices:
+      buy: 27.0
+      sell: 7.5
+  BOOKSHELF:
+    category: misc
+    data: 0
+    group: BOOK
+    material: BOOKSHELF
+    max_prices:
+      buy: 3315.0
+      sell: 1275.0
+    name: '&rBookshelf'
+    normal: true
+    placeable: true
+    prices:
+      buy: 90.0
+      sell: 25.5
+  BRAIN_CORAL:
+    category: farming
+    data: 0
+    group: BRAIN_CORAL
+    material: BRAIN_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBrain Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BRAIN_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: BRAIN_CORAL
+    material: BRAIN_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBrain Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BRAIN_CORAL_FAN:
+    category: farming
+    data: 0
+    group: BRAIN_CORAL
+    material: BRAIN_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBrain Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BREAD:
+    category: farming
+    data: 0
+    group: WHEAT
+    material: BREAD
+    max_prices:
+      buy: 309.0
+      sell: 150.0
+    name: '&rBread'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9.0
+      sell: 3.0
+  BREWING_STAND:
+    category: building
+    data: 0
+    group: ENCHANTING_TABLE
+    material: BREWING_STAND
+    max_prices:
+      buy: 527.5
+      sell: 237.5
+    name: '&rBrewing Stand'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 4.75
+  BRICK:
+    category: building
+    data: 0
+    group: BRICKS
+    material: BRICK
+    max_prices:
+      buy: 48.95000000000001
+      sell: 25.0
+    name: '&rBrick'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4500000000000002
+      sell: 0.5
+  BRICKS:
+    category: building
+    data: 0
+    group: BRICKS
+    material: BRICKS
+    max_prices:
+      buy: 195.80000000000004
+      sell: 100.0
+    name: '&rBricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.800000000000001
+      sell: 2.0
+  BROWN_CANDLE:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_CANDLE
+    max_prices:
+      buy: 1540.0
+      sell: 500.0
+    name: '&rBrown Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 40.0
+      sell: 10.0
+  BROWN_CARPET:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rBrown Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  BROWN_CONCRETE:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_CONCRETE
+    max_prices:
+      buy: 53.98750000000001
+      sell: 53.75
+    name: '&rBrown Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.1125000000000003
+      sell: 1.075
+  BROWN_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_CONCRETE_POWDER
+    max_prices:
+      buy: 46.28750000000001
+      sell: 51.24999999999999
+    name: '&rBrown Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.9125
+      sell: 1.025
+  BROWN_DYE:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_DYE
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rBrown Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  BROWN_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 206.05
+      sell: 102.50000000000001
+    name: '&rBrown Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.050000000000001
+      sell: 2.0500000000000003
+  BROWN_MUSHROOM:
+    category: farming
+    data: 0
+    group: BROWN_MUSHROOM
+    material: BROWN_MUSHROOM
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBrown Mushroom'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BROWN_MUSHROOM_BLOCK:
+    category: farming
+    data: 0
+    group: BROWN_MUSHROOM
+    material: BROWN_MUSHROOM_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBrown Mushroom Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BROWN_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_STAINED_GLASS
+    max_prices:
+      buy: 59.99999999999999
+      sell: 67.5
+    name: '&rBrown Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 1.35
+  BROWN_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_STAINED_GLASS_PANE
+    max_prices:
+      buy: 22.499999999999996
+      sell: 25.312500000000004
+    name: '&rBrown Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.9375
+      sell: 0.5062500000000001
+  BROWN_TERRACOTTA:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_TERRACOTTA
+    max_prices:
+      buy: 198.30000000000004
+      sell: 97.50000000000001
+    name: '&rBrown Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.800000000000001
+      sell: 1.9500000000000002
+  BROWN_WOOL:
+    category: misc
+    data: 0
+    group: BROWN_DYE
+    material: BROWN_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rBrown Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  BUBBLE_CORAL:
+    category: farming
+    data: 0
+    group: BUBBLE_CORAL
+    material: BUBBLE_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBubble Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BUBBLE_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: BUBBLE_CORAL
+    material: BUBBLE_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBubble Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  BUBBLE_CORAL_FAN:
+    category: farming
+    data: 0
+    group: BUBBLE_CORAL
+    material: BUBBLE_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rBubble Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  CACTUS:
+    category: farming
+    data: 0
+    group: CACTUS
+    material: CACTUS
+    max_prices:
+      buy: 249.375
+      sell: 37.5
+    name: '&rCactus'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.625
+      sell: 0.75
+  CALCITE:
+    category: mining
+    data: 0
+    group: CALCITE
+    material: CALCITE
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rCalcite'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  CAMPFIRE:
+    category: building
+    data: 0
+    group: FURNACE
+    material: CAMPFIRE
+    max_prices:
+      buy: 1004.25
+      sell: 487.5
+    name: '&rCampfire'
+    normal: true
+    placeable: true
+    prices:
+      buy: 29.25
+      sell: 9.75
+  CANDLE:
+    category: building
+    data: 0
+    group: TORCH
+    material: CANDLE
+    max_prices:
+      buy: 1334.0
+      sell: 400.0
+    name: '&rCandle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 34.0
+      sell: 8.0
+  CARROT:
+    category: farming
+    data: 0
+    group: CARROT
+    material: CARROT
+    max_prices:
+      buy: 89.75
+      sell: 25.0
+    name: '&rCarrot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.25
+      sell: 0.5
+  CARTOGRAPHY_TABLE:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: CARTOGRAPHY_TABLE
+    max_prices:
+      buy: 513.5
+      sell: 175.0
+    name: '&rCartography Table'
+    normal: true
+    placeable: true
+    prices:
+      buy: 13.5
+      sell: 3.5
+  CARVED_PUMPKIN:
+    category: farming
+    data: 0
+    group: PUMPKIN
+    material: CARVED_PUMPKIN
+    max_prices:
+      buy: 7.800000000000041
+      sell: 7.499999999999996
+    name: '&rCarved Pumpkin'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.3000000000000007
+      sell: 0.1499999999999999
+  CAULDRON:
+    category: building
+    data: 0
+    group: ENCHANTING_TABLE
+    material: CAULDRON
+    max_prices:
+      buy: 2884.0
+      sell: 1400.0
+    name: '&rCauldron'
+    normal: true
+    placeable: true
+    prices:
+      buy: 84.0
+      sell: 28.0
+  CHAIN:
+    category: building
+    data: 0
+    group: CHAIN
+    material: CHAIN
+    max_prices:
+      buy: 877.5555555555555
+      sell: 244.44444444444446
+    name: '&rChain'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.0
+      sell: 4.888888888888889
+  CHARCOAL:
+    category: mining
+    data: 0
+    group: COAL
+    material: CHARCOAL
+    max_prices:
+      buy: 213.75000000000003
+      sell: 105.0
+    name: '&rCharcoal'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.25
+      sell: 2.1
+  CHERRY_LEAVES:
+    category: farming
+    data: 0
+    group: CHERRY_LOG
+    material: CHERRY_LEAVES
+    max_prices:
+      buy: 28.325000000000003
+      sell: 13.750000000000002
+    name: '&rCherry Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.8250000000000001
+      sell: 0.275
+  CHERRY_LOG:
+    category: farming
+    data: 0
+    group: CHERRY_LOG
+    material: CHERRY_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rCherry Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  CHERRY_PLANKS:
+    category: farming
+    data: 0
+    group: CHERRY_LOG
+    material: CHERRY_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rCherry Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  CHERRY_SAPLING:
+    category: farming
+    data: 0
+    group: CHERRY_LOG
+    material: CHERRY_SAPLING
+    max_prices:
+      buy: 154.5
+      sell: 75.0
+    name: '&rCherry Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.5
+      sell: 1.5
+  CHEST:
+    category: building
+    data: 0
+    group: CHEST
+    material: CHEST
+    max_prices:
+      buy: 412.0
+      sell: 200.0
+    name: '&rChest'
+    normal: true
+    placeable: true
+    prices:
+      buy: 12.0
+      sell: 4.0
+  CHICKEN:
+    category: farming
+    data: 0
+    group: CHICKEN
+    material: CHICKEN
+    max_prices:
+      buy: 283.25
+      sell: 137.5
+    name: '&rChicken'
+    normal: true
+    placeable: true
+    prices:
+      buy: 8.25
+      sell: 2.75
+  CHIPPED_ANVIL:
+    category: building
+    data: 0
+    group: ANVIL
+    material: CHIPPED_ANVIL
+    max_prices:
+      buy: 8514.701000000001
+      sell: 4133.35
+    name: '&rChipped Anvil'
+    normal: true
+    placeable: true
+    prices:
+      buy: 248.001
+      sell: 82.667
+  CHISELED_DEEPSLATE:
+    category: building
+    data: 0
+    group: POLISHED_DEEPSLATE
+    material: CHISELED_DEEPSLATE
+    max_prices:
+      buy: 34.574999999999996
+      sell: 33.0
+    name: '&rChiseled Deepslate'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.325
+      sell: 0.66
+  CHISELED_NETHER_BRICKS:
+    category: building
+    data: 0
+    group: NETHER_BRICKS
+    material: CHISELED_NETHER_BRICKS
+    max_prices:
+      buy: 144.97499999999997
+      sell: 70.5
+    name: '&rChiseled Nether Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.225
+      sell: 1.41
+  CHISELED_POLISHED_BLACKSTONE:
+    category: building
+    data: 0
+    group: POLISHED_BLACKSTONE
+    material: CHISELED_POLISHED_BLACKSTONE
+    max_prices:
+      buy: 129.52499999999998
+      sell: 63.0
+    name: '&rChiseled Polished Blackstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.775
+      sell: 1.26
+  CHISELED_QUARTZ_BLOCK:
+    category: building
+    data: 0
+    group: QUARTZ_BLOCK
+    material: CHISELED_QUARTZ_BLOCK
+    max_prices:
+      buy: 1236.775
+      sell: 600.5
+    name: '&rChiseled Quartz Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 36.025
+      sell: 12.01
+  CHISELED_RED_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: CHISELED_RED_SANDSTONE
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rChiseled Red Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  CHISELED_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: CHISELED_SANDSTONE
+    max_prices:
+      buy: 53.775000000000006
+      sell: 100.49999999999999
+    name: '&rChiseled Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.025
+      sell: 2.01
+  CHISELED_STONE_BRICKS:
+    category: building
+    data: 0
+    group: STONE_BRICKS
+    material: CHISELED_STONE_BRICKS
+    max_prices:
+      buy: 36.82499999999999
+      sell: 18.0
+    name: '&rChiseled Stone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.0749999999999997
+      sell: 0.36
+  CHORUS_FLOWER:
+    category: farming
+    data: 0
+    group: CHORUS_FRUIT
+    material: CHORUS_FLOWER
+    max_prices:
+      buy: 1545
+      sell: 750
+    name: '&rChorus Flower'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45
+      sell: 15
+  CHORUS_FRUIT:
+    category: farming
+    data: 0
+    group: CHORUS_FRUIT
+    material: CHORUS_FRUIT
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rChorus Fruit'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  CLAY:
+    category: mining
+    data: 0
+    group: CLAY_BALL
+    material: CLAY
+    max_prices:
+      buy: 164.80000000000004
+      sell: 80.0
+    name: '&rClay'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.800000000000001
+      sell: 1.6
+  CLAY_BALL:
+    category: mining
+    data: 0
+    group: CLAY_BALL
+    material: CLAY_BALL
+    max_prices:
+      buy: 41.20000000000001
+      sell: 20.0
+    name: '&rClay Ball'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2000000000000002
+      sell: 0.4
+  COAL:
+    category: mining
+    data: 0
+    group: COAL
+    material: COAL
+    max_prices:
+      buy: 309
+      sell: 150
+    name: '&rCoal'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9
+      sell: 3
+  COAL_BLOCK:
+    category: mining
+    data: 0
+    group: COAL
+    material: COAL_BLOCK
+    max_prices:
+      buy: 2781.0
+      sell: 1350.0
+    name: '&rCoal Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 81.0
+      sell: 27.0
+  COAL_ORE:
+    category: mining
+    data: 0
+    group: COAL
+    material: COAL_ORE
+    max_prices:
+      buy: 772.5
+      sell: 375.0
+    name: '&rCoal Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 7.5
+  COARSE_DIRT:
+    category: mining
+    data: 0
+    group: DIRT
+    material: COARSE_DIRT
+    max_prices:
+      buy: 13.912500000000003
+      sell: 26.25
+    name: '&rCoarse Dirt'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.7875000000000001
+      sell: 0.525
+  COBBLED_DEEPSLATE:
+    category: mining
+    data: 0
+    group: COBBLED_DEEPSLATE
+    material: COBBLED_DEEPSLATE
+    max_prices:
+      buy: 33.8
+      sell: 32.5
+    name: '&rCobbled Deepslate'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.3
+      sell: 0.65
+  COBBLESTONE:
+    category: mining
+    data: 0
+    group: COBBLESTONE
+    material: COBBLESTONE
+    max_prices:
+      buy: 38.5
+      sell: 12.5
+    name: '&rCobblestone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.0
+      sell: 0.25
+  COBWEB:
+    category: combat
+    data: 0
+    group: STRING
+    material: COBWEB
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rCobweb'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  COCOA_BEANS:
+    category: farming
+    data: 0
+    group: COCOA_BEANS
+    material: COCOA_BEANS
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rCocoa Beans'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  COD:
+    category: farming
+    data: 0
+    group: COD
+    material: COD
+    max_prices:
+      buy: 339.8999999999999
+      sell: 165.0
+    name: '&rCod'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9.899999999999999
+      sell: 3.3
+  COMPARATOR:
+    category: building
+    data: 0
+    group: REDSTONE_TORCH
+    material: COMPARATOR
+    max_prices:
+      buy: 1112.4
+      sell: 540.0
+    name: '&rComparator'
+    normal: true
+    placeable: true
+    prices:
+      buy: 32.4
+      sell: 10.8
+  COMPOSTER:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: COMPOSTER
+    max_prices:
+      buy: 180.25
+      sell: 87.5
+    name: '&rComposter'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.25
+      sell: 1.75
+  COOKED_BEEF:
+    category: farming
+    data: 0
+    group: BEEF
+    material: COOKED_BEEF
+    max_prices:
+      buy: 574.25
+      sell: 280.0
+    name: '&rCooked Beef'
+    normal: true
+    placeable: true
+    prices:
+      buy: 16.75
+      sell: 5.6
+  COOKED_CHICKEN:
+    category: farming
+    data: 0
+    group: CHICKEN
+    material: COOKED_CHICKEN
+    max_prices:
+      buy: 291.0
+      sell: 142.5
+    name: '&rCooked Chicken'
+    normal: true
+    placeable: true
+    prices:
+      buy: 8.5
+      sell: 2.85
+  COOKED_COD:
+    category: farming
+    data: 0
+    group: COD
+    material: COOKED_COD
+    max_prices:
+      buy: 347.64999999999986
+      sell: 170.0
+    name: '&rCooked Cod'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.149999999999999
+      sell: 3.4
+  COOKED_MUTTON:
+    category: farming
+    data: 0
+    group: MUTTON
+    material: COOKED_MUTTON
+    max_prices:
+      buy: 213.75000000000003
+      sell: 105.0
+    name: '&rCooked Mutton'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.25
+      sell: 2.1
+  COOKED_PORKCHOP:
+    category: farming
+    data: 0
+    group: PORKCHOP
+    material: COOKED_PORKCHOP
+    max_prices:
+      buy: 471.25
+      sell: 229.99999999999997
+    name: '&rCooked Porkchop'
+    normal: true
+    placeable: true
+    prices:
+      buy: 13.75
+      sell: 4.6
+  COOKED_RABBIT:
+    category: farming
+    data: 0
+    group: RABBIT
+    material: COOKED_RABBIT
+    max_prices:
+      buy: 291.0
+      sell: 142.5
+    name: '&rCooked Rabbit'
+    normal: true
+    placeable: true
+    prices:
+      buy: 8.5
+      sell: 2.85
+  COOKED_SALMON:
+    category: farming
+    data: 0
+    group: SALMON
+    material: COOKED_SALMON
+    max_prices:
+      buy: 376.49
+      sell: 184.0
+    name: '&rCooked Salmon'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.99
+      sell: 3.68
+  COOKIE:
+    category: farming
+    data: 0
+    group: COCOA_BEANS
+    material: COOKIE
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rCookie'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  COPPER_BLOCK:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: COPPER_BLOCK
+    max_prices:
+      buy: 2387.2499999999995
+      sell: 1170.0
+    name: '&rCopper Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 69.75
+      sell: 23.400000000000002
+  COPPER_INGOT:
+    category: mining
+    data: 0
+    group: COPPER_INGOT
+    material: COPPER_INGOT
+    max_prices:
+      buy: 265.25
+      sell: 130.0
+    name: '&rCopper Ingot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 7.75
+      sell: 2.6
+  COPPER_ORE:
+    category: mining
+    data: 0
+    group: COPPER_INGOT
+    material: COPPER_ORE
+    max_prices:
+      buy: 1545
+      sell: 750
+    name: '&rCopper Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45
+      sell: 15
+  CORNFLOWER:
+    category: farming
+    data: 0
+    group: POPPY
+    material: CORNFLOWER
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rCornflower'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  CRACKED_DEEPSLATE_BRICKS:
+    category: building
+    data: 0
+    group: POLISHED_DEEPSLATE
+    material: CRACKED_DEEPSLATE_BRICKS
+    max_prices:
+      buy: 41.86000000000001
+      sell: 37.7
+    name: '&rCracked Deepslate Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.56
+      sell: 0.754
+  CRACKED_DEEPSLATE_TILES:
+    category: building
+    data: 0
+    group: POLISHED_DEEPSLATE
+    material: CRACKED_DEEPSLATE_TILES
+    max_prices:
+      buy: 41.86000000000001
+      sell: 37.7
+    name: '&rCracked Deepslate Tiles'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.56
+      sell: 0.754
+  CRACKED_NETHER_BRICKS:
+    category: building
+    data: 0
+    group: NETHER_BRICKS
+    material: CRACKED_NETHER_BRICKS
+    max_prices:
+      buy: 151.94999999999996
+      sell: 75.0
+    name: '&rCracked Nether Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.449999999999999
+      sell: 1.5
+  CRACKED_POLISHED_BLACKSTONE_BRICKS:
+    category: building
+    data: 0
+    group: POLISHED_BLACKSTONE
+    material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+    max_prices:
+      buy: 136.5
+      sell: 67.5
+    name: '&rCracked Polished Blackstone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.0
+      sell: 1.35
+  CRACKED_STONE_BRICKS:
+    category: building
+    data: 0
+    group: STONE_BRICKS
+    material: CRACKED_STONE_BRICKS
+    max_prices:
+      buy: 43.79999999999999
+      sell: 22.499999999999996
+    name: '&rCracked Stone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2999999999999998
+      sell: 0.44999999999999996
+  CRAFTING_TABLE:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: CRAFTING_TABLE
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rCrafting Table'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  CRIMSON_FUNGUS:
+    category: farming
+    data: 0
+    group: CRIMSON_STEM
+    material: CRIMSON_FUNGUS
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rCrimson Fungus'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  CRIMSON_NYLIUM:
+    category: mining
+    data: 0
+    group: NETHERRACK
+    material: CRIMSON_NYLIUM
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rCrimson Nylium'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  CRIMSON_PLANKS:
+    category: farming
+    data: 0
+    group: CRIMSON_STEM
+    material: CRIMSON_PLANKS
+    max_prices:
+      buy: 154.5
+      sell: 75.0
+    name: '&rCrimson Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.5
+      sell: 1.5
+  CRIMSON_ROOTS:
+    category: farming
+    data: 0
+    group: CRIMSON_ROOTS
+    material: CRIMSON_ROOTS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rCrimson Roots'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  CRIMSON_STEM:
+    category: farming
+    data: 0
+    group: CRIMSON_STEM
+    material: CRIMSON_STEM
+    max_prices:
+      buy: 618
+      sell: 300
+    name: '&rCrimson Stem'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18
+      sell: 6
+  CRYING_OBSIDIAN:
+    category: mining
+    data: 0
+    group: OBSIDIAN
+    material: CRYING_OBSIDIAN
+    max_prices:
+      buy: 2060
+      sell: 1000
+    name: '&rCrying Obsidian'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60
+      sell: 20
+  CUT_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: CUT_COPPER
+    max_prices:
+      buy: 2388.8
+      sell: 1171.0
+    name: '&rCut Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 69.8
+      sell: 23.42
+  CUT_RED_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: CUT_RED_SANDSTONE
+    max_prices:
+      buy: 53.30999999999999
+      sell: 100.2
+    name: '&rCut Red Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.01
+      sell: 2.004
+  CUT_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: CUT_SANDSTONE
+    max_prices:
+      buy: 53.30999999999999
+      sell: 100.2
+    name: '&rCut Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.01
+      sell: 2.004
+  CYAN_CANDLE:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_CANDLE
+    max_prices:
+      buy: 1488.3125
+      sell: 433.75000000000006
+    name: '&rCyan Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 37.6875
+      sell: 8.675
+  CYAN_CARPET:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rCyan Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  CYAN_CONCRETE:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_CONCRETE
+    max_prices:
+      buy: 47.5265625
+      sell: 45.46875
+    name: '&rCyan Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.8234375
+      sell: 0.909375
+  CYAN_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_CONCRETE_POWDER
+    max_prices:
+      buy: 39.82656250000001
+      sell: 42.96875
+    name: '&rCyan Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.6234375
+      sell: 0.859375
+  CYAN_DYE:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_DYE
+    max_prices:
+      buy: 154.3125
+      sell: 33.75
+    name: '&rCyan Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.6875
+      sell: 0.675
+  CYAN_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 199.58906250000004
+      sell: 94.21875000000001
+    name: '&rCyan Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.760937500000001
+      sell: 1.8843750000000004
+  CYAN_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_STAINED_GLASS
+    max_prices:
+      buy: 53.53906249999999
+      sell: 59.21875000000001
+    name: '&rCyan Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.2109375
+      sell: 1.1843750000000002
+  CYAN_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_STAINED_GLASS_PANE
+    max_prices:
+      buy: 20.077148437499996
+      sell: 22.207031250000004
+    name: '&rCyan Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.8291015625
+      sell: 0.44414062500000007
+  CYAN_TERRACOTTA:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_TERRACOTTA
+    max_prices:
+      buy: 191.83906250000004
+      sell: 89.21875000000001
+    name: '&rCyan Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.510937500000001
+      sell: 1.7843750000000003
+  CYAN_WOOL:
+    category: misc
+    data: 0
+    group: CYAN_DYE
+    material: CYAN_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rCyan Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  DAMAGED_ANVIL:
+    category: building
+    data: 0
+    group: ANVIL
+    material: DAMAGED_ANVIL
+    max_prices:
+      buy: 4257.299
+      sell: 2066.65
+    name: '&rDamaged Anvil'
+    normal: true
+    placeable: true
+    prices:
+      buy: 123.999
+      sell: 41.333
+  DANDELION:
+    category: farming
+    data: 0
+    group: POPPY
+    material: DANDELION
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rDandelion'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  DARK_OAK_LEAVES:
+    category: farming
+    data: 0
+    group: DARK_OAK_LOG
+    material: DARK_OAK_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rDark Oak Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  DARK_OAK_LOG:
+    category: farming
+    data: 0
+    group: DARK_OAK_LOG
+    material: DARK_OAK_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rDark Oak Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  DARK_OAK_PLANKS:
+    category: farming
+    data: 0
+    group: DARK_OAK_LOG
+    material: DARK_OAK_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rDark Oak Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  DARK_OAK_SAPLING:
+    category: farming
+    data: 0
+    group: DARK_OAK_LOG
+    material: DARK_OAK_SAPLING
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rDark Oak Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  DARK_PRISMARINE:
+    category: mining
+    data: 0
+    group: PRISMARINE
+    material: DARK_PRISMARINE
+    max_prices:
+      buy: 3950.5
+      sell: 1175.0
+    name: '&rDark Prismarine'
+    normal: true
+    placeable: true
+    prices:
+      buy: 100.5
+      sell: 23.5
+  DAYLIGHT_DETECTOR:
+    category: building
+    data: 0
+    group: REDSTONE_LAMP
+    material: DAYLIGHT_DETECTOR
+    max_prices:
+      buy: 1648.0
+      sell: 800.0
+    name: '&rDaylight Detector'
+    normal: true
+    placeable: true
+    prices:
+      buy: 48.0
+      sell: 16.0
+  DEAD_BRAIN_CORAL:
+    category: farming
+    data: 0
+    group: BRAIN_CORAL
+    material: DEAD_BRAIN_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Brain Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_BRAIN_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: BRAIN_CORAL
+    material: DEAD_BRAIN_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Brain Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_BRAIN_CORAL_FAN:
+    category: farming
+    data: 0
+    group: BRAIN_CORAL
+    material: DEAD_BRAIN_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Brain Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_BUBBLE_CORAL:
+    category: farming
+    data: 0
+    group: BUBBLE_CORAL
+    material: DEAD_BUBBLE_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Bubble Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_BUBBLE_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: BUBBLE_CORAL
+    material: DEAD_BUBBLE_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Bubble Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_BUBBLE_CORAL_FAN:
+    category: farming
+    data: 0
+    group: BUBBLE_CORAL
+    material: DEAD_BUBBLE_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Bubble Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_BUSH:
+    category: farming
+    data: 0
+    group: GRASS
+    material: DEAD_BUSH
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rDead Bush'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  DEAD_FIRE_CORAL:
+    category: farming
+    data: 0
+    group: FIRE_CORAL
+    material: DEAD_FIRE_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Fire Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_FIRE_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: FIRE_CORAL
+    material: DEAD_FIRE_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Fire Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_FIRE_CORAL_FAN:
+    category: farming
+    data: 0
+    group: FIRE_CORAL
+    material: DEAD_FIRE_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Fire Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_HORN_CORAL:
+    category: farming
+    data: 0
+    group: HORN_CORAL
+    material: DEAD_HORN_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Horn Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_HORN_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: HORN_CORAL
+    material: DEAD_HORN_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Horn Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_HORN_CORAL_FAN:
+    category: farming
+    data: 0
+    group: HORN_CORAL
+    material: DEAD_HORN_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Horn Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_TUBE_CORAL:
+    category: farming
+    data: 0
+    group: TUBE_CORAL
+    material: DEAD_TUBE_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Tube Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_TUBE_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: TUBE_CORAL
+    material: DEAD_TUBE_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Tube Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEAD_TUBE_CORAL_FAN:
+    category: farming
+    data: 0
+    group: TUBE_CORAL
+    material: DEAD_TUBE_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rDead Tube Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  DEEPSLATE:
+    category: mining
+    data: 0
+    group: COBBLED_DEEPSLATE
+    material: DEEPSLATE
+    max_prices:
+      buy: 77.25
+      sell: 37.5
+    name: '&rDeepslate'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.25
+      sell: 0.75
+  DEEPSLATE_BRICKS:
+    category: building
+    data: 0
+    group: POLISHED_DEEPSLATE
+    material: DEEPSLATE_BRICKS
+    max_prices:
+      buy: 34.11000000000001
+      sell: 32.7
+    name: '&rDeepslate Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.31
+      sell: 0.654
+  DEEPSLATE_COAL_ORE:
+    category: mining
+    data: 0
+    group: COAL
+    material: DEEPSLATE_COAL_ORE
+    max_prices:
+      buy: 772.5
+      sell: 375.0
+    name: '&rDeepslate Coal Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 7.5
+  DEEPSLATE_COPPER_ORE:
+    category: mining
+    data: 0
+    group: COPPER_INGOT
+    material: DEEPSLATE_COPPER_ORE
+    max_prices:
+      buy: 1545
+      sell: 750
+    name: '&rDeepslate Copper Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45
+      sell: 15
+  DEEPSLATE_DIAMOND_ORE:
+    category: mining
+    data: 0
+    group: DIAMOND
+    material: DEEPSLATE_DIAMOND_ORE
+    max_prices:
+      buy: 51500
+      sell: 25000
+    name: '&rDeepslate Diamond Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1500
+      sell: 500
+  DEEPSLATE_EMERALD_ORE:
+    category: mining
+    data: 0
+    group: EMERALD
+    material: DEEPSLATE_EMERALD_ORE
+    max_prices:
+      buy: 7725
+      sell: 3750
+    name: '&rDeepslate Emerald Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 225
+      sell: 75
+  DEEPSLATE_GOLD_ORE:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: DEEPSLATE_GOLD_ORE
+    max_prices:
+      buy: 4120
+      sell: 2000
+    name: '&rDeepslate Gold Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 120
+      sell: 40
+  DEEPSLATE_IRON_ORE:
+    category: mining
+    data: 0
+    group: IRON_INGOT
+    material: DEEPSLATE_IRON_ORE
+    max_prices:
+      buy: 2060
+      sell: 1000
+    name: '&rDeepslate Iron Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60
+      sell: 20
+  DEEPSLATE_LAPIS_ORE:
+    category: mining
+    data: 0
+    group: LAPIS_LAZULI
+    material: DEEPSLATE_LAPIS_ORE
+    max_prices:
+      buy: 4944
+      sell: 2400
+    name: '&rDeepslate Lapis Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 144
+      sell: 48
+  DEEPSLATE_REDSTONE_ORE:
+    category: mining
+    data: 0
+    group: REDSTONE
+    material: DEEPSLATE_REDSTONE_ORE
+    max_prices:
+      buy: 1545
+      sell: 750
+    name: '&rDeepslate Redstone Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45
+      sell: 15
+  DEEPSLATE_TILES:
+    category: building
+    data: 0
+    group: POLISHED_DEEPSLATE
+    material: DEEPSLATE_TILES
+    max_prices:
+      buy: 34.11000000000001
+      sell: 32.7
+    name: '&rDeepslate Tiles'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.31
+      sell: 0.654
+  DETECTOR_RAIL:
+    category: building
+    data: 0
+    group: RAIL
+    material: DETECTOR_RAIL
+    max_prices:
+      buy: 740.0
+      sell: 25.0
+    name: '&rDetector Rail'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 0.5
+  DIAMOND:
+    category: mining
+    data: 0
+    group: DIAMOND
+    material: DIAMOND
+    max_prices:
+      buy: 200
+      sell: 10000
+    name: '&rDiamond'
+    normal: true
+    placeable: true
+    prices:
+      buy: 200
+      sell: 200
+  DIAMOND_BLOCK:
+    category: mining
+    data: 0
+    group: DIAMOND
+    material: DIAMOND_BLOCK
+    max_prices:
+      buy: 1800.0
+      sell: 90000.0
+    name: '&rDiamond Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1800.0
+      sell: 1800.0
+  DIAMOND_ORE:
+    category: mining
+    data: 0
+    group: DIAMOND
+    material: DIAMOND_ORE
+    max_prices:
+      buy: 51500
+      sell: 25000
+    name: '&rDiamond Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1500
+      sell: 500
+  DIORITE:
+    category: mining
+    data: 0
+    group: DIORITE
+    material: DIORITE
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rDiorite'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  DIRT:
+    category: mining
+    data: 0
+    group: DIRT
+    material: DIRT
+    max_prices:
+      buy: 13.25
+      sell: 25.0
+    name: '&rDirt'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.5
+  DISPENSER:
+    category: building
+    data: 0
+    group: DROPPER
+    material: DISPENSER
+    max_prices:
+      buy: 2739.25
+      sell: 537.5
+    name: '&rDispenser'
+    normal: true
+    placeable: true
+    prices:
+      buy: 64.25
+      sell: 10.75
+  DRAGON_BREATH:
+    category: misc
+    data: 0
+    group: GLASS_BOTTLE
+    material: DRAGON_BREATH
+    max_prices:
+      buy: 1184.25
+      sell: 180.0
+    name: '&rDragon Breath'
+    normal: true
+    placeable: true
+    prices:
+      buy: 26.75
+      sell: 3.6
+  DRIED_KELP:
+    category: farming
+    data: 0
+    group: KELP
+    material: DRIED_KELP
+    max_prices:
+      buy: 122.75
+      sell: 17.5
+    name: '&rDried Kelp'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.75
+      sell: 0.35
+  DRIED_KELP_BLOCK:
+    category: farming
+    data: 0
+    group: KELP
+    material: DRIED_KELP_BLOCK
+    max_prices:
+      buy: 1104.75
+      sell: 157.5
+    name: '&rDried Kelp Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 24.75
+      sell: 3.15
+  DRIPSTONE_BLOCK:
+    category: mining
+    data: 0
+    group: TUFF
+    material: DRIPSTONE_BLOCK
+    max_prices:
+      buy: 772.5
+      sell: 375.0
+    name: '&rDripstone Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 7.5
+  DROPPER:
+    category: building
+    data: 0
+    group: DROPPER
+    material: DROPPER
+    max_prices:
+      buy: 514.0
+      sell: 200.0
+    name: '&rDropper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 14.0
+      sell: 4.0
+  EGG:
+    category: farming
+    data: 0
+    group: CHICKEN
+    material: EGG
+    max_prices:
+      buy: 56.650000000000006
+      sell: 27.500000000000004
+    name: '&rEgg'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.6500000000000001
+      sell: 0.55
+  EMERALD:
+    category: mining
+    data: 0
+    group: EMERALD
+    material: EMERALD
+    max_prices:
+      buy: 4480.0
+      sell: 875.0
+    name: '&rEmerald'
+    normal: true
+    placeable: true
+    prices:
+      buy: 105.0
+      sell: 17.5
+  EMERALD_BLOCK:
+    category: mining
+    data: 0
+    group: EMERALD
+    material: EMERALD_BLOCK
+    max_prices:
+      buy: 40320.0
+      sell: 7875.0
+    name: '&rEmerald Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 945.0
+      sell: 157.5
+  EMERALD_ORE:
+    category: mining
+    data: 0
+    group: EMERALD
+    material: EMERALD_ORE
+    max_prices:
+      buy: 7725
+      sell: 3750
+    name: '&rEmerald Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 225
+      sell: 75
+  ENCHANTED_GOLDEN_APPLE:
+    category: farming
+    data: 0
+    group: APPLE
+    material: ENCHANTED_GOLDEN_APPLE
+    max_prices:
+      buy: 153750.0
+      sell: 37500.0
+    name: '&rEnchanted Golden Apple'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3750.0
+      sell: 750.0
+  ENCHANTING_TABLE:
+    category: building
+    data: 0
+    group: ENCHANTING_TABLE
+    material: ENCHANTING_TABLE
+    max_prices:
+      buy: 22882.0
+      sell: 23375.0
+    name: '&rEnchanting Table'
+    normal: true
+    placeable: true
+    prices:
+      buy: 907.0
+      sell: 467.5
+  ENDER_CHEST:
+    category: building
+    data: 0
+    group: CHEST
+    material: ENDER_CHEST
+    max_prices:
+      buy: 44391.0
+      sell: 6150.0
+    name: '&rEnder Chest'
+    normal: true
+    placeable: true
+    prices:
+      buy: 991.0
+      sell: 123.0
+  ENDER_EYE:
+    category: combat
+    data: 0
+    group: ENDER_PEARL
+    material: ENDER_EYE
+    max_prices:
+      buy: 1431.0
+      sell: 150.0
+    name: '&rEnder Eye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 31.0
+      sell: 3.0
+  ENDER_PEARL:
+    category: combat
+    data: 0
+    group: ENDER_PEARL
+    material: ENDER_PEARL
+    max_prices:
+      buy: 1225
+      sell: 50
+    name: '&rEnder Pearl'
+    normal: true
+    placeable: true
+    prices:
+      buy: 25
+      sell: 1
+  END_CRYSTAL:
+    category: misc
+    data: 0
+    group: END_CRYSTAL
+    material: END_CRYSTAL
+    max_prices:
+      buy: 4745.75
+      sell: 1285.0000000000002
+    name: '&rEnd Crystal'
+    normal: true
+    placeable: true
+    prices:
+      buy: 118.25
+      sell: 25.700000000000003
+  END_STONE:
+    category: mining
+    data: 0
+    group: END_STONE
+    material: END_STONE
+    max_prices:
+      buy: 39.0
+      sell: 37.5
+    name: '&rEnd Stone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.75
+  END_STONE_BRICKS:
+    category: building
+    data: 0
+    group: END_STONE_BRICKS
+    material: END_STONE_BRICKS
+    max_prices:
+      buy: 39.0
+      sell: 37.5
+    name: '&rEnd Stone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.75
+  EXPERIENCE_BOTTLE:
+    category: misc
+    data: 0
+    group: GLASS_BOTTLE
+    material: EXPERIENCE_BOTTLE
+    max_prices:
+      buy: 16100
+      sell: 1750
+    name: '&rExperience Bottle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 350
+      sell: 35
+  EXPOSED_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: EXPOSED_COPPER
+    max_prices:
+      buy: 2464.2499999999995
+      sell: 1195.0
+    name: '&rExposed Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 71.75
+      sell: 23.900000000000002
+  EXPOSED_CUT_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: EXPOSED_CUT_COPPER
+    max_prices:
+      buy: 2465.8
+      sell: 1196.0
+    name: '&rExposed Cut Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 71.8
+      sell: 23.92
+  FEATHER:
+    category: farming
+    data: 0
+    group: CHICKEN
+    material: FEATHER
+    max_prices:
+      buy: 56.650000000000006
+      sell: 27.500000000000004
+    name: '&rFeather'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.6500000000000001
+      sell: 0.55
+  FERMENTED_SPIDER_EYE:
+    category: combat
+    data: 0
+    group: SPIDER_EYE
+    material: FERMENTED_SPIDER_EYE
+    max_prices:
+      buy: 2149.75
+      sell: 387.5
+    name: '&rFermented Spider Eye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 49.75
+      sell: 7.75
+  FERN:
+    category: farming
+    data: 0
+    group: GRASS
+    material: FERN
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rFern'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  FIRE_CORAL:
+    category: farming
+    data: 0
+    group: FIRE_CORAL
+    material: FIRE_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rFire Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  FIRE_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: FIRE_CORAL
+    material: FIRE_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rFire Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  FIRE_CORAL_FAN:
+    category: farming
+    data: 0
+    group: FIRE_CORAL
+    material: FIRE_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rFire Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  FLETCHING_TABLE:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: FLETCHING_TABLE
+    max_prices:
+      buy: 618.0
+      sell: 300.0
+    name: '&rFletching Table'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18.0
+      sell: 6.0
+  FLINT:
+    category: mining
+    data: 0
+    group: GRAVEL
+    material: FLINT
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rFlint'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  FLOWERING_AZALEA:
+    category: farming
+    data: 0
+    group: AZALEA
+    material: FLOWERING_AZALEA
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rFlowering Azalea'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  FLOWERING_AZALEA_LEAVES:
+    category: farming
+    data: 0
+    group: AZALEA
+    material: FLOWERING_AZALEA_LEAVES
+    max_prices:
+      buy: 30.89999999999999
+      sell: 15.0
+    name: '&rFlowering Azalea Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.8999999999999999
+      sell: 0.3
+  FURNACE:
+    category: building
+    data: 0
+    group: FURNACE
+    material: FURNACE
+    max_prices:
+      buy: 308.0
+      sell: 100.0
+    name: '&rFurnace'
+    normal: true
+    placeable: true
+    prices:
+      buy: 8.0
+      sell: 2.0
+  GHAST_TEAR:
+    category: combat
+    data: 0
+    group: GHAST_TEAR
+    material: GHAST_TEAR
+    max_prices:
+      buy: 3075
+      sell: 750
+    name: '&rGhast Tear'
+    normal: true
+    placeable: true
+    prices:
+      buy: 75
+      sell: 15
+  GLASS:
+    category: building
+    data: 0
+    group: GLASS
+    material: GLASS
+    max_prices:
+      buy: 34.24999999999999
+      sell: 55.00000000000001
+    name: '&rGlass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.75
+      sell: 1.1
+  GLASS_BOTTLE:
+    category: misc
+    data: 0
+    group: GLASS_BOTTLE
+    material: GLASS_BOTTLE
+    max_prices:
+      buy: 34.24999999999999
+      sell: 55.00000000000001
+    name: '&rGlass Bottle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.75
+      sell: 1.1
+  GLASS_PANE:
+    category: building
+    data: 0
+    group: GLASS
+    material: GLASS_PANE
+    max_prices:
+      buy: 12.843749999999998
+      sell: 20.625
+    name: '&rGlass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.65625
+      sell: 0.41250000000000003
+  GLISTERING_MELON_SLICE:
+    category: farming
+    data: 0
+    group: MELON_SLICE
+    material: GLISTERING_MELON_SLICE
+    max_prices:
+      buy: 515
+      sell: 250
+    name: '&rGlistering Melon Slice'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15
+      sell: 5
+  GLOWSTONE:
+    category: building
+    data: 0
+    group: TORCH
+    material: GLOWSTONE
+    max_prices:
+      buy: 1648.0
+      sell: 800.0
+    name: '&rGlowstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 48.0
+      sell: 16.0
+  GLOWSTONE_DUST:
+    category: mining
+    data: 0
+    group: GLOWSTONE_DUST
+    material: GLOWSTONE_DUST
+    max_prices:
+      buy: 412
+      sell: 200
+    name: '&rGlowstone Dust'
+    normal: true
+    placeable: true
+    prices:
+      buy: 12
+      sell: 4
+  GLOW_BERRIES:
+    category: farming
+    data: 0
+    group: SWEET_BERRIES
+    material: GLOW_BERRIES
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rGlow Berries'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  GLOW_INK_SAC:
+    category: farming
+    data: 0
+    group: INK_SAC
+    material: GLOW_INK_SAC
+    max_prices:
+      buy: 1081.5
+      sell: 525.0
+    name: '&rGlow Ink Sac'
+    normal: true
+    placeable: true
+    prices:
+      buy: 31.5
+      sell: 10.5
+  GLOW_ITEM_FRAME:
+    category: building
+    data: 0
+    group: ITEM_FRAME
+    material: GLOW_ITEM_FRAME
+    max_prices:
+      buy: 1828.25
+      sell: 887.5
+    name: '&rGlow Item Frame'
+    normal: true
+    placeable: true
+    prices:
+      buy: 53.25
+      sell: 17.75
+  GOLDEN_APPLE:
+    category: farming
+    data: 0
+    group: APPLE
+    material: GOLDEN_APPLE
+    max_prices:
+      buy: 10343.0
+      sell: 2050.0
+    name: '&rGolden Apple'
+    normal: true
+    placeable: true
+    prices:
+      buy: 243.0
+      sell: 41.0
+  GOLDEN_CARROT:
+    category: farming
+    data: 0
+    group: CARROT
+    material: GOLDEN_CARROT
+    max_prices:
+      buy: 1380.0
+      sell: 150.0
+    name: '&rGolden Carrot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 30.0
+      sell: 3.0
+  GOLD_BLOCK:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: GOLD_BLOCK
+    max_prices:
+      buy: 11520.0
+      sell: 2250.0
+    name: '&rGold Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 270.0
+      sell: 45.0
+  GOLD_INGOT:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: GOLD_INGOT
+    max_prices:
+      buy: 1280.0
+      sell: 250.0
+    name: '&rGold Ingot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 30.0
+      sell: 5.0
+  GOLD_NUGGET:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: GOLD_NUGGET
+    max_prices:
+      buy: 142.22222222222223
+      sell: 27.77777777777778
+    name: '&rGold Nugget'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.333333333333333
+      sell: 0.5555555555555556
+  GOLD_ORE:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: GOLD_ORE
+    max_prices:
+      buy: 4120
+      sell: 2000
+    name: '&rGold Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 120
+      sell: 40
+  GRANITE:
+    category: mining
+    data: 0
+    group: DIORITE
+    material: GRANITE
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rGranite'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  GRASS:
+    category: farming
+    data: 0
+    group: GRASS
+    material: GRASS
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rGrass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  GRASS_BLOCK:
+    category: mining
+    data: 0
+    group: DIRT
+    material: GRASS_BLOCK
+    max_prices:
+      buy: 61.79999999999998
+      sell: 30.0
+    name: '&rGrass Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.7999999999999998
+      sell: 0.6
+  GRAVEL:
+    category: mining
+    data: 0
+    group: GRAVEL
+    material: GRAVEL
+    max_prices:
+      buy: 14.575000000000001
+      sell: 27.500000000000004
+    name: '&rGravel'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.8250000000000001
+      sell: 0.55
+  GRAY_CANDLE:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_CANDLE
+    max_prices:
+      buy: 1540.0
+      sell: 500.0
+    name: '&rGray Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 40.0
+      sell: 10.0
+  GRAY_CARPET:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rGray Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  GRAY_CONCRETE:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_CONCRETE
+    max_prices:
+      buy: 53.98750000000001
+      sell: 53.75
+    name: '&rGray Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.1125000000000003
+      sell: 1.075
+  GRAY_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_CONCRETE_POWDER
+    max_prices:
+      buy: 46.28750000000001
+      sell: 51.24999999999999
+    name: '&rGray Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.9125
+      sell: 1.025
+  GRAY_DYE:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_DYE
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rGray Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  GRAY_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 206.05
+      sell: 102.50000000000001
+    name: '&rGray Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.050000000000001
+      sell: 2.0500000000000003
+  GRAY_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_STAINED_GLASS
+    max_prices:
+      buy: 59.99999999999999
+      sell: 67.5
+    name: '&rGray Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 1.35
+  GRAY_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_STAINED_GLASS_PANE
+    max_prices:
+      buy: 22.499999999999996
+      sell: 25.312500000000004
+    name: '&rGray Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.9375
+      sell: 0.5062500000000001
+  GRAY_TERRACOTTA:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_TERRACOTTA
+    max_prices:
+      buy: 198.30000000000004
+      sell: 97.50000000000001
+    name: '&rGray Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.800000000000001
+      sell: 1.9500000000000002
+  GRAY_WOOL:
+    category: misc
+    data: 0
+    group: GRAY_DYE
+    material: GRAY_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rGray Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  GREEN_CANDLE:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_CANDLE
+    max_prices:
+      buy: 1591.125
+      sell: 442.5
+    name: '&rGreen Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 39.875
+      sell: 8.85
+  GREEN_CARPET:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rGreen Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  GREEN_CONCRETE:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_CONCRETE
+    max_prices:
+      buy: 60.37812500000001
+      sell: 46.5625
+    name: '&rGreen Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0968750000000003
+      sell: 0.93125
+  GREEN_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_CONCRETE_POWDER
+    max_prices:
+      buy: 52.678125
+      sell: 44.0625
+    name: '&rGreen Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.896875
+      sell: 0.88125
+  GREEN_DYE:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_DYE
+    max_prices:
+      buy: 257.125
+      sell: 42.5
+    name: '&rGreen Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.875
+      sell: 0.85
+  GREEN_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 212.44062500000004
+      sell: 95.31250000000001
+    name: '&rGreen Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.034375000000001
+      sell: 1.9062500000000002
+  GREEN_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_STAINED_GLASS
+    max_prices:
+      buy: 66.390625
+      sell: 60.3125
+    name: '&rGreen Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.484375
+      sell: 1.20625
+  GREEN_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_STAINED_GLASS_PANE
+    max_prices:
+      buy: 24.896484374999996
+      sell: 22.617187500000004
+    name: '&rGreen Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.931640625
+      sell: 0.45234375000000004
+  GREEN_TERRACOTTA:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_TERRACOTTA
+    max_prices:
+      buy: 204.69062500000004
+      sell: 90.3125
+    name: '&rGreen Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.784375000000001
+      sell: 1.8062500000000001
+  GREEN_WOOL:
+    category: misc
+    data: 0
+    group: GREEN_DYE
+    material: GREEN_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rGreen Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  GRINDSTONE:
+    category: building
+    data: 0
+    group: ENCHANTING_TABLE
+    material: GRINDSTONE
+    max_prices:
+      buy: 172.52500000000003
+      sell: 83.75
+    name: '&rGrindstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.025
+      sell: 1.675
+  GUNPOWDER:
+    category: combat
+    data: 0
+    group: GUNPOWDER
+    material: GUNPOWDER
+    max_prices:
+      buy: 716
+      sell: 100
+    name: '&rGunpowder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 16
+      sell: 2
+  HAY_BLOCK:
+    category: farming
+    data: 0
+    group: WHEAT
+    material: HAY_BLOCK
+    max_prices:
+      buy: 927
+      sell: 450
+    name: '&rHay Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 27
+      sell: 9
+  HEART_OF_THE_SEA:
+    category: misc
+    data: 0
+    group: HEART_OF_THE_SEA
+    material: HEART_OF_THE_SEA
+    max_prices:
+      buy: 1250.0
+      sell: 62500.0
+    name: '&rHeart Of The Sea'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1250.0
+      sell: 1250.0
+  HONEYCOMB:
+    category: farming
+    data: 0
+    group: HONEYCOMB
+    material: HONEYCOMB
+    max_prices:
+      buy: 618.0
+      sell: 300.0
+    name: '&rHoneycomb'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18.0
+      sell: 6.0
+  HONEYCOMB_BLOCK:
+    category: farming
+    data: 0
+    group: HONEYCOMB
+    material: HONEYCOMB_BLOCK
+    max_prices:
+      buy: 2472.0
+      sell: 1200.0
+    name: '&rHoneycomb Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 72.0
+      sell: 24.0
+  HONEY_BLOCK:
+    category: farming
+    data: 0
+    group: HONEY_BOTTLE
+    material: HONEY_BLOCK
+    max_prices:
+      buy: 5980.0
+      sell: 650.0
+    name: '&rHoney Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 130.0
+      sell: 13.0
+  HONEY_BOTTLE:
+    category: farming
+    data: 0
+    group: HONEY_BOTTLE
+    material: HONEY_BOTTLE
+    max_prices:
+      buy: 1495.0
+      sell: 162.5
+    name: '&rHoney Bottle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 32.5
+      sell: 3.25
+  HOPPER:
+    category: building
+    data: 0
+    group: CHEST
+    material: HOPPER
+    max_prices:
+      buy: 4002.0
+      sell: 1200.0
+    name: '&rHopper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 102.0
+      sell: 24.0
+  HORN_CORAL:
+    category: farming
+    data: 0
+    group: HORN_CORAL
+    material: HORN_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rHorn Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  HORN_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: HORN_CORAL
+    material: HORN_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rHorn Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  HORN_CORAL_FAN:
+    category: farming
+    data: 0
+    group: HORN_CORAL
+    material: HORN_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rHorn Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  ICE:
+    category: mining
+    data: 0
+    group: ICE
+    material: ICE
+    max_prices:
+      buy: 19.375
+      sell: 12.5
+    name: '&rIce'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.625
+      sell: 0.25
+  INK_SAC:
+    category: farming
+    data: 0
+    group: INK_SAC
+    material: INK_SAC
+    max_prices:
+      buy: 360.5
+      sell: 175.0
+    name: '&rInk Sac'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.5
+      sell: 3.5
+  IRON_BARS:
+    category: building
+    data: 0
+    group: CHAIN
+    material: IRON_BARS
+    max_prices:
+      buy: 269.25
+      sell: 75.0
+    name: '&rIron Bars'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.75
+      sell: 1.5
+  IRON_BLOCK:
+    category: mining
+    data: 0
+    group: IRON_INGOT
+    material: IRON_BLOCK
+    max_prices:
+      buy: 6462.0
+      sell: 1800.0
+    name: '&rIron Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 162.0
+      sell: 36.0
+  IRON_INGOT:
+    category: mining
+    data: 0
+    group: IRON_INGOT
+    material: IRON_INGOT
+    max_prices:
+      buy: 718.0
+      sell: 200
+    name: '&rIron Ingot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18.0
+      sell: 4
+  IRON_NUGGET:
+    category: mining
+    data: 0
+    group: IRON_INGOT
+    material: IRON_NUGGET
+    max_prices:
+      buy: 79.77777777777779
+      sell: 22.22222222222222
+    name: '&rIron Nugget'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.4444444444444444
+  IRON_ORE:
+    category: mining
+    data: 0
+    group: IRON_INGOT
+    material: IRON_ORE
+    max_prices:
+      buy: 2060
+      sell: 1000
+    name: '&rIron Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60
+      sell: 20
+  ITEM_FRAME:
+    category: building
+    data: 0
+    group: ITEM_FRAME
+    material: ITEM_FRAME
+    max_prices:
+      buy: 746.75
+      sell: 362.5
+    name: '&rItem Frame'
+    normal: true
+    placeable: true
+    prices:
+      buy: 21.75
+      sell: 7.25
+  JACK_O_LANTERN:
+    category: building
+    data: 0
+    group: TORCH
+    material: JACK_O_LANTERN
+    max_prices:
+      buy: 91.48750000000004
+      sell: 48.12499999999999
+    name: '&rJack O Lantern'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.7375000000000007
+      sell: 0.9624999999999999
+  JUKEBOX:
+    category: building
+    data: 0
+    group: JUKEBOX
+    material: JUKEBOX
+    max_prices:
+      buy: 612.0
+      sell: 10200.0
+    name: '&rJukebox'
+    normal: true
+    placeable: true
+    prices:
+      buy: 212.0
+      sell: 204.0
+  JUNGLE_LEAVES:
+    category: farming
+    data: 0
+    group: JUNGLE_LOG
+    material: JUNGLE_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rJungle Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  JUNGLE_LOG:
+    category: farming
+    data: 0
+    group: JUNGLE_LOG
+    material: JUNGLE_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rJungle Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  JUNGLE_PLANKS:
+    category: farming
+    data: 0
+    group: JUNGLE_LOG
+    material: JUNGLE_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rJungle Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  JUNGLE_SAPLING:
+    category: farming
+    data: 0
+    group: JUNGLE_LOG
+    material: JUNGLE_SAPLING
+    max_prices:
+      buy: 154.5
+      sell: 75.0
+    name: '&rJungle Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.5
+      sell: 1.5
+  KELP:
+    category: farming
+    data: 0
+    group: KELP
+    material: KELP
+    max_prices:
+      buy: 115.0
+      sell: 12.5
+    name: '&rKelp'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 0.25
+  LANTERN:
+    category: building
+    data: 0
+    group: TORCH
+    material: LANTERN
+    max_prices:
+      buy: 721.9097222222223
+      sell: 218.40277777777777
+    name: '&rLantern'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18.4375
+      sell: 4.368055555555555
+  LAPIS_BLOCK:
+    category: mining
+    data: 0
+    group: LAPIS_LAZULI
+    material: LAPIS_BLOCK
+    max_prices:
+      buy: 3708.0
+      sell: 1800.0
+    name: '&rLapis Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 108.0
+      sell: 36.0
+  LAPIS_LAZULI:
+    category: mining
+    data: 0
+    group: LAPIS_LAZULI
+    material: LAPIS_LAZULI
+    max_prices:
+      buy: 412
+      sell: 200
+    name: '&rLapis Lazuli'
+    normal: true
+    placeable: true
+    prices:
+      buy: 12
+      sell: 4
+  LAPIS_ORE:
+    category: mining
+    data: 0
+    group: LAPIS_LAZULI
+    material: LAPIS_ORE
+    max_prices:
+      buy: 4944
+      sell: 2400
+    name: '&rLapis Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 144
+      sell: 48
+  LEATHER:
+    category: farming
+    data: 0
+    group: BEEF
+    material: LEATHER
+    max_prices:
+      buy: 540.75
+      sell: 262.5
+    name: '&rLeather'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.75
+      sell: 5.25
+  LIGHT_BLUE_CANDLE:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_CANDLE
+    max_prices:
+      buy: 1385.5
+      sell: 425.0
+    name: '&rLight Blue Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 35.5
+      sell: 8.5
+  LIGHT_BLUE_CARPET:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rLight Blue Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  LIGHT_BLUE_CONCRETE:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_CONCRETE
+    max_prices:
+      buy: 34.675
+      sell: 44.375
+    name: '&rLight Blue Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.55
+      sell: 0.8875000000000001
+  LIGHT_BLUE_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_CONCRETE_POWDER
+    max_prices:
+      buy: 26.975000000000005
+      sell: 41.875
+    name: '&rLight Blue Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.8375
+  LIGHT_BLUE_DYE:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_DYE
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rLight Blue Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  LIGHT_BLUE_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 186.73750000000004
+      sell: 93.12500000000001
+    name: '&rLight Blue Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.487500000000001
+      sell: 1.8625000000000003
+  LIGHT_BLUE_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_STAINED_GLASS
+    max_prices:
+      buy: 40.68749999999999
+      sell: 58.12500000000001
+    name: '&rLight Blue Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.9375
+      sell: 1.1625
+  LIGHT_BLUE_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    max_prices:
+      buy: 15.257812499999998
+      sell: 21.796875
+    name: '&rLight Blue Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.7265625
+      sell: 0.43593750000000003
+  LIGHT_BLUE_TERRACOTTA:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_TERRACOTTA
+    max_prices:
+      buy: 178.98750000000004
+      sell: 88.12500000000001
+    name: '&rLight Blue Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.237500000000001
+      sell: 1.7625000000000002
+  LIGHT_BLUE_WOOL:
+    category: misc
+    data: 0
+    group: LIGHT_BLUE_DYE
+    material: LIGHT_BLUE_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rLight Blue Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  LIGHT_GRAY_CANDLE:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_CANDLE
+    max_prices:
+      buy: 1385.5
+      sell: 425.0
+    name: '&rLight Gray Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 35.5
+      sell: 8.5
+  LIGHT_GRAY_CARPET:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rLight Gray Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  LIGHT_GRAY_CONCRETE:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_CONCRETE
+    max_prices:
+      buy: 34.675
+      sell: 44.375
+    name: '&rLight Gray Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.55
+      sell: 0.8875000000000001
+  LIGHT_GRAY_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_CONCRETE_POWDER
+    max_prices:
+      buy: 26.975000000000005
+      sell: 41.875
+    name: '&rLight Gray Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.8375
+  LIGHT_GRAY_DYE:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_DYE
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rLight Gray Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  LIGHT_GRAY_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 186.73750000000004
+      sell: 93.12500000000001
+    name: '&rLight Gray Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.487500000000001
+      sell: 1.8625000000000003
+  LIGHT_GRAY_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_STAINED_GLASS
+    max_prices:
+      buy: 40.68749999999999
+      sell: 58.12500000000001
+    name: '&rLight Gray Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.9375
+      sell: 1.1625
+  LIGHT_GRAY_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    max_prices:
+      buy: 15.257812499999998
+      sell: 21.796875
+    name: '&rLight Gray Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.7265625
+      sell: 0.43593750000000003
+  LIGHT_GRAY_TERRACOTTA:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_TERRACOTTA
+    max_prices:
+      buy: 178.98750000000004
+      sell: 88.12500000000001
+    name: '&rLight Gray Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.237500000000001
+      sell: 1.7625000000000002
+  LIGHT_GRAY_WOOL:
+    category: misc
+    data: 0
+    group: LIGHT_GRAY_DYE
+    material: LIGHT_GRAY_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rLight Gray Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  LILAC:
+    category: farming
+    data: 0
+    group: ROSE_BUSH
+    material: LILAC
+    max_prices:
+      buy: 46.35000000000001
+      sell: 22.5
+    name: '&rLilac'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.45
+  LILY_OF_THE_VALLEY:
+    category: farming
+    data: 0
+    group: POPPY
+    material: LILY_OF_THE_VALLEY
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rLily Of The Valley'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  LILY_PAD:
+    category: farming
+    data: 0
+    group: LILY_PAD
+    material: LILY_PAD
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rLily Pad'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  LIME_CANDLE:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_CANDLE
+    max_prices:
+      buy: 1488.3125
+      sell: 433.75000000000006
+    name: '&rLime Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 37.6875
+      sell: 8.675
+  LIME_CARPET:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rLime Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  LIME_CONCRETE:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_CONCRETE
+    max_prices:
+      buy: 47.5265625
+      sell: 45.46875
+    name: '&rLime Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.8234375
+      sell: 0.909375
+  LIME_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_CONCRETE_POWDER
+    max_prices:
+      buy: 39.82656250000001
+      sell: 42.96875
+    name: '&rLime Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.6234375
+      sell: 0.859375
+  LIME_DYE:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_DYE
+    max_prices:
+      buy: 154.3125
+      sell: 33.75
+    name: '&rLime Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.6875
+      sell: 0.675
+  LIME_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 199.58906250000004
+      sell: 94.21875000000001
+    name: '&rLime Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.760937500000001
+      sell: 1.8843750000000004
+  LIME_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_STAINED_GLASS
+    max_prices:
+      buy: 53.53906249999999
+      sell: 59.21875000000001
+    name: '&rLime Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.2109375
+      sell: 1.1843750000000002
+  LIME_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_STAINED_GLASS_PANE
+    max_prices:
+      buy: 20.077148437499996
+      sell: 22.207031250000004
+    name: '&rLime Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.8291015625
+      sell: 0.44414062500000007
+  LIME_TERRACOTTA:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_TERRACOTTA
+    max_prices:
+      buy: 191.83906250000004
+      sell: 89.21875000000001
+    name: '&rLime Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.510937500000001
+      sell: 1.7843750000000003
+  LIME_WOOL:
+    category: misc
+    data: 0
+    group: LIME_DYE
+    material: LIME_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rLime Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  LOOM:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: LOOM
+    max_prices:
+      buy: 1535.0
+      sell: 250.0
+    name: '&rLoom'
+    normal: true
+    placeable: true
+    prices:
+      buy: 35.0
+      sell: 5.0
+  MAGENTA_CANDLE:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_CANDLE
+    max_prices:
+      buy: 1357.1749999999997
+      sell: 411.25
+    name: '&rMagenta Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 34.675
+      sell: 8.225
+  MAGENTA_CARPET:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rMagenta Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  MAGENTA_CONCRETE:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_CONCRETE
+    max_prices:
+      buy: 31.134375000000006
+      sell: 42.65625
+    name: '&rMagenta Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4468750000000001
+      sell: 0.853125
+  MAGENTA_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_CONCRETE_POWDER
+    max_prices:
+      buy: 23.43437500000001
+      sell: 40.15625
+    name: '&rMagenta Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2468750000000002
+      sell: 0.803125
+  MAGENTA_DYE:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_DYE
+    max_prices:
+      buy: 23.175000000000004
+      sell: 11.25
+    name: '&rMagenta Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.675
+      sell: 0.225
+  MAGENTA_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 183.19687500000003
+      sell: 91.40625000000001
+    name: '&rMagenta Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.384375
+      sell: 1.8281250000000002
+  MAGENTA_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_STAINED_GLASS
+    max_prices:
+      buy: 37.146875
+      sell: 56.40625
+    name: '&rMagenta Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.834375
+      sell: 1.128125
+  MAGENTA_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_STAINED_GLASS_PANE
+    max_prices:
+      buy: 13.930078125000001
+      sell: 21.152343750000004
+    name: '&rMagenta Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.6878906250000001
+      sell: 0.42304687500000004
+  MAGENTA_TERRACOTTA:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_TERRACOTTA
+    max_prices:
+      buy: 175.446875
+      sell: 86.40625
+    name: '&rMagenta Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.134375
+      sell: 1.7281250000000001
+  MAGENTA_WOOL:
+    category: misc
+    data: 0
+    group: MAGENTA_DYE
+    material: MAGENTA_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rMagenta Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  MAGMA_BLOCK:
+    category: combat
+    data: 0
+    group: MAGMA_CREAM
+    material: MAGMA_BLOCK
+    max_prices:
+      buy: 103.0
+      sell: 50.0
+    name: '&rMagma Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 1.0
+  MAGMA_CREAM:
+    category: combat
+    data: 0
+    group: MAGMA_CREAM
+    material: MAGMA_CREAM
+    max_prices:
+      buy: 360.5
+      sell: 175.0
+    name: '&rMagma Cream'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.5
+      sell: 3.5
+  MANGROVE_LEAVES:
+    category: farming
+    data: 0
+    group: MANGROVE_LOG
+    material: MANGROVE_LEAVES
+    max_prices:
+      buy: 30.89999999999999
+      sell: 15.0
+    name: '&rMangrove Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.8999999999999999
+      sell: 0.3
+  MANGROVE_LOG:
+    category: farming
+    data: 0
+    group: MANGROVE_LOG
+    material: MANGROVE_LOG
+    max_prices:
+      buy: 309.0
+      sell: 150.0
+    name: '&rMangrove Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9.0
+      sell: 3.0
+  MANGROVE_PLANKS:
+    category: farming
+    data: 0
+    group: MANGROVE_LOG
+    material: MANGROVE_PLANKS
+    max_prices:
+      buy: 77.25
+      sell: 37.5
+    name: '&rMangrove Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.25
+      sell: 0.75
+  MANGROVE_PROPAGULE:
+    category: farming
+    data: 0
+    group: MANGROVE_LOG
+    material: MANGROVE_PROPAGULE
+    max_prices:
+      buy: 154.5
+      sell: 75.0
+    name: '&rMangrove Propagule'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.5
+      sell: 1.5
+  MANGROVE_ROOTS:
+    category: farming
+    data: 0
+    group: MANGROVE_LOG
+    material: MANGROVE_ROOTS
+    max_prices:
+      buy: 309.0
+      sell: 150.0
+    name: '&rMangrove Roots'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9.0
+      sell: 3.0
+  MELON:
+    category: farming
+    data: 0
+    group: MELON_SLICE
+    material: MELON
+    max_prices:
+      buy: 922.5
+      sell: 225.0
+    name: '&rMelon'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 4.5
+  MELON_SEEDS:
+    category: farming
+    data: 0
+    group: MELON_SLICE
+    material: MELON_SEEDS
+    max_prices:
+      buy: 102.5
+      sell: 25.0
+    name: '&rMelon Seeds'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 0.5
+  MELON_SLICE:
+    category: farming
+    data: 0
+    group: MELON_SLICE
+    material: MELON_SLICE
+    max_prices:
+      buy: 102.5
+      sell: 25.0
+    name: '&rMelon Slice'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 0.5
+  MENDING_BOOK:
+    category: misc
+    data: 0
+    material: ENCHANTED_BOOK
+    name: '&dEnchanted Book'
+    prices:
+      buy: 500.0
+      sell: 25.0
+    stored-enchants:
+      MENDING: 1
+  MOSSY_COBBLESTONE:
+    category: mining
+    data: 0
+    group: COBBLESTONE
+    material: MOSSY_COBBLESTONE
+    max_prices:
+      buy: 64.25
+      sell: 25.0
+    name: '&rMossy Cobblestone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.75
+      sell: 0.5
+  MOSSY_STONE_BRICKS:
+    category: building
+    data: 0
+    group: STONE_BRICKS
+    material: MOSSY_STONE_BRICKS
+    max_prices:
+      buy: 61.79999999999998
+      sell: 30.0
+    name: '&rMossy Stone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.7999999999999998
+      sell: 0.6
+  MOSS_BLOCK:
+    category: farming
+    data: 0
+    group: MOSS_BLOCK
+    material: MOSS_BLOCK
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rMoss Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  MUD:
+    category: mining
+    data: 0
+    group: DIRT
+    material: MUD
+    max_prices:
+      buy: 61.79999999999998
+      sell: 30.0
+    name: '&rMud'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.7999999999999998
+      sell: 0.6
+  MUD_BRICKS:
+    category: building
+    data: 0
+    group: MUD_BRICKS
+    material: MUD_BRICKS
+    max_prices:
+      buy: 164.8
+      sell: 80.0
+    name: '&rMud Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.8
+      sell: 1.6
+  MUSHROOM_STEM:
+    category: farming
+    data: 0
+    group: BROWN_MUSHROOM
+    material: MUSHROOM_STEM
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rMushroom Stem'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  MUTTON:
+    category: farming
+    data: 0
+    group: MUTTON
+    material: MUTTON
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rMutton'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  MYCELIUM:
+    category: mining
+    data: 0
+    group: DIRT
+    material: MYCELIUM
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rMycelium'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  NAME_TAG:
+    category: misc
+    data: 0
+    group: NAME_TAG
+    material: NAME_TAG
+    max_prices:
+      buy: 1545.0
+      sell: 750.0
+    name: '&rName Tag'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45.0
+      sell: 15.0
+  NAUTILUS_SHELL:
+    category: misc
+    data: 0
+    group: HEART_OF_THE_SEA
+    material: NAUTILUS_SHELL
+    max_prices:
+      buy: 3090.0
+      sell: 1500.0
+    name: '&rNautilus Shell'
+    normal: true
+    placeable: true
+    prices:
+      buy: 90.0
+      sell: 30.0
+  NETHERITE_BLOCK:
+    category: mining
+    data: 0
+    group: NETHERITE_INGOT
+    material: NETHERITE_BLOCK
+    max_prices:
+      buy: 91179.00000000007
+      sell: 2250180.0
+    name: '&rNetherite Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45909.0
+      sell: 45003.6
+  NETHERITE_INGOT:
+    category: mining
+    data: 0
+    group: NETHERITE_INGOT
+    material: NETHERITE_INGOT
+    max_prices:
+      buy: 10131.000000000018
+      sell: 250019.99999999997
+    name: '&rNetherite Ingot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5101.0
+      sell: 5000.4
+  NETHERITE_SCRAP:
+    category: mining
+    data: 0
+    group: NETHERITE_INGOT
+    material: NETHERITE_SCRAP
+    max_prices:
+      buy: 1252.7500000000045
+      sell: 62254.99999999999
+    name: '&rNetherite Scrap'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1245.25
+      sell: 1245.1
+  NETHERITE_UPGRADE_SMITHING_TEMPLATE:
+    category: misc
+    data: 0
+    group: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    max_prices:
+      buy: 1413.0
+      sell: 70012.5
+    name: '&rNetherite Upgrade Smithing Template'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1400.5
+      sell: 1400.25
+  NETHERRACK:
+    category: mining
+    data: 0
+    group: NETHERRACK
+    material: NETHERRACK
+    max_prices:
+      buy: 13.0
+      sell: 12.5
+    name: '&rNetherrack'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.5
+      sell: 0.25
+  NETHER_BRICK:
+    category: mining
+    data: 0
+    group: NETHER_BRICK
+    material: NETHER_BRICK
+    max_prices:
+      buy: 20.75
+      sell: 17.5
+    name: '&rNether Brick'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.35
+  NETHER_BRICKS:
+    category: building
+    data: 0
+    group: NETHER_BRICKS
+    material: NETHER_BRICKS
+    max_prices:
+      buy: 144.19999999999996
+      sell: 70.0
+    name: '&rNether Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.199999999999999
+      sell: 1.4
+  NETHER_GOLD_ORE:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: NETHER_GOLD_ORE
+    max_prices:
+      buy: 824.0
+      sell: 400.0
+    name: '&rNether Gold Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 24.0
+      sell: 8.0
+  NETHER_QUARTZ_ORE:
+    category: mining
+    data: 0
+    group: QUARTZ
+    material: NETHER_QUARTZ_ORE
+    max_prices:
+      buy: 824.0
+      sell: 400.0
+    name: '&rNether Quartz Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 24.0
+      sell: 8.0
+  NETHER_STAR:
+    category: combat
+    data: 0
+    group: NETHER_STAR
+    material: NETHER_STAR
+    max_prices:
+      buy: 186178.0
+      sell: 62600.0
+    name: '&rNether Star'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4878.0
+      sell: 1252.0
+  NETHER_WART:
+    category: farming
+    data: 0
+    group: NETHER_WART
+    material: NETHER_WART
+    max_prices:
+      buy: 447.5
+      sell: 62.5
+    name: '&rNether Wart'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.0
+      sell: 1.25
+  NETHER_WART_BLOCK:
+    category: farming
+    data: 0
+    group: CRIMSON_STEM
+    material: NETHER_WART_BLOCK
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rNether Wart Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  NOTE_BLOCK:
+    category: building
+    data: 0
+    group: JUKEBOX
+    material: NOTE_BLOCK
+    max_prices:
+      buy: 618.0
+      sell: 300.0
+    name: '&rNote Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18.0
+      sell: 6.0
+  OAK_LEAVES:
+    category: farming
+    data: 0
+    group: OAK_LOG
+    material: OAK_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rOak Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  OAK_LOG:
+    category: farming
+    data: 0
+    group: OAK_LOG
+    material: OAK_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rOak Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  OAK_PLANKS:
+    category: farming
+    data: 0
+    group: OAK_LOG
+    material: OAK_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rOak Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  OAK_SAPLING:
+    category: farming
+    data: 0
+    group: OAK_LOG
+    material: OAK_SAPLING
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rOak Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  OBSERVER:
+    category: building
+    data: 0
+    group: REDSTONE_TORCH
+    material: OBSERVER
+    max_prices:
+      buy: 952.0
+      sell: 425.0
+    name: '&rObserver'
+    normal: true
+    placeable: true
+    prices:
+      buy: 27.0
+      sell: 8.5
+  OBSIDIAN:
+    category: mining
+    data: 0
+    group: OBSIDIAN
+    material: OBSIDIAN
+    max_prices:
+      buy: 5370
+      sell: 750
+    name: '&rObsidian'
+    normal: true
+    placeable: true
+    prices:
+      buy: 120
+      sell: 15
+  OCHRE_FROGLIGHT:
+    category: building
+    data: 0
+    group: PEARLESCENT_FROGLIGHT
+    material: OCHRE_FROGLIGHT
+    max_prices:
+      buy: 515.0
+      sell: 250.0
+    name: '&rOchre Froglight'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 5.0
+  ORANGE_CANDLE:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_CANDLE
+    max_prices:
+      buy: 1357.1749999999997
+      sell: 411.25
+    name: '&rOrange Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 34.675
+      sell: 8.225
+  ORANGE_CARPET:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rOrange Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  ORANGE_CONCRETE:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_CONCRETE
+    max_prices:
+      buy: 31.134375000000006
+      sell: 42.65625
+    name: '&rOrange Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4468750000000001
+      sell: 0.853125
+  ORANGE_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_CONCRETE_POWDER
+    max_prices:
+      buy: 23.43437500000001
+      sell: 40.15625
+    name: '&rOrange Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2468750000000002
+      sell: 0.803125
+  ORANGE_DYE:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_DYE
+    max_prices:
+      buy: 23.175000000000004
+      sell: 11.25
+    name: '&rOrange Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.675
+      sell: 0.225
+  ORANGE_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 183.19687500000003
+      sell: 91.40625000000001
+    name: '&rOrange Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.384375
+      sell: 1.8281250000000002
+  ORANGE_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_STAINED_GLASS
+    max_prices:
+      buy: 37.146875
+      sell: 56.40625
+    name: '&rOrange Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.834375
+      sell: 1.128125
+  ORANGE_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_STAINED_GLASS_PANE
+    max_prices:
+      buy: 13.930078125000001
+      sell: 21.152343750000004
+    name: '&rOrange Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.6878906250000001
+      sell: 0.42304687500000004
+  ORANGE_TERRACOTTA:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_TERRACOTTA
+    max_prices:
+      buy: 175.446875
+      sell: 86.40625
+    name: '&rOrange Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.134375
+      sell: 1.7281250000000001
+  ORANGE_TULIP:
+    category: farming
+    data: 0
+    group: POPPY
+    material: ORANGE_TULIP
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rOrange Tulip'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  ORANGE_WOOL:
+    category: misc
+    data: 0
+    group: ORANGE_DYE
+    material: ORANGE_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rOrange Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  OXEYE_DAISY:
+    category: farming
+    data: 0
+    group: POPPY
+    material: OXEYE_DAISY
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rOxeye Daisy'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  OXIDIZED_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: OXIDIZED_COPPER
+    max_prices:
+      buy: 2541.2499999999995
+      sell: 1220.0
+    name: '&rOxidized Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 73.75
+      sell: 24.400000000000002
+  OXIDIZED_CUT_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: OXIDIZED_CUT_COPPER
+    max_prices:
+      buy: 2542.8
+      sell: 1221.0
+    name: '&rOxidized Cut Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 73.8
+      sell: 24.42
+  PACKED_ICE:
+    category: mining
+    data: 0
+    group: ICE
+    material: PACKED_ICE
+    max_prices:
+      buy: 155.0
+      sell: 100
+    name: '&rPacked Ice'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.0
+      sell: 2
+  PACKED_MUD:
+    category: building
+    data: 0
+    group: MUD_BRICKS
+    material: PACKED_MUD
+    max_prices:
+      buy: 164.8
+      sell: 80.0
+    name: '&rPacked Mud'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.8
+      sell: 1.6
+  PAINTING:
+    category: building
+    data: 0
+    group: ITEM_FRAME
+    material: PAINTING
+    max_prices:
+      buy: 309.0
+      sell: 150.0
+    name: '&rPainting'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9.0
+      sell: 3.0
+  PEARLESCENT_FROGLIGHT:
+    category: building
+    data: 0
+    group: PEARLESCENT_FROGLIGHT
+    material: PEARLESCENT_FROGLIGHT
+    max_prices:
+      buy: 515.0
+      sell: 250.0
+    name: '&rPearlescent Froglight'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 5.0
+  PEONY:
+    category: farming
+    data: 0
+    group: ROSE_BUSH
+    material: PEONY
+    max_prices:
+      buy: 46.35000000000001
+      sell: 22.5
+    name: '&rPeony'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.45
+  PHANTOM_MEMBRANE:
+    category: combat
+    data: 0
+    group: PHANTOM_MEMBRANE
+    material: PHANTOM_MEMBRANE
+    max_prices:
+      buy: 772.5
+      sell: 375.0
+    name: '&rPhantom Membrane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 7.5
+  PINK_CANDLE:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_CANDLE
+    max_prices:
+      buy: 1357.1749999999997
+      sell: 411.25
+    name: '&rPink Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 34.675
+      sell: 8.225
+  PINK_CARPET:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rPink Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  PINK_CONCRETE:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_CONCRETE
+    max_prices:
+      buy: 31.134375000000006
+      sell: 42.65625
+    name: '&rPink Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4468750000000001
+      sell: 0.853125
+  PINK_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_CONCRETE_POWDER
+    max_prices:
+      buy: 23.43437500000001
+      sell: 40.15625
+    name: '&rPink Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2468750000000002
+      sell: 0.803125
+  PINK_DYE:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_DYE
+    max_prices:
+      buy: 23.175000000000004
+      sell: 11.25
+    name: '&rPink Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.675
+      sell: 0.225
+  PINK_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 183.19687500000003
+      sell: 91.40625000000001
+    name: '&rPink Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.384375
+      sell: 1.8281250000000002
+  PINK_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_STAINED_GLASS
+    max_prices:
+      buy: 37.146875
+      sell: 56.40625
+    name: '&rPink Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.834375
+      sell: 1.128125
+  PINK_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_STAINED_GLASS_PANE
+    max_prices:
+      buy: 13.930078125000001
+      sell: 21.152343750000004
+    name: '&rPink Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.6878906250000001
+      sell: 0.42304687500000004
+  PINK_TERRACOTTA:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_TERRACOTTA
+    max_prices:
+      buy: 175.446875
+      sell: 86.40625
+    name: '&rPink Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.134375
+      sell: 1.7281250000000001
+  PINK_TULIP:
+    category: farming
+    data: 0
+    group: POPPY
+    material: PINK_TULIP
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rPink Tulip'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  PINK_WOOL:
+    category: misc
+    data: 0
+    group: PINK_DYE
+    material: PINK_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rPink Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  PISTON:
+    category: building
+    data: 0
+    group: PISTON
+    material: PISTON
+    max_prices:
+      buy: 1232.5
+      sell: 425.0
+    name: '&rPiston'
+    normal: true
+    placeable: true
+    prices:
+      buy: 32.5
+      sell: 8.5
+  PODZOL:
+    category: mining
+    data: 0
+    group: DIRT
+    material: PODZOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rPodzol'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  POISONOUS_POTATO:
+    category: farming
+    data: 0
+    group: POTATO
+    material: POISONOUS_POTATO
+    max_prices:
+      buy: 515
+      sell: 250
+    name: '&rPoisonous Potato'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15
+      sell: 5
+  POLISHED_BASALT:
+    category: mining
+    data: 0
+    group: BASALT
+    material: POLISHED_BASALT
+    max_prices:
+      buy: 128.0
+      sell: 25.0
+    name: '&rPolished Basalt'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 0.5
+  POLISHED_BLACKSTONE:
+    category: building
+    data: 0
+    group: POLISHED_BLACKSTONE
+    material: POLISHED_BLACKSTONE
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rPolished Blackstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  POLISHED_BLACKSTONE_BRICKS:
+    category: building
+    data: 0
+    group: POLISHED_BLACKSTONE
+    material: POLISHED_BLACKSTONE_BRICKS
+    max_prices:
+      buy: 128.75
+      sell: 62.5
+    name: '&rPolished Blackstone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 1.25
+  POLISHED_DEEPSLATE:
+    category: building
+    data: 0
+    group: POLISHED_DEEPSLATE
+    material: POLISHED_DEEPSLATE
+    max_prices:
+      buy: 34.11000000000001
+      sell: 32.7
+    name: '&rPolished Deepslate'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.31
+      sell: 0.654
+  POLISHED_DIORITE:
+    category: mining
+    data: 0
+    group: DIORITE
+    material: POLISHED_DIORITE
+    max_prices:
+      buy: 103.0
+      sell: 50.0
+    name: '&rPolished Diorite'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 1.0
+  POLISHED_GRANITE:
+    category: mining
+    data: 0
+    group: DIORITE
+    material: POLISHED_GRANITE
+    max_prices:
+      buy: 103.0
+      sell: 50.0
+    name: '&rPolished Granite'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 1.0
+  POPPED_CHORUS_FRUIT:
+    category: farming
+    data: 0
+    group: CHORUS_FRUIT
+    material: POPPED_CHORUS_FRUIT
+    max_prices:
+      buy: 110.75
+      sell: 55.00000000000001
+    name: '&rPopped Chorus Fruit'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.25
+      sell: 1.1
+  POPPY:
+    category: farming
+    data: 0
+    group: POPPY
+    material: POPPY
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rPoppy'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  PORKCHOP:
+    category: farming
+    data: 0
+    group: PORKCHOP
+    material: PORKCHOP
+    max_prices:
+      buy: 463.5
+      sell: 225.0
+    name: '&rPorkchop'
+    normal: true
+    placeable: true
+    prices:
+      buy: 13.5
+      sell: 4.5
+  POTATO:
+    category: farming
+    data: 0
+    group: POTATO
+    material: POTATO
+    max_prices:
+      buy: 89.75
+      sell: 25.0
+    name: '&rPotato'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.25
+      sell: 0.5
+  POWDER_SNOW_BUCKET:
+    category: mining
+    data: 0
+    group: SNOWBALL
+    material: POWDER_SNOW_BUCKET
+    max_prices:
+      buy: 1442
+      sell: 700
+    name: '&rPowder Snow Bucket'
+    normal: true
+    placeable: true
+    prices:
+      buy: 42
+      sell: 14
+  POWERED_RAIL:
+    category: building
+    data: 0
+    group: RAIL
+    material: POWERED_RAIL
+    max_prices:
+      buy: 995.0
+      sell: 25.0
+    name: '&rPowered Rail'
+    normal: true
+    placeable: true
+    prices:
+      buy: 20.0
+      sell: 0.5
+  PRISMARINE:
+    category: mining
+    data: 0
+    group: PRISMARINE
+    material: PRISMARINE
+    max_prices:
+      buy: 1795.0
+      sell: 500.0
+    name: '&rPrismarine'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45.0
+      sell: 10.0
+  PRISMARINE_BRICKS:
+    category: mining
+    data: 0
+    group: PRISMARINE
+    material: PRISMARINE_BRICKS
+    max_prices:
+      buy: 772.5
+      sell: 375.0
+    name: '&rPrismarine Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 7.5
+  PRISMARINE_CRYSTALS:
+    category: combat
+    data: 0
+    group: PRISMARINE_SHARD
+    material: PRISMARINE_CRYSTALS
+    max_prices:
+      buy: 897.5
+      sell: 250
+    name: '&rPrismarine Crystals'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.5
+      sell: 5
+  PRISMARINE_SHARD:
+    category: combat
+    data: 0
+    group: PRISMARINE_SHARD
+    material: PRISMARINE_SHARD
+    max_prices:
+      buy: 448.75
+      sell: 125.0
+    name: '&rPrismarine Shard'
+    normal: true
+    placeable: true
+    prices:
+      buy: 11.25
+      sell: 2.5
+  PUFFERFISH:
+    category: farming
+    data: 0
+    group: PUFFERFISH
+    material: PUFFERFISH
+    max_prices:
+      buy: 169.94999999999996
+      sell: 82.5
+    name: '&rPufferfish'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.949999999999999
+      sell: 1.65
+  PUMPKIN:
+    category: farming
+    data: 0
+    group: PUMPKIN
+    material: PUMPKIN
+    max_prices:
+      buy: 410
+      sell: 100
+    name: '&rPumpkin'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10
+      sell: 2
+  PUMPKIN_PIE:
+    category: farming
+    data: 0
+    group: PUMPKIN
+    material: PUMPKIN_PIE
+    max_prices:
+      buy: 620.4000000000001
+      sell: 165.0
+    name: '&rPumpkin Pie'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.4
+      sell: 3.3
+  PUMPKIN_SEEDS:
+    category: farming
+    data: 0
+    group: PUMPKIN
+    material: PUMPKIN_SEEDS
+    max_prices:
+      buy: 102.5
+      sell: 25.0
+    name: '&rPumpkin Seeds'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.5
+      sell: 0.5
+  PURPLE_CANDLE:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_CANDLE
+    max_prices:
+      buy: 1371.3375
+      sell: 418.12500000000006
+    name: '&rPurple Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 35.0875
+      sell: 8.3625
+  PURPLE_CARPET:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rPurple Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  PURPLE_CONCRETE:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_CONCRETE
+    max_prices:
+      buy: 32.9046875
+      sell: 43.515625
+    name: '&rPurple Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4984375
+      sell: 0.8703125
+  PURPLE_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_CONCRETE_POWDER
+    max_prices:
+      buy: 25.204687500000006
+      sell: 41.015625
+    name: '&rPurple Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2984375000000001
+      sell: 0.8203125
+  PURPLE_DYE:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_DYE
+    max_prices:
+      buy: 37.33749999999999
+      sell: 18.125
+    name: '&rPurple Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.0875
+      sell: 0.3625
+  PURPLE_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 184.9671875
+      sell: 92.26562500000001
+    name: '&rPurple Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.4359375000000005
+      sell: 1.8453125000000004
+  PURPLE_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_STAINED_GLASS
+    max_prices:
+      buy: 38.91718749999999
+      sell: 57.26562500000001
+    name: '&rPurple Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.8859375
+      sell: 1.1453125000000002
+  PURPLE_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_STAINED_GLASS_PANE
+    max_prices:
+      buy: 14.593945312499999
+      sell: 21.474609375000004
+    name: '&rPurple Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.7072265625
+      sell: 0.42949218750000007
+  PURPLE_TERRACOTTA:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_TERRACOTTA
+    max_prices:
+      buy: 177.2171875
+      sell: 87.26562500000001
+    name: '&rPurple Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.1859375000000005
+      sell: 1.7453125000000003
+  PURPLE_WOOL:
+    category: misc
+    data: 0
+    group: PURPLE_DYE
+    material: PURPLE_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rPurple Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  PURPUR_BLOCK:
+    category: building
+    data: 0
+    group: PURPUR_BLOCK
+    material: PURPUR_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rPurpur Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  PURPUR_PILLAR:
+    category: building
+    data: 0
+    group: PURPUR_BLOCK
+    material: PURPUR_PILLAR
+    max_prices:
+      buy: 206.77500000000003
+      sell: 100.49999999999999
+    name: '&rPurpur Pillar'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.025
+      sell: 2.01
+  QUARTZ:
+    category: mining
+    data: 0
+    group: QUARTZ
+    material: QUARTZ
+    max_prices:
+      buy: 309
+      sell: 150
+    name: '&rQuartz'
+    normal: true
+    placeable: true
+    prices:
+      buy: 9
+      sell: 3
+  QUARTZ_BLOCK:
+    category: building
+    data: 0
+    group: QUARTZ_BLOCK
+    material: QUARTZ_BLOCK
+    max_prices:
+      buy: 1236.0
+      sell: 600.0
+    name: '&rQuartz Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 36.0
+      sell: 12.0
+  QUARTZ_BRICKS:
+    category: building
+    data: 0
+    group: QUARTZ_BLOCK
+    material: QUARTZ_BRICKS
+    max_prices:
+      buy: 1236.0
+      sell: 600.0
+    name: '&rQuartz Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 36.0
+      sell: 12.0
+  QUARTZ_PILLAR:
+    category: building
+    data: 0
+    group: QUARTZ_BLOCK
+    material: QUARTZ_PILLAR
+    max_prices:
+      buy: 1236.775
+      sell: 600.5
+    name: '&rQuartz Pillar'
+    normal: true
+    placeable: true
+    prices:
+      buy: 36.025
+      sell: 12.01
+  RABBIT:
+    category: farming
+    data: 0
+    group: RABBIT
+    material: RABBIT
+    max_prices:
+      buy: 283.25
+      sell: 137.5
+    name: '&rRabbit'
+    normal: true
+    placeable: true
+    prices:
+      buy: 8.25
+      sell: 2.75
+  RABBIT_FOOT:
+    category: farming
+    data: 0
+    group: RABBIT
+    material: RABBIT_FOOT
+    max_prices:
+      buy: 2060.0
+      sell: 1000.0
+    name: '&rRabbit Foot'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60.0
+      sell: 20.0
+  RABBIT_HIDE:
+    category: farming
+    data: 0
+    group: RABBIT
+    material: RABBIT_HIDE
+    max_prices:
+      buy: 144.19999999999996
+      sell: 70.0
+    name: '&rRabbit Hide'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.199999999999999
+      sell: 1.4
+  RAIL:
+    category: building
+    data: 0
+    group: RAIL
+    material: RAIL
+    max_prices:
+      buy: 242.5
+      sell: 12.5
+    name: '&rRail'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.0
+      sell: 0.25
+  RAW_COPPER:
+    category: mining
+    data: 0
+    group: COPPER_INGOT
+    material: RAW_COPPER
+    max_prices:
+      buy: 257.5
+      sell: 125.0
+    name: '&rRaw Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 7.5
+      sell: 2.5
+  RAW_GOLD:
+    category: mining
+    data: 0
+    group: GOLD_INGOT
+    material: RAW_GOLD
+    max_prices:
+      buy: 1545
+      sell: 750
+    name: '&rRaw Gold'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45
+      sell: 15
+  RAW_IRON:
+    category: mining
+    data: 0
+    group: IRON_INGOT
+    material: RAW_IRON
+    max_prices:
+      buy: 824
+      sell: 400
+    name: '&rRaw Iron'
+    normal: true
+    placeable: true
+    prices:
+      buy: 24
+      sell: 8
+  REDSTONE:
+    category: mining
+    data: 0
+    group: REDSTONE
+    material: REDSTONE
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rRedstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  REDSTONE_BLOCK:
+    category: mining
+    data: 0
+    group: REDSTONE
+    material: REDSTONE_BLOCK
+    max_prices:
+      buy: 1854.0
+      sell: 900.0
+    name: '&rRedstone Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 54.0
+      sell: 18.0
+  REDSTONE_LAMP:
+    category: building
+    data: 0
+    group: REDSTONE_LAMP
+    material: REDSTONE_LAMP
+    max_prices:
+      buy: 2472.0
+      sell: 1200.0
+    name: '&rRedstone Lamp'
+    normal: true
+    placeable: true
+    prices:
+      buy: 72.0
+      sell: 24.0
+  REDSTONE_ORE:
+    category: mining
+    data: 0
+    group: REDSTONE
+    material: REDSTONE_ORE
+    max_prices:
+      buy: 1545
+      sell: 750
+    name: '&rRedstone Ore'
+    normal: true
+    placeable: true
+    prices:
+      buy: 45
+      sell: 15
+  REDSTONE_TORCH:
+    category: building
+    data: 0
+    group: REDSTONE_TORCH
+    material: REDSTONE_TORCH
+    max_prices:
+      buy: 231.75
+      sell: 112.5
+    name: '&rRedstone Torch'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.75
+      sell: 2.25
+  RED_CANDLE:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_CANDLE
+    max_prices:
+      buy: 1357.1749999999997
+      sell: 411.25
+    name: '&rRed Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 34.675
+      sell: 8.225
+  RED_CARPET:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rRed Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  RED_CONCRETE:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_CONCRETE
+    max_prices:
+      buy: 31.134375000000006
+      sell: 42.65625
+    name: '&rRed Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4468750000000001
+      sell: 0.853125
+  RED_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_CONCRETE_POWDER
+    max_prices:
+      buy: 23.43437500000001
+      sell: 40.15625
+    name: '&rRed Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2468750000000002
+      sell: 0.803125
+  RED_DYE:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_DYE
+    max_prices:
+      buy: 23.175000000000004
+      sell: 11.25
+    name: '&rRed Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.675
+      sell: 0.225
+  RED_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 183.19687500000003
+      sell: 91.40625000000001
+    name: '&rRed Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.384375
+      sell: 1.8281250000000002
+  RED_MUSHROOM:
+    category: farming
+    data: 0
+    group: RED_MUSHROOM
+    material: RED_MUSHROOM
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rRed Mushroom'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  RED_MUSHROOM_BLOCK:
+    category: farming
+    data: 0
+    group: RED_MUSHROOM
+    material: RED_MUSHROOM_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rRed Mushroom Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  RED_NETHER_BRICKS:
+    category: building
+    data: 0
+    group: NETHER_BRICKS
+    material: RED_NETHER_BRICKS
+    max_prices:
+      buy: 936.5
+      sell: 160.0
+    name: '&rRed Nether Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 21.5
+      sell: 3.2
+  RED_SAND:
+    category: mining
+    data: 0
+    group: SAND
+    material: RED_SAND
+    max_prices:
+      buy: 26.5
+      sell: 50
+    name: '&rRed Sand'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 1
+  RED_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: RED_SANDSTONE
+    max_prices:
+      buy: 53.0
+      sell: 100
+    name: '&rRed Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 2
+  RED_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_STAINED_GLASS
+    max_prices:
+      buy: 37.146875
+      sell: 56.40625
+    name: '&rRed Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.834375
+      sell: 1.128125
+  RED_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_STAINED_GLASS_PANE
+    max_prices:
+      buy: 13.930078125000001
+      sell: 21.152343750000004
+    name: '&rRed Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.6878906250000001
+      sell: 0.42304687500000004
+  RED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_TERRACOTTA
+    max_prices:
+      buy: 175.446875
+      sell: 86.40625
+    name: '&rRed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.134375
+      sell: 1.7281250000000001
+  RED_TULIP:
+    category: farming
+    data: 0
+    group: POPPY
+    material: RED_TULIP
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rRed Tulip'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  RED_WOOL:
+    category: misc
+    data: 0
+    group: RED_DYE
+    material: RED_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rRed Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  REPEATER:
+    category: building
+    data: 0
+    group: REDSTONE_TORCH
+    material: REPEATER
+    max_prices:
+      buy: 777.6499999999999
+      sell: 377.5
+    name: '&rRepeater'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.65
+      sell: 7.55
+  REPELLING_ROD:
+    category: misc
+    data: 0
+    enchants:
+      KNOCKBACK: 10
+    lore:
+    - Almost as effective as spraying water at them!
+    material: STICK
+    name: '&dRepelling Rod'
+    prices:
+      buy: 10000
+      sell: 5000
+  ROSE_BUSH:
+    category: farming
+    data: 0
+    group: ROSE_BUSH
+    material: ROSE_BUSH
+    max_prices:
+      buy: 46.35000000000001
+      sell: 22.5
+    name: '&rRose Bush'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.45
+  ROTTEN_FLESH:
+    category: combat
+    data: 0
+    group: ROTTEN_FLESH
+    material: ROTTEN_FLESH
+    max_prices:
+      buy: 716
+      sell: 100
+    name: '&rRotten Flesh'
+    normal: true
+    placeable: true
+    prices:
+      buy: 16
+      sell: 2
+  SADDLE:
+    category: misc
+    data: 0
+    group: SADDLE
+    material: SADDLE
+    max_prices:
+      buy: 30900
+      sell: 15000
+    name: '&rSaddle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 900
+      sell: 300
+  SALMON:
+    category: farming
+    data: 0
+    group: SALMON
+    material: SALMON
+    max_prices:
+      buy: 368.74
+      sell: 179.0
+    name: '&rSalmon'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.74
+      sell: 3.58
+  SAND:
+    category: mining
+    data: 0
+    group: SAND
+    material: SAND
+    max_prices:
+      buy: 26.5
+      sell: 50
+    name: '&rSand'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 1
+  SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: SANDSTONE
+    max_prices:
+      buy: 53.0
+      sell: 100
+    name: '&rSandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 2
+  SCAFFOLDING:
+    category: building
+    data: 0
+    group: SCAFFOLDING
+    material: SCAFFOLDING
+    max_prices:
+      buy: 176.83333333333331
+      sell: 22.916666666666664
+    name: '&rScaffolding'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.9166666666666665
+      sell: 0.4583333333333333
+  SCULK:
+    category: building
+    data: 0
+    group: SCULK
+    material: SCULK
+    max_prices:
+      buy: 266.0
+      sell: 40.0
+    name: '&rSculk'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 0.8
+  SCULK_CATALYST:
+    category: building
+    data: 0
+    group: SCULK
+    material: SCULK_CATALYST
+    max_prices:
+      buy: 2660.0
+      sell: 400.0
+    name: '&rSculk Catalyst'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60.0
+      sell: 8.0
+  SCULK_SENSOR:
+    category: building
+    data: 0
+    group: SCULK
+    material: SCULK_SENSOR
+    max_prices:
+      buy: 2660.0
+      sell: 400.0
+    name: '&rSculk Sensor'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60.0
+      sell: 8.0
+  SCULK_SHRIEKER:
+    category: building
+    data: 0
+    group: SCULK
+    material: SCULK_SHRIEKER
+    max_prices:
+      buy: 2660.0
+      sell: 400.0
+    name: '&rSculk Shrieker'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60.0
+      sell: 8.0
+  SCUTE:
+    category: misc
+    data: 0
+    group: SCUTE
+    material: SCUTE
+    max_prices:
+      buy: 2060
+      sell: 1000
+    name: '&rScute'
+    normal: true
+    placeable: true
+    prices:
+      buy: 60
+      sell: 20
+  SEAGRASS:
+    category: farming
+    data: 0
+    group: GRASS
+    material: SEAGRASS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rSeagrass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  SEA_LANTERN:
+    category: building
+    data: 0
+    group: TORCH
+    material: SEA_LANTERN
+    max_prices:
+      buy: 6282.5
+      sell: 1750.0
+    name: '&rSea Lantern'
+    normal: true
+    placeable: true
+    prices:
+      buy: 157.5
+      sell: 35.0
+  SEA_PICKLE:
+    category: farming
+    data: 0
+    group: SEA_PICKLE
+    material: SEA_PICKLE
+    max_prices:
+      buy: 412
+      sell: 200
+    name: '&rSea Pickle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 12
+      sell: 4
+  SHROOMLIGHT:
+    category: building
+    data: 0
+    group: TORCH
+    material: SHROOMLIGHT
+    max_prices:
+      buy: 1030
+      sell: 500
+    name: '&rShroomlight'
+    normal: true
+    placeable: true
+    prices:
+      buy: 30
+      sell: 10
+  SHULKER_SHELL:
+    category: combat
+    data: 0
+    group: SHULKER_SHELL
+    material: SHULKER_SHELL
+    max_prices:
+      buy: 2600.0
+      sell: 2500.0
+    name: '&rShulker Shell'
+    normal: true
+    placeable: true
+    prices:
+      buy: 100.0
+      sell: 50.0
+  SLIME_BALL:
+    category: combat
+    data: 0
+    group: SLIME_BALL
+    material: SLIME_BALL
+    max_prices:
+      buy: 537.0
+      sell: 75.0
+    name: '&rSlime Ball'
+    normal: true
+    placeable: true
+    prices:
+      buy: 12.0
+      sell: 1.5
+  SLIME_BLOCK:
+    category: combat
+    data: 0
+    group: SLIME_BALL
+    material: SLIME_BLOCK
+    max_prices:
+      buy: 4833.0
+      sell: 675.0
+    name: '&rSlime Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 108.0
+      sell: 13.5
+  SMALL_DRIPLEAF:
+    category: farming
+    data: 0
+    group: BIG_DRIPLEAF
+    material: SMALL_DRIPLEAF
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rSmall Dripleaf'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  SMITHING_TABLE:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: SMITHING_TABLE
+    max_prices:
+      buy: 1642.0
+      sell: 500.0
+    name: '&rSmithing Table'
+    normal: true
+    placeable: true
+    prices:
+      buy: 42.0
+      sell: 10.0
+  SMOKER:
+    category: building
+    data: 0
+    group: FURNACE
+    material: SMOKER
+    max_prices:
+      buy: 1132.0
+      sell: 500.0
+    name: '&rSmoker'
+    normal: true
+    placeable: true
+    prices:
+      buy: 32.0
+      sell: 10.0
+  SMOOTH_BASALT:
+    category: mining
+    data: 0
+    group: BASALT
+    material: SMOOTH_BASALT
+    max_prices:
+      buy: 135.75
+      sell: 30.0
+    name: '&rSmooth Basalt'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.25
+      sell: 0.6
+  SMOOTH_QUARTZ:
+    category: building
+    data: 0
+    group: QUARTZ_BLOCK
+    material: SMOOTH_QUARTZ
+    max_prices:
+      buy: 1390.5
+      sell: 675.0
+    name: '&rSmooth Quartz'
+    normal: true
+    placeable: true
+    prices:
+      buy: 40.5
+      sell: 13.5
+  SMOOTH_RED_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: SMOOTH_RED_SANDSTONE
+    max_prices:
+      buy: 60.74999999999999
+      sell: 105.0
+    name: '&rSmooth Red Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.25
+      sell: 2.1
+  SMOOTH_SANDSTONE:
+    category: building
+    data: 0
+    group: SANDSTONE
+    material: SMOOTH_SANDSTONE
+    max_prices:
+      buy: 60.74999999999999
+      sell: 105.0
+    name: '&rSmooth Sandstone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.25
+      sell: 2.1
+  SMOOTH_STONE:
+    category: mining
+    data: 0
+    group: COBBLESTONE
+    material: SMOOTH_STONE
+    max_prices:
+      buy: 43.79999999999999
+      sell: 22.499999999999996
+    name: '&rSmooth Stone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2999999999999998
+      sell: 0.44999999999999996
+  SNOWBALL:
+    category: mining
+    data: 0
+    group: SNOWBALL
+    material: SNOWBALL
+    max_prices:
+      buy: 33.25
+      sell: 5.0
+    name: '&rSnowball'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.1
+  SNOW_BLOCK:
+    category: mining
+    data: 0
+    group: SNOWBALL
+    material: SNOW_BLOCK
+    max_prices:
+      buy: 133.0
+      sell: 20.0
+    name: '&rSnow Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.0
+      sell: 0.4
+  SOUL_CAMPFIRE:
+    category: building
+    data: 0
+    group: FURNACE
+    material: SOUL_CAMPFIRE
+    max_prices:
+      buy: 708.5
+      sell: 362.5
+    name: '&rSoul Campfire'
+    normal: true
+    placeable: true
+    prices:
+      buy: 21.0
+      sell: 7.25
+  SOUL_LANTERN:
+    category: building
+    data: 0
+    group: TORCH
+    material: SOUL_LANTERN
+    max_prices:
+      buy: 725.2222222222223
+      sell: 224.65277777777777
+    name: '&rSoul Lantern'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18.625
+      sell: 4.493055555555555
+  SOUL_SAND:
+    category: mining
+    data: 0
+    group: SOUL_SAND
+    material: SOUL_SAND
+    max_prices:
+      buy: 13.25
+      sell: 25.0
+    name: '&rSoul Sand'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.5
+  SOUL_SOIL:
+    category: mining
+    data: 0
+    group: SOUL_SAND
+    material: SOUL_SOIL
+    max_prices:
+      buy: 13.25
+      sell: 25.0
+    name: '&rSoul Soil'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.5
+  SOUL_TORCH:
+    category: building
+    data: 0
+    group: TORCH
+    material: SOUL_TORCH
+    max_prices:
+      buy: 87.0
+      sell: 46.875
+    name: '&rSoul Torch'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.625
+      sell: 0.9375
+  SPECTRAL_ARROW:
+    category: combat
+    data: 0
+    group: ARROW
+    material: SPECTRAL_ARROW
+    max_prices:
+      buy: 913.5
+      sell: 412.5
+    name: '&rSpectral Arrow'
+    normal: true
+    placeable: true
+    prices:
+      buy: 26.0
+      sell: 8.25
+  SPIDER_EYE:
+    category: combat
+    data: 0
+    group: SPIDER_EYE
+    material: SPIDER_EYE
+    max_prices:
+      buy: 1790
+      sell: 250
+    name: '&rSpider Eye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 40
+      sell: 5
+  SPONGE:
+    category: misc
+    data: 0
+    group: SPONGE
+    material: SPONGE
+    max_prices:
+      buy: 4304.624999999999
+      sell: 15630.000000000002
+    name: '&rSponge'
+    normal: true
+    placeable: true
+    prices:
+      buy: 390.875
+      sell: 312.6
+  SPRUCE_LEAVES:
+    category: farming
+    data: 0
+    group: SPRUCE_LOG
+    material: SPRUCE_LEAVES
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rSpruce Leaves'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  SPRUCE_LOG:
+    category: farming
+    data: 0
+    group: SPRUCE_LOG
+    material: SPRUCE_LOG
+    max_prices:
+      buy: 206.0
+      sell: 100.0
+    name: '&rSpruce Log'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6.0
+      sell: 2.0
+  SPRUCE_PLANKS:
+    category: farming
+    data: 0
+    group: SPRUCE_LOG
+    material: SPRUCE_PLANKS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rSpruce Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  SPRUCE_SAPLING:
+    category: farming
+    data: 0
+    group: SPRUCE_LOG
+    material: SPRUCE_SAPLING
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rSpruce Sapling'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  STICKY_PISTON:
+    category: building
+    data: 0
+    group: PISTON
+    material: STICKY_PISTON
+    max_prices:
+      buy: 1769.5
+      sell: 500.0
+    name: '&rSticky Piston'
+    normal: true
+    placeable: true
+    prices:
+      buy: 44.5
+      sell: 10.0
+  STONE:
+    category: mining
+    data: 0
+    group: COBBLESTONE
+    material: STONE
+    max_prices:
+      buy: 36.04999999999999
+      sell: 17.5
+    name: '&rStone'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.0499999999999998
+      sell: 0.35
+  STONECUTTER:
+    category: building
+    data: 0
+    group: CRAFTING_TABLE
+    material: STONECUTTER
+    max_prices:
+      buy: 826.1499999999999
+      sell: 252.5
+    name: '&rStonecutter'
+    normal: true
+    placeable: true
+    prices:
+      buy: 21.15
+      sell: 5.05
+  STONE_BRICKS:
+    category: building
+    data: 0
+    group: STONE_BRICKS
+    material: STONE_BRICKS
+    max_prices:
+      buy: 36.04999999999999
+      sell: 17.5
+    name: '&rStone Bricks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.0499999999999998
+      sell: 0.35
+  STRING:
+    category: combat
+    data: 0
+    group: STRING
+    material: STRING
+    max_prices:
+      buy: 716
+      sell: 100
+    name: '&rString'
+    normal: true
+    placeable: true
+    prices:
+      buy: 16
+      sell: 2
+  SUGAR:
+    category: farming
+    data: 0
+    group: SUGAR_CANE
+    material: SUGAR
+    max_prices:
+      buy: 153.75
+      sell: 37.5
+    name: '&rSugar'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 0.75
+  SUGAR_CANE:
+    category: farming
+    data: 0
+    group: SUGAR_CANE
+    material: SUGAR_CANE
+    max_prices:
+      buy: 153.75
+      sell: 37.5
+    name: '&rSugar Cane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3.75
+      sell: 0.75
+  SUNFLOWER:
+    category: farming
+    data: 0
+    group: ROSE_BUSH
+    material: SUNFLOWER
+    max_prices:
+      buy: 46.35000000000001
+      sell: 22.5
+    name: '&rSunflower'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.45
+  SWEET_BERRIES:
+    category: farming
+    data: 0
+    group: SWEET_BERRIES
+    material: SWEET_BERRIES
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rSweet Berries'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  TARGET:
+    category: building
+    data: 0
+    group: REDSTONE_LAMP
+    material: TARGET
+    max_prices:
+      buy: 1751.0
+      sell: 850.0
+    name: '&rTarget'
+    normal: true
+    placeable: true
+    prices:
+      buy: 51.0
+      sell: 17.0
+  TERRACOTTA:
+    category: mining
+    data: 0
+    group: CLAY_BALL
+    material: TERRACOTTA
+    max_prices:
+      buy: 172.55000000000004
+      sell: 85.00000000000001
+    name: '&rTerracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.050000000000001
+      sell: 1.7000000000000002
+  TINTED_GLASS:
+    category: building
+    data: 0
+    group: GLASS
+    material: TINTED_GLASS
+    max_prices:
+      buy: 1047.125
+      sell: 527.5
+    name: '&rTinted Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 30.875
+      sell: 10.55
+  TNT:
+    category: building
+    data: 0
+    group: TNT
+    material: TNT
+    max_prices:
+      buy: 3686.0
+      sell: 700.0
+    name: '&rTnt'
+    normal: true
+    placeable: true
+    prices:
+      buy: 86.0
+      sell: 14.0
+  TORCH:
+    category: building
+    data: 0
+    group: TORCH
+    material: TORCH
+    max_prices:
+      buy: 83.6875
+      sell: 40.625
+    name: '&rTorch'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.4375
+      sell: 0.8125
+  TRAPPED_CHEST:
+    category: building
+    data: 0
+    group: CHEST
+    material: TRAPPED_CHEST
+    max_prices:
+      buy: 809.625
+      sell: 318.75
+    name: '&rTrapped Chest'
+    normal: true
+    placeable: true
+    prices:
+      buy: 22.125
+      sell: 6.375
+  TRIPWIRE_HOOK:
+    category: building
+    data: 0
+    group: REDSTONE_TORCH
+    material: TRIPWIRE_HOOK
+    max_prices:
+      buy: 397.625
+      sell: 118.75
+    name: '&rTripwire Hook'
+    normal: true
+    placeable: true
+    prices:
+      buy: 10.125
+      sell: 2.375
+  TROPICAL_FISH:
+    category: farming
+    data: 0
+    group: TROPICAL_FISH
+    material: TROPICAL_FISH
+    max_prices:
+      buy: 169.94999999999996
+      sell: 82.5
+    name: '&rTropical Fish'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.949999999999999
+      sell: 1.65
+  TUBE_CORAL:
+    category: farming
+    data: 0
+    group: TUBE_CORAL
+    material: TUBE_CORAL
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rTube Coral'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  TUBE_CORAL_BLOCK:
+    category: farming
+    data: 0
+    group: TUBE_CORAL
+    material: TUBE_CORAL_BLOCK
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rTube Coral Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  TUBE_CORAL_FAN:
+    category: farming
+    data: 0
+    group: TUBE_CORAL
+    material: TUBE_CORAL_FAN
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rTube Coral Fan'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  TUFF:
+    category: mining
+    data: 0
+    group: TUFF
+    material: TUFF
+    max_prices:
+      buy: 72.09999999999998
+      sell: 35.0
+    name: '&rTuff'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0999999999999996
+      sell: 0.7
+  TWISTING_VINES:
+    category: farming
+    data: 0
+    group: WARPED_ROOTS
+    material: TWISTING_VINES
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rTwisting Vines'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  VERDANT_FROGLIGHT:
+    category: building
+    data: 0
+    group: PEARLESCENT_FROGLIGHT
+    material: VERDANT_FROGLIGHT
+    max_prices:
+      buy: 515.0
+      sell: 250.0
+    name: '&rVerdant Froglight'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15.0
+      sell: 5.0
+  VINE:
+    category: farming
+    data: 0
+    group: GRASS
+    material: VINE
+    max_prices:
+      buy: 25.75
+      sell: 12.5
+    name: '&rVine'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.75
+      sell: 0.25
+  WARPED_FUNGUS:
+    category: farming
+    data: 0
+    group: WARPED_STEM
+    material: WARPED_FUNGUS
+    max_prices:
+      buy: 206
+      sell: 100
+    name: '&rWarped Fungus'
+    normal: true
+    placeable: true
+    prices:
+      buy: 6
+      sell: 2
+  WARPED_NYLIUM:
+    category: mining
+    data: 0
+    group: NETHERRACK
+    material: WARPED_NYLIUM
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rWarped Nylium'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  WARPED_PLANKS:
+    category: farming
+    data: 0
+    group: WARPED_STEM
+    material: WARPED_PLANKS
+    max_prices:
+      buy: 154.5
+      sell: 75.0
+    name: '&rWarped Planks'
+    normal: true
+    placeable: true
+    prices:
+      buy: 4.5
+      sell: 1.5
+  WARPED_ROOTS:
+    category: farming
+    data: 0
+    group: WARPED_ROOTS
+    material: WARPED_ROOTS
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rWarped Roots'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  WARPED_STEM:
+    category: farming
+    data: 0
+    group: WARPED_STEM
+    material: WARPED_STEM
+    max_prices:
+      buy: 618
+      sell: 300
+    name: '&rWarped Stem'
+    normal: true
+    placeable: true
+    prices:
+      buy: 18
+      sell: 6
+  WARPED_WART_BLOCK:
+    category: farming
+    data: 0
+    group: WARPED_STEM
+    material: WARPED_WART_BLOCK
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rWarped Wart Block'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  WEATHERED_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: WEATHERED_COPPER
+    max_prices:
+      buy: 2502.7499999999995
+      sell: 1207.5
+    name: '&rWeathered Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 72.75
+      sell: 24.150000000000002
+  WEATHERED_CUT_COPPER:
+    category: building
+    data: 0
+    group: COPPER_BLOCK
+    material: WEATHERED_CUT_COPPER
+    max_prices:
+      buy: 2504.3
+      sell: 1208.5
+    name: '&rWeathered Cut Copper'
+    normal: true
+    placeable: true
+    prices:
+      buy: 72.8
+      sell: 24.17
+  WEEPING_VINES:
+    category: farming
+    data: 0
+    group: CRIMSON_ROOTS
+    material: WEEPING_VINES
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rWeeping Vines'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  WET_SPONGE:
+    category: misc
+    data: 0
+    group: SPONGE
+    material: WET_SPONGE
+    max_prices:
+      buy: 4296.875
+      sell: 15625.0
+    name: '&rWet Sponge'
+    normal: true
+    placeable: true
+    prices:
+      buy: 390.625
+      sell: 312.5
+  WHEAT:
+    category: farming
+    data: 0
+    group: WHEAT
+    material: WHEAT
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rWheat'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  WHEAT_SEEDS:
+    category: farming
+    data: 0
+    group: WHEAT
+    material: WHEAT_SEEDS
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rWheat Seeds'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  WHITE_CANDLE:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_CANDLE
+    max_prices:
+      buy: 1385.5
+      sell: 425.0
+    name: '&rWhite Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 35.5
+      sell: 8.5
+  WHITE_CARPET:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rWhite Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  WHITE_CONCRETE:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_CONCRETE
+    max_prices:
+      buy: 34.675
+      sell: 44.375
+    name: '&rWhite Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.55
+      sell: 0.8875000000000001
+  WHITE_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_CONCRETE_POWDER
+    max_prices:
+      buy: 26.975000000000005
+      sell: 41.875
+    name: '&rWhite Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.35
+      sell: 0.8375
+  WHITE_DYE:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_DYE
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rWhite Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  WHITE_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 186.73750000000004
+      sell: 93.12500000000001
+    name: '&rWhite Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.487500000000001
+      sell: 1.8625000000000003
+  WHITE_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_STAINED_GLASS
+    max_prices:
+      buy: 40.68749999999999
+      sell: 58.12500000000001
+    name: '&rWhite Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.9375
+      sell: 1.1625
+  WHITE_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_STAINED_GLASS_PANE
+    max_prices:
+      buy: 15.257812499999998
+      sell: 21.796875
+    name: '&rWhite Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.7265625
+      sell: 0.43593750000000003
+  WHITE_TERRACOTTA:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_TERRACOTTA
+    max_prices:
+      buy: 178.98750000000004
+      sell: 88.12500000000001
+    name: '&rWhite Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.237500000000001
+      sell: 1.7625000000000002
+  WHITE_TULIP:
+    category: farming
+    data: 0
+    group: POPPY
+    material: WHITE_TULIP
+    max_prices:
+      buy: 51.5
+      sell: 25.0
+    name: '&rWhite Tulip'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.5
+      sell: 0.5
+  WHITE_WOOL:
+    category: misc
+    data: 0
+    group: WHITE_DYE
+    material: WHITE_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rWhite Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
+  WITHER_ROSE:
+    category: farming
+    data: 0
+    group: WITHER_ROSE
+    material: WITHER_ROSE
+    max_prices:
+      buy: 1287.5
+      sell: 625.0
+    name: '&rWither Rose'
+    normal: true
+    placeable: true
+    prices:
+      buy: 37.5
+      sell: 12.5
+  WITHER_SKELETON_SKULL:
+    category: combat
+    data: 0
+    group: WITHER_SKELETON_SKULL
+    material: WITHER_SKELETON_SKULL
+    max_prices:
+      buy: 44875.0
+      sell: 12500.0
+    name: '&rWither Skeleton Skull'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1125.0
+      sell: 250.0
+  YELLOW_CANDLE:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_CANDLE
+    max_prices:
+      buy: 1357.1749999999997
+      sell: 411.25
+    name: '&rYellow Candle'
+    normal: true
+    placeable: true
+    prices:
+      buy: 34.675
+      sell: 8.225
+  YELLOW_CARPET:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_CARPET
+    max_prices:
+      buy: 68.66666666666667
+      sell: 33.33333333333333
+    name: '&rYellow Carpet'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.0
+      sell: 0.6666666666666666
+  YELLOW_CONCRETE:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_CONCRETE
+    max_prices:
+      buy: 31.134375000000006
+      sell: 42.65625
+    name: '&rYellow Concrete'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.4468750000000001
+      sell: 0.853125
+  YELLOW_CONCRETE_POWDER:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_CONCRETE_POWDER
+    max_prices:
+      buy: 23.43437500000001
+      sell: 40.15625
+    name: '&rYellow Concrete Powder'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.2468750000000002
+      sell: 0.803125
+  YELLOW_DYE:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_DYE
+    max_prices:
+      buy: 23.175000000000004
+      sell: 11.25
+    name: '&rYellow Dye'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.675
+      sell: 0.225
+  YELLOW_GLAZED_TERRACOTTA:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_GLAZED_TERRACOTTA
+    max_prices:
+      buy: 183.19687500000003
+      sell: 91.40625000000001
+    name: '&rYellow Glazed Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.384375
+      sell: 1.8281250000000002
+  YELLOW_STAINED_GLASS:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_STAINED_GLASS
+    max_prices:
+      buy: 37.146875
+      sell: 56.40625
+    name: '&rYellow Stained Glass'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1.834375
+      sell: 1.128125
+  YELLOW_STAINED_GLASS_PANE:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_STAINED_GLASS_PANE
+    max_prices:
+      buy: 13.930078125000001
+      sell: 21.152343750000004
+    name: '&rYellow Stained Glass Pane'
+    normal: true
+    placeable: true
+    prices:
+      buy: 0.6878906250000001
+      sell: 0.42304687500000004
+  YELLOW_TERRACOTTA:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_TERRACOTTA
+    max_prices:
+      buy: 175.446875
+      sell: 86.40625
+    name: '&rYellow Terracotta'
+    normal: true
+    placeable: true
+    prices:
+      buy: 5.134375
+      sell: 1.7281250000000001
+  YELLOW_WOOL:
+    category: misc
+    data: 0
+    group: YELLOW_DYE
+    material: YELLOW_WOOL
+    max_prices:
+      buy: 103
+      sell: 50
+    name: '&rYellow Wool'
+    normal: true
+    placeable: true
+    prices:
+      buy: 3
+      sell: 1
