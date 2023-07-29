@@ -351,6 +351,8 @@ villagers:
     rewardExp: 0
     xp: 0
 enemies:
+  config:
+    offset: [0, 2, 0]
   enemyTypes:
     gilded_warden:
       id: piglin
