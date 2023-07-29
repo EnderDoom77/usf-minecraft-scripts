@@ -6,7 +6,16 @@ units = {}
 def configure_units(new_units: dict[str,str]):
     global units
     units = new_units
+    
+replace_keys = {}
+def set_key(key: str, value: any):
+    global replace_keys
+    replace_keys[key] = value
 
+def get_key(key: str, default = None):
+    return replace_keys.get(key, default)
+
+INTERPOLATION_CHAR = '%'
 def preprocess_nbt(data: dict | list, depth: int = 0):
     if isinstance(data, list):
         for item in data:
@@ -18,12 +27,16 @@ def preprocess_nbt(data: dict | list, depth: int = 0):
             
     original_keys = list(data.keys())
     for key in original_keys:
-        print("  " * depth + f"Preprocessing {key}")
-        preprocess_nbt(data[key], depth + 1)                    
+        new_val = data[key]
+        preprocess_nbt(new_val, depth + 1)                    
+        
+        if isinstance(new_val, str):
+            if new_val.startswith(INTERPOLATION_CHAR) and new_val.endswith(INTERPOLATION_CHAR):
+                saved_key = new_val[1:-1]
+                data[key] = get_key(saved_key)
         
         if key.endswith('Stringify'):
             new_key = key[:(-len('Stringify'))]
-            new_val = data[key]
             if isinstance(new_val, list):
                 data[new_key] = [f"[{json.dumps(item)}]" for item in new_val]
             else:
@@ -41,11 +54,12 @@ def postprocess_nbt(nbt: str) -> str:
     nbt = re.sub(rf"('UUID':\s?\[)", f"\\1I; ", nbt)
     return nbt
 
-def dict_to_nbt(data: dict) -> str:
+def dict_to_nbt(data: dict, preprocess = True) -> str:
     print("------------------------------")
     print("Beginning NBT Preprocessing...")
     print("------------------------------")
-    preprocess_nbt(data)
+    if preprocess: 
+        preprocess_nbt(data)
     print("====RESULT====")
     nbt = json.dumps(data)
     nbt = postprocess_nbt(nbt)

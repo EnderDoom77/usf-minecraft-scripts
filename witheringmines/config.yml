@@ -584,7 +584,7 @@ enemies:
     - weight: 1
       data:
         entity: "%lich%"
-  spawnerDefaults:
+  spawner_defaults:
     SpawnCount: 3
     MaxNearbyEntities: 6
     SpawnRange: 12
@@ -592,7 +592,7 @@ enemies:
     MinSpawnDelay: 120
     MaxSpawnDelay: 240
     RequiredPlayerRange: 20
-loottables:
+loot_tables:
   gilded_warden:
     type: entity
     pools:
@@ -637,46 +637,46 @@ loottables:
           tag: "%quartz%"
   archmage:
     type: entity
-      pools:
-      - rolls: 1
-        entries:
-        - type: item
-          name: minecraft:quartz
-          functions:
-          - function: set_count
-            count:
-              min: 4
-              max: 8
-          - function: set_nbt
-            tag: "%quartz%"
+    pools:
+    - rolls: 1
+      entries:
+      - type: item
+        name: minecraft:quartz
+        functions:
+        - function: set_count
+          count:
+            min: 4
+            max: 8
+        - function: set_nbt
+          tag: "%quartz%"
   wight:
     type: entity
-      pools:
-      - rolls: 1
-        entries:
-        - type: item
-          name: minecraft:charcoal
-          functions:
-          - function: set_count
-            count:
-              min: 0
-              max: 1
-          - function: set_nbt
-            tag: "%netherite%"
+    pools:
+    - rolls: 1
+      entries:
+      - type: item
+        name: minecraft:charcoal
+        functions:
+        - function: set_count
+          count:
+            min: 0
+            max: 1
+        - function: set_nbt
+          tag: "%netherite%"
   lich:
     type: entity
-      pools:
-      - rolls: 1
-        entries:
-        - type: item
-          name: minecraft:charcoal
-          functions:
-          - function: set_count
-            count:
-              min: 3
-              max: 5
-          - function: set_nbt
-            tag: "%netherite%"
+    pools:
+    - rolls: 1
+      entries:
+      - type: item
+        name: minecraft:charcoal
+        functions:
+        - function: set_count
+          count:
+            min: 3
+            max: 5
+        - function: set_nbt
+          tag: "%netherite%"
 postprocessing:
   units:
     lvl: s

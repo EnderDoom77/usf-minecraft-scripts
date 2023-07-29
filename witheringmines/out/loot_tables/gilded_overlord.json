@@ -1,0 +1,42 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 7
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": {
+                "Damage": 200,
+                "display": {
+                  "Name": "[{\"text\": \"Glistening Shard\", \"italic\": false, \"color\": \"gold\"}]",
+                  "Lore": [
+                    "[{\"text\": \"It glints before the firelight around you\", \"italic\": false}]"
+                  ]
+                },
+                "Enchantments": [
+                  {
+                    "id": "minecraft:unbreaking",
+                    "lvl": 1
+                  }
+                ],
+                "HideFlags": 17
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

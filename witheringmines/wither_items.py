@@ -1,3 +1,4 @@
+import json
 import yaml
 import argparse
 import nbtlib as nbtlib
@@ -18,17 +19,21 @@ with open(config_file, 'r') as f:
 result = {}
 trades_result = {}
 
+
 for item, data in config['materials'].items():
     currency = data['currency']
     currency_mat = currency['material']
-    nbt = nbtlib.dict_to_nbt(currency['nbt'])
-    result[item] = f"{item} -> {currency_mat}{nbt}"
+    nbt = currency['nbt']
+    nbtlib.preprocess_nbt(nbt)
+    nbtlib.set_key(item, nbt)
+    nbt_str = nbtlib.dict_to_nbt(nbt, preprocess=False)
+    result[item] = f"{item} -> {currency_mat}{nbt_str}"
     trades_result[item] = []
     trades = data['trades']
     for t in trades:
         new_trade = {}
         cost = t['cost']
-        new_trade['buy'] = {'id': currency_mat, 'Count': cost, 'tag': currency['nbt']}
+        new_trade['buy'] = {'id': currency_mat, 'Count': cost, 'tag': nbt}
         new_trade['sell'] = t['sell']
         if 'other' in t:
             new_trade['buyB'] = t['other']
@@ -52,6 +57,12 @@ for tlist in trades_result.values():
     for k,v in villagers['nbt'].items():
         new_villager[k] = v
     villagers_result.append(nbtlib.dict_to_nbt(new_villager))
+    
+loot_tables = config['loot_tables']
+for name, loot_table in loot_tables.items():
+    nbtlib.preprocess_nbt(loot_table)
+    with open(f'out/loot_tables/{name}.json', 'w') as f:
+        json.dump(loot_table, f, indent=2)
 
 with open(output_file, 'w') as f:
     for item, value in result.items():
