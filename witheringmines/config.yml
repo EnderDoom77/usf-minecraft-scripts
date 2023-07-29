@@ -353,11 +353,12 @@ villagers:
 enemies:
   config:
     offset: [0, 2, 0]
-  enemyTypes:
+  enemy_types:
     gilded_warden:
       id: piglin
-      DeathLootTable: witheringmines/gilded_warden
-      CustomName: Gilded Overlord
+      DeathLootTable: witheringmines:entities/gilded_warden
+      CustomNameStringify: 
+        text: Gilded Warden
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
@@ -388,8 +389,9 @@ enemies:
         ShowParticles: 0
     gilded_overlord:
       id: piglin_brute
-      DeathLootTable: witheringmines/gilded_overlord
-      CustomName: Gilded Overlord
+      DeathLootTable: witheringmines:entities/gilded_overlord
+      CustomNameStringify: 
+        text: Gilded Overlord
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
@@ -425,8 +427,9 @@ enemies:
         ShowParticles: 0
     risen_spelunker:
       id: skeleton
-      DeathLootTable: witheringmines/risen_spelunker
-      CustomName: Risen Spelunker
+      DeathLootTable: witheringmines:entities/risen_spelunker
+      CustomNameStringify: 
+        text: Risen Spelunker
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
@@ -462,8 +465,9 @@ enemies:
         ShowParticles: 0
     archmage:
       id: blaze
-      DeathLootTable: witheringmines/archmage
-      CustomName: Archmage
+      DeathLootTable: witheringmines:entities/archmage
+      CustomNameStringify: 
+        text: Archmage
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
@@ -482,12 +486,16 @@ enemies:
         ShowParticles: 0
     wight:
       id: wither_skeleton
-      CustomName: Wight
+      DeathLootTable: witheringmines:entities/wight
+      CustomNameStringify: 
+        text: Wight
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
       - Name: generic.movement_speed
         Base: 0.2
+      - Name: generic.max_health  
+        Base: 40
       HandItems:
       - id: diamond_sword
         Count: 1
@@ -517,7 +525,9 @@ enemies:
         ShowParticles: 0
     lich:
       id: evoker
-      CustomName: Sanguine Lich
+      DeathLootTable: witheringmines:entities/lich
+      CustomNameStringify: 
+        text: Sanguine Lich
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
@@ -587,13 +597,13 @@ enemies:
       data:
         entity: "%lich%"
   spawner_defaults:
-    SpawnCount: 3
-    MaxNearbyEntities: 6
+    SpawnCount: 2
+    MaxNearbyEntities: 3
     SpawnRange: 12
     Delay: 20
-    MinSpawnDelay: 120
-    MaxSpawnDelay: 240
-    RequiredPlayerRange: 20
+    MinSpawnDelay: 90
+    MaxSpawnDelay: 210
+    RequiredPlayerRange: 16
 loot_tables:
   gilded_warden:
     type: entity
@@ -605,6 +615,7 @@ loot_tables:
         functions:
         - function: set_count
           count:
+            type: uniform
             min: 1
             max: 2
         - function: set_nbt
@@ -619,6 +630,7 @@ loot_tables:
         functions:
         - function: set_count
           count:
+            type: uniform
             min: 5
             max: 7
         - function: set_nbt
@@ -633,6 +645,7 @@ loot_tables:
         functions:
         - function: set_count
           count:
+            type: uniform
             min: 1
             max: 2
         - function: set_nbt
@@ -647,6 +660,7 @@ loot_tables:
         functions:
         - function: set_count
           count:
+            type: uniform
             min: 4
             max: 8
         - function: set_nbt
@@ -661,6 +675,7 @@ loot_tables:
         functions:
         - function: set_count
           count:
+            type: uniform
             min: 0
             max: 1
         - function: set_nbt
@@ -675,6 +690,7 @@ loot_tables:
         functions:
         - function: set_count
           count:
+            type: uniform
             min: 3
             max: 5
         - function: set_nbt

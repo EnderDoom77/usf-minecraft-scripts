@@ -11,6 +11,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 5,
                 "max": 7
               }

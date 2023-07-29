@@ -64,8 +64,28 @@ for name, loot_table in loot_tables.items():
     with open(f'out/loot_tables/{name}.json', 'w') as f:
         json.dump(loot_table, f, indent=2)
 
+enemy_data = config['enemies']
+enemy_config = enemy_data['config']
+enemy_summon_offset = enemy_config['offset']
+enemy_summon_offset_str = ' '.join(f'~{x}' for x in enemy_summon_offset)
+enemy_types = enemy_data['enemy_types']
+
+for enemy_name, enemy in enemy_types.items():
+    nbtlib.preprocess_nbt(enemy)
+    nbtlib.set_key(enemy_name, enemy)
+    
+spawner_nbts = []
+default_spawner_nbt = enemy_data['spawner_defaults']
+for spawner in enemy_data['spawners']:
+    for k,v in default_spawner_nbt.items():
+        spawner[k] = v
+    spawner_nbt = nbtlib.dict_to_nbt(spawner)
+    spawner_nbts.append(spawner_nbt)
+
 with open(output_file, 'w') as f:
     for item, value in result.items():
         f.write(f"{value}\n")
     for v in villagers_result:
         f.write(f"/summon villager {villager_offset_str} {v}\n")
+    for s in spawner_nbts:
+        f.write(f"/setblock {enemy_summon_offset_str} minecraft:spawner{s}\n")
