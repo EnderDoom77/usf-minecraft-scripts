@@ -131,6 +131,7 @@ farming:
   - CARROT:1
   - POTATO:1
   - BEETROOT:1
+  - TORCHFLOWER:1
   - PUMPKIN:1
   - MELON_SLICE:1
   - SUGAR_CANE:1
@@ -150,7 +151,7 @@ farming:
   - SPRUCE_LOG:1
   - JUNGLE_LOG:1
   - ACACIA_LOG:1
-  - DARK_OAK_LOG:1
+  - DARK_OAK_LOG:2
   - MANGROVE_LOG:2
   - CHERRY_LOG:2
   - CRIMSON_STEM:2
@@ -174,7 +175,7 @@ farming:
   - MUTTON:2
   - CHICKEN:2
   - RABBIT:2
-  - COD:2
+  - COD:3
   - SALMON:3
   - TROPICAL_FISH:3
   - PUFFERFISH:3
@@ -242,6 +243,7 @@ farming:
   - 16
   - 17
   - 21
+  - 22
 mining:
   color: '&6'
   flags:

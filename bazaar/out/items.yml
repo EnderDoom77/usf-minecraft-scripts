@@ -771,10 +771,15 @@ groups:
     main_item: RABBIT
   RAIL:
     item_list:
-    - RAIL:11
-    - POWERED_RAIL:13
-    - ACTIVATOR_RAIL:15
-    - DETECTOR_RAIL:17
+    - RAIL:4
+    - POWERED_RAIL:5
+    - ACTIVATOR_RAIL:6
+    - DETECTOR_RAIL:11
+    - MINECART:12
+    - FURNACE_MINECART:13
+    - CHEST_MINECART:15
+    - HOPPER_MINECART:16
+    - TNT_MINECART:17
     main_item: RAIL
   REDSTONE:
     item_list:
@@ -934,6 +939,11 @@ groups:
     - SOUL_LANTERN:15
     - END_ROD:16
     main_item: TORCH
+  TORCHFLOWER:
+    item_list:
+    - TORCHFLOWER:12
+    - TORCHFLOWER_SEEDS:16
+    main_item: TORCHFLOWER
   TUBE_CORAL:
     item_list:
     - TUBE_CORAL:11
@@ -2381,6 +2391,20 @@ items:
     prices:
       buy: 12.0
       sell: 4.0
+  CHEST_MINECART:
+    category: building
+    data: 0
+    group: RAIL
+    material: CHEST_MINECART
+    max_prices:
+      buy: 4002.0
+      sell: 1200.0
+    name: '&rChest Minecart'
+    normal: true
+    placeable: true
+    prices:
+      buy: 102.0
+      sell: 24.0
   CHICKEN:
     category: farming
     data: 0
@@ -4271,6 +4295,20 @@ items:
     prices:
       buy: 8.0
       sell: 2.0
+  FURNACE_MINECART:
+    category: building
+    data: 0
+    group: RAIL
+    material: FURNACE_MINECART
+    max_prices:
+      buy: 3898.0
+      sell: 1100.0
+    name: '&rFurnace Minecart'
+    normal: true
+    placeable: true
+    prices:
+      buy: 98.0
+      sell: 22.0
   GHAST_TEAR:
     category: combat
     data: 0
@@ -4957,6 +4995,20 @@ items:
     prices:
       buy: 102.0
       sell: 24.0
+  HOPPER_MINECART:
+    category: building
+    data: 0
+    group: RAIL
+    material: HOPPER_MINECART
+    max_prices:
+      buy: 7592.0
+      sell: 2200.0
+    name: '&rHopper Minecart'
+    normal: true
+    placeable: true
+    prices:
+      buy: 192.0
+      sell: 44.0
   HORN_CORAL:
     category: farming
     data: 0
@@ -6059,6 +6111,20 @@ items:
       sell: 25.0
     stored-enchants:
       MENDING: 1
+  MINECART:
+    category: building
+    data: 0
+    group: RAIL
+    material: MINECART
+    max_prices:
+      buy: 3590.0
+      sell: 1000.0
+    name: '&rMinecart'
+    normal: true
+    placeable: true
+    prices:
+      buy: 90.0
+      sell: 20.0
   MOSSY_COBBLESTONE:
     category: mining
     data: 0
@@ -8633,6 +8699,20 @@ items:
     prices:
       buy: 86.0
       sell: 14.0
+  TNT_MINECART:
+    category: building
+    data: 0
+    group: RAIL
+    material: TNT_MINECART
+    max_prices:
+      buy: 3399
+      sell: 1650
+    name: '&rTnt Minecart'
+    normal: true
+    placeable: true
+    prices:
+      buy: 99
+      sell: 33
   TORCH:
     category: building
     data: 0
@@ -8647,6 +8727,34 @@ items:
     prices:
       buy: 2.4375
       sell: 0.8125
+  TORCHFLOWER:
+    category: farming
+    data: 0
+    group: TORCHFLOWER
+    material: TORCHFLOWER
+    max_prices:
+      buy: 669.5
+      sell: 325.0
+    name: '&rTorchflower'
+    normal: true
+    placeable: true
+    prices:
+      buy: 19.5
+      sell: 6.5
+  TORCHFLOWER_SEEDS:
+    category: farming
+    data: 0
+    group: TORCHFLOWER
+    material: TORCHFLOWER_SEEDS
+    max_prices:
+      buy: 515
+      sell: 250
+    name: '&rTorchflower Seeds'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15
+      sell: 5
   TRAPPED_CHEST:
     category: building
     data: 0
