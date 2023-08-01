@@ -110,7 +110,8 @@ groups:
   BOOK:
     item_list:
     - BOOK:12
-    - BOOKSHELF:16
+    - BOOKSHELF:14
+    - CHISELED_BOOKSHELF:16
     main_item: BOOK
   BRAIN_CORAL:
     item_list:
@@ -304,6 +305,13 @@ groups:
     - DEEPSLATE_DIAMOND_ORE:15
     - DIAMOND_BLOCK:17
     main_item: DIAMOND
+  DIAMOND_HORSE_ARMOR:
+    item_list:
+    - DIAMOND_HORSE_ARMOR:11
+    - GOLDEN_HORSE_ARMOR:13
+    - IRON_HORSE_ARMOR:15
+    - LEATHER_HORSE_ARMOR:17
+    main_item: DIAMOND_HORSE_ARMOR
   DIORITE:
     item_list:
     - DIORITE:11
@@ -668,6 +676,11 @@ groups:
     - PISTON:12
     - STICKY_PISTON:16
     main_item: PISTON
+  PITCHER_POD:
+    item_list:
+    - PITCHER_POD:12
+    - PITCHER_POD_PLANT:16
+    main_item: PITCHER_POD
   POLISHED_BLACKSTONE:
     item_list:
     - POLISHED_BLACKSTONE:11
@@ -2433,6 +2446,20 @@ items:
     prices:
       buy: 248.001
       sell: 82.667
+  CHISELED_BOOKSHELF:
+    category: misc
+    data: 0
+    group: BOOK
+    material: CHISELED_BOOKSHELF
+    max_prices:
+      buy: 386.25
+      sell: 187.5
+    name: '&rChiseled Bookshelf'
+    normal: true
+    placeable: true
+    prices:
+      buy: 11.25
+      sell: 3.75
   CHISELED_DEEPSLATE:
     category: building
     data: 0
@@ -3791,6 +3818,20 @@ items:
     prices:
       buy: 1800.0
       sell: 1800.0
+  DIAMOND_HORSE_ARMOR:
+    category: misc
+    data: 0
+    group: DIAMOND_HORSE_ARMOR
+    material: DIAMOND_HORSE_ARMOR
+    max_prices:
+      buy: 25750
+      sell: 12500
+    name: '&rDiamond Horse Armor'
+    normal: true
+    placeable: true
+    prices:
+      buy: 750
+      sell: 250
   DIAMOND_ORE:
     category: mining
     data: 0
@@ -4477,6 +4518,20 @@ items:
     prices:
       buy: 30.0
       sell: 3.0
+  GOLDEN_HORSE_ARMOR:
+    category: misc
+    data: 0
+    group: DIAMOND_HORSE_ARMOR
+    material: GOLDEN_HORSE_ARMOR
+    max_prices:
+      buy: 20600
+      sell: 10000
+    name: '&rGolden Horse Armor'
+    normal: true
+    placeable: true
+    prices:
+      buy: 600
+      sell: 200
   GOLD_BLOCK:
     category: mining
     data: 0
@@ -5107,6 +5162,20 @@ items:
     prices:
       buy: 162.0
       sell: 36.0
+  IRON_HORSE_ARMOR:
+    category: misc
+    data: 0
+    group: DIAMOND_HORSE_ARMOR
+    material: IRON_HORSE_ARMOR
+    max_prices:
+      buy: 20600
+      sell: 10000
+    name: '&rIron Horse Armor'
+    normal: true
+    placeable: true
+    prices:
+      buy: 600
+      sell: 200
   IRON_INGOT:
     category: mining
     data: 0
@@ -5345,6 +5414,20 @@ items:
     prices:
       buy: 15.75
       sell: 5.25
+  LEATHER_HORSE_ARMOR:
+    category: misc
+    data: 0
+    group: DIAMOND_HORSE_ARMOR
+    material: LEATHER_HORSE_ARMOR
+    max_prices:
+      buy: 15450.0
+      sell: 7500.0
+    name: '&rLeather Horse Armor'
+    normal: true
+    placeable: true
+    prices:
+      buy: 450.0
+      sell: 150.0
   LIGHT_BLUE_CANDLE:
     category: misc
     data: 0
@@ -6993,6 +7076,34 @@ items:
     prices:
       buy: 32.5
       sell: 8.5
+  PITCHER_POD:
+    category: farming
+    data: 0
+    group: PITCHER_POD
+    material: PITCHER_POD
+    max_prices:
+      buy: 515
+      sell: 250
+    name: '&rPitcher Pod'
+    normal: true
+    placeable: true
+    prices:
+      buy: 15
+      sell: 5
+  PITCHER_POD_PLANT:
+    category: farming
+    data: 0
+    group: PITCHER_POD
+    material: PITCHER_POD_PLANT
+    max_prices:
+      buy: 100000
+      sell: 5000000
+    name: '&rPitcher Pod Plant'
+    normal: true
+    placeable: true
+    prices:
+      buy: 100000
+      sell: 100000
   PODZOL:
     category: mining
     data: 0
