@@ -5,11 +5,11 @@ materials:
       nbt:
         Damage: 200
         display:
-          NameStringify: 
+          NameStringify[]: 
             text: Charred Fragment
             italic: false
             color: dark_gray
-          LoreStringify:
+          LoreStringify[]:
           - text: Plagued with impurities, marred by flames
             italic: false
         Enchantments:
@@ -65,11 +65,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Withering Pickaxe 
               italic: false
               color: dark_red
-            LoreStringify:
+            LoreStringify[]:
             - text: You feel it siphoning your very life as you hold it 
               italic: false
           AttributeModifiers:
@@ -92,11 +92,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Hood of Horrors
               italic: false
               color: dark_red
-            LoreStringify:
+            LoreStringify[]:
             - text: You stop feeling the need to breathe as you put it on 
               italic: false
           Enchantments:
@@ -112,11 +112,11 @@ materials:
       nbt:
         Damage: 200
         display:
-          NameStringify: 
+          NameStringify[]: 
             text: Glistening Shard
             italic: false
             color: gold
-          LoreStringify:
+          LoreStringify[]:
           - text: It glints before the firelight around you
             italic: false
         Enchantments:
@@ -179,11 +179,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Pickaxe of Midas
               italic: false
               color: gold
-            LoreStringify:
+            LoreStringify[]:
             - text: The pickaxe shimmers alluringly... It whispers promises of boundless fortunes
               italic: false
           Enchantments:
@@ -202,11 +202,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Sword of Midas
               italic: false
               color: gold
-            LoreStringify:
+            LoreStringify[]:
             - text: The sword glistens before you... It craves gilded blood
               italic: false
           Enchantments:
@@ -222,11 +222,11 @@ materials:
       nbt:
         Damage: 200
         display:
-          NameStringify: 
+          NameStringify[]: 
             text: Shimmering Powder
             italic: false
             color: aqua
-          LoreStringify:
+          LoreStringify[]:
           - text: Cold to the touch, so fine it feels like a liquid in your palm
             italic: false
         Enchantments:
@@ -275,11 +275,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Warding Shroud
               italic: false
               color: aqua
-            LoreStringify:
+            LoreStringify[]:
             - text: A thin veil of solid magic weaves around these wings
               italic: false
           Enchantments:
@@ -296,11 +296,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Wand of Banishment
               italic: false
               color: aqua
-            LoreStringify:
+            LoreStringify[]:
             - text: The wand fights your grasp as if it willed you away
               italic: false
           Enchantments:
@@ -319,11 +319,11 @@ materials:
         Count: 1
         tag:
           display:
-            NameStringify: 
+            NameStringify[]: 
               text: Fleeting Boots
               italic: false
               color: aqua
-            LoreStringify:
+            LoreStringify[]:
             - text: These animated boots hover and flutter in the air 
               italic: false
           AttributeModifiers:
@@ -353,11 +353,14 @@ villagers:
 enemies:
   config:
     offset: [0, 2, 0]
+    enemy_defaults:
+      HandDropChances: [0.0,0.0]
+      ArmorDropChances: [0.0,0.0,0.0,0.0]
   enemy_types:
     gilded_warden:
-      id: piglin
+      id: zombified_piglin
       DeathLootTable: witheringmines:entities/gilded_warden
-      CustomNameStringify: 
+      CustomNameStringify[]: 
         text: Gilded Warden
       CustomNameVisible: 1
       CanPickUpLoot: 0
@@ -369,8 +372,8 @@ enemies:
         Count: 1
         tag:
           Enchantments:
-          - id: sharpness
-            lvl: 3
+          - id: unbreaking
+            lvl: 1
       - {}
       ArmorItems:
       - {}
@@ -388,22 +391,24 @@ enemies:
         Duration: 2147483647
         ShowParticles: 0
     gilded_overlord:
-      id: piglin_brute
+      id: husk
       DeathLootTable: witheringmines:entities/gilded_overlord
-      CustomNameStringify: 
+      CustomNameStringify[]: 
         text: Gilded Overlord
       CustomNameVisible: 1
       CanPickUpLoot: 0
       Attributes:
       - Name: generic.movement_speed
-        Base: 0.5
+        Base: 0.4
+      - Name: generic.max_health
+        Base: 40
       HandItems:
       - id: golden_axe
         Count: 1
         tag:
           Enchantments:
           - id: sharpness
-            lvl: 3
+            lvl: 1
       - {}
       ArmorItems:
       - {}
@@ -421,14 +426,22 @@ enemies:
           - id: protection
             lvl: 4
       ActiveEffects:
+      - Id: 7
+        Amplifier: 49
+        Duration: 20
+        ShowParticles: 0
       - Id: 10
         Amplifier: 0
         Duration: 2147483647
         ShowParticles: 0
+      - Id: 12
+        Amplifier: 0
+        Duration: 2147483647
+        ShowParticles: 0
     risen_spelunker:
-      id: skeleton
+      id: stray
       DeathLootTable: witheringmines:entities/risen_spelunker
-      CustomNameStringify: 
+      CustomNameStringify[]: 
         text: Risen Spelunker
       CustomNameVisible: 1
       CanPickUpLoot: 0
@@ -466,7 +479,7 @@ enemies:
     archmage:
       id: blaze
       DeathLootTable: witheringmines:entities/archmage
-      CustomNameStringify: 
+      CustomNameStringify[]: 
         text: Archmage
       CustomNameVisible: 1
       CanPickUpLoot: 0
@@ -476,6 +489,10 @@ enemies:
       - Name: generic.max_health
         Base: 50
       ActiveEffects:
+      - Id: 6
+        Amplifier: 49
+        Duration: 20
+        ShowParticles: 0
       - Id: 10
         Amplifier: 0
         Duration: 2147483647
@@ -487,7 +504,7 @@ enemies:
     wight:
       id: wither_skeleton
       DeathLootTable: witheringmines:entities/wight
-      CustomNameStringify: 
+      CustomNameStringify[]: 
         text: Wight
       CustomNameVisible: 1
       CanPickUpLoot: 0
@@ -523,10 +540,14 @@ enemies:
         Amplifier: 0
         Duration: 2147483647
         ShowParticles: 0
+      - Id: 7
+        Amplifier: 49
+        Duration: 20
+        ShowParticles: 0
     lich:
       id: evoker
       DeathLootTable: witheringmines:entities/lich
-      CustomNameStringify: 
+      CustomNameStringify[]: 
         text: Sanguine Lich
       CustomNameVisible: 1
       CanPickUpLoot: 0
@@ -561,6 +582,10 @@ enemies:
             material: minecraft:quartz
             pattern: minecraft:spire
       ActiveEffects:
+      - Id: 6
+        Amplifier: 49
+        Duration: 20
+        ShowParticles: 0
       - Id: 10
         Amplifier: 1
         Duration: 2147483647
@@ -619,7 +644,7 @@ loot_tables:
             min: 1
             max: 2
         - function: set_nbt
-          tag: "%gold%"
+          tagStringify: "%gold%"
   gilded_overlord:
     type: entity
     pools:
@@ -634,14 +659,14 @@ loot_tables:
             min: 5
             max: 7
         - function: set_nbt
-          tag: "%gold%"
+          tagStringify: "%gold%"
   risen_spelunker:
     type: entity
     pools:
     - rolls: 1
       entries:
       - type: item
-        name: minecraft:quartz
+        name: minecraft:sugar
         functions:
         - function: set_count
           count:
@@ -649,14 +674,14 @@ loot_tables:
             min: 1
             max: 2
         - function: set_nbt
-          tag: "%quartz%"
+          tagStringify: "%quartz%"
   archmage:
     type: entity
     pools:
     - rolls: 1
       entries:
       - type: item
-        name: minecraft:quartz
+        name: minecraft:sugar
         functions:
         - function: set_count
           count:
@@ -664,7 +689,7 @@ loot_tables:
             min: 4
             max: 8
         - function: set_nbt
-          tag: "%quartz%"
+          tagStringify: "%quartz%"
   wight:
     type: entity
     pools:
@@ -679,7 +704,7 @@ loot_tables:
             min: 0
             max: 1
         - function: set_nbt
-          tag: "%netherite%"
+          tagStringify: "%netherite%"
   lich:
     type: entity
     pools:
@@ -694,7 +719,7 @@ loot_tables:
             min: 3
             max: 5
         - function: set_nbt
-          tag: "%netherite%"
+          tagStringify: "%netherite%"
 postprocessing:
   units:
     lvl: s
@@ -702,6 +727,9 @@ postprocessing:
     CanPickUpLoot: b
     CustomNameVisible: b
     Count: b
+    ShowParticles: b
     priceMultiplier: f
     rewardExp: b
     Base: f
+    HandDropChances: f
+    ArmorDropChances: f

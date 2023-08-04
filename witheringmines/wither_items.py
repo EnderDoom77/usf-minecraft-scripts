@@ -69,9 +69,12 @@ enemy_config = enemy_data['config']
 enemy_summon_offset = enemy_config['offset']
 enemy_summon_offset_str = ' '.join(f'~{x}' for x in enemy_summon_offset)
 enemy_types = enemy_data['enemy_types']
+default_enemy_nbt = enemy_config['enemy_defaults']
 
 for enemy_name, enemy in enemy_types.items():
     nbtlib.preprocess_nbt(enemy)
+    for k,v in default_enemy_nbt.items():
+        enemy[k] = v
     nbtlib.set_key(enemy_name, enemy)
     
 spawner_nbts = []

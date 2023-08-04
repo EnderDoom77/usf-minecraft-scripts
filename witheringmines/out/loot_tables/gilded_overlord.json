@@ -18,22 +18,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": {
-                "Damage": 200,
-                "display": {
-                  "Name": "[{\"text\": \"Glistening Shard\", \"italic\": false, \"color\": \"gold\"}]",
-                  "Lore": [
-                    "[{\"text\": \"It glints before the firelight around you\", \"italic\": false}]"
-                  ]
-                },
-                "Enchantments": [
-                  {
-                    "id": "minecraft:unbreaking",
-                    "lvl": 1
-                  }
-                ],
-                "HideFlags": 17
-              }
+              "tag": "{\"Damage\": 200, \"Enchantments\": [{\"id\": \"minecraft:unbreaking\", \"lvl\": 1s}], \"HideFlags\": 17, \"display\": {\"Lore\": [\"[{\\\"italic\\\": false, \\\"text\\\": \\\"It glints before the firelight around you\\\"}]\"], \"Name\": \"[{\\\"color\\\": \\\"gold\\\", \\\"italic\\\": false, \\\"text\\\": \\\"Glistening Shard\\\"}]\"}}"
             }
           ]
         }

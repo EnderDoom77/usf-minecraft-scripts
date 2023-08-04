@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:quartz",
+          "name": "minecraft:sugar",
           "functions": [
             {
               "function": "set_count",
@@ -18,22 +18,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": {
-                "Damage": 200,
-                "display": {
-                  "Name": "[{\"text\": \"Shimmering Powder\", \"italic\": false, \"color\": \"aqua\"}]",
-                  "Lore": [
-                    "[{\"text\": \"Cold to the touch, so fine it feels like a liquid in your palm\", \"italic\": false}]"
-                  ]
-                },
-                "Enchantments": [
-                  {
-                    "id": "minecraft:unbreaking",
-                    "lvl": 1
-                  }
-                ],
-                "HideFlags": 17
-              }
+              "tag": "{\"Damage\": 200, \"Enchantments\": [{\"id\": \"minecraft:unbreaking\", \"lvl\": 1s}], \"HideFlags\": 17, \"display\": {\"Lore\": [\"[{\\\"italic\\\": false, \\\"text\\\": \\\"Cold to the touch, so fine it feels like a liquid in your palm\\\"}]\"], \"Name\": \"[{\\\"color\\\": \\\"aqua\\\", \\\"italic\\\": false, \\\"text\\\": \\\"Shimmering Powder\\\"}]\"}}"
             }
           ]
         }

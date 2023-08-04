@@ -18,22 +18,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": {
-                "Damage": 200,
-                "display": {
-                  "Name": "[{\"text\": \"Charred Fragment\", \"italic\": false, \"color\": \"dark_gray\"}]",
-                  "Lore": [
-                    "[{\"text\": \"Plagued with impurities, marred by flames\", \"italic\": false}]"
-                  ]
-                },
-                "Enchantments": [
-                  {
-                    "id": "minecraft:unbreaking",
-                    "lvl": 1
-                  }
-                ],
-                "HideFlags": 17
-              }
+              "tag": "{\"Damage\": 200, \"Enchantments\": [{\"id\": \"minecraft:unbreaking\", \"lvl\": 1s}], \"HideFlags\": 17, \"display\": {\"Lore\": [\"[{\\\"italic\\\": false, \\\"text\\\": \\\"Plagued with impurities, marred by flames\\\"}]\"], \"Name\": \"[{\\\"color\\\": \\\"dark_gray\\\", \\\"italic\\\": false, \\\"text\\\": \\\"Charred Fragment\\\"}]\"}}"
             }
           ]
         }
