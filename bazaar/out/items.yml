@@ -440,7 +440,8 @@ groups:
   HEART_OF_THE_SEA:
     item_list:
     - HEART_OF_THE_SEA:12
-    - NAUTILUS_SHELL:16
+    - NAUTILUS_SHELL:14
+    - CONDUIT:16
     main_item: HEART_OF_THE_SEA
   HONEYCOMB:
     item_list:
@@ -679,7 +680,7 @@ groups:
   PITCHER_POD:
     item_list:
     - PITCHER_POD:12
-    - PITCHER_POD_PLANT:16
+    - PITCHER_PLANT:16
     main_item: PITCHER_POD
   POLISHED_BLACKSTONE:
     item_list:
@@ -879,11 +880,6 @@ groups:
     - SCULK_SENSOR:15
     - SCULK_SHRIEKER:17
     main_item: SCULK
-  SCUTE:
-    item_list:
-    - SCUTE:12
-    - NAUTILUS_SHELL:16
-    main_item: SCUTE
   SLIME_BALL:
     item_list:
     - SLIME_BALL:12
@@ -2768,6 +2764,20 @@ items:
     prices:
       buy: 5.25
       sell: 1.75
+  CONDUIT:
+    category: misc
+    data: 0
+    group: HEART_OF_THE_SEA
+    material: CONDUIT
+    max_prices:
+      buy: 25970.0
+      sell: 74500.0
+    name: '&rConduit'
+    normal: true
+    placeable: true
+    prices:
+      buy: 1970.0
+      sell: 1490.0
   COOKED_BEEF:
     category: farming
     data: 0
@@ -4224,6 +4234,20 @@ items:
     prices:
       buy: 1.5
       sell: 0.5
+  FIREWORK_ROCKET:
+    category: misc
+    data: 0
+    group: FIREWORK_ROCKET
+    material: FIREWORK_ROCKET
+    max_prices:
+      buy: 77.25
+      sell: 37.5
+    name: '&rFirework Rocket'
+    normal: true
+    placeable: true
+    prices:
+      buy: 2.25
+      sell: 0.75
   FIRE_CORAL:
     category: farming
     data: 0
@@ -7076,6 +7100,20 @@ items:
     prices:
       buy: 32.5
       sell: 8.5
+  PITCHER_PLANT:
+    category: farming
+    data: 0
+    group: PITCHER_POD
+    material: PITCHER_PLANT
+    max_prices:
+      buy: 669.5
+      sell: 325.0
+    name: '&rPitcher Plant'
+    normal: true
+    placeable: true
+    prices:
+      buy: 19.5
+      sell: 6.5
   PITCHER_POD:
     category: farming
     data: 0
@@ -7090,20 +7128,6 @@ items:
     prices:
       buy: 15
       sell: 5
-  PITCHER_POD_PLANT:
-    category: farming
-    data: 0
-    group: PITCHER_POD
-    material: PITCHER_POD_PLANT
-    max_prices:
-      buy: 100000
-      sell: 5000000
-    name: '&rPitcher Pod Plant'
-    normal: true
-    placeable: true
-    prices:
-      buy: 100000
-      sell: 100000
   PODZOL:
     category: mining
     data: 0

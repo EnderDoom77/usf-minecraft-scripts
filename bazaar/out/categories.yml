@@ -333,11 +333,13 @@ misc:
     data: 1
     material: MAGENTA_STAINED_GLASS_PANE
   items:
+  - FIREWORK_ROCKET:1
   - END_CRYSTAL:1
   - GLASS_BOTTLE:1
   - SCUTE:1
   - HEART_OF_THE_SEA:1
   - NETHERITE_UPGRADE_SMITHING_TEMPLATE:1
+  - DIAMOND_HORSE_ARMOR:1
   - WHITE_DYE:1
   - LIGHT_GRAY_DYE:1
   - GRAY_DYE:1
@@ -355,8 +357,7 @@ misc:
   - MAGENTA_DYE:1
   - PINK_DYE:1
   - NAME_TAG:1
-  - SADDLE:1
-  - DIAMOND_HORSE_ARMOR:1
+  - SADDLE:2
   - SPONGE:2
   - BOOK:2
   material: ENCHANTING_TABLE
@@ -390,6 +391,7 @@ misc:
   - 44
   - 12
   - 13
+  - 14
 search:
   enabled: true
   flags:
