@@ -19,9 +19,10 @@ output_file = args.output
 with open(config_file, 'r') as f:
     config = yaml.safe_load(f)
 
+nbtconfig = config['postprocessing']
+nbtlib.configure_units(nbtconfig['units'])
 result = {}
 trades_result = {}
-
 
 for item, data in config['materials'].items():
     currency = data['currency']
@@ -41,9 +42,6 @@ for item, data in config['materials'].items():
         if 'other' in t:
             new_trade['buyB'] = t['other']
         trades_result[item].append(new_trade)
-
-nbtconfig = config['postprocessing']
-nbtlib.configure_units(nbtconfig['units'])
 
 villagers = config['villagers']
 static_trade_nbt = villagers['trades']
