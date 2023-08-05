@@ -5,16 +5,62 @@ config:
   villager_profession: cleric
   villager_level: 5
   properties: [Invulnerable, NoAI, PersistenceRequired, Silent]
-  mode: essence
+  mode: progressive
+  villager_name_color: "dark_purple"
   essence:
     damage_start: 1024
     material: "lapis"
     name_empty: "Essence of Enchantment"
     name_format: "Essence of {0}"
 villagers:
-  - position: [7995.5, 114, -1052.5]
-    rotation: 180
-    trades: [unbreaking, mending, swift_sneak]
+- name: "General Enchanter"
+  trades: [unbreaking, mending, vanishing_curse]
+  position: [217.5, 45, 85.5]
+  rotation: 90
+- name: "Tool Enchanter"
+  trades: [efficiency, fortune, silk_touch]
+  position: [217.5, 45, 90.5]
+  rotation: 90
+- name: "Fishing Enchanter"
+  trades: [lure, luck_of_the_sea]
+  position: [222.5, 45, 85.5]
+  rotation: -90
+#- name: "TBD"
+#  trades: []
+#  position: [222.5, 45, 90.5]
+#  rotation: -90
+- name: "Blade Enchanter"
+  trades: [sharpness, smite, bane_of_arthropods, fire_aspect, sweeping_edge, knockback, looting]
+  position: [217.5, 51, 85.5]
+  rotation: 90
+- name: "Archery Enchanter"
+  trades: [power, punch, flame, infinity]
+  position: [217.5, 51, 90.5]
+  rotation: 90
+- name: "Aquatic Enchanter"
+  trades: [impaling, loyalty, channeling, riptide]
+  position: [222.5, 51, 85.5]
+  rotation: -90
+- name: "Ballista Enchanter"
+  trades: [piercing, quick_charge, multishot]
+  position: [222.5, 51, 90.5]
+  rotation: -90
+- name: "Wearables Enchanter"
+  trades: [protection, blast_protection, projectile_protection, binding_curse, thorns]
+  position: [217.5, 57, 85.5]
+  rotation: 90
+- name: "Headgear Enchanter"
+  trades: [respiration, aqua_affinity]
+  position: [217.5, 57, 90.5]
+  rotation: 90
+- name: "Footwear Enchanter"
+  trades: [feather_falling, soul_speed, frost_walker, depth_strider]
+  position: [222.5, 57, 85.5]
+  rotation: -90
+- name: "Legwear Enchanter"
+  trades: [swift_sneak]
+  position: [222.5, 57, 90.5]
+  rotation: -90
 recipes:
   unbreaking: ["3 iron_ingot", "10 iron_ingot", "2 diamond"]
   mending: ["8 diamond"]
@@ -37,20 +83,21 @@ recipes:
   efficiency: ["1 gold_ingot", "1 golden_carrot", "1 diamond", "3 diamond", "1 netherite_scrap"]
   silk_touch: ["10 light_blue_wool"]
   fortune: ["10 lapis_lazuli", "5 lapis_block", "1 diamond_block"]
-  knockback: ["5 piston", "3 diamond"],
+  knockback: ["5 piston", "3 diamond"]
   fire_aspect: ["3 fire_charge", "1 torchflower"]
   sweeping_edge: ["12 glowstone_dust", "6 ender_pearl", "5 diamond"]
   bane_of_arthropods: ["1 spider_eye", "2 fermented_spider_eye", "5 fermented_spider_eye", "32 cobweb", "4 diamond"]
   looting: ["10 lapis_lazuli", "4 diamond", "1 diamond_block"]
-  sharpness: ["8 flint", "5 quartz", "15 quartz", "diamond_sword", "6 diamond"],
-  smite: ["1 gold_ingot", "3 gold_ingot", "golden_apple", "3 golden_apple", "5 diamond"],
+  sharpness: ["8 flint", "5 quartz", "15 quartz", "1 diamond_sword", "6 diamond"]
+  smite: ["1 gold_ingot", "3 gold_ingot", "1 golden_apple", "3 golden_apple", "5 diamond"]
   piercing: ["5 arrow", "10 spectral_arrow", "20 amethyst_shard", "4 diamond"]
-  quick_charge: ["10 sugar", "4 redstone_block", "5 diamond"],
+  quick_charge: ["10 sugar", "4 redstone_block", "5 diamond"]
+  multishot: ["8 ender_pearl"]
   power: ["2 flint", "5 arrow", "10 spectral_arrow", "20 amethyst_shard", "4 diamond"]
   flame: ["15 magma_cream"]
   punch: ["5 piston", "3 diamond"]
   infinity: ["8 ender_eye"]
-  impaling: ["8 flint", "12 quartz", "12 prismarine_shard", "diamond_sword", "6 diamond"]
+  impaling: ["8 flint", "12 quartz", "12 prismarine_shard", "1 diamond_sword", "5 diamond"]
   channeling: ["5 copper_block"]
   loyalty: ["10 bone", "4 ender_eye", "4 diamond"]
   riptide: ["3 phantom_membrane", "2 rabbit_foot", "5 diamond"]

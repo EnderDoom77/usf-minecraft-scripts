@@ -1,6 +1,9 @@
 import json
 import yaml
 import argparse
+import sys
+
+sys.path.append(sys.path[0] + '/..')
 import nbtlib as nbtlib
 
 parser = argparse.ArgumentParser()

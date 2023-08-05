@@ -4,6 +4,10 @@ import yaml
 import termcolor
 import time
 import re
+import sys
+
+sys.path.append(sys.path[0] + '/..')
+import nbtlib as nbtlib
 
 parser = argparse.ArgumentParser()
 
@@ -25,7 +29,7 @@ with open(args.config) as f:
 config = data["config"]
 villagers = data["villagers"]
 recipes = data["recipes"]
-essence_info = data["essence"]
+essence_info = config["essence"]
 damage_map: dict[str, int] = {}
 
 class Recipe:
@@ -33,10 +37,12 @@ class Recipe:
         self.enchantment = enchantment
         self.costs = []
         for rawcost in costs:
-            cnt, item = tuple(rawcost.split())
-            cnt = int(cnt)
-            self.costs.append((cnt, item))
-            
+            try:
+                cnt, item = tuple(rawcost.split())
+                cnt = int(cnt)
+                self.costs.append((cnt, item))
+            except:
+                print("Unable to parse cost: " + rawcost)
     def get_trades(self, config: dict) -> list[str]:
         result = []
         buyA = r"{id:book, Count:1}"
@@ -50,7 +56,7 @@ class Recipe:
             if config['mode'] == "essence":
                 # TO BE COMPLETED, BOOK + ESSENCE = ENCHANTED BOOK
                 continue
-            sell = f"{{id:enchanted_book,Count:1,tag:{{StoredEnchantments:[{{id:\"minecraft:{self.enchantment}\",lvl:{lvl}}}]}}}}"
+            sell = f"{{id:enchanted_book,Count:1,tag:{{StoredEnchantments:[{{id:\"minecraft:{self.enchantment}\",lvl:{lvl}s}}]}}}}"
             buyB = f"{{id:{item},Count:{cnt}}}"
             result.append(f"{{maxUses:{config['max_uses']},rewardExp:{config['reward_exp']}b,priceMultiplier:0,buy:{buyA},buyB:{buyB},sell:{sell}}}")
             lvl += 1
@@ -90,13 +96,14 @@ for villager in villagers:
     nbt["VillagerData"] = f"{{type:{config['villager_type']},profession:{config['villager_profession']},level:{config['villager_level']}}}"
     nbt["Offers"] = f"{{Recipes:[{','.join(offers)}]}}"
     nbt["Rotation"] = f"[{rotation:.1f}f]"
+    nbt["CustomName"] = f"'[{{\"text\": \"{villager['name']}\", \"color\": \"{config['villager_name_color']}\"}}]'"
     new_cmd = f"{cmd_base} {{{','.join(f'{tag}:{val}' for tag,val in nbt.items())}}}"
     resulting_cmds.append(new_cmd)
     print(termcolor.colored(new_cmd, "blue"))
     print()
     
 with open(args.out, 'w') as f:
-    f.writelines(resulting_cmds)
+    f.writelines(cmd + '\n' for cmd in resulting_cmds)
 
 
 """
