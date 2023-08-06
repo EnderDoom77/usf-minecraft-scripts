@@ -1174,14 +1174,14 @@ items:
     group: ANVIL
     material: ANVIL
     max_prices:
-      buy: 22258.0
-      sell: 6200.0
+      buy: 36169.25
+      sell: 10075.0
     name: '&rAnvil'
     normal: true
     placeable: true
     prices:
-      buy: 558.0
-      sell: 124.0
+      buy: 906.75
+      sell: 201.5
   APPLE:
     category: farming
     data: 0
@@ -1608,14 +1608,14 @@ items:
     group: FURNACE
     material: BLAST_FURNACE
     max_prices:
-      buy: 4029.4000000000005
-      sell: 1167.5
+      buy: 6273.150000000001
+      sell: 1792.5
     name: '&rBlast Furnace'
     normal: true
     placeable: true
     prices:
-      buy: 101.9
-      sell: 23.35
+      buy: 158.15
+      sell: 35.85
   BLAZE_POWDER:
     category: combat
     data: 0
@@ -1860,28 +1860,28 @@ items:
     group: BOOK
     material: BOOK
     max_prices:
-      buy: 1002.0
-      sell: 375.0
+      buy: 2621.666666666667
+      sell: 183.33333333333331
     name: '&rBook'
     normal: true
     placeable: true
     prices:
-      buy: 27.0
-      sell: 7.5
+      buy: 55.0
+      sell: 3.6666666666666665
   BOOKSHELF:
     category: misc
     data: 0
     group: BOOK
     material: BOOKSHELF
     max_prices:
-      buy: 3315.0
-      sell: 1275.0
+      buy: 8174.0
+      sell: 700.0
     name: '&rBookshelf'
     normal: true
     placeable: true
     prices:
-      buy: 90.0
-      sell: 25.5
+      buy: 174.0
+      sell: 14.0
   BRAIN_CORAL:
     category: farming
     data: 0
@@ -2308,14 +2308,14 @@ items:
     group: CHAIN
     material: CHAIN
     max_prices:
-      buy: 877.5555555555555
-      sell: 244.44444444444446
+      buy: 1426.0277777777778
+      sell: 397.22222222222223
     name: '&rChain'
     normal: true
     placeable: true
     prices:
-      buy: 22.0
-      sell: 4.888888888888889
+      buy: 35.75
+      sell: 7.944444444444445
   CHARCOAL:
     category: mining
     data: 0
@@ -2406,14 +2406,14 @@ items:
     group: RAIL
     material: CHEST_MINECART
     max_prices:
-      buy: 4002.0
-      sell: 1200.0
+      buy: 6245.75
+      sell: 1825.0
     name: '&rChest Minecart'
     normal: true
     placeable: true
     prices:
-      buy: 102.0
-      sell: 24.0
+      buy: 158.25
+      sell: 36.5
   CHICKEN:
     category: farming
     data: 0
@@ -3988,28 +3988,28 @@ items:
     group: EMERALD
     material: EMERALD
     max_prices:
-      buy: 4480.0
-      sell: 875.0
+      buy: 1966.25
+      sell: 137.5
     name: '&rEmerald'
     normal: true
     placeable: true
     prices:
-      buy: 105.0
-      sell: 17.5
+      buy: 41.25
+      sell: 2.75
   EMERALD_BLOCK:
     category: mining
     data: 0
     group: EMERALD
     material: EMERALD_BLOCK
     max_prices:
-      buy: 40320.0
-      sell: 7875.0
+      buy: 17696.25
+      sell: 1237.5
     name: '&rEmerald Block'
     normal: true
     placeable: true
     prices:
-      buy: 945.0
-      sell: 157.5
+      buy: 371.25
+      sell: 24.75
   EMERALD_ORE:
     category: mining
     data: 0
@@ -4044,14 +4044,14 @@ items:
     group: ENCHANTING_TABLE
     material: ENCHANTING_TABLE
     max_prices:
-      buy: 22882.0
-      sell: 23375.0
+      buy: 24501.666666666664
+      sell: 23183.333333333336
     name: '&rEnchanting Table'
     normal: true
     placeable: true
     prices:
-      buy: 907.0
-      sell: 467.5
+      buy: 935.0
+      sell: 463.6666666666667
   ENDER_CHEST:
     category: building
     data: 0
@@ -4366,14 +4366,14 @@ items:
     group: RAIL
     material: FURNACE_MINECART
     max_prices:
-      buy: 3898.0
-      sell: 1100.0
+      buy: 6141.75
+      sell: 1725.0
     name: '&rFurnace Minecart'
     normal: true
     placeable: true
     prices:
-      buy: 98.0
-      sell: 22.0
+      buy: 154.25
+      sell: 34.5
   GHAST_TEAR:
     category: combat
     data: 0
@@ -4534,14 +4534,14 @@ items:
     group: CARROT
     material: GOLDEN_CARROT
     max_prices:
-      buy: 1380.0
-      sell: 150.0
+      buy: 1227.5277777777778
+      sell: 247.22222222222223
     name: '&rGolden Carrot'
     normal: true
     placeable: true
     prices:
-      buy: 30.0
-      sell: 3.0
+      buy: 28.916666666666664
+      sell: 4.944444444444445
   GOLDEN_HORSE_ARMOR:
     category: misc
     data: 0
@@ -5066,28 +5066,28 @@ items:
     group: CHEST
     material: HOPPER
     max_prices:
-      buy: 4002.0
-      sell: 1200.0
+      buy: 6245.75
+      sell: 1825.0
     name: '&rHopper'
     normal: true
     placeable: true
     prices:
-      buy: 102.0
-      sell: 24.0
+      buy: 158.25
+      sell: 36.5
   HOPPER_MINECART:
     category: building
     data: 0
     group: RAIL
     material: HOPPER_MINECART
     max_prices:
-      buy: 7592.0
-      sell: 2200.0
+      buy: 12079.5
+      sell: 3450.0
     name: '&rHopper Minecart'
     normal: true
     placeable: true
     prices:
-      buy: 192.0
-      sell: 44.0
+      buy: 304.5
+      sell: 69.0
   HORN_CORAL:
     category: farming
     data: 0
@@ -5164,28 +5164,28 @@ items:
     group: CHAIN
     material: IRON_BARS
     max_prices:
-      buy: 269.25
-      sell: 75.0
+      buy: 437.53125
+      sell: 121.875
     name: '&rIron Bars'
     normal: true
     placeable: true
     prices:
-      buy: 6.75
-      sell: 1.5
+      buy: 10.96875
+      sell: 2.4375
   IRON_BLOCK:
     category: mining
     data: 0
     group: IRON_INGOT
     material: IRON_BLOCK
     max_prices:
-      buy: 6462.0
-      sell: 1800.0
+      buy: 10500.75
+      sell: 2925.0
     name: '&rIron Block'
     normal: true
     placeable: true
     prices:
-      buy: 162.0
-      sell: 36.0
+      buy: 263.25
+      sell: 58.5
   IRON_HORSE_ARMOR:
     category: misc
     data: 0
@@ -5206,28 +5206,28 @@ items:
     group: IRON_INGOT
     material: IRON_INGOT
     max_prices:
-      buy: 718.0
-      sell: 200
+      buy: 1166.75
+      sell: 325.0
     name: '&rIron Ingot'
     normal: true
     placeable: true
     prices:
-      buy: 18.0
-      sell: 4
+      buy: 29.25
+      sell: 6.5
   IRON_NUGGET:
     category: mining
     data: 0
     group: IRON_INGOT
     material: IRON_NUGGET
     max_prices:
-      buy: 79.77777777777779
-      sell: 22.22222222222222
+      buy: 129.63888888888889
+      sell: 36.11111111111111
     name: '&rIron Nugget'
     normal: true
     placeable: true
     prices:
-      buy: 2.0
-      sell: 0.4444444444444444
+      buy: 3.25
+      sell: 0.7222222222222222
   IRON_ORE:
     category: mining
     data: 0
@@ -5360,14 +5360,14 @@ items:
     group: TORCH
     material: LANTERN
     max_prices:
-      buy: 721.9097222222223
-      sell: 218.40277777777777
+      buy: 1120.798611111111
+      sell: 329.51388888888886
     name: '&rLantern'
     normal: true
     placeable: true
     prices:
-      buy: 18.4375
-      sell: 4.368055555555555
+      buy: 28.4375
+      sell: 6.590277777777778
   LAPIS_BLOCK:
     category: mining
     data: 0
@@ -6224,14 +6224,14 @@ items:
     group: RAIL
     material: MINECART
     max_prices:
-      buy: 3590.0
-      sell: 1000.0
+      buy: 5833.75
+      sell: 1625.0
     name: '&rMinecart'
     normal: true
     placeable: true
     prices:
-      buy: 90.0
-      sell: 20.0
+      buy: 146.25
+      sell: 32.5
   MOSSY_COBBLESTONE:
     category: mining
     data: 0
@@ -7092,14 +7092,14 @@ items:
     group: PISTON
     material: PISTON
     max_prices:
-      buy: 1232.5
-      sell: 425.0
+      buy: 1681.25
+      sell: 550.0
     name: '&rPiston'
     normal: true
     placeable: true
     prices:
-      buy: 32.5
-      sell: 8.5
+      buy: 43.75
+      sell: 11.0
   PITCHER_PLANT:
     category: farming
     data: 0
@@ -8112,14 +8112,14 @@ items:
     group: SADDLE
     material: SADDLE
     max_prices:
-      buy: 30900
-      sell: 15000
+      buy: 9200
+      sell: 1000
     name: '&rSaddle'
     normal: true
     placeable: true
     prices:
-      buy: 900
-      sell: 300
+      buy: 200
+      sell: 20
   SALMON:
     category: farming
     data: 0
@@ -8308,14 +8308,14 @@ items:
     group: SHULKER_SHELL
     material: SHULKER_SHELL
     max_prices:
-      buy: 2600.0
-      sell: 2500.0
+      buy: 10730.0
+      sell: 1000
     name: '&rShulker Shell'
     normal: true
     placeable: true
     prices:
-      buy: 100.0
-      sell: 50.0
+      buy: 230.0
+      sell: 20
   SLIME_BALL:
     category: combat
     data: 0
@@ -8364,14 +8364,14 @@ items:
     group: CRAFTING_TABLE
     material: SMITHING_TABLE
     max_prices:
-      buy: 1642.0
-      sell: 500.0
+      buy: 2539.5
+      sell: 750.0
     name: '&rSmithing Table'
     normal: true
     placeable: true
     prices:
-      buy: 42.0
-      sell: 10.0
+      buy: 64.5
+      sell: 15.0
   SMOKER:
     category: building
     data: 0
@@ -8504,14 +8504,14 @@ items:
     group: TORCH
     material: SOUL_LANTERN
     max_prices:
-      buy: 725.2222222222223
-      sell: 224.65277777777777
+      buy: 1124.111111111111
+      sell: 335.76388888888886
     name: '&rSoul Lantern'
     normal: true
     placeable: true
     prices:
-      buy: 18.625
-      sell: 4.493055555555555
+      buy: 28.625
+      sell: 6.715277777777778
   SOUL_SAND:
     category: mining
     data: 0
@@ -8658,14 +8658,14 @@ items:
     group: PISTON
     material: STICKY_PISTON
     max_prices:
-      buy: 1769.5
-      sell: 500.0
+      buy: 2218.25
+      sell: 625.0
     name: '&rSticky Piston'
     normal: true
     placeable: true
     prices:
-      buy: 44.5
-      sell: 10.0
+      buy: 55.75
+      sell: 12.5
   STONE:
     category: mining
     data: 0
@@ -8686,14 +8686,14 @@ items:
     group: CRAFTING_TABLE
     material: STONECUTTER
     max_prices:
-      buy: 826.1499999999999
-      sell: 252.5
+      buy: 1274.9
+      sell: 377.5
     name: '&rStonecutter'
     normal: true
     placeable: true
     prices:
-      buy: 21.15
-      sell: 5.05
+      buy: 32.4
+      sell: 7.55
   STONE_BRICKS:
     category: building
     data: 0
@@ -8896,28 +8896,28 @@ items:
     group: CHEST
     material: TRAPPED_CHEST
     max_prices:
-      buy: 809.625
-      sell: 318.75
+      buy: 1034.0
+      sell: 381.25
     name: '&rTrapped Chest'
     normal: true
     placeable: true
     prices:
-      buy: 22.125
-      sell: 6.375
+      buy: 27.75
+      sell: 7.625
   TRIPWIRE_HOOK:
     category: building
     data: 0
     group: REDSTONE_TORCH
     material: TRIPWIRE_HOOK
     max_prices:
-      buy: 397.625
-      sell: 118.75
+      buy: 622.0
+      sell: 181.25
     name: '&rTripwire Hook'
     normal: true
     placeable: true
     prices:
-      buy: 10.125
-      sell: 2.375
+      buy: 15.75
+      sell: 3.625
   TROPICAL_FISH:
     category: farming
     data: 0
@@ -9358,13 +9358,13 @@ items:
     group: WITHER_ROSE
     material: WITHER_ROSE
     max_prices:
-      buy: 1287.5
+      buy: 2881.25
       sell: 625.0
     name: '&rWither Rose'
     normal: true
     placeable: true
     prices:
-      buy: 37.5
+      buy: 68.75
       sell: 12.5
   WITHER_SKELETON_SKULL:
     category: combat

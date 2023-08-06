@@ -85,18 +85,20 @@ prices:
     spidereye: 8
     slimeball: 8
     honeybottle: 10
+    emerald: 15
     enderpearl: 25
     prismarineshard: 4.5
     prismarinecrystals: 4.5
     ghasttear: 5
     endcrystal: 5
     sculk: 7.5
-    shulkershell: 5
+    shulkershell: 11.5
     witherskeletonskull: 4.5
-    witherrose: 5
+    witherrose: 5.5
     # NICHE METHODS
-    emerald: 6
-    goldencarrot: 10
+    goldencarrot: 4
+    saddle: 10
+    totemofundying: 12.5
     book: 4
     bookshelf: 4
     experiencebottle: 10

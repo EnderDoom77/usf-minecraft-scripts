@@ -5,7 +5,7 @@ worth:
   acaciadoor: 1.0
   acaciafence: 0.8333333333333333
   acaciafencegate: 2.0
-  acaciahangingsign: 3.70962962962963
+  acaciahangingsign: 4.728148148148148
   acacialeaves: 0.25
   acacialog: 2.0
   acaciaplanks: 0.5
@@ -27,7 +27,7 @@ worth:
   andesiteslab: 0.5
   andesitestairs: 1.02
   andesitewall: 2.0
-  anvil: 124.0
+  anvil: 201.5
   apple: 1
   armorstand: 1.725
   arrow: 0.5
@@ -43,7 +43,7 @@ worth:
   bamboodoor: 1.125
   bamboofence: 0.9166666666666666
   bamboofencegate: 2.125
-  bamboohangingsign: 2.83462962962963
+  bamboohangingsign: 3.853148148148148
   bamboomosaic: 1.135
   bamboomosaicslab: 0.5675
   bamboomosaicstairs: 1.155
@@ -72,7 +72,7 @@ worth:
   birchdoor: 1.0
   birchfence: 0.8333333333333333
   birchfencegate: 2.0
-  birchhangingsign: 3.70962962962963
+  birchhangingsign: 4.728148148148148
   birchleaves: 0.25
   birchlog: 2.0
   birchplanks: 0.5
@@ -92,7 +92,7 @@ worth:
   blackconcretepowder: 1.2125
   blackdye: 3.5
   blackglazedterracotta: 2.2375000000000003
-  blackshulkerbox: 107.5
+  blackshulkerbox: 47.5
   blackstainedglass: 1.5375
   blackstainedglasspane: 0.5765625000000001
   blackstone: 0.5
@@ -101,7 +101,7 @@ worth:
   blackstonewall: 2.0
   blackterracotta: 2.1375
   blackwool: 1
-  blastfurnace: 23.35
+  blastfurnace: 35.85
   blazepowder: 2.0
   blazerod: 4
   bluebanner: 6.25
@@ -114,7 +114,7 @@ worth:
   blueglazedterracotta: 1.8625000000000003
   blueice: 6.0
   blueorchid: 0.5
-  blueshulkerbox: 104.5
+  blueshulkerbox: 44.5
   bluestainedglass: 1.1625
   bluestainedglasspane: 0.43593750000000003
   blueterracotta: 1.7625000000000002
@@ -122,9 +122,9 @@ worth:
   bone: 2
   boneblock: 6.0
   bonemeal: 0.6666666666666666
-  book: 7.5
-  bookandquill: 11.55
-  bookshelf: 25.5
+  book: 3.6666666666666665
+  bookandquill: 7.716666666666667
+  bookshelf: 14.0
   bow: 6.75
   bowl: 0.375
   braincoral: 2
@@ -147,7 +147,7 @@ worth:
   brownglazedterracotta: 2.0500000000000003
   brownmushroom: 2
   brownmushroomblock: 2
-  brownshulkerbox: 106.0
+  brownshulkerbox: 46.0
   brownstainedglass: 1.35
   brownstainedglasspane: 0.5062500000000001
   brownterracotta: 1.9500000000000002
@@ -156,7 +156,7 @@ worth:
   bubblecoral: 2
   bubblecoralblock: 2
   bubblecoralfan: 2
-  bucket: 12.0
+  bucket: 19.5
   cactus: 0.75
   cactusgreen: 0.6
   cake: 6.55
@@ -168,7 +168,7 @@ worth:
   cartographytable: 3.5
   carvedpumpkin: 0.1499999999999999
   cauldron: 28.0
-  chain: 4.888888888888889
+  chain: 7.944444444444445
   chainmailboots: 330.0
   chainmailchestplate: 715.0
   chainmailhelmet: 330.0
@@ -180,7 +180,7 @@ worth:
   cherrydoor: 1.0
   cherryfence: 0.8333333333333333
   cherryfencegate: 2.0
-  cherryhangingsign: 3.70962962962963
+  cherryhangingsign: 4.728148148148148
   cherryleaves: 0.275
   cherrylog: 2.0
   cherryplanks: 0.5
@@ -192,7 +192,7 @@ worth:
   cherrytrapdoor: 1.5
   cherrywood: 2.6666666666666665
   chest: 4.0
-  chestminecart: 24.0
+  chestminecart: 36.5
   chicken: 2.75
   chippedanvil: 82.667
   chiseledbookshelf: 3.75
@@ -226,7 +226,7 @@ worth:
   cod: 3.3
   codbucket: 15
   comparator: 10.8
-  compass: 18.0
+  compass: 28.0
   composter: 1.75
   conduit: 1490.0
   cookedbeef: 5.6
@@ -254,7 +254,7 @@ worth:
   crimsonfence: 2.1666666666666665
   crimsonfencegate: 4.0
   crimsonfungus: 2
-  crimsonhangingsign: 7.70962962962963
+  crimsonhangingsign: 8.728148148148147
   crimsonhyphae: 8.0
   crimsonnylium: 1
   crimsonplanks: 1.5
@@ -265,7 +265,7 @@ worth:
   crimsonstairs: 2.25
   crimsonstem: 6
   crimsontrapdoor: 4.5
-  crossbow: 11.125
+  crossbow: 14.875
   cryingobsidian: 20
   cutcopper: 23.42
   cutcopperblock: 24.75
@@ -283,7 +283,7 @@ worth:
   cyanconcretepowder: 0.859375
   cyandye: 0.675
   cyanglazedterracotta: 1.8843750000000004
-  cyanshulkerbox: 104.675
+  cyanshulkerbox: 44.675
   cyanstainedglass: 1.1843750000000002
   cyanstainedglasspane: 0.44414062500000007
   cyanterracotta: 1.7843750000000003
@@ -297,7 +297,7 @@ worth:
   darkoakdoor: 1.0
   darkoakfence: 0.8333333333333333
   darkoakfencegate: 2.0
-  darkoakhangingsign: 3.70962962962963
+  darkoakhangingsign: 4.728148148148148
   darkoakleaves: 0.25
   darkoaklog: 2.0
   darkoakplanks: 0.5
@@ -374,13 +374,13 @@ worth:
   dripstoneblock: 7.5
   dropper: 4.0
   egg: 0.55
-  emerald: 17.5
-  emeraldblock: 157.5
+  emerald: 2.75
+  emeraldblock: 24.75
   emeraldore: 75
   emptymap: 22
   enchantedbook: 25.0
   enchantedgoldenapple: 750.0
-  enchantingtable: 467.5
+  enchantingtable: 463.6666666666667
   endcrystal: 25.700000000000003
   enderchest: 123.0
   endereye: 3.0
@@ -413,12 +413,12 @@ worth:
   fishingrod: 5
   fletchingtable: 6.0
   flint: 2
-  flintandsteel: 6.0
+  flintandsteel: 8.5
   floweringazalea: 1.25
   floweringazalealeaves: 0.3
   flowerpot: 1.5
   furnace: 2.0
-  furnaceminecart: 22.0
+  furnaceminecart: 34.5
   ghasttear: 15
   gildedblackstone: 25
   glass: 1.1
@@ -435,7 +435,7 @@ worth:
   goldenapple: 41.0
   goldenaxe: 15.5
   goldenboots: 20.0
-  goldencarrot: 3.0
+  goldencarrot: 4.944444444444445
   goldenchestplate: 40.0
   goldenhelmet: 25.0
   goldenhoe: 10.5
@@ -462,7 +462,7 @@ worth:
   grayconcretepowder: 1.025
   graydye: 2.0
   grayglazedterracotta: 2.0500000000000003
-  grayshulkerbox: 106.0
+  grayshulkerbox: 46.0
   graystainedglass: 1.35
   graystainedglasspane: 0.5062500000000001
   grayterracotta: 1.9500000000000002
@@ -475,7 +475,7 @@ worth:
   greenconcretepowder: 0.88125
   greendye: 0.85
   greenglazedterracotta: 1.9062500000000002
-  greenshulkerbox: 104.85
+  greenshulkerbox: 44.85
   greenstainedglass: 1.20625
   greenstainedglasspane: 0.45234375000000004
   greenterracotta: 1.8062500000000001
@@ -487,36 +487,36 @@ worth:
   haybale: 9.0
   hayblock: 9
   heartofthesea: 1250.0
-  heavyweightedpressureplate: 8.0
+  heavyweightedpressureplate: 13.0
   honeyblock: 13.0
   honeybottle: 3.25
   honeycomb: 6.0
   honeycombblock: 24.0
-  hopper: 24.0
-  hopperminecart: 44.0
+  hopper: 36.5
+  hopperminecart: 69.0
   horncoral: 2
   horncoralblock: 2
   horncoralfan: 2
   ice: 0.25
   inksac: 3.5
-  ironaxe: 12.5
-  ironbars: 1.5
-  ironblock: 36.0
-  ironboots: 16.0
-  ironchestplate: 32.0
-  irondoor: 8.0
+  ironaxe: 20.0
+  ironbars: 2.4375
+  ironblock: 58.5
+  ironboots: 26.0
+  ironchestplate: 52.0
+  irondoor: 13.0
   ironfence: 1.5
-  ironhelmet: 20.0
-  ironhoe: 8.5
+  ironhelmet: 32.5
+  ironhoe: 13.5
   ironhorsearmor: 200
-  ironingot: 4
-  ironleggings: 28.0
-  ironnugget: 0.4444444444444444
+  ironingot: 6.5
+  ironleggings: 45.5
+  ironnugget: 0.7222222222222222
   ironore: 20
-  ironpickaxe: 12.5
-  ironshovel: 4.5
-  ironsword: 8.25
-  irontrapdoor: 16.0
+  ironpickaxe: 20.0
+  ironshovel: 7.0
+  ironsword: 13.25
+  irontrapdoor: 26.0
   itemframe: 7.25
   jackolantern: 0.9624999999999999
   jukebox: 204.0
@@ -526,7 +526,7 @@ worth:
   jungledoor: 1.0
   junglefence: 0.8333333333333333
   junglefencegate: 2.0
-  junglehangingsign: 3.70962962962963
+  junglehangingsign: 4.728148148148148
   jungleleaves: 0.25
   junglelog: 2.0
   jungleplanks: 0.5
@@ -539,12 +539,12 @@ worth:
   junglewood: 2.6666666666666665
   kelp: 0.25
   ladder: 0.5833333333333334
-  lantern: 4.368055555555555
+  lantern: 6.590277777777778
   lapisblock: 36.0
   lapislazuli: 4
   lapisore: 48
   largefern: 0.25
-  lavabucket: 13.0
+  lavabucket: 20.5
   lead: 4.75
   leather: 5.25
   leatherboots: 21
@@ -552,7 +552,7 @@ worth:
   leatherhelmet: 26.25
   leatherhorsearmor: 150.0
   leatherleggings: 36.75
-  lectern: 26.5
+  lectern: 15.0
   lever: 0.5
   lightbluebanner: 6.25
   lightbluebed: 4.5
@@ -562,7 +562,7 @@ worth:
   lightblueconcretepowder: 0.8375
   lightbluedye: 0.5
   lightblueglazedterracotta: 1.8625000000000003
-  lightblueshulkerbox: 104.5
+  lightblueshulkerbox: 44.5
   lightbluestainedglass: 1.1625
   lightbluestainedglasspane: 0.43593750000000003
   lightblueterracotta: 1.7625000000000002
@@ -576,7 +576,7 @@ worth:
   lightgrayconpowder: 1.5
   lightgraydye: 0.5
   lightgrayglazedterracotta: 1.8625000000000003
-  lightgrayshulkerbox: 104.5
+  lightgrayshulkerbox: 44.5
   lightgraystainedglass: 1.1625
   lightgraystainedglasspane: 0.43593750000000003
   lightgrayterracotta: 1.7625000000000002
@@ -594,7 +594,7 @@ worth:
   limeconcretepowder: 0.859375
   limedye: 0.675
   limeglazedterracotta: 1.8843750000000004
-  limeshulkerbox: 104.675
+  limeshulkerbox: 44.675
   limestainedglass: 1.1843750000000002
   limestainedglasspane: 0.44414062500000007
   limeterracotta: 1.7843750000000003
@@ -610,7 +610,7 @@ worth:
   magentaconcretepowder: 0.803125
   magentadye: 0.225
   magentaglazedterracotta: 1.8281250000000002
-  magentashulkerbox: 104.225
+  magentashulkerbox: 44.225
   magentastainedglass: 1.128125
   magentastainedglasspane: 0.42304687500000004
   magentaterracotta: 1.7281250000000001
@@ -623,7 +623,7 @@ worth:
   mangrovedoor: 1.5
   mangrovefence: 1.1666666666666667
   mangrovefencegate: 2.5
-  mangrovehangingsign: 4.70962962962963
+  mangrovehangingsign: 5.728148148148148
   mangroveleaves: 0.3
   mangrovelog: 3.0
   mangroveplanks: 0.75
@@ -635,12 +635,12 @@ worth:
   mangrovestairs: 1.125
   mangrovetrapdoor: 2.25
   mangrovewood: 4.0
-  map: 24.0
+  map: 34.0
   melon: 4.5
   melonseeds: 0.5
   melonslice: 0.5
-  milkbucket: 12.5
-  minecart: 20.0
+  milkbucket: 20.0
+  minecart: 32.5
   mossblock: 1.25
   mosscarpet: 1
   mossycobblestone: 0.5
@@ -709,7 +709,7 @@ worth:
   oakdoor: 1.0
   oakfence: 0.8333333333333333
   oakfencegate: 2.0
-  oakhangingsign: 3.70962962962963
+  oakhangingsign: 4.728148148148148
   oakleaves: 0.25
   oaklog: 2.0
   oakplanks: 0.5
@@ -731,7 +731,7 @@ worth:
   orangeconcretepowder: 0.803125
   orangedye: 0.225
   orangeglazedterracotta: 1.8281250000000002
-  orangeshulkerbox: 104.225
+  orangeshulkerbox: 44.225
   orangestainedglass: 1.128125
   orangestainedglasspane: 0.42304687500000004
   orangeterracotta: 1.7281250000000001
@@ -762,13 +762,13 @@ worth:
   pinkdye: 0.225
   pinkglazedterracotta: 1.8281250000000002
   pinkpetals: 0.25
-  pinkshulkerbox: 104.225
+  pinkshulkerbox: 44.225
   pinkstainedglass: 1.128125
   pinkstainedglasspane: 0.42304687500000004
   pinkterracotta: 1.7281250000000001
   pinktulip: 0.5
   pinkwool: 1
-  piston: 8.5
+  piston: 11.0
   pitcherplant: 6.5
   pitcherpod: 5
   podzol: 1
@@ -856,7 +856,7 @@ worth:
   purpleconcretepowder: 0.8203125
   purpledye: 0.3625
   purpleglazedterracotta: 1.8453125000000004
-  purpleshulkerbox: 104.3625
+  purpleshulkerbox: 44.3625
   purplestainedglass: 1.1453125000000002
   purplestainedglasspane: 0.42949218750000007
   purpleterracotta: 1.7453125000000003
@@ -904,7 +904,7 @@ worth:
   redsandstoneslab: 1.0
   redsandstonestairs: 2.02
   redsandstonewall: 2.0
-  redshulkerbox: 104.225
+  redshulkerbox: 44.225
   redstainedglass: 1.128125
   redstainedglasspane: 0.42304687500000004
   redstone: 2
@@ -921,7 +921,7 @@ worth:
   rosebush: 0.45
   rosered: 0.6
   rottenflesh: 2
-  saddle: 300
+  saddle: 20
   salmon: 3.58
   salmonbucket: 15
   sand: 1
@@ -939,16 +939,16 @@ worth:
   sealantern: 35.0
   seapickle: 4
   shears: 8
-  shield: 7.0
+  shield: 9.5
   shroomlight: 10
-  shulkerbox: 104.0
-  shulkershell: 50.0
+  shulkerbox: 44.0
+  shulkershell: 20
   skeletonskull: 250.0
   skeletonwallskull: 250.0
   slimeball: 1.5
   slimeblock: 13.5
   smalldripleaf: 2
-  smithingtable: 10.0
+  smithingtable: 15.0
   smoker: 10.0
   smoothbasalt: 0.6
   smoothquartz: 13.5
@@ -967,7 +967,7 @@ worth:
   snowball: 0.1
   snowblock: 0.4
   soulcampfire: 7.25
-  soullantern: 4.493055555555555
+  soullantern: 6.715277777777778
   soulsand: 0.5
   soulsoil: 0.5
   soultorch: 0.9375
@@ -1010,7 +1010,7 @@ worth:
   sprucedoor: 1.0
   sprucefence: 0.8333333333333333
   sprucefencegate: 2.0
-  sprucehangingsign: 3.70962962962963
+  sprucehangingsign: 4.728148148148148
   spruceleaves: 0.25
   sprucelog: 2.0
   spruceplanks: 0.5
@@ -1023,7 +1023,7 @@ worth:
   sprucewood: 2.6666666666666665
   spyglass: 10.2
   stick: 0.25
-  stickypiston: 10.0
+  stickypiston: 12.5
   stone: 0.35
   stoneaxe: 1.25
   stonebricks: 0.35
@@ -1031,7 +1031,7 @@ worth:
   stonebrickstairs: 0.37
   stonebrickwall: 2.0
   stonebutton: 0.35
-  stonecutter: 5.05
+  stonecutter: 7.55
   stonehoe: 1.0
   stonepickaxe: 1.25
   stonepressureplate: 0.7
@@ -1075,10 +1075,10 @@ worth:
   torch: 0.8125
   torchflower: 6.5
   torchflowerseeds: 5
-  totemofundying: 250.0
-  trappedchest: 6.375
+  totemofundying: 20
+  trappedchest: 7.625
   trident: 150.0
-  tripwirehook: 2.375
+  tripwirehook: 3.625
   tropicalfish: 1.65
   tropicalfishbucket: 15
   tubecoral: 2
@@ -1096,7 +1096,7 @@ worth:
   warpedfencegate: 4.0
   warpedfungus: 2
   warpedfungusonastick: 7
-  warpedhangingsign: 7.70962962962963
+  warpedhangingsign: 8.728148148148147
   warpedhyphae: 8.0
   warpednylium: 1
   warpedplanks: 1.5
@@ -1109,7 +1109,7 @@ worth:
   warpedtrapdoor: 4.5
   warpedwartblock: 1
   watch: 18
-  waterbucket: 12.25
+  waterbucket: 19.75
   waxedcopperblock: 29.400000000000002
   waxedcopperslab: 14.700000000000001
   waxedcopperstairs: 29.42
@@ -1154,7 +1154,7 @@ worth:
   whiteconcretepowder: 0.8375
   whitedye: 0.5
   whiteglazedterracotta: 1.8625000000000003
-  whiteshulkerbox: 104.5
+  whiteshulkerbox: 44.5
   whitestainedglass: 1.1625
   whitestainedglasspane: 0.43593750000000003
   whiteterracotta: 1.7625000000000002
@@ -1181,7 +1181,7 @@ worth:
   yellowconcretepowder: 0.803125
   yellowdye: 0.225
   yellowglazedterracotta: 1.8281250000000002
-  yellowshulkerbox: 104.225
+  yellowshulkerbox: 44.225
   yellowstainedglass: 1.128125
   yellowstainedglasspane: 0.42304687500000004
   yellowterracotta: 1.7281250000000001

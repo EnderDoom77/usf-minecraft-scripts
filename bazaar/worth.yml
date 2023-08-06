@@ -374,7 +374,7 @@ worth:
   dripstoneblock: 7.5
   dropper: 4.0
   egg: 0.55
-  emerald: 17.5
+  emerald: 2.75
   emeraldblock: 157.5
   emeraldore: 75
   emptymap: 22
@@ -435,7 +435,7 @@ worth:
   goldenapple: 41.0
   goldenaxe: 15.5
   goldenboots: 20.0
-  goldencarrot: 3.0
+  goldencarrot: 10
   goldenchestplate: 40.0
   goldenhelmet: 25.0
   goldenhoe: 10.5
@@ -509,7 +509,7 @@ worth:
   ironhelmet: 20.0
   ironhoe: 8.5
   ironhorsearmor: 200
-  ironingot: 4
+  ironingot: 6.5
   ironleggings: 28.0
   ironnugget: 0.4444444444444444
   ironore: 20
@@ -921,7 +921,7 @@ worth:
   rosebush: 0.45
   rosered: 0.6
   rottenflesh: 2
-  saddle: 300
+  saddle: 20
   salmon: 3.58
   salmonbucket: 15
   sand: 1
@@ -942,7 +942,7 @@ worth:
   shield: 7.0
   shroomlight: 10
   shulkerbox: 154.0
-  shulkershell: 50.0
+  shulkershell: 20
   skeletonskull: 250.0
   skeletonwallskull: 250.0
   slimeball: 1.5
@@ -1075,7 +1075,7 @@ worth:
   torch: 0.8125
   torchflower: 6.5
   torchflowerseeds: 5
-  totemofundying: 250.0
+  totemofundying: 20
   trappedchest: 6.375
   trident: 150.0
   tripwirehook: 2.375

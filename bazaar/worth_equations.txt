@@ -315,6 +315,7 @@ cooked_cod = cod + FUEL
 cooked_mutton = mutton + FUEL
 pumpkin_pie = pumpkin + sugar + egg
 golden_apple = apple + 8 gold_ingot
+golden_carrot ?= carrot + 8 gold_nugget
 cookie = 1/4 wheat + 1/2 cocoa_beans
 cake = 3 milk_bucket + -3 bucket + 2 sugar + egg + 3 wheat
 bread = 3 wheat
